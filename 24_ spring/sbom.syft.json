@@ -1,0 +1,1405 @@
+{
+ "artifacts": [
+  {
+   "id": "3c709148beac63a9",
+   "name": "bonecp",
+   "version": "0.7.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:bonecp:bonecp:0.7.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jolbox:bonecp:0.7.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.jolbox/bonecp@0.7.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.jolbox",
+     "artifactId": "bonecp",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "b563f1b9e3a66126",
+   "name": "cglib",
+   "version": "2.2.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:cglib:cglib:2.2.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/cglib/cglib@2.2.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "cglib",
+     "artifactId": "cglib",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "be43a6553ef3a2ac",
+   "name": "commons-lang",
+   "version": "2.6",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-lang:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-lang:commons_lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_lang:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_lang:commons_lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_lang:2.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "d6d46916b345e1b7",
+   "name": "h2",
+   "version": "1.3.166",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:h2database:h2:1.3.166:*:*:*:*:*:*:*",
+    "cpe:2.3:a:h2:h2:1.3.166:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.h2database/h2@1.3.166",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.h2database",
+     "artifactId": "h2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "84e29d8f100fb810",
+   "name": "hibernate-core",
+   "version": "4.1.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:hibernate-core:hibernate-core:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-core:hibernate_core:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_core:hibernate-core:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_core:hibernate_core:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate-core:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate_core:4.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.hibernate/hibernate-core@4.1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.hibernate",
+     "artifactId": "hibernate-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8f0bf07ccaf1346b",
+   "name": "hibernate-entitymanager",
+   "version": "4.1.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:hibernate-entitymanager:hibernate-entitymanager:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-entitymanager:hibernate_entitymanager:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_entitymanager:hibernate-entitymanager:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_entitymanager:hibernate_entitymanager:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate-entitymanager:4.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate_entitymanager:4.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.hibernate/hibernate-entitymanager@4.1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.hibernate",
+     "artifactId": "hibernate-entitymanager",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "afd014c85ed2d5c4",
+   "name": "hibernate-jpa-2.0-api",
+   "version": "1.0.1.Final",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:hibernate-jpa-2.0-api:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0-api:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0_api:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0_api:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0-api:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0_api:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:persistence:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:persistence:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0-api:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0_api:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax:hibernate-jpa-2.0-api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax:hibernate_jpa_2.0_api:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa-2.0:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa_2.0:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:persistence:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-jpa:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_jpa:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax:persistence:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:persistence:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:javax:1.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax:javax:1.0.1.Final:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.0-api@1.0.1.Final",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.hibernate.javax.persistence",
+     "artifactId": "hibernate-jpa-2.0-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c8687d372c523323",
+   "name": "javax.servlet-api",
+   "version": "3.0.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.servlet-api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet-api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet_api:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.servlet",
+     "artifactId": "javax.servlet-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "3138922d78f3eb4a",
+   "name": "jstl",
+   "version": "1.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jstl:jstl:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.servlet/jstl@1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.servlet",
+     "artifactId": "jstl",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "33e2885bddbdf8a6",
+   "name": "junit",
+   "version": "4.10",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "612fa295361a31cf",
+   "name": "logback-classic",
+   "version": "1.0.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-classic:logback-classic:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-classic:logback_classic:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback-classic:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback_classic:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-classic:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_classic:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-classic@1.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-classic",
+     "version": "",
+     "scope": "runtime"
+    }
+   }
+  },
+  {
+   "id": "973bdcf276e8d49d",
+   "name": "slf4j-api",
+   "version": "1.6.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.6.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.6.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ea2628e68a19dbc7",
+   "name": "spring-beans",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-beans:spring-beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-beans:spring_beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_beans:spring-beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_beans:spring_beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-beans:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_beans:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-beans@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-beans",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "884a480b5969171a",
+   "name": "spring-context",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-context:spring-context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-context:spring_context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_context:spring-context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_context:spring_context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-context:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_context:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-context@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-context",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "b52a9eac9639b4dc",
+   "name": "spring-context-support",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spring-context-support:spring-context-support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-context-support:spring_context_support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_context_support:spring-context-support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_context_support:spring_context_support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring-context-support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_context_support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-context:spring-context-support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-context:spring_context_support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_context:spring-context-support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_context:spring_context_support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-context-support:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_context_support:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-context-support@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-context-support",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c5d0f76697f68adf",
+   "name": "spring-core",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springsource-spring-framework:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring_framework:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pivotal_software:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-framework:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_framework:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring-framework:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring_framework:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-core:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_core:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring-framework:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring-framework:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring_framework:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring_framework:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:springsource_spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pivotal_software:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-framework:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_framework:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource-spring:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource_spring:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pivotal_software:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pivotal_software:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-core:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-framework:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-framework:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_core:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_framework:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_framework:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springsource:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-core:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-core:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_core:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_core:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:spring_framework:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:spring-core:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:spring_core:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-core@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bb2d7f8e51352673",
+   "name": "spring-data-jpa",
+   "version": "1.0.3.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spring-data-jpa:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-data-jpa:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_data_jpa:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_data_jpa:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-data:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-data:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_data:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_data:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:data:spring-data-jpa:1.0.3.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:data:spring_data_jpa:1.0.3.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework.data/spring-data-jpa@1.0.3.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework.data",
+     "artifactId": "spring-data-jpa",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "af658aa0264486d6",
+   "name": "spring-jdbc",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-jdbc:spring-jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-jdbc:spring_jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_jdbc:spring-jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_jdbc:spring_jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_jdbc:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-jdbc@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-jdbc",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8bd54a708655b2d8",
+   "name": "spring-orm",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-orm:spring-orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-orm:spring_orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_orm:spring-orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_orm:spring_orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-orm:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_orm:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-orm@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-orm",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "58ec4bdebcf5c2a0",
+   "name": "spring-security-config",
+   "version": "3.1.0.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spring-security-config:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security-config:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_config:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_config:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-security-config:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_security_config:3.1.0.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework.security/spring-security-config@3.1.0.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework.security",
+     "artifactId": "spring-security-config",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "d75459c04810e7ea",
+   "name": "spring-security-core",
+   "version": "3.1.0.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spring-security-core:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security-core:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_core:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_core:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security-core:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_core:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:spring-security-core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:spring_security_core:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vmware:spring_security:3.1.0.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework.security/spring-security-core@3.1.0.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework.security",
+     "artifactId": "spring-security-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c6d35516f0342984",
+   "name": "spring-security-web",
+   "version": "3.1.0.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spring-security-web:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security-web:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_web:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security_web:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-security:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_security:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:security:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-security-web:3.1.0.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_security_web:3.1.0.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework.security/spring-security-web@3.1.0.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework.security",
+     "artifactId": "spring-security-web",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "5ecd2e16482d10e1",
+   "name": "spring-tx",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-tx:spring-tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-tx:spring_tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_tx:spring-tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_tx:spring_tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-tx:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_tx:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-tx@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-tx",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3f966824e8871bae",
+   "name": "spring-web",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-web:spring-web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-web:spring_web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_web:spring-web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_web:spring_web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-web:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_web:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-web@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-web",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "9c1133952b494eb9",
+   "name": "spring-webmvc",
+   "version": "3.1.1.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-webmvc:spring-webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-webmvc:spring_webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_webmvc:spring-webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_webmvc:spring_webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_webmvc:3.1.1.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-webmvc@3.1.1.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-webmvc",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "3138922d78f3eb4a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "33e2885bddbdf8a6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3c709148beac63a9",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3f966824e8871bae",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "58ec4bdebcf5c2a0",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5ecd2e16482d10e1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "612fa295361a31cf",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "84e29d8f100fb810",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "884a480b5969171a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8bd54a708655b2d8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8f0bf07ccaf1346b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "973bdcf276e8d49d",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9c1133952b494eb9",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "af658aa0264486d6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "afd014c85ed2d5c4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b52a9eac9639b4dc",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b563f1b9e3a66126",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bb2d7f8e51352673",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "be43a6553ef3a2ac",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c5d0f76697f68adf",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c6d35516f0342984",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c8687d372c523323",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3138922d78f3eb4a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "33e2885bddbdf8a6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3c709148beac63a9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3f966824e8871bae",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "58ec4bdebcf5c2a0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5ecd2e16482d10e1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "612fa295361a31cf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "84e29d8f100fb810",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "884a480b5969171a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8bd54a708655b2d8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8f0bf07ccaf1346b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "973bdcf276e8d49d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9c1133952b494eb9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "af658aa0264486d6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "afd014c85ed2d5c4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b52a9eac9639b4dc",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b563f1b9e3a66126",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bb2d7f8e51352673",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "be43a6553ef3a2ac",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c5d0f76697f68adf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c6d35516f0342984",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c8687d372c523323",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d6d46916b345e1b7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d75459c04810e7ea",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ea2628e68a19dbc7",
+   "type": "contains"
+  },
+  {
+   "parent": "d6d46916b345e1b7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d75459c04810e7ea",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ea2628e68a19dbc7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,1160 @@
+{
+ "artifacts": [
+  {
+   "id": "33c6428989ff8819",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\main.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "cc4665291efb8d5f",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven-publish.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "476aa9e5dbbe64cf",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\main.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "6fcfd678abb944e2",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven-publish.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "63a5a6c6d55244e3",
+   "name": "commons-httpclient",
+   "version": "3.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-httpclient:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_httpclient:3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-httpclient/commons-httpclient@3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-httpclient",
+     "artifactId": "commons-httpclient",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "42d82c09f10a75a0",
+   "name": "egads",
+   "version": "0.4.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:egads:egads:0.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yahoo:egads:0.4.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.yahoo.egads/egads@0.4.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.yahoo.egads",
+     "artifactId": "egads",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "317be16e7e22fbd8",
+   "name": "gson",
+   "version": "2.8.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.8.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "6dc2215134e842a4",
+   "name": "httpclient",
+   "version": "4.5.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:httpclient:4.5.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.httpcomponents",
+     "artifactId": "httpclient",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "4cc06b8c98473276",
+   "name": "jackson-databind",
+   "version": "2.10.5.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-databind:jackson-databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson_databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson-databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson_databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson-databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson_databind:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.10.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson:2.10.5.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.5.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-databind",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "82aaafad30664e39",
+   "name": "jackson-dataformat-yaml",
+   "version": "2.8.7",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-dataformat-yaml:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-dataformat-yaml:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_dataformat_yaml:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_dataformat_yaml:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-dataformat:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-dataformat:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_dataformat:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_dataformat:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dataformat:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dataformat:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-dataformat-yaml:jackson:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-dataformat-yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_dataformat_yaml:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_dataformat_yaml:jackson:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-dataformat:jackson:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_dataformat:jackson:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dataformat:jackson:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.8.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.8.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.8.7",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.dataformat",
+     "artifactId": "jackson-dataformat-yaml",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1c1eebf387ff499d",
+   "name": "jcommander",
+   "version": "1.48",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jcommander:jcommander:1.48:*:*:*:*:*:*:*",
+    "cpe:2.3:a:beust:jcommander:1.48:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.beust/jcommander@1.48",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.beust",
+     "artifactId": "jcommander",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "0dd6d0815cc31e46",
+   "name": "lettuce-core",
+   "version": "5.1.6.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:lettuce-core:lettuce-core:5.1.6.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lettuce-core:lettuce_core:5.1.6.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lettuce_core:lettuce-core:5.1.6.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lettuce_core:lettuce_core:5.1.6.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lettuce:lettuce-core:5.1.6.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lettuce:lettuce_core:5.1.6.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.lettuce/lettuce-core@5.1.6.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "io.lettuce",
+     "artifactId": "lettuce-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "7fe643f8c840e220",
+   "name": "lombok",
+   "version": "1.18.20",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:projectlombok:lombok:1.18.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lombok:lombok:1.18.20:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.projectlombok/lombok@1.18.20",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.projectlombok",
+     "artifactId": "lombok",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f08362299a67ec9c",
+   "name": "maven-plugin-annotations",
+   "version": "3.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-plugin-annotations:3.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_plugin_annotations:3.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.maven.plugin-tools",
+     "artifactId": "maven-plugin-annotations",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "3d75d9e8d24dc3e4",
+   "name": "maven-plugin-api",
+   "version": "3.3.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-plugin-api:3.3.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_plugin_api:3.3.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven/maven-plugin-api@3.3.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.maven",
+     "artifactId": "maven-plugin-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "107a29d050a1495c",
+   "name": "mockito-all",
+   "version": "1.10.19",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mockito-all:mockito-all:1.10.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-all:mockito_all:1.10.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_all:mockito-all:1.10.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_all:mockito_all:1.10.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito-all:1.10.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito_all:1.10.19:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-all@1.10.19",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mockito",
+     "artifactId": "mockito-all",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "b95fbef4b4d157db",
+   "name": "simple-java-mail",
+   "version": "4.4.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:simple-java-mail:simple-java-mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple-java-mail:simple_java_mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple_java_mail:simple-java-mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple_java_mail:simple_java_mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simplejavamail:simple-java-mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simplejavamail:simple_java_mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple-java:simple-java-mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple-java:simple_java_mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple_java:simple-java-mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple_java:simple_java_mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple:simple-java-mail:4.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:simple:simple_java_mail:4.4.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.simplejavamail/simple-java-mail@4.4.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.simplejavamail",
+     "artifactId": "simple-java-mail",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f513c047d774253f",
+   "name": "slf4j-api",
+   "version": "1.7.21",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.21:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "0ef07d4d1d08379b",
+   "name": "slf4j-log4j12",
+   "version": "1.7.21",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-log4j12:1.7.21:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_log4j12:1.7.21:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.21",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-log4j12",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "b4fd6f80daad0a54",
+   "name": "spark-core",
+   "version": "2.8.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spark-core:spark-core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark-core:spark_core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_core:spark-core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_core:spark_core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sparkjava:spark-core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sparkjava:spark_core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark:spark-core:2.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark:spark_core:2.8.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sparkjava/spark-core@2.8.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sparkjava",
+     "artifactId": "spark-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "5bd2362453f7eedb",
+   "name": "spark-pac4j",
+   "version": "3.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spark-pac4j:spark-pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark-pac4j:spark_pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_pac4j:spark-pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_pac4j:spark_pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pac4j:spark-pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pac4j:spark_pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark:spark-pac4j:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark:spark_pac4j:3.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.pac4j/spark-pac4j@3.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.pac4j",
+     "artifactId": "spark-pac4j",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "103f039d42598d16",
+   "name": "spark-template-thymeleaf",
+   "version": "2.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:spark-template-thymeleaf:spark-template-thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark-template-thymeleaf:spark_template_thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_template_thymeleaf:spark-template-thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_template_thymeleaf:spark_template_thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark-template:spark-template-thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark-template:spark_template_thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_template:spark-template-thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark_template:spark_template_thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sparkjava:spark-template-thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sparkjava:spark_template_thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark:spark-template-thymeleaf:2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spark:spark_template_thymeleaf:2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sparkjava/spark-template-thymeleaf@2.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sparkjava",
+     "artifactId": "spark-template-thymeleaf",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "d1763a78e818f386",
+   "name": "testng",
+   "version": "6.8.8",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:testng:testng:6.8.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.testng/testng@6.8.8",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.testng",
+     "artifactId": "testng",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "0dd6d0815cc31e46",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0ef07d4d1d08379b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "103f039d42598d16",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "107a29d050a1495c",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1c1eebf387ff499d",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "317be16e7e22fbd8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "33c6428989ff8819",
+   "child": "50d87d7388dc1bea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3d75d9e8d24dc3e4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "42d82c09f10a75a0",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "476aa9e5dbbe64cf",
+   "child": "50d87d7388dc1bea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4cc06b8c98473276",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5bd2362453f7eedb",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "63a5a6c6d55244e3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6dc2215134e842a4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6fcfd678abb944e2",
+   "child": "e3e6e2a425631344",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7fe643f8c840e220",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "82aaafad30664e39",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b4fd6f80daad0a54",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b95fbef4b4d157db",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cc4665291efb8d5f",
+   "child": "e3e6e2a425631344",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0dd6d0815cc31e46",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0ef07d4d1d08379b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "103f039d42598d16",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "107a29d050a1495c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1c1eebf387ff499d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "317be16e7e22fbd8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "33c6428989ff8819",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3d75d9e8d24dc3e4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "42d82c09f10a75a0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "476aa9e5dbbe64cf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4cc06b8c98473276",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5bd2362453f7eedb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "63a5a6c6d55244e3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6dc2215134e842a4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6fcfd678abb944e2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7fe643f8c840e220",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "82aaafad30664e39",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b4fd6f80daad0a54",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b95fbef4b4d157db",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cc4665291efb8d5f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d1763a78e818f386",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f08362299a67ec9c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f513c047d774253f",
+   "type": "contains"
+  },
+  {
+   "parent": "d1763a78e818f386",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f08362299a67ec9c",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f513c047d774253f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "50d87d7388dc1bea",
+   "location": {
+    "path": "\\.github\\workflows\\main.yml"
+   }
+  },
+  {
+   "id": "e3e6e2a425631344",
+   "location": {
+    "path": "\\.github\\workflows\\maven-publish.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,779 @@
+{
+ "artifacts": [
+  {
+   "id": "a50e26cb4ddd1e9a",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "2735d78a405f40b9",
+   "name": "actions/checkout",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v3"
+  },
+  {
+   "id": "d559054e15da0da8",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "2ed53c7d124bd567",
+   "name": "aws-java-sdk-lambda",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-lambda:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-lambda:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_lambda:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_lambda:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-lambda:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_lambda:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-lambda",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-lambda",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "faaeee2ea9b074d5",
+   "name": "aws-java-sdk-ses",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-ses:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-ses:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_ses:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_ses:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-ses:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_ses:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-ses",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-ses",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ee93beaec1d9e37e",
+   "name": "aws-java-sdk-ssm",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-ssm:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-ssm:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_ssm:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_ssm:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-ssm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_ssm:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-ssm",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-ssm",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "fd79c2c72cdd7493",
+   "name": "commons-cli",
+   "version": "1.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-cli:commons-cli:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-cli:commons_cli:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_cli:commons-cli:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_cli:commons_cli:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-cli:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_cli:1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-cli/commons-cli@1.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-cli",
+     "artifactId": "commons-cli",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "61c3f74f1f2958cb",
+   "name": "commons-io",
+   "version": "2.11.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-io:commons-io:2.11.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-io:commons_io:2.11.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_io:commons-io:2.11.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_io:commons_io:2.11.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-io:2.11.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_io:2.11.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-io/commons-io@2.11.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-io",
+     "artifactId": "commons-io",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e6ec26edaeb2f92b",
+   "name": "github/codeql-action/analyze",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#analyze"
+  },
+  {
+   "id": "8d993cbe786b1d96",
+   "name": "github/codeql-action/autobuild",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/autobuild:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/autobuild:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/autobuild:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/autobuild:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#autobuild"
+  },
+  {
+   "id": "c4d363645ce47e28",
+   "name": "github/codeql-action/init",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#init"
+  },
+  {
+   "id": "e608939ba3a9ae30",
+   "name": "javax.mail",
+   "version": "1.6.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.mail:javax.mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.mail:mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mail:javax.mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:javax.mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mail:mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:mail:1.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sun.mail/javax.mail@1.6.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sun.mail",
+     "artifactId": "javax.mail",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "7c7cc96e994340e5",
+   "name": "slf4j-api",
+   "version": "1.7.28",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.28:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.28",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "6266a94b55829e01",
+   "name": "slf4j-simple",
+   "version": "1.7.28",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-simple:slf4j-simple:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-simple:slf4j_simple:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j-simple:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j_simple:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-simple:1.7.28:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_simple:1.7.28:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.28",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-simple",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3443362c7d613ff9",
+   "name": "subethasmtp",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:subethasmtp:subethasmtp:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:davidmoten:subethasmtp:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:subethasmtp:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.davidmoten/subethasmtp",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.github.davidmoten",
+     "artifactId": "subethasmtp",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "2735d78a405f40b9",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2ed53c7d124bd567",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3443362c7d613ff9",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "61c3f74f1f2958cb",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6266a94b55829e01",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7c7cc96e994340e5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8d993cbe786b1d96",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a50e26cb4ddd1e9a",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c4d363645ce47e28",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2735d78a405f40b9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2ed53c7d124bd567",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3443362c7d613ff9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "61c3f74f1f2958cb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6266a94b55829e01",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7c7cc96e994340e5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8d993cbe786b1d96",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a50e26cb4ddd1e9a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c4d363645ce47e28",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d559054e15da0da8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e608939ba3a9ae30",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e6ec26edaeb2f92b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ee93beaec1d9e37e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "faaeee2ea9b074d5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fd79c2c72cdd7493",
+   "type": "contains"
+  },
+  {
+   "parent": "d559054e15da0da8",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e608939ba3a9ae30",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e6ec26edaeb2f92b",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ee93beaec1d9e37e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "faaeee2ea9b074d5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fd79c2c72cdd7493",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "7f46309ca868cff9",
+   "location": {
+    "path": "\\.github\\workflows\\ci.yml"
+   }
+  },
+  {
+   "id": "b9310217f078b352",
+   "location": {
+    "path": "\\.github\\workflows\\codeql-analysis.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

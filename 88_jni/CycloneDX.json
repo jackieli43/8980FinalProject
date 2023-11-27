@@ -1,0 +1,594 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c55161bb-8ad4-44d0-8b0a-a476d63eb2b2",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-17T00:15:05.372Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.shankyank.jni",
+      "name": "jni-loader",
+      "version": "0.1",
+      "description": "Dynamically loads bundled native libraries based on the current runtime platform and system architecture.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.shankyank.jni/jni-loader@0.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://jni.shankyank.com/"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mrburrito/jni-loader/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/mburrito/jni-loader"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.shankyank.jni/jni-loader@0.1?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.7",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ca4280bf93d64367723ae5c8d42dd0b9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2b8019b6249bb05d81d3a3094e468753e2b21311"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "69980c038ca1b131926561591617d9c25fabfc7b29828af91597ca8570cf35fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c47d0d78388022e38bd60fd6e613ab4ceb9cad6b2567a3d36153aefc832864a99de1f6cdcd52959f73231e5b933fd9172353434e5fd83777703f41cb40fc97a7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1b59a922a63fa73baff42db7e9eeab1525c71cd8f9d3b7ea208f310792aa7f334fe7d45c8dbbe4bf8bd664dd49ed39d2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a520c091af8ee6d2613a36f58e35d443476ec4f0e7cec437a6100470863b8e06fd8bc76c23f1d3e49a5aeb3efb610b79"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2624d4637fa5d3e7b56c66a29393ca61059565d54bbfc255d6494aa2ff7c3f20"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "173bb385f03d4ee926ec9f35fe11ca009ae5f4a5f490d6cdd310b5e4e7553a0607032d32b8ac63f638b3c1b2273252f1a333b22955e8700c50113f06ae0c244d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.4",
+      "description": "The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7f97854dc04c119d461fed14f5d8bb96"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "957a438894a196e534af9ae1e61fb21e16f273952b55a81abb8faf0b139fc031ea940cf477f81704db417d1ce6ff2d9ddd4a2cbf316903b0e2dc1aeaef24f292"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "af8a3e210cb1dd5475d497249acf1a86266077f5c7df0ded76d92467ab7f69e445f79dcfacfd7375085ad24f49625955"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "96ad8ffd01492835e0f0d0d19b0414950f487603caa7bbbed28bd3dc41721077c871eb534399aa178ed97aa01d743983"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "78a19109fbcc47fcdd9486c1906e244d1cfad3172d7497d4f0009cdf100ff97b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "171ce4f320389faf73f95242098be01116709a9eaa88e770ef4aa63e249076dc9133f4c228809bd6989d657dabd6100d34a61232232adf19bbeea82482f46b29"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.4?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-cli",
+      "name": "commons-cli",
+      "version": "1.2",
+      "description": "Commons CLI provides a simple API for presenting, processing and validating a command line interface.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bfdcae1ff93f0c07d733f03bdce28c9e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2bf96b7aa8b611c177d329452af1dc933e14501c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e7cd8951956d349b568b7ccfd4f5b2529a8c113e67c32b028f52ffda371259d9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0b8f4610d3a05a589026b1af605cf976f73e6fecb9b9cce9f572e5883ce0a78e8a9cfe48e06257bb68cb8eea080ffe84a2b0b73682036f85dbbb3c03cfdedfaa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3e39c2926a3d022280dc6a706f0be11d073541500b641dfe485c7b054469a8a01902cbc8692e38ff976bc69fd974174f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c22f48ca48d04a717549df9b083aba508af9bc87439a33edbfb05e9a3d458eb6b3ec5f0014242547ccb24eb59f2d7b8f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "006a8f27b555487fc21e99848344dfa671be826310aef75138cbb0e9be773b6b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "841bd6703e4fe9792736de93a5ea54821af0dc4f297ff96b3116067895650e3fb3721159dc6b7d34214e376b4d1f936414b21747562f2462b818c576cf0e73a6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-cli/commons-cli@1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-cli/commons-cli@1.2?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.11",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3c42be5ea7cbf3635716abbb429cb90d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90a8e1603eeca48e7e879f3afbc9560715322985f39a274f6f6070b43f9d06fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a0de3a1d9924b8703736f27a0e02e243e9f50add113c8fb3477cd8d8e31505df1609755d79ba8f1e1f43c6b5201b409c116ad184978383da6613382727bedc6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0f9ec06229184455e388ffa929bdc3a532d1b61ae22a51655fac91fca093b26695ecb48a040e869135aa4d69fff3840a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "50333b7f876d6660b89a29382a96d10077ee50d568fddbb61c83a241666893f04d3992f7a402fd49d97305acf318e877"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "57a3a358ca4ab3cc2636cfc7531920afeee3f347e221673edb7c4946b08e8a33"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "25a71bd3d476e67a4967fc81388432f55ef4d2816c28343ac4b517a4b963f51515a855d1c0ec8a23bf31b416b72774f3852cd226f8f158d16aa69e8e21b74e0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.11?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.11?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    },
+    {
+      "publisher": "The Codehaus",
+      "group": "org.codehaus.groovy",
+      "name": "groovy-all",
+      "version": "2.3.5",
+      "description": "Groovy: A powerful, dynamic language for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b73a54b8d51c39dbc570e5fde6a206e3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e77620c9dde8deac579c7a65d063491eee8c0dbe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e65ee8971a0f2897b58149e8744a80b5a4ce51583f0cccf1ae14a22b3ca828d9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "df1876fb376cc2127f365bf428ac2b46b7423bcbf1effaf1ef7bbdb662cafbf27e15a8985fb288c58d79ced72b259b63af8812151c2a0de3e6649b44a88f6ea1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0db54fd7a779827499d02d44f9707f0fb75576f5550f74d21cfef523c940e169ff2caefa1771c03e814fcdeab463b3a6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "139102ee894818a5643d9b80b2ee9bfd335acb6217ccfc74d44a1c5b0e7c69974128ac71fe781b004679219f1bdd9ff3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "16f487d1536147383ba7eb6e3a0ec46218589fffce390bf1a3a6f7347e470c82"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ce3c6251fbbf0f3200447ac1b4b5973f1b354590e1c2179f891ddc3c5b909065c9d137f8f6d90fb8c775dab951d32b62dd5d1bebdb5205870cea790b7cfba189"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.groovy/groovy-all@2.3.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.groovy/groovy-all@2.3.5?type=jar"
+    },
+    {
+      "group": "org.spockframework",
+      "name": "spock-core",
+      "version": "0.7-groovy-2.0",
+      "description": "Spock is a testing and specification framework for Java and Groovy applications. What makes it stand out from the crowd is its beautiful and highly expressive specification language. Thanks to its JUnit runner, Spock is compatible with most IDEs, build tools, and continuous integration servers. Spock is inspired from JUnit, jMock, RSpec, Groovy, Scala, Vulcans, and other fascinating life forms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d62f1f49e878d652d5abea146ad03af1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4de0b428de0c14b6eb6375d8174f71848cbfc1d7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1938ce5bfeecfa3c5a1628a31fc856e6f4387463e5d3c10c6e8a1793e2ac1c2f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2d2249adfa7db5246a95239767aee04230b7237846a799ceee9b2c2ae35f7f68b7255efaea7ed9ef19156dd3665f98cb0333e6996d137dbf42d89cbeea1ede5c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6be16bcd49630dfaf406d733dbe9d2f27086ff1f9732e37d8e0139f9442428d9be499c074ce2a1d3b7e3ab474ccf8689"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9e838c9a3454f4c75c73bb624f4b67e0ed96a1c240782dba17e41a220b8919b3033a3500b5d2d4dcd300e506df3f1da6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8b25a45d504c896a83af2819637e02c67307930e96aa18a06f56c1e10a5ce116"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e7b679e00678dbde1b66d97101a7dbfcc1c48753096c7dcdbf4eb97021eae601ab6ade475c5d483a1952b213f6d2d855fc2ec6ec2511e4407492c9eb2aabeb34"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.spockframework/spock-core@0.7-groovy-2.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.spockframework/spock-core@0.7-groovy-2.0?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit-dep",
+      "version": "4.10",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "842f5d05ce8160b43ae47fce1746869e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "64417b3bafdecd366afa514bd5beeae6c1f85ece"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c1b81ad9bed9cec9da9df975ac1af252341313bd6af42a7442a1328e90a4d932"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f09103ef543068c967eab470bfae692df4e50b5aa93b0d800ccade7723af263d0c4cc1c03d9e66f92683293475ecaf88757ab4c807f4ae6c2800d4113bfc475d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a0357334feb924f4cb4243fbd2dad16f0805ba2c01c3d01766126c282ecdda502159c52008be3ca46c2d6bc36ec34831"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2ea9b224a980441da1a539cd2d10f82857dc4bdfe460475d2fc5ddef18d98cf9657db867a40944f49fae2ebf1c0f48dd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "305be4fd7c9054a0ea1d0915a30762ffc14db1738fcf135b69f8bd667ead93fc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "745072c39cb11d8bd6bb24c2a12536578a6a009425936fbc810312b1a220b12c2368309f53b7a7f3698439d65880301dc3d118c90bb64a09b80d90b3f0086908"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit-dep@4.10?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit-dep@4.10?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-simple",
+      "version": "1.7.7",
+      "description": "SLF4J Simple binding",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c9847347b8ff4392a99b026440cc451e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8095d0b9f7e0a9cd79a663c740e0f8fb31d0e2c8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa94eaf1d73fb1bb53144445d9e3ad078820179906a289fd4e6a8d54c0cacde4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bc7396066be82f63064205a3ec4456a89b863223d1d352553ea9be920f9d9e07b743dbfc695e88e23548213d375b17c270f0cd0b6ee3336825251c97b3783a16"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8aa14170b4b9d801a88b95a250758b7a8da906c4dc3529fb8aa4c815738da75f52c14216f69d3fa21af589c49a51175f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f6e9138cc0b51404ead13b19d5140c61fe70a9d3acd26a9b86f30bec76312ad0a650408cb94a719dd1e1bf4f7e18f148"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "66aa9e5f392c9ded3df0c7bb3ab19ea6441813bd90b6731d910c9eb8cc0fc0a4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "59f0b64692179580e596ae58aa761d868f24be32325ccb730a2406cb5803cd214e7b1f1776d69aabb60c2ff98dc923b3fe7b8e23783c2b329090fb5bc94783ad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.7?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-simple@1.7.7?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.shankyank.jni/jni-loader@0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-cli/commons-cli@1.2?type=jar",
+        "pkg:maven/commons-io/commons-io@2.4?type=jar",
+        "pkg:maven/junit/junit@4.11?type=jar",
+        "pkg:maven/org.codehaus.groovy/groovy-all@2.3.5?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar",
+        "pkg:maven/org.slf4j/slf4j-simple@1.7.7?type=jar",
+        "pkg:maven/org.spockframework/spock-core@0.7-groovy-2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-cli/commons-cli@1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.11?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.groovy/groovy-all@2.3.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.spockframework/spock-core@0.7-groovy-2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/junit/junit-dep@4.10?type=jar",
+        "pkg:maven/org.codehaus.groovy/groovy-all@2.3.5?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit-dep@4.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-simple@1.7.7?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar"
+      ]
+    }
+  ]
+}

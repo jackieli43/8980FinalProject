@@ -1,0 +1,367 @@
+{
+ "artifacts": [
+  {
+   "id": "8b3b867fbd1ef76a",
+   "name": "furi",
+   "version": "0.8.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\lib\\furi-0.8.4.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Artistic-2.0",
+     "spdxExpression": "Artistic-2.0",
+     "type": "concluded",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\lib\\furi-0.8.4.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:weborganic:Main:0.8.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:weborganic:furi:0.8.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:Main:0.8.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:furi:0.8.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:furi:Main:0.8.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:furi:furi:0.8.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.weborganic.furi.Main/furi@0.8.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\lib\\furi-0.8.4.jar",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.7.1",
+      "Built-By": "clauret",
+      "Created-By": "11.0-b15 (Sun Microsystems Inc.)",
+      "Implementation-Title": "URI Template (FURI)",
+      "Implementation-URL": "http://www.weborganic.org/code/furi/",
+      "Implementation-Vendor": "Weborganic",
+      "Implementation-Version": "0.8.4",
+      "Main-Class": "org.weborganic.furi.Main",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "URI Templates"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "0bd0d8e42ac0b3dbfdf4be7553196659d82724f3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "556737c20eff38df",
+   "name": "furi",
+   "version": "0.8.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:weborganic:furi:0.8.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:furi:furi:0.8.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.weborganic/furi@0.8.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.weborganic",
+     "artifactId": "furi",
+     "version": "",
+     "scope": "system"
+    }
+   }
+  },
+  {
+   "id": "3af1a4ac93f274ec",
+   "name": "jmustache",
+   "version": "1.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:samskivert:jmustache:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jmustache:jmustache:1.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.samskivert/jmustache@1.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.samskivert",
+     "artifactId": "jmustache",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "33e2885bddbdf8a6",
+   "name": "junit",
+   "version": "4.10",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "0a60a7bf553604b2",
+   "name": "webbit",
+   "version": "0.4.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:webbitserver:webbit:0.4.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:webbit:webbit:0.4.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.webbitserver/webbit@0.4.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.webbitserver",
+     "artifactId": "webbit",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "0a60a7bf553604b2",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "33e2885bddbdf8a6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3af1a4ac93f274ec",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "556737c20eff38df",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8b3b867fbd1ef76a",
+   "child": "0aaf2da3e0c93cd9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0a60a7bf553604b2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "33e2885bddbdf8a6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3af1a4ac93f274ec",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "556737c20eff38df",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8b3b867fbd1ef76a",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "0aaf2da3e0c93cd9",
+   "location": {
+    "path": "\\lib\\furi-0.8.4.jar"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

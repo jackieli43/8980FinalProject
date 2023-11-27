@@ -1,0 +1,323 @@
+{
+ "artifacts": [
+  {
+   "id": "9bb920f9f63f8ef4",
+   "name": "cloudbees-folder",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:cloudbees-folder:cloudbees-folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cloudbees-folder:cloudbees_folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cloudbees_folder:cloudbees-folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cloudbees_folder:cloudbees_folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:cloudbees-folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:cloudbees_folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:cloudbees-folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:cloudbees_folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cloudbees:cloudbees-folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cloudbees:cloudbees_folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:cloudbees-folder:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:cloudbees_folder:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins/cloudbees-folder",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins",
+     "artifactId": "cloudbees-folder",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "59fa189631c2e3a2",
+   "name": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml",
+   "version": "v2",
+   "type": "github-action-workflow",
+   "foundBy": "github-action-workflow-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\jenkins-security-scan.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/jenkins-infra/jenkins-security-scan@v2#.github/workflows/jenkins-security-scan.yaml"
+  },
+  {
+   "id": "4c0e70a012552a81",
+   "name": "matrix-project",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:matrix-project:matrix-project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matrix-project:matrix_project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matrix_project:matrix-project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matrix_project:matrix_project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:matrix-project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:matrix_project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:matrix-project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:matrix_project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:matrix-project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:matrix_project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matrix:matrix-project:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matrix:matrix_project:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins/matrix-project",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins",
+     "artifactId": "matrix-project",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "958d72be415c4f8c",
+   "name": "release-drafter/release-drafter",
+   "version": "v5",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release-drafter.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:release-drafter\\/release-drafter:release-drafter\\/release-drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release-drafter\\/release-drafter:release_drafter\\/release_drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release_drafter\\/release_drafter:release-drafter\\/release-drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release_drafter\\/release_drafter:release_drafter\\/release_drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release-drafter\\/release:release-drafter\\/release-drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release-drafter\\/release:release_drafter\\/release_drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release_drafter\\/release:release-drafter\\/release-drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release_drafter\\/release:release_drafter\\/release_drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release:release-drafter\\/release-drafter:v5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:release:release_drafter\\/release_drafter:v5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/release-drafter/release-drafter@v5"
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "4c0e70a012552a81",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "59fa189631c2e3a2",
+   "child": "bd44a5270cc0f2d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "958d72be415c4f8c",
+   "child": "54e7a5ff9d18d15a",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9bb920f9f63f8ef4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4c0e70a012552a81",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "59fa189631c2e3a2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "958d72be415c4f8c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9bb920f9f63f8ef4",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "bd44a5270cc0f2d1",
+   "location": {
+    "path": "\\.github\\workflows\\jenkins-security-scan.yml"
+   }
+  },
+  {
+   "id": "54e7a5ff9d18d15a",
+   "location": {
+    "path": "\\.github\\workflows\\release-drafter.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

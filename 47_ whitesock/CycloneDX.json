@@ -1,0 +1,298 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a9c7c7c8-62a4-45b6-a054-ad31939371bd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T15:40:04.367Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "open-replicator",
+      "name": "open-replicator",
+      "version": "1.0.7",
+      "description": "Open Replicator is a high performance MySQL binlog parser written in Java.",
+      "licenses": [],
+      "purl": "pkg:maven/open-replicator/open-replicator@1.0.7?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://code.google.com/p/open-replicator/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/open-replicator/open-replicator@1.0.7?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "3.8.1",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1f40fb782a4f2cf78f161d32670f7a3a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "99129f16442844f6a4a11ae22fbbee40b14d774f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b58e459509e190bed737f3592bc1950485322846cf10e78ded1d065153012d70"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8e6f9fa5eb3ba93a8b1b5a39e01a81c142b33078264dbd0a2030d60dd26735407249a12e66f5cdcab8056e93a5687124fe66e741c233b4c7a06cc8e49f82e98b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dc2d56e8a39724d0755da793b7fe16a6e0d095a26d4ce54914e9ae12e722868bf075014fd668910d524fcb4b031a082f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a08c7cec0855ca049d7f97cc2f361fe9f11d25641f447909db456d511aeba11fa14f491a8f0974f979d3d785c3e6eb47"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d4b66ce18259eae66bc0c90abe87aab211cf53932b43d95e1671482f377bf863"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "837a25d647ca209a4636a9ee1baa04054b55a5bd40b52f69a72660faa5bccec5d6da38784ef50e04918f0b150e73780a601b24efa1f479a7abe11ff142e00e8e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@3.8.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@3.8.1?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.5",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3b1ececad9ebc3fbad2953ccf4a070ca"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6b262da268f8ad9eff941b25503a9198f0a0ac93"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fe30825245d2336c859dc38d60c0fc5f3668dbf29cd586828d2b5667ec355b91"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fe8885069fbe999485e25fa5e019486f9661bdb99834df2ca2888981f47bd4a7685f83859a315f8e7dd208b7dd29717e2d108e6d8366755e6d971cac4cf9e437"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "41e16b4c59b038e0963b8c2c02a860ecbed984ad66ad9f2c46e0ed80e870a73c422c2760cf3e089cdd65012437bfb8ef"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "10fb8f440ec47794ba7bbbbeedcee0b5f102bac18f8bda89e4a6b714c0982a69fe8db9a43b85f68eb5437171c32f1c84"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "499f1d3b92c2b39fc2fdf25dab2db8b629a0fcf0445f7a86f86ab223bbab5766"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5e813a54d7c8bf977d8f2f13227ec0a1acf5454895e1cb5c115afab8b65fa7d3d35362d2209e78baa39996de8c334fd2799cc0b80e70aaae4af55fde9f07e1c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.1.2",
+      "description": "logback-core module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ae3b1f69540d87c5bb68260818764fe3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2d23694879c2c12f125dac5076bdfd5d771cc4cb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90f1dfca25cd776f28a589f58b181d0e6787668a1b1fa8510bead402f86edcb1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "371db1e4ce9219c0213f646d736a488dc1335b0f51273c94213d83964ae9ee8c3e7c63775462c4556cc3c6f27179a6a5dd8323747efba71553587e4e5efd3fe9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f8142cb2d7f5267460819d2b75100bb5b9b5aa86c29b7cecf827cf8bdeb3b265973a2ca78eef458d60963d11b21c5786"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b79016d66cdc49eeadf955a377543d33eb35569a194217c59f4fe73780fbdf7222147e2e1d6c307d820f2a2c27acc965"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b4078d48ef9cce01191396bbc6298c95c8cf6fbacda4b014b6bca53fd67dfabe"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1de085d5053003603b163625b37efd2885fbd30687fa385662cdfd49aa3f18934be32fa5ab99bcb15b28e2cd1f3f21333fc23626d951a2cef221b44b23320b8e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.1.2?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.1.2",
+      "description": "logback-classic module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0418f747dbdd3ef5cc5f5aa85629609d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b316e9737eea25e9ddd6d88eaeee76878045c6b2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "30b792e2745752fad8e1f92ca750d5f2d480edd2c5e99bc098aaebe22eb48c22"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "609428551860b4b7dbdcd38634e69bb1366db3e550754576be4297263134dd773164ab61226a334ccb0a108aade02bb1ad15e7124eb5d4e7bdb3b5571b4d9deb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "bb1611acde22a47870b75488e622577cd9c5b7e25417f2c2fd570ac704d1448e09ea5737d4a340aa6be2f86de85404f7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a7b7720f5d63cbc47030e743ddab7a7feee81139347e0e2ff3f0d8b84aec708d324e9c05bd3a5ed7b5bc6d8692ffef14"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5a33f008ea152b0dddafb0d53287f6f407f605021dfe7dfd11ef35a2ad1d1c55"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "809979dd025074567df4d4a51c6a6dfebb6e137322a01bff0d6c4d149da7a3c77b0922320e4b047896ad1e1c248435565f1918684295015dc4f8f90c0136eb5d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.1.2?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/open-replicator/open-replicator@1.0.7?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-classic@1.1.2?type=jar",
+        "pkg:maven/ch.qos.logback/logback-core@1.1.2?type=jar",
+        "pkg:maven/junit/junit@3.8.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@3.8.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.1.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.1.2?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+      ]
+    }
+  ]
+}

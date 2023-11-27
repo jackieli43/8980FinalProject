@@ -1,0 +1,246 @@
+{
+ "artifacts": [
+  {
+   "id": "121792a2968b67dd",
+   "name": "afterburner.fx",
+   "version": "1.6.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:afterburner.fx:afterburner.fx:1.6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:airhacks:afterburner.fx:1.6.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.airhacks/afterburner.fx@1.6.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.airhacks",
+     "artifactId": "afterburner.fx",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  },
+  {
+   "id": "e641780cb01b919a",
+   "name": "junit",
+   "version": "4.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "3933936e438ab9e7",
+   "name": "mockito-all",
+   "version": "1.9.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mockito-all:mockito-all:1.9.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-all:mockito_all:1.9.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_all:mockito-all:1.9.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_all:mockito_all:1.9.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito-all:1.9.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito_all:1.9.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-all@1.9.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mockito",
+     "artifactId": "mockito-all",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "121792a2968b67dd",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3933936e438ab9e7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "121792a2968b67dd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3933936e438ab9e7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e641780cb01b919a",
+   "type": "contains"
+  },
+  {
+   "parent": "e641780cb01b919a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:426c8ed4-53de-4a40-bcde-ce779243db64",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-09T23:40:39.524Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [],
+  "dependencies": []
+}

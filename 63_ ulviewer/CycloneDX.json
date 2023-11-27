@@ -1,0 +1,498 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f8c6ce9c-aab9-4a88-92af-6c64247001d6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T17:41:52.135Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.yasuenag",
+      "name": "ulviewer",
+      "version": "0.3.0",
+      "licenses": [],
+      "purl": "pkg:maven/com.yasuenag/ulviewer@0.3.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.yasuenag/ulviewer@0.3.0?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "org.openjfx",
+      "name": "javafx-fxml",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ed91b50d1dd0c652e426dcf7a91df3b6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2290dea85b21d82485024b7e3505eff717d271a7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d9532396d5c4aabc5e3bdbfc86af9472757e0f7eb9e06f7e69b24dadf64e5b61"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c4f790a22bff20e3468726035938d19ae7793aaaee143225613871e5d83b539927ac4f070da8fb653ab6beda9570eb8f10ca6300ef4e6a75cf3cfb0f73007e38"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "585a944726d8ef9f2fb80b9a713cdca5c8fe39302ec04847d55254262d00dfc17cb81f06ab0c8e58878e74d87f76a9ce"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f61b2723bc9ecade4a57f9050c7fa97a16b51cacb4096e7f3e36d63fd6a17773543fd64fb3eb75e77a0a1dcb259ecc1b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "658cd128a3e965c44c76256ca92da550525e8a6cbd3710995e011028ebdfbed4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cd1a0bcf850bf2a0fe5de591333ce1cf843d8538eae964eec6b5b0786148f5eec6769c988d4b695c82edfd79d0b16248269d8b8c497a86247c23fa67dbe7451b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-fxml",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b5fa666c79f1c41465e2254037b103f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bbe06c8f099a4e29c84467dfa0445c66e4805628"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0d0b0be7f9dd61bd4b1567ae4d6ee739add4303e21d7c19495d776c8ec19155f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e70a82bcbef41d8467c1ddba75c28b2335b1b3e08c1a34101b0fe1ed881ed3b5d326fc02157fb297dcd319280781ef4e49bde74659a21f60a56c835691a71a01"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "64150b816d07183ab76e268f8ae77a6fe48e158b1f9186ede6725ae7cf359bdee85c0bc1c2cd3f906b6a8031387f17e5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f9df395d7cea0c6bf1142fdc798f6d0bc59d5fc5f192364c1351d06da3247d35078f12b3c58752d9619f50d3072b678f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "931b12dadf45123410ab60ea3846b28c67f38ebec0354059218d204f16a37ad3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b947152c697a1e360de6f7b77fa41b7eddcfeedac77b1bff8121bc5858967b791eabd2c5776cdd27a144b017e5f354c392964d35a4401ecb123313a67b3c8c37"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?classifier=win&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?classifier=win&type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-controls",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "778ceaee7e04d7e35d61a262df513042"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "344b49d5074bf742bcb179caff1a6a16939dc719"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "37cc8a13c1d1eb6d33c8b10d98f07e43bd05e3d7cfe9e29f10a30d047304590f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a4d757da7b0352d4a5cb3a73015c95b6d1c23f581b3315792d4ad30270c61c85f5136eafd54766c9bedbc2fdc36465707537a713984c2534801367c547cf30e8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2d7d8b45133b3f78e9356676a7f52ef9a3245bda38f4cbd6c8915a8b1a3e39ab5aa48bf0933e2d33c9b6d32839188d84"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f4c14aa7017609bbe2b8caa63f5bd6c8110383b47b4ac692f4ecead6aa890a165ba15dcffda0d9ac6e2a7cf455775f07"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2e014615db08339657564b6183bbf98a505e95401150df92a91c9d9cb10dfa99"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "be247a76a1801b9fd3a727877306fbd611efc61aca52e9802f0dcbd31fc309fa005878ed59616805830810b7037913601b1e6b5cbcbefe3389776651bc640a4f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-controls",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "00b29086fe3d8082f1cbdc0f2eca3aa7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9d9af25816b58bb5e3f43f4693c2298f39789e7c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "603dd16fecd4046eac2bdc33b112f61a39503c6ceeee10f6ab9fce3010cf519b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "efd28d1521345d313854c1555711e45a62fef962b9ce9f72d02f6171304f31fc9b0d95da37111895afe4502fab79fa0c8428628e7dfcc41a62ff0166d1374ae8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9363a71a3d760ae90ec0d74fe66f1b2e1ea639a3551ed1ebf59e84b8d54afb51f590304fa285b5304bf1114225e1fbc7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ec19263cb95a784ad682c12974ef8a0ee8dd475560d9758e93ab7a3184197e6d0191b7154116d4292424c53a6f215ffc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "58199c85a2553c9716a9b3d943e09a2d8fc1ed44d17c996b7cae27d0a6175759"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f2c4ee9a77624ea688dff7c5496404b5f98d894030d30c9dbde5c98b9a5883955ed48bd03636f13303d01aaa8c544713f91f61529c0672cad4bb3d85240c4160"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?classifier=win&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?classifier=win&type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-graphics",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9a21be69f7bac2c614031314f6e015b7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fe7fdd0a56f6270d5a7e01c6ec92e12972a71cfe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f86ca77d6ceca85a2e1b3734c05c890420181fef74b30644f88ae3e7649855a5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "40e0653c69bea5ee913b26a5a9535f6800a859cbdc651930e977d3eaae73f7d814089b9177fbfe9961f4c896850bad04c7f27ebbba008e7bcf0c61feb1f7c315"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "910a8a0fa600d8e106f8e582029b500c86ab111708b461bf3afea007166f08859a109fd0fcb5d4956b2950acf1a703ed"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2a8666ae6156a3f03a186c3ae869c76bca00a1902e36ce98020b998ed4100784a9a720d69ad3d95236311faca7edcd49"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "278b747e8bf0b95b546df8d431aea3b4819a6a4e2daf2639136fc69b14c048b8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d86f03a67f40a0ec57b82ff9b9f2aaba3d66544ba76cda752b30bfa2ed280a4c04968fbf8251d0d45311d7162be9b5750e510017e41f8cc3a63f54fce5898c35"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-graphics",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "70572dde1929e135369fcd160f16a996"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "54a0beb140a8f9b351a2a0ea53c4546d3cf9a08f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "83a077938d70c356041ec86183503acb4950519a2fed438679402b35e4831170"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "56102b0ca3e4123216ae48d13b7a1c6bd86047025a3c3efce1c9a59403f8d2c47eb7b902a3d9435a5c98e931e673e747c0022fc31a9a36655eaa70b2c71b233c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "16a144626f72cf13ea91b3a6d432c18fd277af5d30e8b115ca276b9c704e97b2e822dfbed9cc8dc6fcc5011cb097ed41"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "078d1aa57ed99787a0e547f9a112bfb73b4fb2e5761e981005a00ce4ed475708c19b0c6a4396eeca5147d98b4c6ac614"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b9d8b68abe510f323940acaacc3e32f355a5ce3f44f07901b669d6965f8e0c18"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "43860cb3e46c5421d110430d0975cbf9c6e3352c34887936a4a63907b47b397907b0137ebbcb68fdbe66f214a977e926a1ba8b29c544ffe1d8a310b1b723ee8e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?classifier=win&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?classifier=win&type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-base",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b4fa799614544186c91773f8f9c19721"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "148c0679082b0928fbe6335894e8423e4fcf4c1f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4e641ceb2120cd8233b11c9d072770742bd17bfe771a7cc21c04d4a2acd0b2c3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ea18971a4e34a799d14ceb2e7e8a1268e53d15ac169583566489206f5c9952ffa6593719eb57a7b7adfc3775aead9e5178ce1d176713dd41057a7e62f56c55da"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "68b6f004bf20cf7cbf6dd68430fdf3533406da5b5ab9a6971bc3933eb471af7a5482bb3fdb51884755c890881a61809b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4bef8cd4279d28d35a850706daf4e61ffaec69d5b393c6c4e47945f906df7298179f527bb08dcf7c6a01290c908590c6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3a07526a426229578002d5368d070151e0c21f16739cc86a321b52fc7890ec82"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6fb79d937b2949c41c6b6e931b6e18c21c3ddfb3aa0e56b4d764dd226f6c381723796ff18b2d22eac0bb5a31a4ee5af48296b64962af0ef9b4985c9f5148239e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-base@17.0.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-base@17.0.0.1?type=jar"
+    },
+    {
+      "group": "org.openjfx",
+      "name": "javafx-base",
+      "version": "17.0.0.1",
+      "description": "OpenJFX JavaFX",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67b65bc09b67a32b13c96ed5ecab1b5e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f1ca6d35b3641adadeb943fe7150dd8ba67c8251"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "32ac7c4b9c924c076a2356324f676cfecae011fdd1014a3c9cae3de214937478"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e983371244583e4fda950afba7412aa65c998418c8e4386bbce39761f4547a78de22ff12e38505f614e50fd453811c3e5d35effc07c4581653824b5dd972c359"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a05d5a78c6c327fb94bb662d91878259e1ae608a433575cf32927555ad76776ab156694714750e48a70214e1e19fcc67"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b6fc51f69876b68e9ba6c796485b6b711b9958acf35d76d562e5d2113c90a6be8ac65a7f7c99acbc6844e5e579b96e81"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f12d0e733655f78b660f9e15570b295efc45b7c58d63feb1910dfe800af30160"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "44c17bb385cb6cd0b3570a589a95b7f89c91b3dd1c5075517e46f326bbb6a9d944d6d62e17e1dcc35cda0695680baa7ae15cabe643d3750dfafa15c5c02b9ffb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjfx/javafx-base@17.0.0.1?classifier=win&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjfx/javafx-base@17.0.0.1?classifier=win&type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.yasuenag/ulviewer@0.3.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?type=jar",
+        "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?classifier=win&type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1?classifier=win&type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?classifier=win&type=jar",
+        "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-controls@17.0.0.1?classifier=win&type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.openjfx/javafx-base@17.0.0.1?type=jar",
+        "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?classifier=win&type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-graphics@17.0.0.1?classifier=win&type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-base@17.0.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.openjfx/javafx-base@17.0.0.1?classifier=win&type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjfx/javafx-base@17.0.0.1?classifier=win&type=jar",
+      "dependsOn": []
+    }
+  ]
+}

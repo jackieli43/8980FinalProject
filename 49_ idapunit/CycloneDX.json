@@ -1,0 +1,669 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:17c5e4d7-0b74-4e7d-a032-6c84b96e4805",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T15:45:12.436Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "publisher": "Brian Matthews",
+      "group": "com.btmatthews.ldapunit",
+      "name": "ldapunit",
+      "version": "2.1.1-SNAPSHOT",
+      "description": "Supports unit tests involving LDAP",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.btmatthews.ldapunit/ldapunit@2.1.1-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/bmatthews68/ldapunit"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/bmatthews68/ldapunit/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/bmatthews68/ldapunit"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.btmatthews.ldapunit/ldapunit@2.1.1-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "Ping Identity Corporation",
+      "group": "com.unboundid",
+      "name": "unboundid-ldapsdk",
+      "version": "5.1.3",
+      "description": "The UnboundID LDAP SDK for Java is a fast, comprehensive, and easy-to-use Java API for communicating with LDAP directory servers and performing related tasks like reading and writing LDIF, encoding and decoding data using base64 and ASN.1 BER, and performing secure communication. This package contains the Standard Edition of the LDAP SDK, which is a complete, general-purpose library for communicating with LDAPv3 directory servers.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6be4783b9ff406011a4051aedd0f07b7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9e5ee16adceb885507555274192ef6b2f2f19f9b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2e5ac2ea24f044cb83790918943e18308be1542256946882c5196f1d91a78e90"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8cf8f45873022798614e6121eaadf58b513027aa8de4374f4dc5b8438b3d8992daa255e9734d9a336759cf76de5cd613f1e62d7e78d1c8bc72978df04e75fc90"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ea5b3fca73996bc79b130f480cbc60b01874bb7c62dd7d1d689550ab8bbdb1b605daceb6255ae438fe2b4a60608c630f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2b29cef83e851662773552a23d650aad0ab3d21d32984008999c90b1d9e2c24dc82c0674d27bcea4754d0376e4f9bff3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d81f3fc2dc36e5cd1dfcd4cf09ea7a6552c8467d6933015b9fc3b8571b020666"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d73e37f1db9c36e8ab8e4e63e862ad19e709af4401883ec895d686e08bf55bd290f0af4e588f3e4938b8d5106c564f6dde03c94d13f2ee37e8829e44c0cbea8a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License version 2 (GPLv2)",
+            "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License version 2.1 (LGPLv2.1)",
+            "url": "http://www.gnu.org/licenses/lgpl-2.1.html"
+          }
+        },
+        {
+          "license": {
+            "name": "UnboundID LDAP SDK Free Use License",
+            "url": "https://docs.ldap.com/ldap-sdk/docs/LICENSE-UnboundID-LDAPSDK.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.unboundid/unboundid-ldapsdk@5.1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.unboundid/unboundid-ldapsdk@5.1.3?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.1",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "83d91f209ddcb104776fa41c448c7ee2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cdd00374f1fee76b11e2a9d127405aa3f6be5b6a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c30719db974d6452793fe191b3638a5777005485bae145924044530ffa5f6122"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29769fb462c7db2fcca6de3a24b445ae252a7570950f9a2163e14c478f854e47056444d90b2d40f4cf4e3f37c03faacf694c2db12763e173c44362af50176b1f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f98da9852bdc5fc022399a85c1fa234ba80d3bf8f492034971175f70464cd9f2d08d65954f92f33ae250050d9f5ae160"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "79a11e53c134bf2a6fcffd64b1371bacdcbda3eff96094970a5123fb9eaca195044313a647ed7bfa21c0ef9f36994bd2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2c44fd3ad2e0e1f2f5ce27f9efd357cecdeb38d074ac8bb23fbd7be683c53e99"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c34310659381936cf3f16a58f90372a2a3829e020889a7cab118127e6c96e5dc120f350a89d56abfffbfe1862aca51e8e419f48429fb8e5ea3a54f0b3ef809c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.13.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.13.1?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    },
+    {
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-api",
+      "version": "5.7.0",
+      "description": "Module \"junit-jupiter-api\" of JUnit 5.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e8567a8fe9ea0fa92b4da7a25f0c572c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b25f3815c4c1860a73041e733a14a0379d00c4d5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b03f78e0daeed2d77a0af9bcd662b4cdb9693f7ee72e01a539b508b84c63d182"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b5551a908ccca41418ea2502d29840d302e8d64ec9f6ff1aeba316568e6ad357dd33a7973d28d836796cf40be304afc7b362bc5ad7eed1fdb638d43c8969a93b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6eb11613208cbc6b1852cf5d9895939a3633011691ad7f78250f8bd0ec4399944046a7aafb29e3cca15c33ced60e8408"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "77fd8d9be1bae378adf5952b591d8227a48eaa3c4eaf00561d5d91bd13ac953ebbc62a35fc08537968e7035bf2462eec"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f564b065a858f92e909b9810f1bfa7fe6852d511bfc03ec810ba3409bef3baeb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b9284f7f245fe76954dc7412418d0341275f7e249338c425cdc8d2736d9e448d031e560bb459871844d1fd1c772995de46b503e669da017fe78d3e3b7752da77"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.0?type=jar"
+    },
+    {
+      "group": "org.apiguardian",
+      "name": "apiguardian-api",
+      "version": "1.1.0",
+      "description": "@API Guardian",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "944805817b648e558ed6be6fc7f054f3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fc9dff4bb36d627bdc553de77e1f17efd790876c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eb05878cf282e971a7fff0ff4a1b7b90d61e6405ea368b19832177269b21f66ad4de211f6abdd762165a72e1c19781a6df1187e6c1cce1ae2cbf0e913fc5f504"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f454c66833bd270ec9b1c11fee9c3670241172933f545975db298a0708f65753d2cf738aa928fd1f91c6a13d5872b5ff"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3677bcd2b7253e0d332a6551872402bdd5d3e51435da4b20796bb9dd9eca49b3a9da5e1def633456ea1085bc94976b9e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "01620b3fbee9623af31a3dfaabc2eb2eb0936234a41ceb6b258a99e4ea72520b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "93de5f76aa33e1d20f4ff7224c83e442e6c071d9aa941cff937d4f10f6b624fe508338daee67f8026bcc6f0402d94b9aa9097ec105318a4c5e72afdb0888a682"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar"
+    },
+    {
+      "group": "org.opentest4j",
+      "name": "opentest4j",
+      "version": "1.2.0",
+      "description": "Open Test Alliance for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "45c9a837c21f68e8c93e85b121e2fb90"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "28c11eb91f9b6d8e200631d46e20a7f407f2a046"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "17f77797a260eb2bd1666a90e25efc79a5413afa9df1c1cb6c4cd1949d61c38b241e3bb20956396b5f54d144720303d72a2ac00bc5bf245a260a3c3099e01c74"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ef25f5dd948c9ab7256e896da994871c1645b22a8d2d83f1e9ff7c6562b62acb70fcf0bb976a9580fb955a8e8b9c43dd"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c8ae5d803f34d54150681490afaa595a607e31c15c82765fb24eb7035f3310a4db71832d4ea1840d5281c4fb15e25a91"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "874b139216e546b33623c53452aea25f36d6c5ec64446aa27be1e60c6838e5c3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "58368f990cb11d2965129b32986edd007f909b1187f8fe6842306aa5179fa74d7593bca2042776f6deb68921069719ee4f2bc54e609f87b974a885d7aa7fc05f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar"
+    },
+    {
+      "group": "org.junit.platform",
+      "name": "junit-platform-commons",
+      "version": "1.7.0",
+      "description": "Module \"junit-platform-commons\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d398290c354b2aeb6af8c420eff049c0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "84e309fbf21d857aac079a3c1fffd84284e1114d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5330ee87cc7586e6e25175a34e9251624ff12ff525269d3415d0b4ca519b6fea"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29c4d465590b178848f4604297a5ad287005db61b4a4f48c53510e8ddfebc9437790b4715c48f800a26d93c722e9f1d5ac38445ee80787f5aa2b386690544749"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2a983d719c39583922e31b5345e3c9d734f374da2e0da94bd8b4c4aeef27e32efba60e27b2fc42f931cf2fcfb1b6923f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "38b1ea4fa464ab7e37541d5cb6875612c39359e1340c07f1b8a2211bef29cdbeef5a3720103b8301e3b0ea7ffd6a373a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "34b776b3646076467791a0e3e4a8a80ad170a57c0f3445e2e8e9d06fdf181c70"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fc8272e6a6fa14b7db9d1bcf9e7c91bc6758495b77f6d75db1128a6afe6e940abb7829f9d9a26b53cba0a51b1841b604c8647645a4817d998318e293ed5cf2bb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.7.0?type=jar"
+    },
+    {
+      "group": "org.junit.vintage",
+      "name": "junit-vintage-engine",
+      "version": "5.7.0",
+      "description": "Module \"junit-vintage-engine\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dcfc1192b5a5e0e9995d93dfb7029484"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2b808fa5dbbf0b0e16bce19d9936ef78333a030e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "75644937ecec00284d0a1a228e99f2010c92b15d63f8d443ef0cd01bf554fcfd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fb24ba0fb9a2a1a655af1aa88fd11129f7b07d52f6acef45afeaeff623521f4f057aa30b7c7229410e0b39036330f6d8a4e60d6cc510b879f147dfe148644448"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9a30f780cb3fb08f9e1f11a402395f758c2bc1386a2045d849979df82a25f4a9992b061f6f11ab78a42f55cff19edc76"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "398796acd4c25f1f7e73ae5ef56506c451ac50f3847dfb68e2ba949911ce5d55cb738d3a400c9a168e24a9c1dfef536e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3d55b8812eab2b3448160ef3b1ed606b1465e2b8c25416d9733843f614497644"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ae8398e74b722616d075941cf085032468381ebc33a6e1f9778f30243646f63dac1ef8a1a02161cfa6049204e19e4b627a1441b0812a903aaea90301f9d16dd7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.vintage/junit-vintage-engine@5.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.vintage/junit-vintage-engine@5.7.0?type=jar"
+    },
+    {
+      "group": "org.junit.platform",
+      "name": "junit-platform-engine",
+      "version": "1.7.0",
+      "description": "Module \"junit-platform-engine\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "499a279ad63eb48941b252d9e1434102"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "eadb73c5074a4ac71061defd00fc176152a4d12c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "75f21a20dc594afdc875736725b408cec6d0344874d29f34b2dd3075500236f2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f60f7f76beb969eb613f61c2477fa934168d79985b447b0605e07722c61a95dbd0212b9a30f9e876653ef39f5d3b097d4585340a3d9714e56d56bc03c1690a1b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "05cf0f731c6a11eb172a313556962f8b38e70959c70855f02d6e42ced887eab01e7e4ce864cc4fcc05dbb93ddb00a5d3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d2b5152587132709da02b0b084229b966e2d36c9297a9d9a2085bab8e0db7783a63784a49a27d1cb3406e961a5fbd57d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3da72e5d69e291eaf74d23b56149f37d51003e629961625169e51436ed7cf303"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "aae7467e56c17246437e94542891079ec94910f2f10d66d6b161aa86d18ea00d0ff7996ffd248826e1461225b7b4e609da57a5d2c8d6dee91cdd70595249ed0b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.7.0?type=jar"
+    },
+    {
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-engine",
+      "version": "5.7.0",
+      "description": "Module \"junit-jupiter-engine\" of JUnit 5.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7e4f06555826c36fb1f7a44598431d4e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d9044d6b45e2232ddd53fa56c15333e43d1749fd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dfa26af94644ac2612dde6625852fcb550a0d21caa243257de54cba738ba87af"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e7b36de3296a91639bfdeaecad7dd38eecd5ea5eccbf430a631f7ae5ef6556b33d141d375022bec0a5bcfa665e332f3f11fcd6c8dd513ac39f4b19e5ec2392a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4673a857d8e9927a5d63c6ae0c5ce7570e3d958702961c47f5bfdc2c14aba6c592e676f021f88f0fed177f26d4ba5b3b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f9eb27f59ef08fb012c3bb6209c0debbce62ee692d95bf6047b04b8c587599a18d055c729c16fec353d59e93e3687684"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3bf91396a35bfa075c77c8f75b5c4869fdae45b16ddd2c209059b5df291cd6da"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5451ce18bb0000e40946852334481d03d1c18c85bcf059033bc5a575b834da95f15fad4e9cc3668271e2f9230ae818baca6fd3d1cac5be709f8e8750ac1fd8c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.0?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.btmatthews.ldapunit/ldapunit@2.1.1-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.unboundid/unboundid-ldapsdk@5.1.3?type=jar",
+        "pkg:maven/junit/junit@4.13.1?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.0?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.0?type=jar",
+        "pkg:maven/org.junit.vintage/junit-vintage-engine@5.7.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.unboundid/unboundid-ldapsdk@5.1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.13.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.7.0?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.vintage/junit-vintage-engine@5.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/junit/junit@4.13.1?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-engine@1.7.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-commons@1.7.0?type=jar",
+        "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.7.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+        "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.0?type=jar",
+        "pkg:maven/org.junit.platform/junit-platform-engine@1.7.0?type=jar"
+      ]
+    }
+  ]
+}

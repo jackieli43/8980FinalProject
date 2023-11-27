@@ -1,0 +1,418 @@
+{
+ "artifacts": [
+  {
+   "id": "688bc376826ac8b5",
+   "name": "AButler/upload-release-assets",
+   "version": "v2.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:AButler\\/upload-release-assets:AButler\\/upload-release-assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload-release-assets:AButler\\/upload_release_assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload_release_assets:AButler\\/upload-release-assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload_release_assets:AButler\\/upload_release_assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload-release:AButler\\/upload-release-assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload-release:AButler\\/upload_release_assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload_release:AButler\\/upload-release-assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload_release:AButler\\/upload_release_assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload:AButler\\/upload-release-assets:v2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:AButler\\/upload:AButler\\/upload_release_assets:v2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/AButler/upload-release-assets@v2.0"
+  },
+  {
+   "id": "2735d78a405f40b9",
+   "name": "actions/checkout",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v3"
+  },
+  {
+   "id": "1b77617caf1fb492",
+   "name": "actions/checkout",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v3"
+  },
+  {
+   "id": "cf15232b81b66e34",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "c9d12c15e9e7354a",
+   "name": "actions/setup-java",
+   "version": "v3.3.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3.3.0"
+  },
+  {
+   "id": "e6ec26edaeb2f92b",
+   "name": "github/codeql-action/analyze",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#analyze"
+  },
+  {
+   "id": "c4d363645ce47e28",
+   "name": "github/codeql-action/init",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#init"
+  },
+  {
+   "id": "62070c78ff5fc50c",
+   "name": "javafx-fxml",
+   "version": "17.0.0.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javafx-fxml:javafx-fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx-fxml:javafx_fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx_fxml:javafx-fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx_fxml:javafx_fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:openjfx:javafx-fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:openjfx:javafx_fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx:javafx-fxml:17.0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx:javafx_fxml:17.0.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openjfx/javafx-fxml@17.0.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openjfx",
+     "artifactId": "javafx-fxml",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "1b77617caf1fb492",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2735d78a405f40b9",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "62070c78ff5fc50c",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "688bc376826ac8b5",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c4d363645ce47e28",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c9d12c15e9e7354a",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1b77617caf1fb492",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2735d78a405f40b9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "62070c78ff5fc50c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "688bc376826ac8b5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c4d363645ce47e28",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c9d12c15e9e7354a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cf15232b81b66e34",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e6ec26edaeb2f92b",
+   "type": "contains"
+  },
+  {
+   "parent": "cf15232b81b66e34",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e6ec26edaeb2f92b",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "b9310217f078b352",
+   "location": {
+    "path": "\\.github\\workflows\\codeql-analysis.yml"
+   }
+  },
+  {
+   "id": "bcc92ffc67a456b9",
+   "location": {
+    "path": "\\.github\\workflows\\release.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

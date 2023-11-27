@@ -1,0 +1,1280 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:4d125fae-3abd-4a49-8d14-f2bcc7a1df7a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-10T15:19:22.677Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.yellowbkpk.geo",
+      "name": "osmosis-xapi-servlet",
+      "version": "1.2-SNAPSHOT",
+      "description": "A servlet that responds to XAPI queries using Osmosis pgsnapshot and other related classes.",
+      "licenses": [],
+      "purl": "pkg:maven/com.yellowbkpk.geo/osmosis-xapi-servlet@1.2-SNAPSHOT?type=war",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "scm:git:git@github.com:iandees/xapi-servlet.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.yellowbkpk.geo/osmosis-xapi-servlet@1.2-SNAPSHOT?type=war"
+    }
+  },
+  "components": [
+    {
+      "group": "javax.servlet",
+      "name": "servlet-api",
+      "version": "2.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f6cf3fde0b992589ed3d87fa9674015f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3fc542fe8bb8164e8d3e840fe7403bc0518053c0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "243f8b5577f59bffdd30fd15cc25fc13004a6b08773a61cc32e48726c3633b7c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1cc216f1b9c97b82b1b78d5b6554467c931c585f23550b20ac237ea25ab4465e9f397e7ade52ea43e3c7fe4f871e6d9f6aabfdfbcd63a3b149d6554ea3223622"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "daeadd49e39ae19fb26eb16f728ecdbacc306a1bc361a6cb226f127baa3718973cef9c83dd5eb1fa22f3e84e9a1100a5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bc969e742e413612668ab87ed47ee9d9e3892f50e8c0f5039e59d234e1e9926c01c96e9ecb3c8ddbe41faeaeff1728e6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "34ad88e26dd8ca1aaec535960174741f87ef4ca24092022f48ce6a3ac9d55d31"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0e80a9742b4df1b384920e96daf74d8351e8420a4e0c54475778a4b24c56d2986bc7aa0bfa9bf040efeac1f33b3e30c41b0c7cbfea0af7326d4fe6f8c6787602"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/javax.servlet/servlet-api@2.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet/servlet-api@2.4?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-jdbc",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0eda90118a76f38678936538d2191bad"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2af0bad1d8d681ed2e014b684287acc448ab30cb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8cb760c9d3a9e5122882f99b092bd6e6badfab87d10e23eec3d34df9c6c2e105"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f7789378f5b375d0a26e8514aa6c8d409a50838bef7e7c132519e24b6a33f31938db68fd2d41a7a0639785ffa48e5799e23e73b0341dd259d2e97d199bd95ed0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "124e3043ed2a63803f1806e4a14558dbc5633d4a498e0ff52008ff209bc3452dec376fb4bd623d1bf3ea7e0fe7e64960"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5a8626e5478f4afe9cf96ea6f9d727c4c35b2515552a5e3d46b3364c5d15a326da8f73788ba6ee97743f2a7e06796331"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1ebc214944759de196fbf39c9c2bd3d9aaf2b9fb4adcb466aa74fb1dfedc8923"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7d23c64caf54d7abbfcc6785a45534c1ecac45c91710165d1d7302548c50e1598ad24a9e42151ae82dc028aa7ce7053359175a72752902791440e57441f6bb3c"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-jdbc@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-jdbc@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "660f5655a2df8af34520e22c989da762"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4b352a9c3b427294e264ca4d460d07417ca9350e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ab6c3906ea07d6652633538c67014eb840b4fd57fba1fc6dc47152013dc50106"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2647119a87b7d2b4fec8966d9e349276481f0fc6027b602c4eaccf26c43dfba034ad1643584e56e091c837761217ac4172da16454d44b0622cf7ee4c660c5034"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3723ea8bc36e8e59e1aec4cf454cee7693a9b286ea0e05fac8f3839e84ba400fbbedb12faf2dc3f5bdc9593a30c5d839"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "346692bfd3925ee312a113fadfa692ca3d156140c22f378fb32bd13addf3b5382f3808e3668168c7b25d9f0d3d1aefb9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "36cbc79ad0425a13990428a1c10e5dfbec3d6b1bc76b25c4250b5b1236912f68"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "46f49b963b70f5f2dd62c7eded0e5ef6a27e35246a775a1895a55fe14c0e34e8bc9a0bb8d07459758c4b0cdedc942f42d1b80673cfa25cae1274ecacec06cfd7"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d05ff86057e3e4ec2040c9dccf732628"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1633e94943d57746ef76910489f1cd71fe667e04"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cf80205e47e25278774f1fbdedbd1afb0813044deb4b404a7cf75b3b3d626cd9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c83f480e6d58a3886bbec8b7691ade05f8915c0c5d93e59a3ade8a7967d22e6335ae33431847ee6c88091b974e87bc2e1a3a2bbc9226a477b6d33baed649976f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c274aba40d0847e471629c7952bd9048706a6b6bdfc53bc2d47693c0272c969d260e222bf214e1f68ab63266080fc7b1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d9d97c3266c4f3b7c0cdd12aed1547acb8f9b6a0412358876609693513e751d7ff5ac444dfc278f68ae502a804a80b1a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bbe983c3484d3d8a02e76cd1c5d26f6dd97f2cee2a05ef0c1912f9933be7c677"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c37869e2cff62c34df9d0f656cec60241dd5298907b542d7e85e373fddb340afc0aebb46c674f1270341ed95b67bff74b404898d67758498a79eb8d4dd2a8ef7"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-asm",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "956ea9f1937e4cb9247ae381b5d40b4e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "07f22a0e9f325e6565b4ea56b479ad76311d146b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8cd3ef5b3bcd71a50c579502bb714ad102ed01dc842e34e1b4e6ff5aefb49668"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dfb05a83e949a90c4c97a285fb4c1de4a623178ceb54da70b897461c7ac675494fbb7dea5fc046ecf41299ef6cf0411faf9c6ae049dca9ea64716828fd2b2610"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "be645bf382a94c5ef549742c3d2aad87baec06392b8ae34557a793397e360a4d9e200565458ae5371dccf676fcb7193a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "07f9cec5cb32863cd934a6f08497f453a9ce452e223953be94c6826cad8e71188a32ed3a6c9748c6ee85efbd50486fff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dffbe00a95d5faa12a5ec77f1d7ddc5528ccf220e6390a87440f3e10824177db"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "806f6b09168a85f790b8c249e0899847eb7e54e5f2ba6b5e9b89cef80f9a5471f80ecc7d0ddf29bcd33cc90a279f0b02819b4f06f1f6f11eb6e8b4de0f07e0ea"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-asm@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-asm@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.1.1",
+      "description": "Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ed448347fc0104034aa14c8189bf37de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5043bfebc3db072ed80fbd362e7caf00e885d8ae"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "470323a2ee38be1b7ff8c84f1f5a5f8c4ec2ceb6b0649faa7b961f111865877dbe125409f72b1c52c7f18aa89e3469635c49ff4b83f86cc2f2eb2cc5562f9bff"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "264a511a601a07558911ccc5f49ef579aa1b1760bb4091bcbe1a0017c7be64d86f1d0b28ef560819614b252907cdd44a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e61a9dafb4f92a3cfd76fc28ff340eb15bc0fca939a48408fd9032362b8a95ce938e58dd01f7c3d0ff90ac21cacc77df"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0799a9105d174ba2f082845e8ca27db236118b00e4a2053ee1fde798b2fbd031"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "dbdcf933551c6abe834ac4fa5b4833e47895c2573530b74f51daff7291dab60db88946fc34a518f423a68e9c9ce36507345070e56a86fb5a567be685c1e3cded"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-tx",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a392c9ca6ac71c9d91f9b03be401e68f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "91eb9bd9baa61a62590a8093667107cb2c7c8184"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6aa3a9716eb8b079120fca717f9cad525760abeaa199c11c6034c321a5f86a21"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "008839bbea2f4ff3c7ac25ac6aee3a3e4c62994a7eb20305ca9dc3225953aa67da2b986b0cf1bba0b9433ec2cfc2e2209693a825834f870eea64601acddecf50"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "543a02a607f0bdac3a16f6264ecd6d1ea88d8195174c0996c3e159014e0ec516168723a07a8068a603113d854982202d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ce65a593ebfc66850ccc5ce0990332f94ef65c6adb8f23710614faa9c6d9c02e537a7c136484bb16a7d8fad9f28d6f8f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "54cbeedb16ab6a0946275c139f78a50f26adcc3e0999d22f013b546ca580f596"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "817dbc973e42eed46f0beec65175b2aabd0d971e656f585777107eaf32b3cc9fbe6019722157eab2c00cab8172f17e97d8bd14b18f0ca32c6c733e2cee20ab24"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-tx@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-tx@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "aopalliance",
+      "name": "aopalliance",
+      "version": "1.0",
+      "description": "AOP Alliance",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "04177054e180d09e3998808efa0401c7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3f44a932d8c00cfeee2eb057bcd7c301a2d029063e0a916e1e20b3aec4877d19d67a2fd8aaf58fa2d5a00133d1602128a7f50912ffb6cabc7b0fdc7fbda3f8a1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4dddf44338b5aff9580da2532b81c0ac3e1d09e1f28c6db871a55cad442b705dd7791eb07f9d4577d49d0be3673ba783"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2bd64cbaf769c6e4e85e34f7a6119d89e16fbf55af3fc5d6cbd52eb214c367dec1ac7b9062ee0fb35a2e0acfc7c477e1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d4a726b2bf8aa58197021a7d8fca674b4b2790d4c48de43a92f728866a91c2f0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "830bc3f8328be76897990e9b9fc42eef02623115e456af96ad09b20900ad615519c8c8de60155ac04fb332eaa9510110d52edd13911af76271c71d91cbd789cc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain"
+          }
+        }
+      ],
+      "purl": "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/aopalliance/aopalliance@1.0?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "75503e47c416f8c82b9c7a289ccb9b70"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0c7a17803cc10512e26e285073639543f0c7c764"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4f564aabae69f1b630be4492f166dff6f947b7df03c120bc173c0ee73db8786f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "28143f8c09f8f5ae22eaeb257b3b845052d2e0a6973dacc649ee29ac8dbb3ee80ef1d5dc9f84227c32cddc9437abcfeb6cfd1b51f3fc3a3f6730387707b53eee"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "68fac48324fd09527d243ce6c4f117d80b73e6fc14a6240fc348e52ffc166f11db41149d9fa940172b7ac8e2d4207c5f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4c3cc4a5d3971946836503c45601d1711d71dad3adc12886c1a282e5803449f210c899a5e7444a71b7506ff7145ea3ad"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2fe81f21e9cf37c7ef3c6a1f6f2b3178d99af7072fd6d327d338f0f69f2f4e2d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "db33fded495c9eff105eaed44fcad5788432c205af5e95b97356f87ddadacb2a7e934dcdddc331255e9855e3be6c2406f4d06cb99fcceafac3fb83009472c82a"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-aop@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "32765c98eabd1f85a54328e3c4d1a999"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6b05e397566cc7750d2d25f81a7441fe1aeecb75"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4546b8a428664f152c87851cff6dcc3be525b3411aec5a5fbe87e7fef052c789"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cf31b7fb8d12281cb08dc8a165f938378293b9f8dc579e3c75078f7d30dc000a132de49ead462ef45f57b28c685c3594fdc1e480365bf9078ffe1c49fddd6e45"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "20f724e27159d00cfbbc3bf7d17313e86cad351bd34c1c6dfcbe01ddd9a6793ddece2877360aebfb506ddcbb1642a0c2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dba8867f56fb32747c9afd1ca65391474b2211222d985c06b763ee1ae5487e93df545890858770de0a71b60ca876d8d1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "137d75a733ac04a260d477dadcda3a27c12ac6e5e1c593fa34150027a11a3d74"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cb1aa25fecfdf35bf0ff1d11a71a8de01ada69d081c10b7d2cd1d1194de203ed5699987d7d6783c7d98e68da59077320273b5fa7d10fc51aea308addf5ab8feb"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-context@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-context@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "3.0.5.RELEASE",
+      "description": "Spring Framework Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0a572187d1b6dd916508d834a880497b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5b8e53877cb58c94f15a0d8172da3569f4b4f3fb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "db6e325f067a212b0f497c62fc5d839fc8f77d31d91244e03369b402b80e38a6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "14c9b074c8db34bb6f5be6ef3dc380ae502f2839629ea2690a066d3d868140b378e23da82db34d87f7416e397ef160c979c1501ee5650acea3bc6705f149a259"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "63d07ac030c4e58996f23bbd6e1b1a35d029daa87c45f4f2ac9936397247974918a6a709ba77e3114cb1759f558ed881"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5517ea9c37b60ad7eeed25fc15c02fb913bfd1de9bad8a16d30874f81c5239277b3bbeefe98509f95cb5993dc73dfd14"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0f5f01e0bb8e64707892ddc992abe1cf9228b415cfd9f16fbc2d85507fe88192"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d3e7264d288814b091c603bd18a363014d9d8b178664ee5d85b90bcd3838e5bc84f4349c731dab26f6ea189f45d4ce916ebeb28a87f38074d398d40e1b87b37f"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.springframework/spring-expression@3.0.5.RELEASE?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@3.0.5.RELEASE?type=jar"
+    },
+    {
+      "group": "postgresql",
+      "name": "postgresql",
+      "version": "9.0-801.jdbc4",
+      "description": "The PostgreSQL Driver JDBC4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6e26be40fb8daa96e9327020e035a621"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "153f2f92a786f12fc111d0111f709012df87c808"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "269faefab785ba5480b66b67b94a5189209e5cb86fb6def3e0a2155332ed6f3a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ae338b8dfa0d69d06da0440570abc3b56ca432be5c823aa812f51a5f62d7a28dca6c0feff0ea25d36bb0bd41edde1c3617c20d901e4133777d279992f3c16682"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e82c5274f12f25f67a18a8af8e116566d5560129c7bee17541cf6315c56b9cda07ac87229ec5a98dca3c73f2681858ed"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a36b24ebdd62f0f4f764efafe36e7a9e9f3eb81003595d6e380c89b48782c2f13d1463994756a259234b85ebbb68c17d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "20ac09fa376c51cab6e537adb60e9f5cb4665a23f8aa00ff08a38887d89ad35a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8be36baf06754a60763f203583dfa30eb40a47f7b66a6983ec33a56de16b8dec16359739ed518621172ee0ddfd2590f6f7c3d5a2200695865aad35a4584bb35b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/postgresql/postgresql@9.0-801.jdbc4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/postgresql/postgresql@9.0-801.jdbc4?type=jar"
+    },
+    {
+      "group": "org.postgis",
+      "name": "postgis-jdbc",
+      "version": "1.3.3",
+      "description": "PostGIS adds support for geographic objects to the PostgreSQL object-relational database.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6a2079ff37e50658a2084486af9eed74"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "350a8f88ef5077d33b2166d08ed3ca9897c020b9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e88c40b83d94c685d40e1c2dd54ee05df83534047d1286bf3e5dec8285dfbc5b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c32eb063053ad1110ee385d531af30c620f10748dcbd840f3a8022175105b0380587c42eafe73b702211745790a7e99318b3f54117e6c3a9606bf3d5a1f80dd5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e1168f1e9da81f1c5d43c0aff6744dc37461d8dc6509c1da058734020f281a91df0dbc58057b61ec36bf7e7bdf672c52"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "59312cca7e5aea97c7d36d6475c2e3e4d203e7a05b33c79872e2d1ac373ce9c5863275554c4419111df10beb6b7f7d1e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ae31178db46a2c67e0618faa71dcb23f9b9d9c5feca7dbe48e4ac833815682bf"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "13e4ce30781dab7e245b8a5316d81d57b1f448ec86341a2b99123791d76287d5183e78d785325de43e0aaa724874bb9f440b198ee2bc09fd7d9a0de4cbf9d700"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.postgis/postgis-jdbc@1.3.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.postgis/postgis-jdbc@1.3.3?type=jar"
+    },
+    {
+      "group": "org.postgis",
+      "name": "postgis-stubs",
+      "version": "1.3.3",
+      "description": "PostGIS adds support for geographic objects to the PostgreSQL object-relational database.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "31e1c805537e1e39e2b9fc80e7f878c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "71bc58069260f86338a00e6897de082759ae6a67"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "219c6df8a679c8e3b4c0f650ce2af65bccf4d3ae95dd32fe638cec5f600fcddc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cc378468561543d9d158845905d42c15d1ce5f46003634b2590545633f5093d99c0487bbeb6c664e5b52c2f8e7f42e332313be8937a2803f425d066968a45105"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a7cd687d224fc4d285224f6d01efbb426800e06e6a89cd02602caee4a5f1d5307eefc903d11ae312a08d96c550518f34"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f5171a9bd396c0dc42be2dc6d6b87098a0383bd98b84596117528f51878307811ff794b275ef4d1bd7d8153d5b8c29cc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e199c32861a1d58a35c1d06256d043d8d1e78258f6029240a73641cbed1e7dff"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d6977c48f852e9d7620ac857724bab7ffc684e1c49052a6fd6805d6d99c290f9d1e3011404b56577e14bbf38a08fe3c85fced32079ce263fbfbf25213434bd7f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.postgis/postgis-stubs@1.3.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.postgis/postgis-stubs@1.3.3?type=jar"
+    },
+    {
+      "group": "org.openstreetmap.osmosis",
+      "name": "core",
+      "version": "0.40.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.openstreetmap.osmosis/core@0.40.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openstreetmap.osmosis/core@0.40.1?type=jar"
+    },
+    {
+      "group": "org.openstreetmap.osmosis",
+      "name": "xml",
+      "version": "0.40.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.openstreetmap.osmosis/xml@0.40.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openstreetmap.osmosis/xml@0.40.1?type=jar"
+    },
+    {
+      "group": "org.openstreetmap.osmosis",
+      "name": "pgsnapshot",
+      "version": "0.40.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.openstreetmap.osmosis/pgsnapshot@0.40.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openstreetmap.osmosis/pgsnapshot@0.40.1?type=jar"
+    },
+    {
+      "group": "org.openstreetmap.osmosis",
+      "name": "hstore-jdbc",
+      "version": "0.40.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.openstreetmap.osmosis/hstore-jdbc@0.40.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openstreetmap.osmosis/hstore-jdbc@0.40.1?type=jar"
+    },
+    {
+      "group": "org.openstreetmap.osmosis",
+      "name": "json",
+      "version": "0.40.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.openstreetmap.osmosis/json@0.40.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openstreetmap.osmosis/json@0.40.1?type=jar"
+    },
+    {
+      "group": "org.testng",
+      "name": "testng",
+      "version": "5.14",
+      "description": "TestNG is a testing framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3b22acf8f70b4046249af71fc6fc8ccd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "91482e958983f3b9554cd48320ec329dec46f44a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9c3f643556d63534af537b26299ce54333259e4a415d8e297600d75c530061cd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fee3e559a234baeefbe66d90a3c5c143cfe55d12ba61c6fd442999a8ad5764df7322d3cf9dfc72b28363ad2dc1d15783d5052f1db76d27c48b88d24ae445b9f6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f94a7677a64571c3eab5776dc90702e22d4abf6fcc1f956de3407908d079ee4c81755225f19315e24b1e8f055b221eb0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0bbbb5074c3fbe4a576fe45daee3f7088526de796fc492cde2085f1da123b9cd1f59591cc64fa251e3cc8f3aba34aca5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bfe6eabeaa16933931ccb83a37c5e07ad9513d98259ae9adbba3f78690d0d22c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a776ac932856bcf9d4cf16a8092c45cabe21182361d8659b951391e08c0228444b1cd1267e9b71f4fe93a97cfce29d1ecd9d3503583f6471fd11ec85fbeee91c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.testng/testng@5.14?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.testng/testng@5.14?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "3.8.1",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1f40fb782a4f2cf78f161d32670f7a3a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "99129f16442844f6a4a11ae22fbbee40b14d774f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b58e459509e190bed737f3592bc1950485322846cf10e78ded1d065153012d70"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8e6f9fa5eb3ba93a8b1b5a39e01a81c142b33078264dbd0a2030d60dd26735407249a12e66f5cdcab8056e93a5687124fe66e741c233b4c7a06cc8e49f82e98b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dc2d56e8a39724d0755da793b7fe16a6e0d095a26d4ce54914e9ae12e722868bf075014fd668910d524fcb4b031a082f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a08c7cec0855ca049d7f97cc2f361fe9f11d25641f447909db456d511aeba11fa14f491a8f0974f979d3d785c3e6eb47"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d4b66ce18259eae66bc0c90abe87aab211cf53932b43d95e1671482f377bf863"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "837a25d647ca209a4636a9ee1baa04054b55a5bd40b52f69a72660faa5bccec5d6da38784ef50e04918f0b150e73780a601b24efa1f479a7abe11ff142e00e8e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@3.8.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@3.8.1?type=jar"
+    },
+    {
+      "publisher": "http://www.beanshell.org/",
+      "group": "org.beanshell",
+      "name": "bsh",
+      "version": "2.0b4",
+      "description": "BeanShell",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a1c60aa83c9c9a6cb2391c1c1b85eb00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a05f0a0feefa8d8467ac80e16e7de071489f0d9c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "91395c07885839a8c6986d5b7c577cd9bacf01bf129c89141f35e8ea858427b6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29ce6d2640e5806b4ba83c67a6e0bada52a572fff9055c7af14ff0ab24a705549850c537ee3273f90252a5c2ae386d46276b4f341925364e407ce165bd29d662"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "37deb3f73db7f2f3b5ad0d820966b3973dab7acb3422207d43dc524ced8bdc5907aace38db10f36b3724c347947a1d03"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f449e6c28743a7c69d21760dbdcad6813f69cbccef534387c5721d3d161680ea60a57621fbd198b2070bf27ffe8c4d9d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dd7b88e1d8e8044165945634a5307dd2d146e39b76ebbef0c7fd701b3445e1a3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9c0619d6d50327cf0387e76a1b104fecf75f1c6e3c6bb20e7d0def0dfa63510360ae39f13517f26da1feaad8cdb4aa1717c01d006791917e6e82f8fbaeea0b2d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU LESSER GENERAL PUBLIC LICENSE",
+            "url": "http://www.gnu.org/licenses/lgpl.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.beanshell/bsh@2.0b4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.beanshell/bsh@2.0b4?type=jar"
+    },
+    {
+      "publisher": "Google",
+      "group": "com.google.inject",
+      "name": "guice",
+      "version": "2.0",
+      "description": "Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 5 and above, brought to you by Google.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0fc35ce963248ab0ce6ba6c148f9b665"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4c67006178262122e93121e94fff306fcf0cda1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9fb545199584a41e8064e1232ca3f3c757366b27fc7aa488ac0fc98263642756"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9095a15b000f1a55a5321099326746caa83dd3095e6baac3f40978c4114be7d98fb28bf0738a66741fcf2c49d47256bc036e0b067cae6e755028bdbfc45b9d68"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "caabd744152efc2f9d0458cdf8690a9bb2d495671cd7bee294e55f32be3c673b871424441dcc5afc27aeac2168afeb45"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "325da7b987384e34af07390aca8fe30339de78fbe31fb6cf7f9da04f77f17b53ab3658c038b098d7a055bf0ee39e9f24"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "966c01e852904b7b01dd7f0040751936e4cfa3b233a364656ccae90794d60adc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "28512cfbb86fe227f42743877bd61bf818e5336ec33bf4b7e5338309709546a68509b00d7903ff4fe2f2a2a7879d9c6604e7489b9f44a2c8789c5de09bcfbde1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.inject/guice@2.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.google.inject/guice@2.0?type=jar"
+    },
+    {
+      "group": "com.beust",
+      "name": "jcommander",
+      "version": "1.5",
+      "description": "A Java framework to parse command line options with annotations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "decc21f54f09492bcd3cbb18bed8512c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6eeab4de891c523207f2c68f8a3e9bf2d5932f83"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "877240c5ef9a28c2565f032957e2521b5250d461af3acb005c1ead2d218328fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4fb55e6027302cf150190e91f71a1d17442a75347ddf6ff12ff9d65f82dbe05215c87ea0484ffb3653ea994941eb7acbb07e7ecb75b38dc631b8f8d05af2a337"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "394003de7b6f8bc7b2f1f3370d28ecb29fab6c5081e2f56cbc7fd6f95f927e4712c8ad333404ad52330035e9cfed1f15"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4d2f906dbbff203bdbd7128bfd874294ce539e247f831e58be3eebf9a2cca73aecc39dbda606b9ef00bdcfdbe4c8c107"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "19b90b43984e6fac286d53ddbcfd48c6c44fe6e01b4efe7fb941cdf68ba8196f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d36a6853243bddb66e1911f4d6b8a019fc46f1fea5c8f7b2d89c2f7724f7604bfc91fc31c996955ba15a9478a200d02cd4c87764ad753da6ba82a777a94a9126"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.beust/jcommander@1.5?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.beust/jcommander@1.5?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-dbcp",
+      "name": "commons-dbcp",
+      "version": "1.4",
+      "description": "Commons Database Connection Pooling",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b004158fab904f37f5831860898b3cd9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "30be73c965cc990b153a100aaaaafcf239f82d39"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a6e2d83551d0e5b59aa942359f3010d35e79365e6552ad3dbaa6776e4851e4f6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c0512b255c4a7242634b820c78c397296fc9388deceb4dec199775341598f0c87b21164425a97dfdeadfad9f3c80e1d4dab735d32b1362377820a4204b4e5a78"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c28b64ac524706ba21a94657e334c9b9ea83738db222d6761290b1e2ea3caea267b63f54dd0044d4cd77d9f13e6c42b1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a0e87dbe19989dba04e58c21a4f43097cb9ef7207df1c4ed7592d133eb80a2596833e1708e39e820b1ea134f1403dcd8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f0b43fde5c8487f6bd9ece425bfbed73b9caa08c6853bf9442803f2714e6719b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "20bbc73c349f66a607fd00e7e9a58859dbe8b8ef61fe43f86f2747ead24cb04a83ccfa8c34cab5fa2a4be9a1d0d234eabf81132ab49344c2aae6a42cc0cf82b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-dbcp/commons-dbcp@1.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-dbcp/commons-dbcp@1.4?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-pool",
+      "name": "commons-pool",
+      "version": "1.5.4",
+      "description": "Commons Object Pooling Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "80e9d1cbd70542f4f293793d109679a9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "75b6e20c596ed2945a259cea26d7fadd298398e6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "22095672ac3ad6503e42ec6d4cbc330cd1318040223f6c5d9605473b6d2aa0fd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb5a66d7da8f389660fb369c1a6e77296f39239cca1d69ca1b7c80e8e81c38a9d25debefb702a2eaac987e83885898ca0c95c6387d8440e548653d6bdae686a6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6767d16144c5e86926f71f5ff24c4dd25f8d1aef47264502367cb7cfe63abaf9f914aba0de9fe998af4b510b85e76bf4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "78c61e9ef304cd6184fe54519a675142f18b7baf3b3c4494a465ff5ba592996684367e3a3d7c91989db3c11207b4a022"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "faa40c2e730a63130868c95f41ad146d11011350b179cfbba6a0f45f066f6569"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "34e37f2f810cb75f7b5c1282e4adce88917014985a3c293fb2cfd18c4f76399cfd46d048e543c814203aa47b2d4ebfcf6950272a63c3ba6b79ba42261207e813"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-pool/commons-pool@1.5.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-pool/commons-pool@1.5.4?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.yellowbkpk.geo/osmosis-xapi-servlet@1.2-SNAPSHOT?type=war",
+      "dependsOn": [
+        "pkg:maven/commons-dbcp/commons-dbcp@1.4?type=jar",
+        "pkg:maven/javax.servlet/servlet-api@2.4?type=jar",
+        "pkg:maven/org.openstreetmap.osmosis/core@0.40.1?type=jar",
+        "pkg:maven/org.openstreetmap.osmosis/hstore-jdbc@0.40.1?type=jar",
+        "pkg:maven/org.openstreetmap.osmosis/json@0.40.1?type=jar",
+        "pkg:maven/org.openstreetmap.osmosis/pgsnapshot@0.40.1?type=jar",
+        "pkg:maven/org.openstreetmap.osmosis/xml@0.40.1?type=jar",
+        "pkg:maven/org.postgis/postgis-jdbc@1.3.3?type=jar",
+        "pkg:maven/org.springframework/spring-jdbc@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.testng/testng@5.14?type=jar",
+        "pkg:maven/postgresql/postgresql@9.0-801.jdbc4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/servlet-api@2.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jdbc@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-tx@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+        "pkg:maven/org.springframework/spring-asm@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-asm@3.0.5.RELEASE?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-tx@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+        "pkg:maven/org.springframework/spring-aop@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-context@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+        "pkg:maven/org.springframework/spring-asm@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-aop@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-asm@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-beans@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar",
+        "pkg:maven/org.springframework/spring-expression@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@3.0.5.RELEASE?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-core@3.0.5.RELEASE?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/postgresql/postgresql@9.0-801.jdbc4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.postgis/postgis-jdbc@1.3.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.postgis/postgis-stubs@1.3.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.postgis/postgis-stubs@1.3.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/postgresql/postgresql@9.0-801.jdbc4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openstreetmap.osmosis/core@0.40.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openstreetmap.osmosis/xml@0.40.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openstreetmap.osmosis/pgsnapshot@0.40.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openstreetmap.osmosis/hstore-jdbc@0.40.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openstreetmap.osmosis/json@0.40.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.testng/testng@5.14?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.beust/jcommander@1.5?type=jar",
+        "pkg:maven/com.google.inject/guice@2.0?type=jar",
+        "pkg:maven/junit/junit@3.8.1?type=jar",
+        "pkg:maven/org.beanshell/bsh@2.0b4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@3.8.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.beanshell/bsh@2.0b4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.inject/guice@2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/aopalliance/aopalliance@1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.beust/jcommander@1.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-dbcp/commons-dbcp@1.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-pool/commons-pool@1.5.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-pool/commons-pool@1.5.4?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

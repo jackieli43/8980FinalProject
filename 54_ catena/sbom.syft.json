@@ -1,0 +1,752 @@
+{
+ "artifacts": [
+  {
+   "id": "bf7a2bb432b33177",
+   "name": "anna",
+   "version": "3.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:googlecode:anna:3.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mate-tools:anna:3.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mate_tools:anna:3.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:anna:anna:3.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mate:anna:3.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.googlecode.mate-tools/anna@3.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.googlecode.mate-tools",
+     "artifactId": "anna",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "5ae1f843ecf423fc",
+   "name": "commons-cli",
+   "version": "1.3.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-cli:commons-cli:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-cli:commons_cli:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_cli:commons-cli:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_cli:commons_cli:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-cli:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_cli:1.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-cli/commons-cli@1.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-cli",
+     "artifactId": "commons-cli",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "58ee94a5904cbf65",
+   "name": "jawjaw",
+   "version": "0.1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jawjaw:jawjaw:0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/de.sciss/jawjaw@0.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "de.sciss",
+     "artifactId": "jawjaw",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1aed6687cd0e0044",
+   "name": "jawjaw",
+   "version": "1.0.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\lib\\ws4j-1.0.1.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jawjaw:jawjaw:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.cmu.lti/jawjaw@1.0.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\lib\\ws4j-1.0.1.jar:edu.cmu.lti:jawjaw",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.cmu.lti/jawjaw/pom.properties",
+     "name": "",
+     "groupId": "edu.cmu.lti",
+     "artifactId": "jawjaw",
+     "version": "1.0.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/edu.cmu.lti/jawjaw/pom.xml",
+     "groupId": "edu.cmu.lti",
+     "artifactId": "jawjaw",
+     "version": "1.0.2",
+     "name": "JAWJAW",
+     "url": "http://www.cs.cmu.edu/~hideki/softwares/jawjaw"
+    }
+   }
+  },
+  {
+   "id": "614888dc734dfda5",
+   "name": "jdom2",
+   "version": "2.0.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jdom2:jdom2:2.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jdom:jdom2:2.0.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jdom/jdom2@2.0.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jdom",
+     "artifactId": "jdom2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8cfb90ebd2f73565",
+   "name": "jersey-client",
+   "version": "1.19",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jersey-client:jersey-client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey-client:jersey_client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey_client:jersey-client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey_client:jersey_client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey-client:jersey:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey:jersey-client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey:jersey_client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey_client:jersey:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jersey-client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jersey_client:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey:jersey:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jersey:1.19:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sun.jersey/jersey-client@1.19",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sun.jersey",
+     "artifactId": "jersey-client",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "066bc5d49870b3e5",
+   "name": "liblinear",
+   "version": "1.95",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:liblinear:liblinear:1.95:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/de.bwaldvogel/liblinear@1.95",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "de.bwaldvogel",
+     "artifactId": "liblinear",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e510633f0bc3986d",
+   "name": "sqlite-jdbc",
+   "version": "3.7.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\lib\\ws4j-1.0.1.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:sqlite-jdbc:sqlite-jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sqlite-jdbc:sqlite_jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sqlite_jdbc:sqlite-jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sqlite_jdbc:sqlite_jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sqlite:sqlite-jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sqlite:sqlite_jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xerial:sqlite-jdbc:3.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xerial:sqlite_jdbc:3.7.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.xerial/sqlite-jdbc@3.7.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\lib\\ws4j-1.0.1.jar:org.xerial:sqlite-jdbc",
+    "pomProperties": {
+     "path": "META-INF/maven/org.xerial/sqlite-jdbc/pom.properties",
+     "name": "",
+     "groupId": "org.xerial",
+     "artifactId": "sqlite-jdbc",
+     "version": "3.7.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.xerial/sqlite-jdbc/pom.xml",
+     "parent": {
+      "groupId": "org.xerial",
+      "artifactId": "xerial-project",
+      "version": "1.1"
+     },
+     "groupId": "org.xerial",
+     "artifactId": "sqlite-jdbc",
+     "version": "3.7.2",
+     "name": "SQLite JDBC",
+     "description": "SQLite JDBC library"
+    }
+   }
+  },
+  {
+   "id": "f8ef178051e83de1",
+   "name": "srl",
+   "version": "4.31",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:googlecode:srl:4.31:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mate-tools:srl:4.31:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mate_tools:srl:4.31:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mate:srl:4.31:*:*:*:*:*:*:*",
+    "cpe:2.3:a:srl:srl:4.31:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.googlecode.mate-tools/srl@4.31",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.googlecode.mate-tools",
+     "artifactId": "srl",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "812342945e63c7ff",
+   "name": "stanford-corenlp",
+   "version": "3.7.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:stanford-corenlp:stanford-corenlp:3.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stanford-corenlp:stanford_corenlp:3.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stanford_corenlp:stanford-corenlp:3.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stanford_corenlp:stanford_corenlp:3.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stanford:stanford-corenlp:3.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stanford:stanford_corenlp:3.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.stanford.nlp/stanford-corenlp@3.7.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "edu.stanford.nlp",
+     "artifactId": "stanford-corenlp",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "12329e19c80e414a",
+   "name": "ws4j",
+   "version": "0.1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:ws4j:ws4j:0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/de.sciss/ws4j@0.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "de.sciss",
+     "artifactId": "ws4j",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f0a94d5137f92b1a",
+   "name": "ws4j",
+   "version": "1.0.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\lib\\ws4j-1.0.1.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "BSD-3-Clause",
+     "spdxExpression": "BSD-3-Clause",
+     "type": "concluded",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\lib\\ws4j-1.0.1.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:ws4j:ws4j:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.cmu.lti/ws4j@1.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\lib\\ws4j-1.0.1.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.7.0_13",
+      "Built-By": "main",
+      "Created-By": "Apache Maven",
+      "Main-Class": "edu.cmu.lti.ws4j.WS4J",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/edu.cmu.lti/ws4j/pom.properties",
+     "name": "",
+     "groupId": "edu.cmu.lti",
+     "artifactId": "ws4j",
+     "version": "1.0.0"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "fc5fa2f119c10d12dd509dd798095c826780cbf4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "9824251850542bc5",
+   "name": "ws4j",
+   "version": "1.0.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:ws4j:ws4j:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.cmu.lti/ws4j@1.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "edu.cmu.lti",
+     "artifactId": "ws4j",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "066bc5d49870b3e5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "12329e19c80e414a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1aed6687cd0e0044",
+   "child": "f7410abd9f90012a",
+   "type": "evident-by"
+  },
+  {
+   "parent": "58ee94a5904cbf65",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5ae1f843ecf423fc",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "614888dc734dfda5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "812342945e63c7ff",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8cfb90ebd2f73565",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9824251850542bc5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bf7a2bb432b33177",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "066bc5d49870b3e5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "12329e19c80e414a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1aed6687cd0e0044",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "58ee94a5904cbf65",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5ae1f843ecf423fc",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "614888dc734dfda5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "812342945e63c7ff",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8cfb90ebd2f73565",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9824251850542bc5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bf7a2bb432b33177",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e510633f0bc3986d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f0a94d5137f92b1a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f8ef178051e83de1",
+   "type": "contains"
+  },
+  {
+   "parent": "e510633f0bc3986d",
+   "child": "f7410abd9f90012a",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f0a94d5137f92b1a",
+   "child": "f7410abd9f90012a",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f8ef178051e83de1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "f7410abd9f90012a",
+   "location": {
+    "path": "\\lib\\ws4j-1.0.1.jar"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,460 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ac5c93e0-8097-4072-a8fa-d071767a71d6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-16T15:32:50.559Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "fr.inria.gforge.spoon",
+      "name": "jmixer",
+      "version": "1.1-SNAPSHOT",
+      "licenses": [
+        {
+          "license": {
+            "id": "CECILL-C",
+            "url": "http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/fr.inria.gforge.spoon/jmixer@1.1-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/seintur/jmixer/issues"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/fr.inria.gforge.spoon/jmixer@1.1-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "Inria",
+      "group": "fr.inria.gforge.spoon",
+      "name": "spoon-core",
+      "version": "3.0",
+      "description": "Spoon is a tool for meta-programming, analysis and transformation of Java programs.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b350cfc41b836b25ccb7d304362a284"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45cad9ec14341efade81b1dd29e7c28720bc086a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6fb31bb135ff457e977a2579d0f34daf46ac7fdc4c075b156bac4ab82bf662e6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fab73972b3d6f6acef37ae27411982662b9e4c5ae17d518a0044e622cd82929608885dc6fdf05383a8822c514ac3e196a56bfc297373194044be4774217667b3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "96e98f70cb41b9bbe04d2b7e39d070ecdb89b5baf38ed97a23ff913c420fb3fe12ea322190475229856bd0566194d7c4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1eded9e1e1442f16a61aafd00a0e3294688a403e8e1bc2e8aa1d52eeb40d89c5cf026f9e2d5e34bfcdb19c0bbbffafc4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "43b42f194f202146fd56a448ca97b494edbed66562c2b52a0743687ab8c55da8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "15bc4e8e05fd6c3108bc332821e76651492ea1302d5dddbbe4029ac2965a8560a63e1caf440f59351fdca9bf13504f00f2fe06daf7287f7c8a3fca9d9d04ae0d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CECILL-C",
+            "url": "http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/fr.inria.gforge.spoon/spoon-core@3.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/fr.inria.gforge.spoon/spoon-core@3.0?type=jar"
+    },
+    {
+      "group": "org.eclipse.jdt.core.compiler",
+      "name": "ecj",
+      "version": "4.2.2",
+      "description": "Eclipse JDT Core Batch Compiler",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "04bc498fd6d5ace9d4e303cdc9fa2199"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d9fd79499c664bccaf24dbe04be417de6c6af64a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4c74df88610d673b2c74bf5b48b6284bae42f9b880f0ad89a8ada69fe84a0d70"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7d6475787f1417e028d1c7fa77ee92d807f6d2094153b40e7f454f326da93935a9fa040b667acaed5a6d8f84804ac3d5368e906a1982907bf0e97f16dd750208"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "28d4dd7eab5c716a38ff8ced8dcfcca03cc611398978be14273e2eb2feda493cbf1436717bb835248a3b8056e935708a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "71f9d34cc3661eb3dd5afff1129d93b28f48b9e3ccd03095d9d2427c925f9f41f5a12217b59f56c14278772fc4b227cc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e1de6d3ea9487dfc89228975a98e72739972848a66667fb1d446af4bcf9dc1ee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8addf3df9034ae6624fa93f196d2fc2edec8fb445bfb6a87a4027a758dac264f179cca978d2c9c247ce6e3646ee5bdd2c395e6bc3501ffaaeb34d559732a9847"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.2.2?type=jar"
+    },
+    {
+      "group": "com.martiansoftware",
+      "name": "jsap",
+      "version": "2.1",
+      "description": "the Java-based Simple Argument Parser",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "37c5996faaca2c37e6b45c74ffe997aa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d17c260c8f5eb6e7d6bd75449a57edfeb53d2305"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "331746fa62cfbc3368260c5a2e660936ad11be612308c120a044e120361d474e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7d5caa60f9f084efe7a59edb8db09ba261acb9e4be0852134e6c8b9794ae79cd3f4e5c342cecb398d22e3b585c328408545fada4d5b00ba799fb58bf928b8feb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ba08a5183432d6d57ed21dc24217f274e515c659d728a9ac53a6333f23134c9a33b874514a07aea457dbb5a6df6dc8a9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cd6ff71114e49aa56a520ea0c1996494428c6253a4c47d5c161398e88385093213732ae35f8f8a6f355e51d81f25fd70"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "02e2038dbd1d8274f94c11b3ca919b5ad2c4f5de8e6d6d46b073d327e3df2c2d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "18ce1f05d2956bcc720f1ae1477fb2d2ab08e916360b4143d40d45a594a56ae37585cc18fbae55d7e9b06cf67f060ebe2ec63add0be3bbb7dbc17906a3d79a3f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL",
+            "url": "http://www.martiansoftware.com/jsap/license.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar"
+    },
+    {
+      "publisher": "Apache Software Foundation",
+      "group": "log4j",
+      "name": "log4j",
+      "version": "1.2.17",
+      "description": "Apache Log4j 1.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "04a41f0a068986f0f73485cf507c0f40"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5af35056b4d257e4b64b9e8069c0746e8b08629f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3f12937a69ba60d0f5e86265168d6a0d069ce20d95b99a3ace463987655e7c63053f4d7e36e32f2b53f86992b888ca477bf81253ad04c721896b397f94ee57fc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "80b79d5872dec949dff23d221636b5faf312f08fbea2b5e2a8db84a5f5955e13864aff4a288935cb53d4da3d61defbe1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0be025582340080ea191c4e2559395fe9957c8d0aeea040239dea8504ce035bd24150162898d18c863092697ef52501b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f7f31abcf8b57cf6fd18380b5d1a13f999e3d3d1d89bd25a4a3885fc832f4a29"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0e4a21cb87a6b8626aa8f580b307039d2b060a6abc53d35feac9ecb8ffc2e80b627a12a869b5b5bf30a6e9348cd4c5c3edca937859141614f3c1b14bd8d4ef93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/log4j/log4j@1.2.17?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "1.3.2",
+      "description": "Commons-IO contains utility classes, stream implementations, file filters, and endian classes.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "903c04d1fb5d4dc81d95e4be93ff7ecd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b6dde38349ba9bb5e6ea6320531eae969985dae5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "551c13e49dab32aebdb7a70ec9c2767372e58864ae115ef389582e548cffee38"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "75c9f64c2db652f346ef98a54c5a6e9e93abd579d27e4a2d85d7a1f79ac2a033c4cf1f5d41ca86e0d9fd93fcb4e7a76465e5d4cc2e84cb9e17012b87c322b534"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "71904209b7f8e48756e00f5a535af951cd1abacec9b6b026e0eddb4110379779c5624c62b0ab03e6ad57a1ebb5816a15"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "15e139f6aae4ba4b9db2c7474111eeb890cf5c91c08ce68fa112c31c292e948d43efdbd1897467676ea7bd4689c23673"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cac05241b5bd2eeb3ba3bc64a48026c6537fec3759ee02eab77e8c0d74148b41"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f9b3a7e42aafe5888f34f068d231cf65de0e023b42edc4af5614f922e164b30dfe6d61b69b55247a98543dd3da5a9c0cd1af86c3b8f7e5516c070bfd77f6f74b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-io/commons-io@1.3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@1.3.2?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.1",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "83d91f209ddcb104776fa41c448c7ee2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cdd00374f1fee76b11e2a9d127405aa3f6be5b6a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c30719db974d6452793fe191b3638a5777005485bae145924044530ffa5f6122"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29769fb462c7db2fcca6de3a24b445ae252a7570950f9a2163e14c478f854e47056444d90b2d40f4cf4e3f37c03faacf694c2db12763e173c44362af50176b1f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f98da9852bdc5fc022399a85c1fa234ba80d3bf8f492034971175f70464cd9f2d08d65954f92f33ae250050d9f5ae160"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "79a11e53c134bf2a6fcffd64b1371bacdcbda3eff96094970a5123fb9eaca195044313a647ed7bfa21c0ef9f36994bd2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2c44fd3ad2e0e1f2f5ce27f9efd357cecdeb38d074ac8bb23fbd7be683c53e99"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c34310659381936cf3f16a58f90372a2a3829e020889a7cab118127e6c96e5dc120f350a89d56abfffbfe1862aca51e8e419f48429fb8e5ea3a54f0b3ef809c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.13.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.13.1?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/fr.inria.gforge.spoon/jmixer@1.1-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/fr.inria.gforge.spoon/spoon-core@3.0?type=jar",
+        "pkg:maven/junit/junit@4.13.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/fr.inria.gforge.spoon/spoon-core@3.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
+        "pkg:maven/commons-io/commons-io@1.3.2?type=jar",
+        "pkg:maven/log4j/log4j@1.2.17?type=jar",
+        "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jdt.core.compiler/ecj@4.2.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@1.3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.13.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

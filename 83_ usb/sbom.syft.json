@@ -1,0 +1,422 @@
+{
+ "artifacts": [
+  {
+   "id": "6366183c74d6ce9c",
+   "name": "assertj-core-java8",
+   "version": "1.0.0m1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:assertj-core-java8:assertj-core-java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj-core-java8:assertj_core_java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core_java8:assertj-core-java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core_java8:assertj_core_java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj-core:assertj-core-java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj-core:assertj_core_java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core:assertj-core-java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core:assertj_core_java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj:assertj-core-java8:1.0.0m1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj:assertj_core_java8:1.0.0m1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.assertj/assertj-core-java8@1.0.0m1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.assertj",
+     "artifactId": "assertj-core-java8",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "312dc28e94fb7bed",
+   "name": "dd-plist",
+   "version": "1.19",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:googlecode:dd-plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googlecode:dd_plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd-plist:dd-plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd-plist:dd_plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd_plist:dd-plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd_plist:dd_plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googlecode:plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd-plist:plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd_plist:plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plist:dd-plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plist:dd_plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd:dd-plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd:dd_plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plist:plist:1.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dd:plist:1.19:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.googlecode.plist/dd-plist@1.19",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.googlecode.plist",
+     "artifactId": "dd-plist",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "80e0bdb49ae6c2c1",
+   "name": "junit",
+   "version": "4.12",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.12",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "dc8f621aafbd4105",
+   "name": "junixsocket-common",
+   "version": "2.0.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junixsocket-common:junixsocket-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-common:junixsocket_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_common:junixsocket-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_common:junixsocket_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kohlschutter:junixsocket-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kohlschutter:junixsocket_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-common:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket:junixsocket-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket:junixsocket_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_common:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kohlschutter:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket:junixsocket:2.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.kohlschutter.junixsocket/junixsocket-common@2.0.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.kohlschutter.junixsocket",
+     "artifactId": "junixsocket-common",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e1653b949d796ce5",
+   "name": "junixsocket-native-common",
+   "version": "2.0.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junixsocket-native-common:junixsocket-native-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-native-common:junixsocket_native_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_native_common:junixsocket-native-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_native_common:junixsocket_native_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-native:junixsocket-native-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-native:junixsocket_native_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_native:junixsocket-native-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_native:junixsocket_native_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kohlschutter:junixsocket-native-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kohlschutter:junixsocket_native_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-native-common:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket:junixsocket-native-common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket:junixsocket_native_common:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_native_common:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket-native:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket_native:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kohlschutter:junixsocket:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junixsocket:junixsocket:2.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.kohlschutter.junixsocket/junixsocket-native-common@2.0.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.kohlschutter.junixsocket",
+     "artifactId": "junixsocket-native-common",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c05ec36e3f7fdfc2",
+   "name": "mockito-all",
+   "version": "2.0.2-beta",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mockito-all:mockito-all:2.0.2-beta:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-all:mockito_all:2.0.2-beta:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_all:mockito-all:2.0.2-beta:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_all:mockito_all:2.0.2-beta:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito-all:2.0.2-beta:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito_all:2.0.2-beta:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-all@2.0.2-beta",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mockito",
+     "artifactId": "mockito-all",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "312dc28e94fb7bed",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6366183c74d6ce9c",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "80e0bdb49ae6c2c1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c05ec36e3f7fdfc2",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "312dc28e94fb7bed",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6366183c74d6ce9c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "80e0bdb49ae6c2c1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c05ec36e3f7fdfc2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "dc8f621aafbd4105",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e1653b949d796ce5",
+   "type": "contains"
+  },
+  {
+   "parent": "dc8f621aafbd4105",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e1653b949d796ce5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

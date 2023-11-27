@@ -1,0 +1,39 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7d39d356-31d7-4c50-901b-d1eda1ef6e1a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T15:36:24.423Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "net.semanticmetadata.lire",
+      "name": "solr-lire",
+      "version": "4.3.1-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/net.semanticmetadata.lire/solr-lire@4.3.1-SNAPSHOT?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.semanticmetadata.lire/solr-lire@4.3.1-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [],
+  "dependencies": []
+}

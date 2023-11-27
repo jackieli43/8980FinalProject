@@ -1,0 +1,616 @@
+{
+ "artifacts": [
+  {
+   "id": "f28f5224264cb513",
+   "name": "commons-dbcp",
+   "version": "1.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-dbcp:commons-dbcp:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-dbcp:commons_dbcp:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_dbcp:commons-dbcp:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_dbcp:commons_dbcp:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-dbcp:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_dbcp:1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-dbcp/commons-dbcp@1.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-dbcp",
+     "artifactId": "commons-dbcp",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  },
+  {
+   "id": "4991ed99de855287",
+   "name": "core",
+   "version": "0.40.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:openstreetmap:core:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmosis:core:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:core:0.40.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openstreetmap.osmosis/core@0.40.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openstreetmap.osmosis",
+     "artifactId": "core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "d9b542a04459f8ff",
+   "name": "hstore-jdbc",
+   "version": "0.40.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:openstreetmap:hstore-jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:openstreetmap:hstore_jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hstore-jdbc:hstore-jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hstore-jdbc:hstore_jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hstore_jdbc:hstore-jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hstore_jdbc:hstore_jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmosis:hstore-jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmosis:hstore_jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hstore:hstore-jdbc:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hstore:hstore_jdbc:0.40.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openstreetmap.osmosis/hstore-jdbc@0.40.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openstreetmap.osmosis",
+     "artifactId": "hstore-jdbc",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "60d740b3b2f88143",
+   "name": "json",
+   "version": "0.40.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:openstreetmap:json:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmosis:json:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json:0.40.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openstreetmap.osmosis/json@0.40.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openstreetmap.osmosis",
+     "artifactId": "json",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "b8cc7b7214d006ef",
+   "name": "pgsnapshot",
+   "version": "0.40.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:openstreetmap:pgsnapshot:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pgsnapshot:pgsnapshot:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmosis:pgsnapshot:0.40.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openstreetmap.osmosis/pgsnapshot@0.40.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openstreetmap.osmosis",
+     "artifactId": "pgsnapshot",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "05dbde98345ebef2",
+   "name": "postgis-jdbc",
+   "version": "1.3.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:postgis-jdbc:postgis-jdbc:1.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postgis-jdbc:postgis_jdbc:1.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postgis_jdbc:postgis-jdbc:1.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postgis_jdbc:postgis_jdbc:1.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postgis:postgis-jdbc:1.3.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:postgis:postgis_jdbc:1.3.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.postgis/postgis-jdbc@1.3.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.postgis",
+     "artifactId": "postgis-jdbc",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ad5c8236e5ed75f8",
+   "name": "postgresql",
+   "version": "9.0-801.jdbc4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:postgresql:postgresql:9.0-801.jdbc4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/postgresql/postgresql@9.0-801.jdbc4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "postgresql",
+     "artifactId": "postgresql",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  },
+  {
+   "id": "dadcf2e889758331",
+   "name": "servlet-api",
+   "version": "2.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:servlet-api:servlet-api:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:servlet-api:servlet_api:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:servlet_api:servlet-api:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:servlet_api:servlet_api:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:servlet:servlet-api:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:servlet:servlet_api:2.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.servlet/servlet-api@2.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.servlet",
+     "artifactId": "servlet-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "02108b5bd8261cba",
+   "name": "spring-jdbc",
+   "version": "3.0.5.RELEASE",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:springframework:spring-jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:springframework:spring_jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-jdbc:spring-jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring-jdbc:spring_jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_jdbc:spring-jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring_jdbc:spring_jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring-jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*",
+    "cpe:2.3:a:spring:spring_jdbc:3.0.5.RELEASE:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.springframework/spring-jdbc@3.0.5.RELEASE",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.springframework",
+     "artifactId": "spring-jdbc",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3767f9efc294e639",
+   "name": "testng",
+   "version": "5.14",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:testng:testng:5.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.testng/testng@5.14",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.testng",
+     "artifactId": "testng",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "1aa9078fe4349677",
+   "name": "xml",
+   "version": "0.40.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:openstreetmap:xml:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmosis:xml:0.40.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xml:xml:0.40.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openstreetmap.osmosis/xml@0.40.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openstreetmap.osmosis",
+     "artifactId": "xml",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "02108b5bd8261cba",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "05dbde98345ebef2",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1aa9078fe4349677",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3767f9efc294e639",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4991ed99de855287",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "60d740b3b2f88143",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ad5c8236e5ed75f8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b8cc7b7214d006ef",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "02108b5bd8261cba",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "05dbde98345ebef2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1aa9078fe4349677",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3767f9efc294e639",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4991ed99de855287",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "60d740b3b2f88143",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ad5c8236e5ed75f8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b8cc7b7214d006ef",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d9b542a04459f8ff",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "dadcf2e889758331",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f28f5224264cb513",
+   "type": "contains"
+  },
+  {
+   "parent": "d9b542a04459f8ff",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "dadcf2e889758331",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f28f5224264cb513",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,166 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:12db32db-dbbf-44d9-b376-57dda9299720",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-16T15:19:47.712Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "Pingplusplus",
+      "name": "pingpp-java",
+      "version": "2.4.1",
+      "licenses": [],
+      "purl": "pkg:maven/Pingplusplus/pingpp-java@2.4.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/PingPlusPlus/pingpp-java"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/Pingplusplus/pingpp-java@2.4.1?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.8.9",
+      "description": "Gson JSON library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e67627f67e03301092dc7de0a2d7cef8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8a432c1d6825781e21a02db2e2c33c5fde2833b9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "46501e4dd34c9a6f33ff63aeeec45b049579365c5273490e5dfd5ea4effaeced907d0fc728204c619aa136e867ad826204582ff9ba3080d06693c1c675c8473f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2f2897912784595e52d3f8e57741aed7dd866f16a69562d57e0604d85e2fef08b2a32e58afd00d264f66cc6ec775dc79"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3ce084f79191afdbdb0a9aa83073b128f620cf585b65c2e81ba98080fd91e9f327db3f0952903094b7dd387bc802b5ba"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e82ae9fa3a783ee683880d219ab529bb3d0b45ea721d002ee948fad99a67b4f0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "25cfe43039c6d41344434f89e9a8ad6f93a341512baf93e894a14a9dfd3af1cb0f0afaed4ade6db3c719f910fd9dfbeb7bec8bcfd7f49ac572ab217bce9e595e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.10",
+      "description": "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "353cf6a2bdba09595ccfa073b78c7fcb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8edecc0faf38e8620460909d8191837f34e2bb2ce853677c486c5e79bb79e88d043c3aed69c11f1365c4884827052ee4e1c18ca56e38d1a5bc0ce15c57daeee3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8412e1f64746422f1875a811c71c51b6e45512a6255ff47e3b2b437bf6fb12eeea3910e3c1a0bb3caad672d3ae15852d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7a02456a52fb37324fdc2d31f6ef958b898de479fedf32244facf7104b3dc1834761cc1f90c5dad74be76fcd980d09c5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5491c5ce96af7ee3af286d6095baf71cffbc80e110b3a6c5951b3a108d717343"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "473ad932b9f0851c7548e47304ce30567fb528ece28df818b61f42ea04f6198ef60f6f73c7b22cff612d61d3a6efaf0c7a0dec3922fea2bf4493d32f0a6dff41"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-codec/commons-codec@1.10?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.10?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/Pingplusplus/pingpp-java@2.4.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.10?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

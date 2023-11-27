@@ -1,0 +1,103 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:974a8076-e265-40bb-b30d-95e7ee5fedfc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T17:20:13.537Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "Yohane",
+      "name": "Yohane",
+      "version": "0.0.1",
+      "description": "Adds Yohane as a new playable character.",
+      "licenses": [],
+      "purl": "pkg:maven/Yohane/Yohane@0.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/Yohane/Yohane@0.0.1?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "com.megacrit.cardcrawl",
+      "name": "slaythespire",
+      "version": "01-03-2019",
+      "scope": "required",
+      "purl": "pkg:maven/com.megacrit.cardcrawl/slaythespire@01-03-2019?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.megacrit.cardcrawl/slaythespire@01-03-2019?type=jar"
+    },
+    {
+      "group": "basemod",
+      "name": "basemod",
+      "version": "5.0.0",
+      "scope": "required",
+      "purl": "pkg:maven/basemod/basemod@5.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/basemod/basemod@5.0.0?type=jar"
+    },
+    {
+      "group": "com.evacipated.cardcrawl",
+      "name": "modthespire",
+      "version": "3.6.3",
+      "scope": "required",
+      "purl": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.6.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.6.3?type=jar"
+    },
+    {
+      "group": "stsfriendlyminions",
+      "name": "stsfriendlyminions",
+      "version": "0.0.1",
+      "scope": "required",
+      "purl": "pkg:maven/stsfriendlyminions/stsfriendlyminions@0.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/stsfriendlyminions/stsfriendlyminions@0.0.1?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/Yohane/Yohane@0.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/basemod/basemod@5.0.0?type=jar",
+        "pkg:maven/com.evacipated.cardcrawl/modthespire@3.6.3?type=jar",
+        "pkg:maven/com.megacrit.cardcrawl/slaythespire@01-03-2019?type=jar",
+        "pkg:maven/stsfriendlyminions/stsfriendlyminions@0.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.megacrit.cardcrawl/slaythespire@01-03-2019?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/basemod/basemod@5.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.6.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/stsfriendlyminions/stsfriendlyminions@0.0.1?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

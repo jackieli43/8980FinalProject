@@ -1,0 +1,392 @@
+{
+ "artifacts": [
+  {
+   "id": "b9eff669c44ce1c5",
+   "name": "hibernate-validator",
+   "version": "6.2.5.Final",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:hibernate-validator:hibernate-validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-validator:hibernate_validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_validator:hibernate-validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_validator:hibernate_validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate-validator:validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate-validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:hibernate_validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate_validator:validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validator:hibernate-validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validator:hibernate_validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hibernate:validator:6.2.5.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validator:validator:6.2.5.Final:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.hibernate.validator/hibernate-validator@6.2.5.Final",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.hibernate.validator",
+     "artifactId": "hibernate-validator",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "344653b1c5721cf3",
+   "name": "jackson-databind",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-databind:jackson-databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson_databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson-databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson_databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson-databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson_databind:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-databind",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c8af9975e467734f",
+   "name": "jakarta.validation-api",
+   "version": "3.0.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jakarta.validation-api:jakarta.validation-api:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.validation-api:jakarta.validation_api:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.validation_api:jakarta.validation-api:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.validation_api:jakarta.validation_api:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.validation:jakarta.validation-api:3.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.validation:jakarta.validation_api:3.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@3.0.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "jakarta.validation",
+     "artifactId": "jakarta.validation-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "501409ac97b46d3f",
+   "name": "maven-wrapper",
+   "version": "0.3.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\.mvn\\wrapper\\maven-wrapper.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:maven-wrapper:maven-wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:maven-wrapper:maven_wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:maven_wrapper:maven-wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:maven_wrapper:maven_wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:takari:maven-wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:takari:maven_wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:maven:maven-wrapper:0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:maven:maven_wrapper:0.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.takari/maven-wrapper@0.3.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\.mvn\\wrapper\\maven-wrapper.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Provisio Archiver",
+      "Build-Jdk": "1.8.0_151",
+      "Built-By": "manfred",
+      "Created-By": "Takari Inc.",
+      "Implementation-Title": "maven-wrapper",
+      "Implementation-Vendor-Id": "io.takari",
+      "Implementation-Version": "0.3.0",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "maven-wrapper",
+      "Specification-Version": "0.3.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/io.takari/maven-wrapper/pom.properties",
+     "name": "",
+     "groupId": "io.takari",
+     "artifactId": "maven-wrapper",
+     "version": "0.3.0"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "79a25e9289d42cd3b893369dc6d8b3b29a1d737c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "89ee74c91d498f8b",
+   "name": "validation-api",
+   "version": "2.0.1.Final",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:validation-api:validation-api:2.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validation-api:validation_api:2.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validation_api:validation-api:2.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validation_api:validation_api:2.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validation:validation-api:2.0.1.Final:*:*:*:*:*:*:*",
+    "cpe:2.3:a:validation:validation_api:2.0.1.Final:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.validation/validation-api@2.0.1.Final",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.validation",
+     "artifactId": "validation-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "344653b1c5721cf3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "501409ac97b46d3f",
+   "child": "2e336cf212149a9a",
+   "type": "evident-by"
+  },
+  {
+   "parent": "89ee74c91d498f8b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b9eff669c44ce1c5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c8af9975e467734f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "344653b1c5721cf3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "501409ac97b46d3f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "89ee74c91d498f8b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b9eff669c44ce1c5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c8af9975e467734f",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "2e336cf212149a9a",
+   "location": {
+    "path": "\\.mvn\\wrapper\\maven-wrapper.jar"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,85 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:01ce7920-76ee-47a1-91da-b5fc8aa4a704",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T15:29:16.677Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\42_proxy\\ari-proxy\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\42_proxy\\ari-proxy\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.tngtech.archunit",
+      "name": "archunit-junit5",
+      "version": "1.0.1",
+      "purl": "pkg:maven/com.tngtech.archunit/archunit-junit5@1.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.tngtech.archunit/archunit-junit5@1.0.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\42_proxy\\ari-proxy\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\42_proxy\\ari-proxy\\pom.xml"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

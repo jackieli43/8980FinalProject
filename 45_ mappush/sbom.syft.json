@@ -1,0 +1,491 @@
+{
+ "artifacts": [
+  {
+   "id": "fecf19d463ef126a",
+   "name": "async-http-client",
+   "version": "1.7.6",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:async-http-client:async-http-client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async-http-client:async_http_client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async_http_client:async-http-client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async_http_client:async_http_client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async-http:async-http-client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async-http:async_http_client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async_http:async-http-client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async_http:async_http_client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async:async-http-client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:async:async_http_client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ning:async-http-client:1.7.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ning:async_http_client:1.7.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.ning/async-http-client@1.7.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.ning",
+     "artifactId": "async-http-client",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bed62ef7770e4b16",
+   "name": "atmosphere-jersey",
+   "version": "1.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:atmosphere-jersey:atmosphere-jersey:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere-jersey:atmosphere_jersey:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere_jersey:atmosphere-jersey:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere_jersey:atmosphere_jersey:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:atmosphere-jersey:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:atmosphere_jersey:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.atmosphere/atmosphere-jersey@1.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.atmosphere",
+     "artifactId": "atmosphere-jersey",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "343665d78046b680",
+   "name": "atmosphere-jquery",
+   "version": "1.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:atmosphere-jquery:atmosphere-jquery:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere-jquery:atmosphere_jquery:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere_jquery:atmosphere-jquery:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere_jquery:atmosphere_jquery:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:atmosphere-jquery:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:atmosphere_jquery:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.atmosphere/atmosphere-jquery@1.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.atmosphere",
+     "artifactId": "atmosphere-jquery",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bfe0c46ef2339a4e",
+   "name": "atmosphere-runtime",
+   "version": "1.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:atmosphere-runtime:atmosphere-runtime:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere-runtime:atmosphere_runtime:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere_runtime:atmosphere-runtime:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere_runtime:atmosphere_runtime:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:atmosphere-runtime:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:atmosphere_runtime:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.atmosphere",
+     "artifactId": "atmosphere-runtime",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f691be1f8747ea86",
+   "name": "jersey-json",
+   "version": "1.12",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jersey-json:jersey-json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey-json:jersey_json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey_json:jersey-json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey_json:jersey_json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey-json:jersey:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey:jersey-json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey:jersey_json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey_json:jersey:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jersey-json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jersey_json:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jersey:jersey:1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jersey:1.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sun.jersey/jersey-json@1.12",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sun.jersey",
+     "artifactId": "jersey-json",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "be805a983eb7a8ae",
+   "name": "logback-classic",
+   "version": "1.0.7",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-classic:logback-classic:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-classic:logback_classic:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback-classic:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback_classic:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-classic:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_classic:1.0.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-classic@1.0.7",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-classic",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f4b8533604284166",
+   "name": "nettosphere",
+   "version": "1.4.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:nettosphere:nettosphere:1.4.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atmosphere:nettosphere:1.4.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.atmosphere/nettosphere@1.4.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.atmosphere",
+     "artifactId": "nettosphere",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "9268aeb80eca4e1f",
+   "name": "testng",
+   "version": "6.8",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:testng:testng:6.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.testng/testng@6.8",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.testng",
+     "artifactId": "testng",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "343665d78046b680",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9268aeb80eca4e1f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "be805a983eb7a8ae",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bed62ef7770e4b16",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bfe0c46ef2339a4e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "343665d78046b680",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9268aeb80eca4e1f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "be805a983eb7a8ae",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bed62ef7770e4b16",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bfe0c46ef2339a4e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f4b8533604284166",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f691be1f8747ea86",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fecf19d463ef126a",
+   "type": "contains"
+  },
+  {
+   "parent": "f4b8533604284166",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f691be1f8747ea86",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fecf19d463ef126a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

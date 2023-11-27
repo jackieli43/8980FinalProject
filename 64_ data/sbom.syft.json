@@ -1,0 +1,353 @@
+{
+ "artifacts": [
+  {
+   "id": "f2fc37e2b8cbb8e5",
+   "name": "javafx-controls",
+   "version": "11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javafx-controls:javafx-controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx-controls:javafx_controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx_controls:javafx-controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx_controls:javafx_controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:openjfx:javafx-controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:openjfx:javafx_controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx:javafx-controls:11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javafx:javafx_controls:11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.openjfx/javafx-controls@11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.openjfx",
+     "artifactId": "javafx-controls",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8e384d44fdc8b120",
+   "name": "mule-core",
+   "version": "4.3.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mule-core:mule-core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule-core:mule_core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule_core:mule-core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule_core:mule_core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:runtime:mule-core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:runtime:mule_core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule:mule-core:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule:mule_core:4.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mule.runtime/mule-core@4.3.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mule.runtime",
+     "artifactId": "mule-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "142ec507d9c66961",
+   "name": "mule-service-weave",
+   "version": "2.3.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mule-service-weave:mule-service-weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule-service-weave:mule_service_weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule_service_weave:mule-service-weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule_service_weave:mule_service_weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule-service:mule-service-weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule-service:mule_service_weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule_service:mule-service-weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule_service:mule_service_weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:services:mule-service-weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:services:mule_service_weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule:mule-service-weave:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule:mule_service_weave:2.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mule.services/mule-service-weave@2.3.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mule.services",
+     "artifactId": "mule-service-weave",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "deb151346d7ec769",
+   "name": "parser",
+   "version": "2.3.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:parser:parser:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:weave:parser:2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mule:parser:2.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mule.weave/parser@2.3.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mule.weave",
+     "artifactId": "parser",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ceb06f8854fa8e78",
+   "name": "richtextfx",
+   "version": "0.7-M5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:richtextfx:richtextfx:0.7-M5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:richtext:richtextfx:0.7-M5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:richtextfx:richtext:0.7-M5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fxmisc:richtextfx:0.7-M5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:richtext:richtext:0.7-M5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fxmisc:richtext:0.7-M5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.fxmisc.richtext/richtextfx@0.7-M5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.fxmisc.richtext",
+     "artifactId": "richtextfx",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "142ec507d9c66961",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8e384d44fdc8b120",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "142ec507d9c66961",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8e384d44fdc8b120",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ceb06f8854fa8e78",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "deb151346d7ec769",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f2fc37e2b8cbb8e5",
+   "type": "contains"
+  },
+  {
+   "parent": "ceb06f8854fa8e78",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "deb151346d7ec769",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f2fc37e2b8cbb8e5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

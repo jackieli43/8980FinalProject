@@ -1,0 +1,57 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:29540374-7264-4656-942e-1fa45a45cc68",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T15:24:32.725Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "publisher": "Pivotal Software, Inc.",
+      "group": "com.danlind.igzplugin",
+      "name": "igplugin",
+      "version": "0.32",
+      "description": "Parent pom providing dependency and plugin management for applications built with Maven",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.danlind.igzplugin/igplugin@0.32?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://projects.spring.io/spring-boot/igplugin/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/igplugin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.danlind.igzplugin/igplugin@0.32?type=jar"
+    }
+  },
+  "components": [],
+  "dependencies": []
+}

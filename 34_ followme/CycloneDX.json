@@ -1,0 +1,280 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b78a5a86-c839-40ad-ae48-458fa124e255",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-10T15:21:57.401Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.airhacks",
+      "name": "followme",
+      "version": "1.0-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/com.airhacks/followme@1.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://airhacks.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.airhacks/followme@1.0-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.11",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3c42be5ea7cbf3635716abbb429cb90d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90a8e1603eeca48e7e879f3afbc9560715322985f39a274f6f6070b43f9d06fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a0de3a1d9924b8703736f27a0e02e243e9f50add113c8fb3477cd8d8e31505df1609755d79ba8f1e1f43c6b5201b409c116ad184978383da6613382727bedc6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0f9ec06229184455e388ffa929bdc3a532d1b61ae22a51655fac91fca093b26695ecb48a040e869135aa4d69fff3840a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "50333b7f876d6660b89a29382a96d10077ee50d568fddbb61c83a241666893f04d3992f7a402fd49d97305acf318e877"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "57a3a358ca4ab3cc2636cfc7531920afeee3f347e221673edb7c4946b08e8a33"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "25a71bd3d476e67a4967fc81388432f55ef4d2816c28343ac4b517a4b963f51515a855d1c0ec8a23bf31b416b72774f3852cd226f8f158d16aa69e8e21b74e0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.11?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.11?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    },
+    {
+      "group": "org.mockito",
+      "name": "mockito-all",
+      "version": "1.9.5",
+      "description": "Mock objects library for java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "50faa79d126d0213ab14ccb112a8b76d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "79a8984096fc6591c1e3690e07d41be506356fa5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b2a63307d1dce3aa1623fdaacb2327a4cd7795b0066f31bf542b1e8f2683239e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "94a243fa7e89abbec90f2d97e2e06ccc099ff6324bd029ff5a7cee6995d143bbbe74ff7b8643ec5cda121d431359d23a61ac9847d0707c4e450c738d5bebc0e4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9f536da67274b9be1d3ff7b53275784dbb5dbae0960c88629aaa061464a4dc11ec3e62bc2cc7e2ca7b6e680b9f3a3eae"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0c06c3a10b4570ab988abe1767247c140b15d30fb2aecb8134287529263027b5cf97e003550cc8efd156898da21e1829"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ace689b6b313558b24ca444acce23462114ab1cf94471bf4fa10b30be019ae82"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9807d5af76fa2df9d916b8f55e7412c3f0998871a289bc7fcdc1b1acd2262aee7340fb8e2bb85d84aa1e38e08b5c3a7c0e611fb24016a0aa57193062af78bc03"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar"
+    },
+    {
+      "publisher": "Adam Bien",
+      "group": "com.airhacks",
+      "name": "afterburner.fx",
+      "version": "1.6.0",
+      "description": "afterburner.fx is a minimalistic JavaFX MVP framework based on Convention over Configuration and Dependency Injection",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a0c0cf1d073abb2dda656cfa395cc191"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e75945864c5c3a5603edbb8f8a86879e2475b6fe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "18d4d192699e2ccae07557f6df8aa200407b766ae6e8ccad9102e543511f4913"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e1488a759ba0f315bc3a1742d4072db0e0e77411c47a37e691e42065332d85f58b455bcb563d17a32a0400fb4d2929b61b7e21564e47502feb08f85b444b7536"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b882d5e957b0b8e4d446c50a947b6506ef975d86f4d9f50e478e66d47c032c61287dd52dc69febfaab71d382b1e053ac"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "49e8065301f11c1040d06c29a95117a10caafbcb440894483ad575c2da1aed55e3eb5ffb81b0a672c1cc6dd0637f59a2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b11dc38843ac52c3428e9190993da5c270f37df56e0aa892ca578a1e0a5e81dc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "57ba6e3c5ed200b1614da805ea4d35d52466cc1c4b170aabb0c9e910c5d8f5c5533d9fde7d0704f8039528d55803541cc1342d47f16395e8ec96c85cc2e86753"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.airhacks/afterburner.fx@1.6.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.airhacks/afterburner.fx@1.6.0?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.airhacks/followme@1.0-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.airhacks/afterburner.fx@1.6.0?type=jar",
+        "pkg:maven/junit/junit@4.11?type=jar",
+        "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.11?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.airhacks/afterburner.fx@1.6.0?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

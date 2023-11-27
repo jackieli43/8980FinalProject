@@ -1,0 +1,103 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:af91ff11-5d5f-4131-b217-8faf05a6ca17",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-10T15:17:42.674Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "witchmod",
+      "name": "WitchMod",
+      "version": "1.2.1",
+      "description": "Adds the Witch character.",
+      "licenses": [],
+      "purl": "pkg:maven/witchmod/WitchMod@1.2.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/witchmod/WitchMod@1.2.1?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "com.megacrit.cardcrawl",
+      "name": "slaythespire",
+      "version": "07-30-2020",
+      "scope": "required",
+      "purl": "pkg:maven/com.megacrit.cardcrawl/slaythespire@07-30-2020?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.megacrit.cardcrawl/slaythespire@07-30-2020?type=jar"
+    },
+    {
+      "group": "com.evacipated.cardcrawl",
+      "name": "modthespire",
+      "version": "3.18.0",
+      "scope": "required",
+      "purl": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.18.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.18.0?type=jar"
+    },
+    {
+      "group": "basemod",
+      "name": "basemod",
+      "version": "5.26.0",
+      "scope": "required",
+      "purl": "pkg:maven/basemod/basemod@5.26.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/basemod/basemod@5.26.0?type=jar"
+    },
+    {
+      "group": "com.evacipated.cardcrawl.mod",
+      "name": "StSLib",
+      "version": "1.21.3",
+      "scope": "required",
+      "purl": "pkg:maven/com.evacipated.cardcrawl.mod/StSLib@1.21.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.evacipated.cardcrawl.mod/StSLib@1.21.3?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/witchmod/WitchMod@1.2.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/basemod/basemod@5.26.0?type=jar",
+        "pkg:maven/com.evacipated.cardcrawl.mod/StSLib@1.21.3?type=jar",
+        "pkg:maven/com.evacipated.cardcrawl/modthespire@3.18.0?type=jar",
+        "pkg:maven/com.megacrit.cardcrawl/slaythespire@07-30-2020?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.megacrit.cardcrawl/slaythespire@07-30-2020?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.18.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/basemod/basemod@5.26.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.evacipated.cardcrawl.mod/StSLib@1.21.3?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

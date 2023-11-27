@@ -1,0 +1,457 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:44da64a0-a140-4ea7-a253-fb2b3e13ccc6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T15:22:55.889Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.mindsnacks.javazinc",
+      "name": "JavaZinc",
+      "version": "1.6.3-SNAPSHOT",
+      "description": "Zinc client for Java",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.mindsnacks.javazinc/JavaZinc@1.6.3-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://github.com/mindsnacks/JavaZinc"
+        },
+        {
+          "type": "distribution",
+          "url": "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/mindsnacks/JavaZinc"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.mindsnacks.javazinc/JavaZinc@1.6.3-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.11",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3c42be5ea7cbf3635716abbb429cb90d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90a8e1603eeca48e7e879f3afbc9560715322985f39a274f6f6070b43f9d06fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a0de3a1d9924b8703736f27a0e02e243e9f50add113c8fb3477cd8d8e31505df1609755d79ba8f1e1f43c6b5201b409c116ad184978383da6613382727bedc6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0f9ec06229184455e388ffa929bdc3a532d1b61ae22a51655fac91fca093b26695ecb48a040e869135aa4d69fff3840a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "50333b7f876d6660b89a29382a96d10077ee50d568fddbb61c83a241666893f04d3992f7a402fd49d97305acf318e877"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "57a3a358ca4ab3cc2636cfc7531920afeee3f347e221673edb7c4946b08e8a33"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "25a71bd3d476e67a4967fc81388432f55ef4d2816c28343ac4b517a4b963f51515a855d1c0ec8a23bf31b416b72774f3852cd226f8f158d16aa69e8e21b74e0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.11?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.11?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    },
+    {
+      "group": "com.github.kevinsawicki",
+      "name": "http-request",
+      "version": "5.4.1",
+      "description": "Library for making HTTP requests",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4294caee8eab652f6a6e7a10363a927f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "92db1ee71ed1a1c95fb569dccbd1e42701c8fb79"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "45dbf236a42c2d0bf53046d7ca160ec690cd825723810e7218276c5ddebd8f7d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "955343ced8f73ff338741f26f3e7247d82364932994b4a357d620974059a89207a02388cf4c2adb8a78452824a5a8dfea2c69692298af5ed0b59e8daa1b4e6cd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "244e7bc817bc3c86027bb560f447dfe9ec7c3779a5ba68e0cb4557b0b8f246d1dea9595f679b13a13f899b481127dfae"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "728dd59bc42c29e6fb2f1135d5f966787e971f7a1cd0f0bb57bd12e65641b9b445bc329c1eb8d73768416e9ae6f4777e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6325a5256dfd1eadd5a8731c8f556da79fcdc992af88c2a5a3cef173c114cedc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d2b905735dad7f88401926109654c84d94960993699e7b224e945431ff4d9a001c3f2f6fef8e58230e782056922e64bfe230f6c4cb0e55d8b4f0af71a74ac0f3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.kevinsawicki/http-request@5.4.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.kevinsawicki/http-request@5.4.1?type=jar"
+    },
+    {
+      "publisher": "Google, Inc.",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.2.4",
+      "description": "Google Gson library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2f54fc24807a4cad7297012dd8cebf3d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a60a5e993c98c864010053cb901b7eab25306568"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c0328cd07ca9e363a5acd00c1cf4afe8cf554bd6d373834981ba05cebec687fb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d7aa9214cefb99b2f39bab6bf5718dafcb43742f8a881e5fb6cbc3a757491c0082a536ed1fef6c7168412b6e5bdec28e68a40b4d4d0b57b63a7bbc9a55f820cd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2c5d7ed5310c1a1b45b7b46479361debd5e2e49737f167bff9c11dd989fa38b973ccd7b4655dbb5e34b0ff4ff1a8d755"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3cc62c086a1d97a2485921e3dd1c3cb5c91be299932b3a04a419b329b2491d2a405d62246249eb8ce20890f12dfdbca0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6bfd9ab58c5b5cde8cd1747690b02d4c2bdfeaa157f5f1c0421ee77c8c739f98"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c532e25f58ccc289d0c8233bbc9dc77dacdb92dbe6092fdc1f48a17288299a29352d12299517f61217ecd4793d218d025edecf396a326e11942bdda3a8e01610"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.2.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.2.4?type=jar"
+    },
+    {
+      "group": "org.mockito",
+      "name": "mockito-all",
+      "version": "1.9.5",
+      "description": "Mock objects library for java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "50faa79d126d0213ab14ccb112a8b76d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "79a8984096fc6591c1e3690e07d41be506356fa5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b2a63307d1dce3aa1623fdaacb2327a4cd7795b0066f31bf542b1e8f2683239e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "94a243fa7e89abbec90f2d97e2e06ccc099ff6324bd029ff5a7cee6995d143bbbe74ff7b8643ec5cda121d431359d23a61ac9847d0707c4e450c738d5bebc0e4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9f536da67274b9be1d3ff7b53275784dbb5dbae0960c88629aaa061464a4dc11ec3e62bc2cc7e2ca7b6e680b9f3a3eae"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0c06c3a10b4570ab988abe1767247c140b15d30fb2aecb8134287529263027b5cf97e003550cc8efd156898da21e1829"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ace689b6b313558b24ca444acce23462114ab1cf94471bf4fa10b30be019ae82"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9807d5af76fa2df9d916b8f55e7412c3f0998871a289bc7fcdc1b1acd2262aee7340fb8e2bb85d84aa1e38e08b5c3a7c0e611fb24016a0aa57193062af78bc03"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar"
+    },
+    {
+      "group": "javatar",
+      "name": "javatar",
+      "version": "2.5",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3e0e11b872eee1822ed3c0690380d22a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0df926cf2f501339e058b855cd3b289642fc16cb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e9b7d4b1ce2891c4463ad2fc6d6532012998680c80e411fb975495e8a66901ee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "52ceda77dafcaf92871bd889e30439699c4f17d03a15af8cacb9b8c7c9bd825953eb6c5faa3373337cd97d634e33633c8a5e243539d2840875d89d8d4b957ecb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e4626f4601e14cbacf87e521b514c1cace23d024d9697c22c4edab15fc940aad0d69a8109fc085ecd23cd6c655683616"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "656e0223caa73250f692a99e8eefa8b4c8f55f4cbcdd7fc0d11cfc2ce36c951c8245c7e945c78cddeceb0168a6ac1efe"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "195694bdcfebc6be73e2f4888b04b9e601d9088414e3ec65e6c12f326ccdc247"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4d8b9bfd59df7d8411290187a97e434e5ed78cc6a002336bc0b2dcb5a94f633d6399bde43c4a7efeacd2a03e19a6ad4eaf399ff888fe32124b4a52c470013e81"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/javatar/javatar@2.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javatar/javatar@2.5?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "15.0",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more. Guava has two code dependencies - javax.annotation per the JSR-305 spec and javax.inject per the JSR-330 spec.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2c10bb2ca3ac8b55b0e77e54a7eb3744"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed727a8d9f247e2050281cb083f1c77b09dcb5cd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7a34575770eebc60a5476616e3676a6cb6f2975c78c415e2a6014ac724ba5783"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "47d9a7526c3c039b3793750f537fee19b645b1293b574fd1939ee058d8fdeb8ad956e0e0aa36b5d4b527e9cace51b71aefa6c8fdf40acbf611606a162d878f58"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "178a0cddd98a39ced52c2ff96d9657cefe3adb3e7336bad45a4cd8f33e0e3a4579b732f9890bdb7914a8e98c06faa828"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9677565f23d6e9baeb52447b65080aee4335c6a4692ef9eb5b1620c7bae7fc7876f8aab2e6552906c4623736364dbe42"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1ba9f9e075e15636e2992090c7acf2b637480b81ea56b2e0fbbce85974bc73e6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2252a79ed5b9cabe523eeaa2760ef8924ea5e45225eb558d2c17f5b70f4cd2f5f3cb69c8bbe7d697255f1a883173cb4acaacd720d3461a1373a3b37b50d7f9a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@15.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@15.0?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.mindsnacks.javazinc/JavaZinc@1.6.3-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.github.kevinsawicki/http-request@5.4.1?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.2.4?type=jar",
+        "pkg:maven/com.google.guava/guava@15.0?type=jar",
+        "pkg:maven/javatar/javatar@2.5?type=jar",
+        "pkg:maven/junit/junit@4.11?type=jar",
+        "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.11?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.kevinsawicki/http-request@5.4.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.2.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mockito/mockito-all@1.9.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javatar/javatar@2.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@15.0?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

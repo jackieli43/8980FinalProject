@@ -1,0 +1,289 @@
+{
+ "artifacts": [
+  {
+   "id": "acdb4181fbc40be7",
+   "name": "eclipselink",
+   "version": "2.5.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:eclipselink:eclipselink:2.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:persistence:eclipselink:2.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:eclipselink:2.5.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.persistence/eclipselink@2.5.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.eclipse.persistence",
+     "artifactId": "eclipselink",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "f24848d33c0c3efe",
+   "name": "maven-core",
+   "version": "3.1.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-core:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_core:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven:3.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven/maven-core@3.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.maven",
+     "artifactId": "maven-core",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "819fb28a46676dde",
+   "name": "maven-plugin-annotations",
+   "version": "3.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-plugin-annotations:3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_plugin_annotations:3.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.maven.plugin-tools",
+     "artifactId": "maven-plugin-annotations",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "e4f14f1fb1ab7eea",
+   "name": "maven-plugin-api",
+   "version": "3.1.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-plugin-api:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_plugin_api:3.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven/maven-plugin-api@3.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.maven",
+     "artifactId": "maven-plugin-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "819fb28a46676dde",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "acdb4181fbc40be7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "819fb28a46676dde",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "acdb4181fbc40be7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e4f14f1fb1ab7eea",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f24848d33c0c3efe",
+   "type": "contains"
+  },
+  {
+   "parent": "e4f14f1fb1ab7eea",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f24848d33c0c3efe",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

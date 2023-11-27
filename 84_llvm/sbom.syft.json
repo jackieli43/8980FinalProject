@@ -1,0 +1,709 @@
+{
+ "artifacts": [
+  {
+   "id": "0bd32cc72511973b",
+   "name": "code-coverage-api",
+   "version": "1.0.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:code-coverage-api:code-coverage-api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code-coverage-api:code_coverage_api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code_coverage_api:code-coverage-api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code_coverage_api:code_coverage_api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code-coverage:code-coverage-api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code-coverage:code_coverage_api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code_coverage:code-coverage-api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code_coverage:code_coverage_api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:code-coverage-api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:code_coverage_api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:code-coverage-api:1.0.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:code_coverage_api:1.0.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.jenkins.plugins/code-coverage-api@1.0.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "io.jenkins.plugins",
+     "artifactId": "code-coverage-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "fbf4c91dd680312b",
+   "name": "jackson2-api",
+   "version": "2.8.11.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson2-api:jackson2-api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson2-api:jackson2_api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson2_api:jackson2-api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson2_api:jackson2_api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:jackson2-api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:jackson2_api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:jackson2-api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:jackson2_api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson2:jackson2-api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson2:jackson2_api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jackson2-api:2.8.11.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jackson2_api:2.8.11.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins/jackson2-api@2.8.11.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins",
+     "artifactId": "jackson2-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "17b5a820650e08c2",
+   "name": "scm-api",
+   "version": "2.4.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jenkins-ci:scm-api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:scm_api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:scm-api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:scm_api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:scm-api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:scm_api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scm-api:scm-api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scm-api:scm_api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scm_api:scm-api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scm_api:scm_api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scm:scm-api:2.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scm:scm_api:2.4.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins/scm-api@2.4.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins",
+     "artifactId": "scm-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "117ca93088136659",
+   "name": "structs",
+   "version": "1.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jenkins-ci:structs:1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:structs:1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:structs:1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:structs:structs:1.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins/structs@1.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins",
+     "artifactId": "structs",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "52e3f263050f1c39",
+   "name": "workflow-api",
+   "version": "2.20",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-api:workflow-api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-api:workflow_api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_api:workflow-api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_api:workflow_api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-api:2.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_api:2.20:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-api@2.20",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-api",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "92a8202f3731050b",
+   "name": "workflow-basic-steps",
+   "version": "2.6",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-basic-steps:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-basic-steps:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_basic_steps:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_basic_steps:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-basic:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-basic:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_basic:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_basic:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_basic_steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-basic-steps:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_basic_steps:2.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-basic-steps@2.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-basic-steps",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "004473a371ca63da",
+   "name": "workflow-cps",
+   "version": "2.39",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-cps:workflow-cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-cps:workflow_cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_cps:workflow-cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_cps:workflow_cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-cps:2.39:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_cps:2.39:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-cps@2.39",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-cps",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "d0c964ec96c2d971",
+   "name": "workflow-durable-task-step",
+   "version": "2.13",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-durable-task-step:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-durable-task-step:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_durable_task_step:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_durable_task_step:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-durable-task:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-durable-task:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_durable_task:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_durable_task:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-durable:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-durable:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_durable:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_durable:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_durable_task_step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-durable-task-step:2.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_durable_task_step:2.13:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-durable-task-step@2.13",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-durable-task-step",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "933c3c8601c84fcb",
+   "name": "workflow-job",
+   "version": "2.11.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-job:workflow-job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-job:workflow_job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_job:workflow-job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_job:workflow_job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-job:2.11.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_job:2.11.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-job@2.11.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-job",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "e75ee24dbeb90dfa",
+   "name": "workflow-step-api",
+   "version": "2.12",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-step-api:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-step-api:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_step_api:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_step_api:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-step:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-step:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_step:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_step:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_step_api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-step-api:2.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_step_api:2.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-step-api@2.12",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-step-api",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "569bf7425bc78031",
+   "name": "workflow-support",
+   "version": "2.14",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:workflow-support:workflow-support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow-support:workflow_support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_support:workflow-support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow_support:workflow_support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow-support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:workflow_support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow-support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:workflow_support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow-support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:workflow:workflow_support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow-support:2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:workflow_support:2.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.plugins.workflow/workflow-support@2.14",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.plugins.workflow",
+     "artifactId": "workflow-support",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "004473a371ca63da",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0bd32cc72511973b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "117ca93088136659",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "17b5a820650e08c2",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "52e3f263050f1c39",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "569bf7425bc78031",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "92a8202f3731050b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "933c3c8601c84fcb",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "004473a371ca63da",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0bd32cc72511973b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "117ca93088136659",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "17b5a820650e08c2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "52e3f263050f1c39",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "569bf7425bc78031",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "92a8202f3731050b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "933c3c8601c84fcb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d0c964ec96c2d971",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e75ee24dbeb90dfa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fbf4c91dd680312b",
+   "type": "contains"
+  },
+  {
+   "parent": "d0c964ec96c2d971",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e75ee24dbeb90dfa",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fbf4c91dd680312b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

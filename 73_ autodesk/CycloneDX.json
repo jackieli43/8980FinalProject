@@ -1,0 +1,85 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:d79cf1d4-274b-4a58-9b2e-d7e837dd92a9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-16T15:18:34.256Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "javax.ws.rs",
+      "name": "jsr311-api",
+      "version": "1.1.1",
+      "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\73_autodesk\\jira-ldap-group-sync-plugin\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\73_autodesk\\jira-ldap-group-sync-plugin\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.atlassian.sal",
+      "name": "sal-api",
+      "version": "2.0.0",
+      "purl": "pkg:maven/com.atlassian.sal/sal-api@2.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.atlassian.sal/sal-api@2.0.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\73_autodesk\\jira-ldap-group-sync-plugin\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\73_autodesk\\jira-ldap-group-sync-plugin\\pom.xml"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

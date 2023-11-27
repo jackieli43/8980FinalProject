@@ -1,0 +1,402 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ac9558f1-45d1-45da-a815-624ba53c231e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T17:18:48.823Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "org.webbitserver",
+      "name": "webbit-rest",
+      "version": "0.2.1-SNAPSHOT",
+      "description": "An uri-template based REST API for Webbit",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.webbitserver/webbit-rest@0.2.1-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://webbitserver.org/"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/webbit/webbit-rest.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.webbitserver/webbit-rest@0.2.1-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "org.webbitserver",
+      "name": "webbit",
+      "version": "0.4.11",
+      "description": "A Java event based WebSocket and HTTP server",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "58c4084fe1ad446b22fc825f4f03122e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4fcecb73d2a47830228c2bdbe8ebe346cd15ec37"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d5b26d1077818d05507913a5c7c9fa567b08aa0ccce22fcb1d4e585bad40d497"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "552d93439a6e577f920b212153d0b2d7261ed37efbbbc6e2235a28449005b1e843c7181d84416e703dd827f1dc5ccdc4d56d760bd2fc33886d511ffb875cbe63"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4afd6b978a3a9fa44342b6ec30ec229169afb593e97fcd95f1481ea5ac9da04814d4b82c98cbf7d0f15ab72441d0f48e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cb10b74edff957cab4dbeb26aa75675ee9d8abd3def97f00736419f00cf7dc80f8fe2673942624461c022e0cb2a4c32c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ca380f1882721395d34dfcc365727bc170da1f0001dfcb02c760303daa3b018f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e5b64e3415ac6a31441662a8df44f9910a22ea07941898aaed757f89a52ac396f1de31d16416b98c91507e692a25f07124a8642994908766d21d4e7fc30fa8f4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.webbitserver/webbit@0.4.11?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.webbitserver/webbit@0.4.11?type=jar"
+    },
+    {
+      "publisher": "JBoss, a division of Red Hat, Inc.",
+      "group": "org.jboss.netty",
+      "name": "netty",
+      "version": "3.2.7.Final",
+      "description": "The Netty project is an effort to provide an asynchronous event-driven network application framework and tools for rapid development of maintainable high performance and high scalability protocol servers and clients. In other words, Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "43a2be50ffe3366a965064918412849b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1a1c5dde827576f3730bf6f3d7b389e770b90aaa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9adb967fed11e49a415098949a3edbe59b073bed7619239271d947732246ad1e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "91cd8fb932476d1105583706870bbc7e728ff36f5c8b313ea596b8457ac0420f572620dd891e5fa4819f04daa72fee9a6e956ea4b62aeb7a93246eec1614688a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9842ab1b918f685c134895e9f4131b54ded10aca4452b6b58590bc45ce31a8828fff442ee4742101156b70d91079ff2a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1cf3a77ca20ac25d68ba8a2065b85d10abb100a362d47df7f8831f4446fb4930ec6ef00212524a1206121c24241a83df"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ecfde240ee5e7a8af7aa90efb1dbc3c7ae911b54137a2f4dda69c44562c97dea"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e62dfb9050db1a6b5fd2ae4c4c934273df4d2f76d6880630263a7d53050290e1390aa5172d2e99fe80e2f0dedf4a24ca00668d721839c3c5939c22bf95d8891"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.netty/netty@3.2.7.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.jboss.netty/netty@3.2.7.Final?type=jar"
+    },
+    {
+      "group": "org.weborganic",
+      "name": "furi",
+      "version": "0.8.4",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "06f9e72d6d3789e664c19189f3856794"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0bd0d8e42ac0b3dbfdf4be7553196659d82724f3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90b1093c3aead3f9bd667f2441ff86c8fb2d142c022410ecc119ba17543db626"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "54c4ca540f69c8f6a3b7fc93ce7dd072248b7bd6251d398fa4387a34acd1709a8179f9d25a99e5b6f42b67b4ddbe03dd443e584aaae4f771a7b678b378150839"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0ed77deb3673ad275c80ed617699f6844c42f55072688f9f5bdd3617bed42f64377fb5967da8eb906c0a8d98ffe53f39"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6aee6b07a384e892bf612af84e35fdf7fa1582ec9bdf9bbac1fd65e29a5203dfbd86a865183ff3e94650acd4d6be6309"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "960b7591c5eee4d9b2b8ec4ceeb72a30b579838870af6a5203b8a6f02c7ee272"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "674a01b49abce646db6c764526eeb6019a81ea6f20e482274f3a7fbc0d4b4884126da03d513c03b0fb86606a2babd495d71fe793fc5530f8598951269285b979"
+        }
+      ],
+      "purl": "pkg:maven/org.weborganic/furi@0.8.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.weborganic/furi@0.8.4?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.10",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "68380001b88006ebe49be50cef5bb23a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e4f1766ce7404a08f45d859fb9c226fc9e41a861"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "36a747ca1e0b86f6ea88055b8723bb87030d627766da6288bf077afdeeb0f75a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c8b595c24a5ad2499a5bd5bb01204453cd09f51308fea5834922e042b8f39bd8ef0099848eb3a8576ddc4ce4ec907181ba0c20f1222a25b3064d1c3c5499cbd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7bcbef235aec4257910398c646b2a0467aeaa952a70d1c8184b1a2fdd8d471fd02c8acb6ae26b5c6d47bfb72f9de5551"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "22243110e6d6ab29d6b76ea8acf31e9488cf16ae687cb90448044b78b7499cc7c904e5fdcbc5f250c319e73e26c8a60e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8b86f86d0c6905500c5eb85d8eeec4e3214e9bbc540a90737a693f6c977b7028"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "df5e2b5784a6799bba31688041ccfdcdfefa6dfed6e7f5127aa0c6f5d4584d1e31d0e19147eedc0238622a14a3ed4b3466e7ed2ccce907dabade0ef8574afa33"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.10?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.10?type=jar"
+    },
+    {
+      "publisher": "Hamcrest",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b66d0c48e1f1dc54d4227db52512c15b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "860340562250678d1a344907ac75754e259cdb14"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0361d1493ff0d94f861359efea91200720635072134792efb7217f6e09d5cffb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eef6453bb867d173f3611844a95e0b9d1792ee35c0c49d20a309d87c7140dfacee0fc479def9a32351773d3f0d9dc51bef8d9ec30f84189fcd7f44a2892b52b4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f0eefd636c181ad2db515e1771d8d261b0a274d7998b7a39090ad5f7b6ee75dc43043ae4976ff62145b83b567ed8042e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0340e12b1e115d4b01bdeac4e38eb16a8e413ec9c3d1da7445d2b1388c9f51b6f0e51cec11eb3caa3d2fac51d8450849"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c1cf561c262f43751e4041e6e1807a197ef2553eb3d0af276acfbfc12d56ed2d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b1c4e4857e963257880b5eb4e23c55d6479193680178da83ea84be90d19eda2a7f66d8d74182dfe3a3d5808fe62b3664f96677c94a5eaba65181c5cde57a166b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD style",
+            "url": "http://www.opensource.org/licenses/bsd-license.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar"
+    },
+    {
+      "group": "com.samskivert",
+      "name": "jmustache",
+      "version": "1.5",
+      "description": "A Java implementation of the Mustache templating language.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1627e4c3caad49429377a06fa19ca3d5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "309ea9ec27f921c960737759969c36388d59ccdc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ce1e7aa7efde125778c516e1a843010ef0f159bc68ff332a9b75bba8a1f6667b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "97522c2be8f8161906149689ec372da5c9f00423bd87b362b7484b4ea866e89c7fca07ff5d8b6b53800a7f35463bbc047fd7658d58140c3c321e18cac2d7118c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "173a816b3963a8a4b811ede8826724c44f1d6e85db93cbf11dd9c567d49ff7b3801cd109ac079b1f89829dd22f1af1f8"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ec7cee65a6ef82a35a0a26b96b3bbc6cdd26e86c20d376bdba4fdab569de8e7329e933eb560c3fb2ef96bf7e2c75cde6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f49892d298852cd8eb06c761924a466f1a400fafaf3803861ae75367effc7593"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2c12c135759797ba3e73936b906c9b3d5c5ba42f02444d58a92137857dbffdc4ae5accf74fba98d4bf4404a1fa2e029b91104fcff741fce96651d10aa697aafb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "The (New) BSD License",
+            "url": "http://www.opensource.org/licenses/bsd-license.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.samskivert/jmustache@1.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.samskivert/jmustache@1.5?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.webbitserver/webbit-rest@0.2.1-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.samskivert/jmustache@1.5?type=jar",
+        "pkg:maven/junit/junit@4.10?type=jar",
+        "pkg:maven/org.webbitserver/webbit@0.4.11?type=jar",
+        "pkg:maven/org.weborganic/furi@0.8.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.webbitserver/webbit@0.4.11?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.netty/netty@3.2.7.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.netty/netty@3.2.7.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.weborganic/furi@0.8.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.samskivert/jmustache@1.5?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,0 +1,1134 @@
+{
+ "artifacts": [
+  {
+   "id": "c728c9eac3349ad0",
+   "name": "RdPro",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\rdpro-console.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mhisoft:RdPro:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:RdPro:RdPro:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mhisoft/RdPro@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\rdpro-console.jar:org.mhisoft:RdPro",
+    "pomProperties": {
+     "path": "META-INF/maven/org.mhisoft/RdPro/pom.properties",
+     "name": "",
+     "groupId": "org.mhisoft",
+     "artifactId": "RdPro",
+     "version": "1.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.mhisoft/RdPro/pom.xml",
+     "groupId": "org.mhisoft",
+     "artifactId": "RdPro",
+     "version": "1.0",
+     "name": "Recursive Delete Pro",
+     "description": "Recursive delete Pro"
+    }
+   }
+  },
+  {
+   "id": "b568587796ddaa22",
+   "name": "RdPro",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\rdpro-ui.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mhisoft:RdPro:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:RdPro:RdPro:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mhisoft/RdPro@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\rdpro-ui.jar:org.mhisoft:RdPro",
+    "pomProperties": {
+     "path": "META-INF/maven/org.mhisoft/RdPro/pom.properties",
+     "name": "",
+     "groupId": "org.mhisoft",
+     "artifactId": "RdPro",
+     "version": "1.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.mhisoft/RdPro/pom.xml",
+     "groupId": "org.mhisoft",
+     "artifactId": "RdPro",
+     "version": "1.0",
+     "name": "Recursive Delete Pro",
+     "description": "Recursive delete Pro"
+    }
+   }
+  },
+  {
+   "id": "1608303463c9d902",
+   "name": "Recursive Delete Pro",
+   "version": "1.2",
+   "type": "dotnet",
+   "foundBy": "dotnet-portable-executable-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\rdpro-ui.exe"
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:Recursive_Delete_Pro:Recursive_Delete_Pro:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:nuget/Recursive%20Delete%20Pro@1.2",
+   "metadataType": "DotnetPortableExecutableMetadata",
+   "metadata": {
+    "assemblyVersion": "",
+    "legalCopyright": "Copyright(c) 2014 Tony Xue",
+    "internalName": "RdPro",
+    "companyName": "MHISoft",
+    "productName": "Recursive Delete Pro",
+    "productVersion": "1.2"
+   }
+  },
+  {
+   "id": "9faed22310de22a2",
+   "name": "Recursive Delete Pro",
+   "version": "1.2",
+   "type": "dotnet",
+   "foundBy": "dotnet-portable-executable-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\rdpro.exe"
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:Recursive_Delete_Pro:Recursive_Delete_Pro:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:nuget/Recursive%20Delete%20Pro@1.2",
+   "metadataType": "DotnetPortableExecutableMetadata",
+   "metadata": {
+    "assemblyVersion": "",
+    "legalCopyright": "Copyright(c) 2014 Tony Xue",
+    "internalName": "RdPro",
+    "companyName": "MHISoft",
+    "productName": "Recursive Delete Pro",
+    "productVersion": "1.2"
+   }
+  },
+  {
+   "id": "cba4ddcd91931ff0",
+   "name": "Utility to create a directory name grafting",
+   "version": "5.2.3790.0 built by: dnsrv_dev(v-smgum)",
+   "type": "dotnet",
+   "foundBy": "dotnet-portable-executable-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\tools\\linkd.exe"
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:Utility_to_create_a_directory_name_grafting:Utility_to_create_a_directory_name_grafting:5.2.3790.0_built_by\\:_dnsrv_dev\\(v-smgum\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:nuget/Utility%20to%20create%20a%20directory%20name%20grafting@5.2.3790.0%20built%20by:%20dnsrv_dev(v-smgum)",
+   "metadataType": "DotnetPortableExecutableMetadata",
+   "metadata": {
+    "assemblyVersion": "",
+    "legalCopyright": "© Microsoft Corporation. All rights reserved.",
+    "internalName": "linkd",
+    "companyName": "Microsoft Corporation",
+    "productName": "Microsoft® Windows® Operating System",
+    "productVersion": "5.2.3790.0"
+   }
+  },
+  {
+   "id": "5350cd7e27f62d2b",
+   "name": "appbundler",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\lib\\ant\\appbundler-1.0.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:appbundler:appbundler:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oracle:appbundler:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.oracle/appbundler@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\lib\\ant\\appbundler-1.0.jar",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.8.4",
+      "Created-By": "1.7.0_06-b24 (Oracle Corporation)",
+      "Implementation-Title": "App Bundler Ant Task",
+      "Implementation-Vendor": "Oracle",
+      "Implementation-Vendor-Id": "com.oracle",
+      "Implementation-Version": "1.0",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "79b58ab90c05d3e11f94f6075bac61e3c9e0461c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "73779332abf54fe1",
+   "name": "commons-io",
+   "version": "2.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\lib\\commons-io-2.1.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\dist\\lib\\commons-io-2.1.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:io:2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-io/commons-io@2.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\lib\\commons-io-2.1.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1317677448520",
+      "Build-Jdk": "1.6.0_24",
+      "Built-By": "ggregory",
+      "Bundle-Description": "The Commons IO library contains utility classes, stream implementations, file filters, file comparators and endian classes.",
+      "Bundle-DocURL": "http://commons.apache.org/io/",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Commons IO",
+      "Bundle-SymbolicName": "org.apache.commons.io",
+      "Bundle-Vendor": "The Apache Software Foundation",
+      "Bundle-Version": "2.1.0",
+      "Created-By": "Apache Maven Bundle Plugin",
+      "Export-Package": "org.apache.commons.io.output;version=\"2.1\",org.apache.commons.io.monitor;version=\"2.1\",org.apache.commons.io.filefilter;version=\"2.1\",org.apache.commons.io.comparator;version=\"2.1\",org.apache.commons.io.input;version=\"2.1\",org.apache.commons.io;version=\"2.1\"",
+      "Implementation-Build": "trunk@r1178270; 2011-10-03 17:30:43-0400",
+      "Implementation-Title": "Commons IO",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "2.1",
+      "Include-Resource": "META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=NOTICE.txt",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Commons IO",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "2.1",
+      "Tool": "Bnd-1.43.0",
+      "X-Compile-Source-JDK": "1.5",
+      "X-Compile-Target-JDK": "1.5"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/commons-io/commons-io/pom.properties",
+     "name": "",
+     "groupId": "commons-io",
+     "artifactId": "commons-io",
+     "version": "2.1"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "fd51f906669f49a4ffd06650666c3b8147a6106e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "9a95221da0dd6592",
+   "name": "commons-io",
+   "version": "2.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-io:commons-io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-io:commons_io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_io:commons-io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_io:commons_io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-io:2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_io:2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-io/commons-io@2.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-io",
+     "artifactId": "commons-io",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "68b981c23b8d780f",
+   "name": "commons-logging-api",
+   "version": "1.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\lib\\commons-logging-api-1.1.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Apache-2.0",
+     "spdxExpression": "Apache-2.0",
+     "type": "concluded",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\dist\\lib\\commons-logging-api-1.1.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-logging-api:1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_logging_api:1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:logging:1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache/commons-logging-api@1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\lib\\commons-logging-api-1.1.jar",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.6.2",
+      "Created-By": "1.2.2 (Sun Microsystems Inc.)",
+      "Extension-Name": "org.apache.commons.logging",
+      "Implementation-Title": "Jakarta Commons Logging",
+      "Implementation-Vendor": "Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "1.1",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Jakarta Commons Logging",
+      "Specification-Vendor": "Apache Software Foundation",
+      "Specification-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "7d4cf5231d46c8524f9b9ed75bb2d1c69ab93322"
+     }
+    ]
+   }
+  },
+  {
+   "id": "7799551ed7217e40",
+   "name": "commons-vfs2",
+   "version": "2.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\lib\\commons-vfs2-2.0.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\dist\\lib\\commons-vfs2-2.0.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-vfs2:2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_vfs2:2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-vfs2@2.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\lib\\commons-vfs2-2.0.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1313675876256",
+      "Build-Jdk": "1.6.0_26",
+      "Built-By": "rgoers",
+      "Bundle-Description": "VFS is a Virtual File System library.",
+      "Bundle-DocURL": "http://commons.apache.org/vfs/commons-vfs2/",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Commons VFS Core",
+      "Bundle-SymbolicName": "org.apache.commons.vfs",
+      "Bundle-Vendor": "The Apache Software Foundation",
+      "Bundle-Version": "2.0",
+      "Created-By": "1.6.0_26 (Apple Inc.)",
+      "Export-Package": "org.apache.commons.vfs2.impl;version=\"2.0\",org.apache.commons.vfs2.provider.url;version=\"2.0\",org.apache.commons.vfs2.provider.ftps;version=\"2.0\",org.apache.commons.vfs2.provider.zip;version=\"2.0\",org.apache.commons.vfs2.provider.jar;version=\"2.0\",org.apache.commons.vfs2.provider.bzip2;version=\"2.0\",org.apache.commons.vfs2.provider.ftp;version=\"2.0\",org.apache.commons.vfs2.auth;version=\"2.0\",org.apache.commons.vfs2.provider.sftp;version=\"2.0\",org.apache.commons.vfs2.provider.gzip;version=\"2.0\",org.apache.commons.vfs2.cache;version=\"2.0\",org.apache.commons.vfs2.tasks;version=\"2.0\",org.apache.commons.vfs2.provider.local;version=\"2.0\",org.apache.commons.vfs2;version=\"2.0\",org.apache.commons.vfs2.operations;version=\"2.0\",org.apache.commons.vfs2.operations.vcs;version=\"2.0\",org.apache.commons.vfs2.provider.compressed;version=\"2.0\",org.apache.commons.vfs2.provider.temp;version=\"2.0\",org.apache.commons.vfs2.provider;version=\"2.0\",org.apache.commons.vfs2.provider.webdav;version=\"2.0\",org.apache.commons.vfs2.provider.res;version=\"2.0\",org.apache.commons.vfs2.provider.http;version=\"2.0\",org.apache.commons.vfs2.events;version=\"2.0\",org.apache.commons.vfs2.provider.ram;version=\"2.0\",org.apache.commons.vfs2.provider.https;version=\"2.0\",org.apache.commons.vfs2.provider.tar;version=\"2.0\",org.apache.commons.vfs2.util;version=\"2.0\"",
+      "Implementation-Title": "Commons VFS Core",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "2.0",
+      "Import-Package": "com.jcraft.jsch,javax.crypto,javax.crypto.spec,javax.xml.parsers,org.apache.commons.collections.map,org.apache.commons.httpclient,org.apache.commons.httpclient.auth,org.apache.commons.httpclient.methods,org.apache.commons.httpclient.params,org.apache.commons.httpclient.util,org.apache.commons.logging,org.apache.commons.net.ftp,org.apache.commons.net.ftp.parser,org.apache.jackrabbit.webdav,org.apache.jackrabbit.webdav.client.methods,org.apache.jackrabbit.webdav.property,org.apache.jackrabbit.webdav.version,org.apache.jackrabbit.webdav.xml,org.apache.tools.ant,org.w3c.dom",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Commons VFS Core",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "2.0",
+      "Tool": "Bnd-0.0.255",
+      "X-Compile-Source-JDK": "1.5",
+      "X-Compile-Target-JDK": "1.5"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.commons/commons-vfs2/pom.properties",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-vfs2",
+     "version": "2.0"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "b5af3b9c96b060d77c68fa5ac9384b402dd58013"
+     }
+    ]
+   }
+  },
+  {
+   "id": "79f8855fe335c3e4",
+   "name": "commons-vfs2",
+   "version": "2.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-vfs2:2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_vfs2:2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-vfs2@2.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-vfs2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "588855174491ee70",
+   "name": "forms_rt",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\lib\\forms_rt.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:forms-rt:forms-rt:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:forms-rt:forms_rt:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:forms_rt:forms-rt:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:forms_rt:forms_rt:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:forms:forms-rt:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:forms:forms_rt:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/forms_rt/forms_rt",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\lib\\forms_rt.jar",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.8.2",
+      "Created-By": "1.6.0_35-b10 (Sun Microsystems Inc.)",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "afea2821ab61f5c7032301186ec9d8b09aff926a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c64fbb686fd02e57",
+   "name": "junit",
+   "version": "4.13.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.13.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.13.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "446db066cf782101",
+   "name": "rdpro-console",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\rdpro-console.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:rdpro-console:rdpro-console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-console:rdpro_console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_console:rdpro-console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_console:rdpro_console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:rdpro-console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:rdpro_console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:RdPro:rdpro-console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:RdPro:rdpro_console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-console:RdPro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-console:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:rdpro-console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:rdpro_console:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_console:RdPro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_console:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:RdPro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:RdPro:RdPro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:RdPro:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:RdPro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:rdpro:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mhisoft.rdpro.RdPro/rdpro-console",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\rdpro-console.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.8.0_241",
+      "Built-By": "i831964",
+      "Created-By": "Apache Maven 3.3.3",
+      "Main-Class": "org.mhisoft.rdpro.RdPro",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "fca9248f03611cc8b0d65861adab25e16c89b243"
+     }
+    ]
+   }
+  },
+  {
+   "id": "5f34eedbd85f52ba",
+   "name": "rdpro-ui",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\rdpro-ui.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:ReproMainForm:ReproMainForm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ReproMainForm:rdpro-ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ReproMainForm:rdpro_ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-ui:ReproMainForm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_ui:ReproMainForm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:ReproMainForm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ReproMainForm:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:ReproMainForm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-ui:rdpro-ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-ui:rdpro_ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_ui:rdpro-ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_ui:rdpro_ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ReproMainForm:ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:rdpro-ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:rdpro_ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ui:ReproMainForm:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-ui:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:rdpro-ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:rdpro_ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_ui:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro-ui:ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro_ui:ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ui:rdpro-ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ui:rdpro_ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mhisoft:ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rdpro:ui:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ui:rdpro:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ui:ui:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mhisoft.rdpro.ui.ReproMainForm/rdpro-ui",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\rdpro-ui.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.7.0_55",
+      "Built-By": "zxue",
+      "Class-Path": "lib/forms_rt.jar lib/images.jar lib/vfsjfilechooser2-0.2.7.jar lib/commons-io-2.1.jar lib/commons-vfs2-2.0.jar lib/commons-logging-api-1.1.jar",
+      "Created-By": "IntelliJ IDEA",
+      "Main-Class": "org.mhisoft.rdpro.ui.ReproMainForm",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "87f4c4039349b5129f508bc8374db9a4070ee14c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "79fa0cdfde04b094",
+   "name": "vfsjfilechooser2",
+   "version": "0.2.7",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\lib\\vfsjfilechooser2-0.2.7.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\dist\\lib\\vfsjfilechooser2-0.2.7.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:vfsjfilechooser2:vfsjfilechooser2:0.2.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fracpete:vfsjfilechooser2:0.2.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:vfsjfilechooser2:0.2.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.fracpete/vfsjfilechooser2@0.2.7",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\lib\\vfsjfilechooser2-0.2.7.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.8.0_51",
+      "Built-By": "i831964",
+      "Created-By": "Apache Maven",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/com.github.fracpete/vfsjfilechooser2/pom.properties",
+     "name": "",
+     "groupId": "com.github.fracpete",
+     "artifactId": "vfsjfilechooser2",
+     "version": "0.2.7"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "7dca600c0cfb25b0d497032a8eefa9972df65034"
+     }
+    ]
+   }
+  },
+  {
+   "id": "5082532fbcfd44a3",
+   "name": "vfsjfilechooser2",
+   "version": "0.2.7",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:vfsjfilechooser2:vfsjfilechooser2:0.2.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fracpete:vfsjfilechooser2:0.2.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:vfsjfilechooser2:0.2.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.fracpete/vfsjfilechooser2@0.2.7",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.github.fracpete",
+     "artifactId": "vfsjfilechooser2",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "446db066cf782101",
+   "child": "474ee408df04a0d7",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5082532fbcfd44a3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5350cd7e27f62d2b",
+   "child": "c55033ea6e17662d",
+   "type": "evident-by"
+  },
+  {
+   "parent": "588855174491ee70",
+   "child": "5bf18983208da13d",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5f34eedbd85f52ba",
+   "child": "176a6b0bab97748e",
+   "type": "evident-by"
+  },
+  {
+   "parent": "68b981c23b8d780f",
+   "child": "94c59ed4592d6c8d",
+   "type": "evident-by"
+  },
+  {
+   "parent": "73779332abf54fe1",
+   "child": "6c355d907a4a8a2c",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7799551ed7217e40",
+   "child": "88abd8c3dff1f7bb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "79f8855fe335c3e4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "79fa0cdfde04b094",
+   "child": "c531f0eeb64e2c24",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9a95221da0dd6592",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b568587796ddaa22",
+   "child": "176a6b0bab97748e",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c64fbb686fd02e57",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c728c9eac3349ad0",
+   "child": "474ee408df04a0d7",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1608303463c9d902",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "446db066cf782101",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5082532fbcfd44a3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5350cd7e27f62d2b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "588855174491ee70",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5f34eedbd85f52ba",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "68b981c23b8d780f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "73779332abf54fe1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7799551ed7217e40",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "79f8855fe335c3e4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "79fa0cdfde04b094",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9a95221da0dd6592",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9faed22310de22a2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b568587796ddaa22",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c64fbb686fd02e57",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c728c9eac3349ad0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cba4ddcd91931ff0",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "6c355d907a4a8a2c",
+   "location": {
+    "path": "\\dist\\lib\\commons-io-2.1.jar"
+   }
+  },
+  {
+   "id": "94c59ed4592d6c8d",
+   "location": {
+    "path": "\\dist\\lib\\commons-logging-api-1.1.jar"
+   }
+  },
+  {
+   "id": "88abd8c3dff1f7bb",
+   "location": {
+    "path": "\\dist\\lib\\commons-vfs2-2.0.jar"
+   }
+  },
+  {
+   "id": "5bf18983208da13d",
+   "location": {
+    "path": "\\dist\\lib\\forms_rt.jar"
+   }
+  },
+  {
+   "id": "c531f0eeb64e2c24",
+   "location": {
+    "path": "\\dist\\lib\\vfsjfilechooser2-0.2.7.jar"
+   }
+  },
+  {
+   "id": "474ee408df04a0d7",
+   "location": {
+    "path": "\\dist\\rdpro-console.jar"
+   }
+  },
+  {
+   "id": "176a6b0bab97748e",
+   "location": {
+    "path": "\\dist\\rdpro-ui.jar"
+   }
+  },
+  {
+   "id": "c55033ea6e17662d",
+   "location": {
+    "path": "\\lib\\ant\\appbundler-1.0.jar"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

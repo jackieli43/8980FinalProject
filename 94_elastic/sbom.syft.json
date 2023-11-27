@@ -1,0 +1,393 @@
+{
+ "artifacts": [
+  {
+   "id": "7880945a3b042517",
+   "name": "commons-pool2",
+   "version": "2.4.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-pool2:2.4.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_pool2:2.4.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.4.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-pool2@2.4.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-pool2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "b637f866b1290df8",
+   "name": "elasticsearch",
+   "version": "2.4.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:elasticsearch:elasticsearch:2.4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elastic:elasticsearch:2.4.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.elasticsearch/elasticsearch@2.4.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.elasticsearch",
+     "artifactId": "elasticsearch",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "a996ca3cee66868b",
+   "name": "elasticsearch-cluster-runner",
+   "version": "2.4.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:elasticsearch-cluster-runner:elasticsearch-cluster-runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch-cluster-runner:elasticsearch_cluster_runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch_cluster_runner:elasticsearch-cluster-runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch_cluster_runner:elasticsearch_cluster_runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch-cluster:elasticsearch-cluster-runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch-cluster:elasticsearch_cluster_runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch_cluster:elasticsearch-cluster-runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch_cluster:elasticsearch_cluster_runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch:elasticsearch-cluster-runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:elasticsearch:elasticsearch_cluster_runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codelibs:elasticsearch-cluster-runner:2.4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codelibs:elasticsearch_cluster_runner:2.4.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.codelibs/elasticsearch-cluster-runner@2.4.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.codelibs",
+     "artifactId": "elasticsearch-cluster-runner",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "989e7e231082bbf1",
+   "name": "groovy-all",
+   "version": "2.4.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:groovy-all:groovy-all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy-all:groovy_all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy_all:groovy-all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy_all:groovy_all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:groovy-all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:groovy_all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy-all:groovy:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy:groovy-all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy:groovy_all:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy_all:groovy:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:groovy:2.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:groovy:groovy:2.4.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.codehaus.groovy/groovy-all@2.4.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.codehaus.groovy",
+     "artifactId": "groovy-all",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "1aac868719031d61",
+   "name": "jsch",
+   "version": "0.1.53",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jcraft:jsch:0.1.53:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsch:jsch:0.1.53:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.jcraft/jsch@0.1.53",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.jcraft",
+     "artifactId": "jsch",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e641780cb01b919a",
+   "name": "junit",
+   "version": "4.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "1aac868719031d61",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7880945a3b042517",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "989e7e231082bbf1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a996ca3cee66868b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b637f866b1290df8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1aac868719031d61",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7880945a3b042517",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "989e7e231082bbf1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a996ca3cee66868b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b637f866b1290df8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e641780cb01b919a",
+   "type": "contains"
+  },
+  {
+   "parent": "e641780cb01b919a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

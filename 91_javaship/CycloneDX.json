@@ -1,0 +1,409 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2375a3cc-2816-4787-8719-87cfbe9ff98d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-17T00:19:22.751Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "com.opencsv",
+      "name": "opencsv",
+      "version": "4.1",
+      "purl": "pkg:maven/com.opencsv/opencsv@4.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.opencsv/opencsv@4.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.json",
+      "name": "json",
+      "version": "20171018",
+      "purl": "pkg:maven/org.json/json@20171018?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.json/json@20171018?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "io.vavr",
+      "name": "vavr",
+      "version": "0.10.0",
+      "purl": "pkg:maven/io.vavr/vavr@0.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.vavr/vavr@0.10.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-csv",
+      "version": "1.5",
+      "purl": "pkg:maven/org.apache.commons/commons-csv@1.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-csv@1.5?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "io.vavr",
+      "name": "vavr-match",
+      "version": "0.10.0",
+      "purl": "pkg:maven/io.vavr/vavr-match@0.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.vavr/vavr-match@0.10.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.tirasa.connid.bundles",
+      "name": "net.tirasa.connid.bundles.ldap",
+      "version": "1.5.4",
+      "purl": "pkg:maven/net.tirasa.connid.bundles/net.tirasa.connid.bundles.ldap@1.5.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.tirasa.connid.bundles/net.tirasa.connid.bundles.ldap@1.5.4?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.tirasa.connid.bundles",
+      "name": "net.tirasa.connid.bundles.ad",
+      "version": "1.3.6",
+      "purl": "pkg:maven/net.tirasa.connid.bundles/net.tirasa.connid.bundles.ad@1.3.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.tirasa.connid.bundles/net.tirasa.connid.bundles.ad@1.3.6?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.tirasa.connid",
+      "name": "connector-test-common",
+      "version": "1.5.0.1",
+      "purl": "pkg:maven/net.tirasa.connid/connector-test-common@1.5.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.tirasa.connid/connector-test-common@1.5.0.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.tirasa.connid.bundles",
+      "name": "net.tirasa.connid.bundles.csvdir",
+      "version": "0.8.8",
+      "purl": "pkg:maven/net.tirasa.connid.bundles/net.tirasa.connid.bundles.csvdir@0.8.8?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.tirasa.connid.bundles/net.tirasa.connid.bundles.csvdir@0.8.8?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "11.0.2",
+      "purl": "pkg:maven/com.google.guava/guava@11.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.raisercostin",
+      "name": "jedio",
+      "version": "0.17",
+      "purl": "pkg:maven/org.raisercostin/jedio@0.17?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.raisercostin/jedio@0.17?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.google.api-client",
+      "name": "google-api-client",
+      "version": "1.23.0",
+      "purl": "pkg:maven/com.google.api-client/google-api-client@1.23.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.api-client/google-api-client@1.23.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.google.oauth-client",
+      "name": "google-oauth-client-jetty",
+      "version": "1.23.0",
+      "purl": "pkg:maven/com.google.oauth-client/google-oauth-client-jetty@1.23.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.oauth-client/google-oauth-client-jetty@1.23.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.google.apis",
+      "name": "google-api-services-calendar",
+      "version": "v3-rev305-1.23.0",
+      "purl": "pkg:maven/com.google.apis/google-api-services-calendar@v3-rev305-1.23.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.apis/google-api-services-calendar@v3-rev305-1.23.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\91_javaship\\javaShip2019\\pom.xml"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

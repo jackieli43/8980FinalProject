@@ -1,0 +1,1670 @@
+{
+ "artifacts": [
+  {
+   "id": "e92f6c54403e0377",
+   "name": "actions/cache",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven-pulls.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/cache:actions\\/cache:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/cache@v2"
+  },
+  {
+   "id": "d93867e546c4ecef",
+   "name": "actions/cache",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/cache:actions\\/cache:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/cache@v2"
+  },
+  {
+   "id": "f9472baffc868a72",
+   "name": "actions/cache",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\prepare-release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/cache:actions\\/cache:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/cache@v2"
+  },
+  {
+   "id": "c8b9493f7d29f8d0",
+   "name": "actions/cache",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/cache:actions\\/cache:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/cache@v2"
+  },
+  {
+   "id": "83f4c89fd7baa477",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven-pulls.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "57144f5328c7e45a",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "83422c2087676b15",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\prepare-release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "846725226b31ad1d",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "97c97b0fe9ac205c",
+   "name": "actions/checkout",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\dependency-review.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v4"
+  },
+  {
+   "id": "6cf4ab134129615e",
+   "name": "actions/dependency-review-action",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\dependency-review.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/dependency-review-action:actions\\/dependency-review-action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency-review-action:actions\\/dependency_review_action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency_review_action:actions\\/dependency-review-action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency_review_action:actions\\/dependency_review_action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency-review:actions\\/dependency-review-action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency-review:actions\\/dependency_review_action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency_review:actions\\/dependency-review-action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency_review:actions\\/dependency_review_action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency:actions\\/dependency-review-action:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/dependency:actions\\/dependency_review_action:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/dependency-review-action@v3"
+  },
+  {
+   "id": "274e760b1fbc3241",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven-pulls.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "453550fe92bd2b27",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "2fd36b48ca8c17a6",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\prepare-release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "8ad585da5dd14f2d",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "6f93ccf56e7f03d6",
+   "name": "actions/setup-python",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\prepare-release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-python@v4"
+  },
+  {
+   "id": "93c2de36c3dc3f09",
+   "name": "actions/setup-python",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-python@v4"
+  },
+  {
+   "id": "95ff844047b0ba79",
+   "name": "assertj-core",
+   "version": "3.24.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:assertj-core:assertj-core:3.24.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj-core:assertj_core:3.24.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core:assertj-core:3.24.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core:assertj_core:3.24.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj:assertj-core:3.24.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj:assertj_core:3.24.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.assertj/assertj-core@3.24.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.assertj",
+     "artifactId": "assertj-core",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "5af8b2fb67321bfc",
+   "name": "httpclient",
+   "version": "4.5.14",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:httpclient:4.5.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.httpcomponents",
+     "artifactId": "httpclient",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "756e38ec9f1fd272",
+   "name": "jackson-core",
+   "version": "2.15.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-core:jackson-core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-core:jackson_core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:jackson-core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:jackson_core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-core:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson-core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson_core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-core:core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:core:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:core:2.15.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8ad89090c6dcab63",
+   "name": "jackson-databind",
+   "version": "2.15.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-databind:jackson-databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson_databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson-databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson_databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson-databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson_databind:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson:2.15.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-databind",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8df30f24f9b8888b",
+   "name": "jackson-jaxrs-json-provider",
+   "version": "2.15.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-jaxrs-json-provider:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-json-provider:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_json_provider:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_json_provider:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-json:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-json:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_json:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_json:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-json-provider:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_json_provider:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxrs:jackson-jaxrs-json-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxrs:jackson_jaxrs_json_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-json:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_json:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxrs:jackson:2.15.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.15.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.jaxrs",
+     "artifactId": "jackson-jaxrs-json-provider",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bdd26814e6a7bcb8",
+   "name": "jackson-jaxrs-yaml-provider",
+   "version": "2.15.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-jaxrs-yaml-provider:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-yaml-provider:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_yaml_provider:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_yaml_provider:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-yaml:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-yaml:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_yaml:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_yaml:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-yaml-provider:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_yaml_provider:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxrs:jackson-jaxrs-yaml-provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxrs:jackson_jaxrs_yaml_provider:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs-yaml:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs_yaml:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-jaxrs:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_jaxrs:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxrs:jackson:2.15.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-yaml-provider@2.15.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.jaxrs",
+     "artifactId": "jackson-jaxrs-yaml-provider",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "46f7332fefa63075",
+   "name": "json-schema-validator",
+   "version": "1.0.87",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:json-schema-validator:json-schema-validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-schema-validator:json_schema_validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema_validator:json-schema-validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema_validator:json_schema_validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-schema:json-schema-validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-schema:json_schema_validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema:json-schema-validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema:json_schema_validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:networknt:json-schema-validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:networknt:json_schema_validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json-schema-validator:1.0.87:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json_schema_validator:1.0.87:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.networknt/json-schema-validator@1.0.87",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.networknt",
+     "artifactId": "json-schema-validator",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "9db707872507b222",
+   "name": "json-schema-validator",
+   "version": "2.2.14",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:json-schema-validator:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-schema-validator:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema_validator:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema_validator:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java-json-tools:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java-json-tools:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_json_tools:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_json_tools:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-schema:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-schema:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_schema:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java-json:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java-json:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_json:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_json:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:json_schema_validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json-schema-validator:2.2.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json_schema_validator:2.2.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.java-json-tools/json-schema-validator@2.2.14",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.github.java-json-tools",
+     "artifactId": "json-schema-validator",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f2a870679a6cf79a",
+   "name": "junit",
+   "version": "4.13.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.13.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.13.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "921b2f9e31602e6b",
+   "name": "logback-classic",
+   "version": "1.4.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-classic:logback-classic:1.4.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-classic:logback_classic:1.4.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback-classic:1.4.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback_classic:1.4.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-classic:1.4.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_classic:1.4.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-classic@1.4.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-classic",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "5aa80b58131d0bc7",
+   "name": "peter-evans/create-pull-request",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\prepare-release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:peter-evans\\/create-pull-request:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create-pull-request:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull_request:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull_request:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create-pull:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create-pull:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/peter-evans/create-pull-request@v4"
+  },
+  {
+   "id": "d44dab627166e0d0",
+   "name": "peter-evans/create-pull-request",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:peter-evans\\/create-pull-request:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create-pull-request:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull_request:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull_request:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create-pull:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create-pull:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create_pull:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter:peter-evans\\/create-pull-request:v4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:peter:peter_evans\\/create_pull_request:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/peter-evans/create-pull-request@v4"
+  },
+  {
+   "id": "07fc0d9c516e2121",
+   "name": "samuelmeuli/action-maven-publish",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:samuelmeuli\\/action-maven-publish:samuelmeuli\\/action-maven-publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action-maven-publish:samuelmeuli\\/action_maven_publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action_maven_publish:samuelmeuli\\/action-maven-publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action_maven_publish:samuelmeuli\\/action_maven_publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action-maven:samuelmeuli\\/action-maven-publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action-maven:samuelmeuli\\/action_maven_publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action_maven:samuelmeuli\\/action-maven-publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action_maven:samuelmeuli\\/action_maven_publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action:samuelmeuli\\/action-maven-publish:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:samuelmeuli\\/action:samuelmeuli\\/action_maven_publish:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/samuelmeuli/action-maven-publish@v1"
+  },
+  {
+   "id": "fadb8e62e09b8c4b",
+   "name": "slf4j-api",
+   "version": "2.0.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:2.0.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "74e71c6875392d5b",
+   "name": "snakeyaml",
+   "version": "2.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:snakeyaml:snakeyaml:2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:yaml:snakeyaml:2.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.yaml/snakeyaml@2.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.yaml",
+     "artifactId": "snakeyaml",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "0a7da6aa283c7e4a",
+   "name": "swagger-inflector",
+   "version": "2.0.10",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:swagger-inflector:swagger-inflector:2.0.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger-inflector:swagger_inflector:2.0.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger_inflector:swagger-inflector:2.0.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger_inflector:swagger_inflector:2.0.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger:swagger-inflector:2.0.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger:swagger_inflector:2.0.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.swagger/swagger-inflector@2.0.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "io.swagger",
+     "artifactId": "swagger-inflector",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e1a19f701f5df136",
+   "name": "swagger-parser",
+   "version": "2.1.18",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:swagger-parser:swagger-parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger-parser:swagger_parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger_parser:swagger-parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger_parser:swagger_parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger:swagger-parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger:swagger_parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parser:swagger-parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parser:swagger_parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger-parser:parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger_parser:parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:v3:swagger-parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:v3:swagger_parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swagger:parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parser:parser:2.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:v3:parser:2.1.18:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.swagger.parser.v3/swagger-parser@2.1.18",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "io.swagger.parser.v3",
+     "artifactId": "swagger-parser",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "22110f1abf930637",
+   "name": "tibdex/github-app-token",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\prepare-release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:tibdex\\/github-app-token:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github-app-token:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app_token:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app_token:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github-app:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github-app:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/tibdex/github-app-token@v1"
+  },
+  {
+   "id": "9dc6aebb7ef6ddda",
+   "name": "tibdex/github-app-token",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:tibdex\\/github-app-token:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github-app-token:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app_token:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app_token:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github-app:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github-app:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github_app:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github:tibdex\\/github-app-token:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tibdex\\/github:tibdex\\/github_app_token:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/tibdex/github-app-token@v1"
+  },
+  {
+   "id": "26ee21092cc34f3e",
+   "name": "wiremock",
+   "version": "3.3.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:wiremock:wiremock:3.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.wiremock/wiremock@3.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.wiremock",
+     "artifactId": "wiremock",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "07fc0d9c516e2121",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0a7da6aa283c7e4a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "22110f1abf930637",
+   "child": "3bd307f86fde30ee",
+   "type": "evident-by"
+  },
+  {
+   "parent": "26ee21092cc34f3e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "274e760b1fbc3241",
+   "child": "b8fc11980b2cdc01",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2fd36b48ca8c17a6",
+   "child": "3bd307f86fde30ee",
+   "type": "evident-by"
+  },
+  {
+   "parent": "453550fe92bd2b27",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "46f7332fefa63075",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "57144f5328c7e45a",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5aa80b58131d0bc7",
+   "child": "3bd307f86fde30ee",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5af8b2fb67321bfc",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6cf4ab134129615e",
+   "child": "b50075824b94fbd9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6f93ccf56e7f03d6",
+   "child": "3bd307f86fde30ee",
+   "type": "evident-by"
+  },
+  {
+   "parent": "74e71c6875392d5b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "756e38ec9f1fd272",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "83422c2087676b15",
+   "child": "3bd307f86fde30ee",
+   "type": "evident-by"
+  },
+  {
+   "parent": "83f4c89fd7baa477",
+   "child": "b8fc11980b2cdc01",
+   "type": "evident-by"
+  },
+  {
+   "parent": "846725226b31ad1d",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8ad585da5dd14f2d",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8ad89090c6dcab63",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8df30f24f9b8888b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "921b2f9e31602e6b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "93c2de36c3dc3f09",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "95ff844047b0ba79",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "97c97b0fe9ac205c",
+   "child": "b50075824b94fbd9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9db707872507b222",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9dc6aebb7ef6ddda",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bdd26814e6a7bcb8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c8b9493f7d29f8d0",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "07fc0d9c516e2121",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0a7da6aa283c7e4a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "22110f1abf930637",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "26ee21092cc34f3e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "274e760b1fbc3241",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2fd36b48ca8c17a6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "453550fe92bd2b27",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "46f7332fefa63075",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "57144f5328c7e45a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5aa80b58131d0bc7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5af8b2fb67321bfc",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6cf4ab134129615e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6f93ccf56e7f03d6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "74e71c6875392d5b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "756e38ec9f1fd272",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "83422c2087676b15",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "83f4c89fd7baa477",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "846725226b31ad1d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8ad585da5dd14f2d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8ad89090c6dcab63",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8df30f24f9b8888b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "921b2f9e31602e6b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "93c2de36c3dc3f09",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "95ff844047b0ba79",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "97c97b0fe9ac205c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9db707872507b222",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9dc6aebb7ef6ddda",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bdd26814e6a7bcb8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c8b9493f7d29f8d0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d44dab627166e0d0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d93867e546c4ecef",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e1a19f701f5df136",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e92f6c54403e0377",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f2a870679a6cf79a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f9472baffc868a72",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fadb8e62e09b8c4b",
+   "type": "contains"
+  },
+  {
+   "parent": "d44dab627166e0d0",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d93867e546c4ecef",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e1a19f701f5df136",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e92f6c54403e0377",
+   "child": "b8fc11980b2cdc01",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f2a870679a6cf79a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f9472baffc868a72",
+   "child": "3bd307f86fde30ee",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fadb8e62e09b8c4b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "b50075824b94fbd9",
+   "location": {
+    "path": "\\.github\\workflows\\dependency-review.yml"
+   }
+  },
+  {
+   "id": "b8fc11980b2cdc01",
+   "location": {
+    "path": "\\.github\\workflows\\maven-pulls.yml"
+   }
+  },
+  {
+   "id": "d7adab924ed45cea",
+   "location": {
+    "path": "\\.github\\workflows\\maven.yml"
+   }
+  },
+  {
+   "id": "3bd307f86fde30ee",
+   "location": {
+    "path": "\\.github\\workflows\\prepare-release.yml"
+   }
+  },
+  {
+   "id": "bcc92ffc67a456b9",
+   "location": {
+    "path": "\\.github\\workflows\\release.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

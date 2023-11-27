@@ -1,0 +1,2143 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6eec74fa-3d41-4e1b-a92d-9eb07d40b797",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T15:35:26.548Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "org.mappush",
+      "name": "MapPush",
+      "version": "0.0.1-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/org.mappush/MapPush@0.0.1-SNAPSHOT?type=war",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mappush/MapPush@0.0.1-SNAPSHOT?type=war"
+    }
+  },
+  "components": [
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-runtime",
+      "version": "1.0.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6f47d3b0e6d1c3a0301bef0c6600e625"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "48957ae8eca64c3f25bbb54a51f90381bf9e0fe8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5f7c55b2dcd75670e8306f5ae8c0197060ae961a6a7e4e854337414f4b9828f0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "720036b75ebf4a0c022652e0295dda7c310edd1ba0bfacc0ad8c972e680406c820729da5b896da35f755e4792aeee11a4a7fb4deacc5a0a6b82e4968e2f9af65"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4982b703fbd9f5700e100d7884b753b2053898939966d0a40eee65200ec11aff39e39c2f53c2cd80a0794deb1be9c2ec"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "55f7a41836003e13bcbbba151d14caee12b45a67e59b27626dc73cde86f71c2c8624889d12ae06ced8a23b7b3c6b92dc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5081871f867d9eb07444dd699847b35dc22d9689d03b316604f25ddd6ec471f3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "65f64d9b260ec2f39264daf47cbab27b5382a14891e811290e83be8bfbb7ac544a906fc80b25333b226859f2739332071ccd5df89843b0b8c2ae14c29d3c8949"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL",
+            "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-compat-jbossweb",
+      "version": "1.0.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9e7169d98c0ac6c07984d4d3394e8460"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f931002866d2972495807d2fc249362b61efcfc6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "488555594cc35cef38a17b927976f7a8e70eb1d922f1ab78179e0003781a0aee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb3225dcd444d48bfabf5909d740a3840309892444a5318966205d031ea45c1d55447403a94a9bd86b0d33ebff2c7483125c08cec0b8ae94e9a77d07bb968b8a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cd97065f16bc63642b9ed0b5c83c5730c40e552efb3fafd6306512502ad2de347504c4c7f6f4d4aa64ba36e037a3a2e3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b064ba84b543ae5521ac57254bd2c3158de84cc9aa0e4e1911d14751e99c27f2c7b710a460cc3440e1a981317031097a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c894e2a2fd43e0a7d98b9644a09cb690d7dd4d12635c39cb53537f4bd8e618f5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f836912fb8f94387bcb732144e2abc8ac5aa411fe5fbe37017d5d9a9b17e43177df4d4c49f5262553b059122ce24ef2901a885bd0007f92f03b559249218e5b1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL",
+            "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-compat-jbossweb@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-compat-jbossweb@1.0.0?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-compat-tomcat",
+      "version": "1.0.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "77ef5ef34b97a20ddc36081594ed46b2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d7b7e20ccc0e1aef9748f0088309db893b08b49c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "00e4bea7df1a165106e5953978fdc15cdf249906e7ab190ce363b31ced3a388f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "47decd620062fe7c067895a524fd50c9c132a83df537ba0fa4c7ddeecb622e7bee081053a0da207e77e4b70cba8c0027c3f22b1f40f47bc6bb553e8bdb044466"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4818108768920b6c9711618e62f8e2d4d73adc8ad78fc419f6cce1ebb7a37981730e7e70f5cf21f191ad6e650ce20b0b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "46355a0d6f4e886aa23923932d2cbbb78846f8e10783dcf176ff29488129170e640bbe9b3bcf56e120a9bb2b27b92cb5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9234ede34785f509bfa9cb097f7250b4e9430903895b945c3abccff210e3f98c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8ecdaed0974b8718457a1cb97ea09790393af5fc434325ce7b07926fb6944fa4adb0de7b9fdf5db0968c4d8d65fffb412fd43f692a4031ddb15eccd790c1712d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL",
+            "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-compat-tomcat@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-compat-tomcat@1.0.0?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-compat-tomcat7",
+      "version": "1.0.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cd74dc64c6a894b812ce871da25abaab"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "506acbce8071317afadfeb72c2d3dddee0566fd5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "89599d484bd313716b903c5d587dce6e6ec0fb6ba9253d403647b6a9f6060397"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "10923c42ea361dbe1a4f0e81441e8ad8e409835bced0c0ae7e70eb190fe5230682ac9245b6409aeae6942c93f67b3871aab4487cfacca58cf501dcb8ec5a45b0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1b7109ffd43c253f03ad2cf0429cb1634a7ee22781ad39db3b10ea3d5d91e9697406ee0270ba3fa48aaf45d1d9ef1def"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "209382cd57edad33a2344b14a61a09b1c160e5be55f93dc2f3036d20634fb5211dcc38677acf5204f08387203647acef"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d16cbbec2f447dc2e082e873a4102523cbcef464716d477200fe9c1be3a4d603"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "286791ca76b30dc6bb16b16c0987347fb0406580bbff94b7d06ff54884e93784e30ff77362b4a377b70e705e102a39758d4437ba950aa43e1e54cbc21a30d4b3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL",
+            "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-compat-tomcat7@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-compat-tomcat7@1.0.0?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.6.1",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bff6016da57e19fb736d0f5742ce60ac"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6f3b8a24bf970f17289b234284c94f43eb42f0e4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d849d117fc3798838c6cd42db6a7ecf6d9ae050c3997417b8e4e251e592b1d3e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "326e1bf8df950e961fdd9d83227e39e2385179ebca0112f25c24c44af18a7049c15ec7457ce3daa551554a17a61b3e8d421b438038ddd1a248d7395b8e3ea039"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e71ec717d66dd71f2cfd2d52269b119a07529ad7eaff5ece3bfe7ea5883e41886a0f1e3938698017c38541b4208e7f1a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f273ac13753eaf237f7d2ff3b7940d2feadcdd498fdbebb1ec42449e00423f963e9f918d1867930d4757912aeb785e78"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2d2b652d2365c4300a3006323d3da98545f1b9074d65cf102a15d3ddaf9f0d49"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "01dda57bec8b0a1ea1e95403cc4cec2ff1abdc02f808969ece1c5ae034a2175cf620ea282ad7f0d07c4bc3a9d69915bbf437df722b11ac54a9f499cdb68a450a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-jersey",
+      "version": "1.0.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "713128fd483c13a1cb92b4c20cdf0b0d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "541c0305245c6f88ca81a848fafb4ac37af2d0ba"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "acb7913060a2ad58b20528ef4eb5bbe88646d3c753475c0191e96efc34a0989e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4ef6ab1ff69ba2edcea3931fa46c1e71ebfd468c70bc1bfdee4f21be180ef2a8a4df4b871f5f5a3204575e1ba2c207a0ef60bb263068e3a6b339653ad260881c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b96c50ad5ffd67e0e38a8557cfd5e8017b22801d9999ab4d5ad7b1c514bece9dcab07d3fa29e3f9bbdd5c94609e1f782"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2b10d771c88fb5eaddb10ba5acc59f6706676e0668a7e0a0cb46dd0e2311ac38ba7d6e1d4522f663f83ea01955038d0c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ca56c32ff3e2d84d020e7f216be9bf37e3708387db9bb45ed0f69070bd07975a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "99f11b8bca8950a885d2da3d5e75d02eb53cafd4647bbbf3622720430d0724bf19718428d0f3f7faa8947663b399a3b1bdd688f6ab6ec0d79f58a0906a8ef8be"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL",
+            "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-jersey@1.0.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-jersey@1.0.0?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-annotations",
+      "version": "1.0.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bd892c05f9ccf6e0ded4ac4d83f6c19a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "97e511d87e4f9efb91637a2dfe2c8926c44d2058"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1b94cef4240b804834c246aae06be6baf165371ed117ae9edb17a904c376313e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1bdcedd46af2c67123f6b645b6531d86c65d7389ea77f4f74b0c0a6f081dd3eac6de1a3227d5874352675608c87287477938c5192aeccd7eab9874d87d458f94"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "003535442dec77d94d92bd438d3d94f8498c73dd88e5eea6389fa3e74a291b80469df09702ccf73bc5f710647acf504c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "aa819a3292890f35bca3fa4808907a1491e79e80b096a8e7f4c6bbf4e640006ee719ae0f25a88383ed9428d81f097308"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "56cf4798530728b73a975d6b5643d12128e1841cb11a905a662617e367ecaf92"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5a7fef1adcde71b3acac35a6325b9afd875a7d9d574df3918f481617e5ed2db9b410ac08052dcb47b59d66e4bf4c3f97581e296dd374636b328c924ff321edf9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL",
+            "url": "https://glassfish.dev.java.net/public/CDDLv1.0.html"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-annotations@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-annotations@1.0.0?type=jar"
+    },
+    {
+      "publisher": "Oracle Corporation",
+      "group": "com.sun.jersey",
+      "name": "jersey-server",
+      "version": "1.12",
+      "description": "Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fe063f2e66ca30f7f58a4f02d2f09df6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25690d534953c09fe23f779b4b047b1b5cc4ad35"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "081a8af58603251eda2e3542daea1c77153169b7a17b863b0e7d7412f20d5624"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5cb1f593bb519f67806e7d83e26e1d0f12874663f84bd302c7f3cdcdcb1236fb73203aaec387630635e8f20bcadb8abb8b8eaeb7fd6c842a284423688086be3b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "141482f11ea5bb8881d4ea96aa5a2a41e10bf743866718013dea25e031ae3fd9f6259e05c4cc3c4da01529586e3cb977"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "db9bd119f05d3a0a43d7b01bae0d96ed0413e47bb109cac63dd74ae2fe4560ab2ae9a6e33e1beca25d5eb3b429724904"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9485ebcba42209782826ecdee513567e17df88d0f1ba8fdac33fb9118e0211cb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "38ec21dad4fe2149b0cc87e211ce72fa1766dba43b2273444a703d351d91e89b85aafe5ca2a41c6851defb1109d386f3b27d8ad6507ff531dc5a635587f296d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.jersey/jersey-server@1.12?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.sun.jersey/jersey-server@1.12?type=jar"
+    },
+    {
+      "publisher": "ObjectWeb",
+      "group": "asm",
+      "name": "asm",
+      "version": "3.1",
+      "description": "A very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b9b8d2d556f9458aac8c463fd511f86d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c157def142714c544bdea2e6144645702adf7097"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "333ff5369043975b7e031b8b27206937441854738e038c1f47f98d072a20437a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "074612f145765d33c449887a29dd0791205881ba42d613e52b360ca53bd47c5f9835049de8fc6a384041de2e73bd271b6177c2225e2f72853a88359f6c10b14d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c4ae90a52b7a23cbca12a01777e140e3f3f7943634611c23166a60d69a90f1edfeac8b210979f055fab6d1526d287ba4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "04cc814a6d1d69266aba09985cd6ac04c5bc99964b099c88d89690ab656d53044a6a6bea6b79a37dc41c3202364888b6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0d52b7d9c8c5e047e79df73f4a4883e84eb324739748f1aac584e2e76b3968e6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5e0956cb7cd39ac3d6dd773d64a1a40f8a5b83c95306c627214572b996fd37188d9382e2b7c6579c3b93d04a9179ea3b479664de3d54ae9f0bf254de808d8c9c"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/asm/asm@3.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/asm/asm@3.1?type=jar"
+    },
+    {
+      "publisher": "Oracle Corporation",
+      "group": "com.sun.jersey",
+      "name": "jersey-servlet",
+      "version": "1.12",
+      "description": "Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7107728846d924d90c8fbf92c0357e5c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d5e21f7fa647310602825b4ac54b63c0e6cf633c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "423f8ae5a656726d6aac1e8eca944f027932b3d081cf20597ce23be18b2a4b54"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ff95bdd165c8867861cfb345e335fc21932240b614c20e5a5213ed9281730b93b514ef3b69846511a2f8d4a035ce4dbef332bdf1d8e5813499431807678fffee"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "805e403d113398be132f30242b0007d5915215ee904d6ab711a3cb1c01c8e2bfcf8ee30c88b17332c8cea2d9a9b2b6c1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "653765f2d47713a9c2b24261c78e893851994de5e9e1e5c2abc4231ecf3ddaa3d3e31d817acb606c5c0801a079d93b27"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "46d19f4a2d5ebc41c896587964505d81aaa11dbe5d66b78e74d720dd9e71865e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "756bf9c600f49834b8992fde4841cde488ee5e995b271d164aa30feac5bf7d04f331eadec4506a51424031c0e02fcd96ad2af59be076ffd72bec9ee290efd7be"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.jersey/jersey-servlet@1.12?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.sun.jersey/jersey-servlet@1.12?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "atmosphere-jquery",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "39828bcd968d83f00329dd737ecec5f3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "16aa9489d7012089e994b3d448113daa5b8605e9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e5d96e22a7f880ad13ee5f0f3be5f1810c5c5c0e8c6d82a1c23af4b82ce9dd97"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "882e6590454306e1985966b7ee6b5a242ae945d64260a0fd2788b7222bfba9282eef4d477dc9d4bac09f50b7c7724f31d209f444a5dc0f709c82ba9dcdee1d79"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "73ec1d01ebca0dfef6ce122be54e873a3608c7e159f343ab47f35421040c88829a0242b13253e57566fb5c85cd9bbd69"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "528de08dd18f574660c0454a249455dcc0ed2469b03e9992d19d0a6f74d44dd77cb5d0c78b58397674e33c6b2341e714"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b5d1c7aa60473c6bd3c78feaa6f0a00338396a71072fee5ed17083ae88931ec6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "69639f2523a0185c2594a381d013486e5ea2566ee8a7bbfeb3d1d00ede64b708b37991ecbb6564cdfd7c9e7a7742c7c7ce69697b9939dcea62a7cbcd492ba038"
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/atmosphere-jquery@1.0.0?type=war",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.atmosphere/atmosphere-jquery@1.0.0?type=war"
+    },
+    {
+      "publisher": "Oracle Corporation",
+      "group": "com.sun.jersey",
+      "name": "jersey-json",
+      "version": "1.12",
+      "description": "Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bc748c961de836be0b3f8a4b4906342a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1cd685daaf4559cc26b4a069f172d7e4a9410f76"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "85be0feaa588c1d9725d20b8951da8ae86f7f70e401af785d90b2fd7bf7a368f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f82a90cc1c3eaa5947d0332c76ee832818f638739a1fef49e8bb9239f420bad58c679858db41bb03d43bc7cb8730c212a2b5aa2ddee54c5fe516c125719b0870"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "43656a9b8a5d9301a700c00e871d8ad97194a59fb0d1f83db715103b654fc4b0a1e80656c3135b0bf1d7d09272a24328"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "74a85d03a1db41a6e15f3f8623cbc87a30170ee071dac541e29eafeae02b5ead3ce22b419e9dbf16e64f8a0470f665b3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8c4cd3b76edea9a48c4e5ec77a44c1ba09691a6050915b9f7e12ab2c2b5b0d64"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9b2f7b9fb917dc0f9399d17e4335764a08929c5750a8aac47d01abdc02b49be81d34cc47b38352425f04b084b64a1b0a0c399ce5de043a280a20801182ba9eb6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.jersey/jersey-json@1.12?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.sun.jersey/jersey-json@1.12?type=jar"
+    },
+    {
+      "group": "org.codehaus.jettison",
+      "name": "jettison",
+      "version": "1.1",
+      "description": "A StAX implementation for JSON.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fc80e0aabd516c54739262c3d618303a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1a01a2a1218fcf9faa2cc2a6ced025bdea687262"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "377940288b0643c48780137f6f68578937e1ea5ca2b73830a820c50a7b7ed801"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "075137cc1acbcdc4f07ac421d0f8fef7af5ac015520580aa3b908f22463b2ba86ba6be3b7511561d0459f1f14fac94617653c3777342ee0c857016baa7120ee9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6fade925eed045ef42898f7e5cf72ac71e782ac802a9610aba57c78a39e16c7422eea88fd614e26ebe9e3e2e52bb4d2f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ed287c5346fc063603377b96bfad292cbe28c5604c120acb0405de2e3def3a42da6deafa6d070fbb106482786a791768"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7ab16df7e0316871e5650ca1884fb4ac8b8acdfcdb0bda834729d83b44f8c993"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f96810a0475fdb589211d57ed374b3d4d1b897f8b8b715088d0973fc29eb11f6797eed065de86c9acda29529ef1785c8c8f1d2b3d194148a18e9e1f3488d0ac4"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/org.codehaus.jettison/jettison@1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.jettison/jettison@1.1?type=jar"
+    },
+    {
+      "group": "stax",
+      "name": "stax-api",
+      "version": "1.0.1",
+      "description": "StAX API is the standard java XML processing API defined by JSR-173",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7d436a53c64490bee564c576babb36b4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "49c100caf72d658aca8e58bd74a4ba90fa2b0d70"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d1968436fc216c901fb9b82c7e878b50fd1d30091676da95b2edd3a9c0ccf92e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "43c24e8dbffa9b932492c8ccf2b91926b2ba3d1d34b5a9671c689bd24d4c220b996708a9667521641d1abbf29404b653755b6f6f3dc0ad0671f5c09db332ea06"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2e6c232d3012064dc17e10c2e5b281728a6771eb0d74868e730caf60fe6f96fdd6145759fbbf9d1aa2e07eb1f49764d6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "03ebb8db88d04b7308570c1058aadfb6a81d3d6725b1dd13a049ea984ed1df42d3e0f8163e1229752228cada978fb462"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8173e3e3a0db17b3dbb80c017268858ecda57c819e5b58dbe202bd8087664bb1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e9a7c234dfeff5d4cabd034a536f31ad5a141e30b0ad2438cf5856dd6c36eeb16c69b8bc1ba3ee6bba91f69cd3cbd450953249f2f0eee0a9a22d49637b575f4d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/stax/stax-api@1.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/stax/stax-api@1.0.1?type=jar"
+    },
+    {
+      "publisher": "Oracle Corporation",
+      "group": "com.sun.xml.bind",
+      "name": "jaxb-impl",
+      "version": "2.2.3-1",
+      "description": "JAXB (JSR 222) reference implementation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b689e7f87caf2615c0f6a47831d0342"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "56baae106392040a45a06d4a41099173425da1e6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fa3e1499b192c310312bf02881274b68394aaea4c9563e6c554cc406ae644ff8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6f08a9d34bd66ceb0e4cc6cdd782423a8a7ab775808e90b6c872977c653cd3e2c539a78554a5c8ef9402092ac4fdceac56b77e76b3c2d800d5ee97db0301a683"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "223367a9c31cfbd1a407718ad30b176e32874cb6cd6a63e1c4df78ac74ccf027179f0e98639dc595a4ae408b40db99e4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1c0e7be9683e61b8626065910045eedcffa85439545a2d73c0c53c5c80ddff0d5b56f6ed569c64db25d6817c8804d7ca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c9896a8b3078515bfa5cec60e9bd90ad6fb5c39678353bd31d9e6055b1241943"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5d44345d5ffb7be42f0785accf35f20fcf3fe09277bb0b2ea5dd27f1d7da2590d0df53286043f40343cf098544d5592c4acf875de703c66fe4dfb7815bddfd62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.2.3-1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.2.3-1?type=jar"
+    },
+    {
+      "publisher": "Oracle Corporation",
+      "group": "javax.xml.bind",
+      "name": "jaxb-api",
+      "version": "2.2.2",
+      "description": "JAXB (JSR 222) API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a415e9a322984be1e1f8a023d09dca5f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aeb3021ca93dde265796d82015beecdcff95bf09"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "30233df6215fb982d8784de91d307596748cea98d6d502293c7c3e85c1697137"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e17cac8509b5c0eef2c8a0c8e16fa5bba75f64d82a1a4d51725d488aa9af5c5474eefa329af47b9065232e811f9d4b48163b5e62cba88467d1be4ac4cb1ead88"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3c511c647f7c8e76cd4392c75b5cfd9143a9269df5f565e73cd4289da12ea02cd8cc32f932d945172dc287809309b663"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d9c13ecf89428b64b06356492dacd09239d8cd159b46e80690dab780beaf36f524ae786203bae715e75a3092c29bed43"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "624de9fbb177ece45140a6e374e8ddc51e22f29d267b58f804fca7030389bd47"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9106151c7101607289e0579cf2c8cf35c8353ec4b036e499c2561a510e901792e658add6f04e648055cff4a44996451425d873ee5e609112f774e5fda5b9119b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.xml.bind/jaxb-api@2.2.2?type=jar"
+    },
+    {
+      "group": "javax.xml.stream",
+      "name": "stax-api",
+      "version": "1.0-2",
+      "description": "StAX is a standard XML processing API that allows you to stream XML data from and to your application.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7d18b63063580284c3f5734081fdc99f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d6337b0de8b25e53e81b922352fbea9f9f57ba0b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e8c70ebd76f982c9582a82ef82cf6ce14a7d58a4a4dca5cb7b7fc988c80089b7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a7f337735100356f72639053734506982329015693677fafd4d2ca74c4e412caae077999cb42dee2402cc641a80c8fb027deb9d2dc6c4e141d94c9184baa9dc5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "005b7398b0a42fe2f11d2a0e65f638c4479c843bedecf691b6c1795d9f95ec8b3ff629b4e8b5d62c79082e762c4b488c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "642519112968caa20b366e9f6e0cd7c3092d7da9dfe5cb47111e4dab7f025b6abf44c14805aa7d45df995a15b1c7525a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "92a2eb0720aee125f29b1340a5571222bb6d2a50b441f839ec543a609845c68b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5be6d4726be02b83fd12db1e5c5ff871a33b097dd4b9a8d40a4466dcc194860cf76b1cbc399e4d3fe8b1e63e9b3c5f9d294fa9d85db5766b7933c346d65585b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public Library",
+            "url": "http://www.gnu.org/licenses/gpl.txt"
+          }
+        },
+        {
+          "license": {
+            "id": "CDDL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar"
+    },
+    {
+      "group": "javax.activation",
+      "name": "activation",
+      "version": "1.1",
+      "description": "JavaBeans Activation Framework (JAF) is a standard extension to the Java platform that lets you take advantage of standard services to: determine the type of an arbitrary piece of data; encapsulate access to it; discover the operations available on it; and instantiate the appropriate bean to perform the operation(s).",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8ae38e87cd4f86059c0294a8fe3e0b18"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e6cb541461c2834bdea3eb920f1884d1eb508b50"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2881c79c9d6ef01c58e62beea13e9d1ac8b8baa16f2fc198ad6e6776defdcdd3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c0ff5bf3ace7acc1b31fcc109cee48d9eb8f025ae15a31dc91eca760933bdb97c93f05d61e95af1e317859d72e5f179f897f5bf3df0e3810f4212d43bacee4bd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c4ee54d80a2e67e819700051d6cfa01a17631c89f942b8690afb601e491f02d7497fe57bd5c70edfb9b444ae8222b846"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "de0777d2d1d7aad105defb12aed17ef38abfe89db2449c5243fa3c69304ea24dd8df0881330351d0733313e8f7252814"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5fb94d2742cc3d44abad42c5d61b9c7464a2ef33bc58b4b5b121d49799123460"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c5e37fe3d9c420a9035f1160eb1d396e94f01851c01c6e2f19f19a221bfc484e63f9660c7377f58aa65246b95a9eb799ac4e6798c0b20f658edf00a4435e1efa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.activation/activation@1.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/javax.activation/activation@1.1?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "org.codehaus.jackson",
+      "name": "jackson-core-asl",
+      "version": "1.9.2",
+      "description": "Jackson is a high-performance JSON processor (parser, generator)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3a569b4b918f23392e63028b896cb9c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8493982bba1727106d767034bd0d8e77bc1931a9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ce1e6476ef99566f90706045be5e190769fc60d8ba2fd2c3b54c905775240148"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9ee85094c27d13e824e0a412453716d266c3356f978cd306d12fa57eff3ab7da87d7118fdf402d4b3fc7b01a9c77d32290c298e056659b685e0213d8d842e082"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "49fb66b3cb38dff3f9616c6775fe20de0dcff7c263dd29dd396b24031bd92c369b2ed98ef13a0b6d16840d803546747b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "591c84f313ddb1ffdf72b31d80f9246fba047bb3a09d40f2210339eac65e6a061f876656931c9ed476905e4d42022707"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5c25632ab8c9cb36cb50619b317e7b2c6569922278b7130986f0f32ac320f4d6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "29b2cdddf21e2b514fc1b6ae9d00c52a7b8a0f95ffbe49ddf271ff6b2a9cf7239958cba0874e1cfd18d44df7c8a9d6e56221ff1f7155233f28d3213ec2f43803"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "org.codehaus.jackson",
+      "name": "jackson-mapper-asl",
+      "version": "1.9.2",
+      "description": "Data Mapper package is a high-performance data binding package built on Jackson JSON processor",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "246dc2edd781021dce648e59dc839d85"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "95400a7922ce75383866eb72f6ef4a7897923945"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "438c831bcebfdeaa33602a782fe43a82722aca6287191c3b8de4b308ab82c585"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a194f4ede4811e996de8a014b70b29db4bd825bd8d10c05144a78156c26bf37e7c2f44940e61b066dd2d83dfebe0370d9ba32c6ebf603bfc5e0a33d144362fcd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0950ae2e6173de101e97027ea58c85fbfa3bc48a5c706fe61a82e31569c6ccdf82a58c376716bd470cc56350a1fadfac"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bca37ae228f7d99a067cd8decd03ec9ab897784929f0c077dd73d73c82676f5672be9bcccac72e9a80f04e5463df8028"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b3fef91b1ff8ba8ea3b479fd2dfaadb2a3f3a51a542821d30ce105af59e73cd8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9f160d04b6026d2d7dc3ec8bb73bc1022f977b51bf3ec2a11dce42a06e47af6acd168df38312a3c9af479d8e9ea4f8cc515f8bf9edf51e08833bc3a7e0d915fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.2?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "org.codehaus.jackson",
+      "name": "jackson-jaxrs",
+      "version": "1.9.2",
+      "description": "Jax-RS provider for JSON content type, based on Jackson JSON processor's data binding functionality.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "98fad059e87a847a1ef8e2d278b17e74"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aedf43f1d5005561e531b6bf0d067e4d20f58aba"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "99c3cb687c2d1c458c34bc582f22bb34e8ee12eba532df47b849454aa2fd7092"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d856e92a3d72a78e24ca9a49ae9a6c453a2653340c6bf457206752880446e2c75d77807b41802fbdc8f84ec8c1d0c55fa10a71fdf7fba8b59e4eb16aeec20ddb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ec1d491d56960c6402700b48b06920f31d2b927dc0c796a646419fdf8cae0e8737494093a398f123a547f7c0e11bb1d9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3efa1a954283f89ed82627dc02ebb431202cfca35fec14348c3825acb8bf4edec512f251ac581b1ea048060659ba84bb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "08ba0eb458b8b8678a0876022425f3e57377d22bdcbbff97f37dd9da118986fa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "11e4d5d4223f0c6ae7ef1bccdc7fec60007730c4d8a82488f5c18e7fd71af8be88224d355fe062aa72cc407488fc30c2fa5a3febe96fae458a2447fd277001cd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License (LGPL), Version 2.1",
+            "url": "http://www.fsf.org/licensing/licenses/lgpl.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.jackson/jackson-jaxrs@1.9.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.jackson/jackson-jaxrs@1.9.2?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "org.codehaus.jackson",
+      "name": "jackson-xc",
+      "version": "1.9.2",
+      "description": "Extensions that provide interoperability support for Jackson JSON processor's data binding functionality.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d9d4d69e16e45595f0542eb6f2cf1117"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "437c991a8eb2c8b69ef1dba2eba27fccb9b98448"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "97ddd164678c2705da7b22e9db3110c416b39cdfc50f385d23b586551d76a195"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "98df5aff78995bb5b13f21f829dbf241baa663f3c070007d079aacb23431ccf6d704c1c245ae6150314b8b988612a09cc3b6ca1e003467c810cdaec4e08795b2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ec13fc0c33e8d51a0ef1eddf8675e054c56715505e0f645e584ae836473da723787d3725e7c631a92f6f181ed9ac3f4a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8e19ebd662dccf26b7cb4f750bfe1fb4d77579758b3f404244949d6eccccb3122c5bffcfe323ddacd45c55cd62603b37"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f9c1e37c8b83475afdba9558b5064cfd97e2f17d9cf5945d36231f30cc8a726d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "178e34a19627857371585a5bdebaff00b9c0f5fb1943a2374149caab685503cc3c727c96c209f03575222c953de13819d861ac6ce809bb6d3392d93b3cb74de1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License (LGPL), Version 2.1",
+            "url": "http://www.fsf.org/licensing/licenses/lgpl.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.codehaus.jackson/jackson-xc@1.9.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.jackson/jackson-xc@1.9.2?type=jar"
+    },
+    {
+      "publisher": "Oracle Corporation",
+      "group": "com.sun.jersey",
+      "name": "jersey-core",
+      "version": "1.12",
+      "description": "Jersey is the open source (under dual CDDL+GPL license) JAX-RS (JSR 311) production quality Reference Implementation for building RESTful Web services.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6bc46666400c48d14013722f5a943b94"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b6e4ec5b0f807515e3c18c15cfa62061fca7f706"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "51ec3e79cfef670e13cec574120dab780918cd2467ec6c1a6cbf6b0f5f3da1e4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "36b6e5cdd8fb5a58d15152a89ee9dbbb08d21585d313f5985435e894fd2ae0d99dbb4fcae01bf0ed81bb5990a5957c2d70c0abe1f0f1c8aa91587d16788cf1bd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0fa6f8ccc3183e0e9fb927b8c5c9c582aae12308e4436b701a0df7f6f12aa1405d98f0875b62b5b9bedad6c30c6698df"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cb4dd428ec3344f258c8f799d46575364cf9add814e7f90fae6356e0c0bc58659d67934490257770332d4c8c23febfca"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "040c7ddaa235ea7595d2599752a0502b2aa704f68820ab5cd3810fbbbaa94219"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1cd209a8606c32884a7505693f051e76682fc0b3490f38fd70f12a68123abc4d89f56d940a2116122cf38533ef186d15ce26fe6627dc4c4c464fd2e7def3b48d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CDDL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.jersey/jersey-core@1.12?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.sun.jersey/jersey-core@1.12?type=jar"
+    },
+    {
+      "group": "org.atmosphere",
+      "name": "nettosphere",
+      "version": "1.4.2",
+      "description": "NettoSphere: A HTTP/WebSocket server powered by Atmosphere and Netty Framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "deef6859c82347fe31b9a29c1002323e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8786d346623c94b68a0939e900ac133b9bcafc6d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b7d07241ed7714e5dd298c807eddcdc4641956d56c9b3058583f878f59267db"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b3120d3d6250108af5e2d12ba036eaab240d2fe990cea86f48977a993d1d520e2552f66edd674af7ae14e3d79fb7b98746416bc66dda3d72cc1e60c095e155b2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ca9cc6ee9c151cb6da220887107bc5324c37346eea81370e673ee6ef956987947063dd851ae1c84326e8280bf8ac3f53"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "165a1e388b875d9820e2aab2a3b8ad8d1111404e25c1c2e942bded4bc2b53f9c831cbdae0909b75683b2cf09a757c3f2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7715cf1453a8d73aad086cab2de607adcc81340866aa2d2295e0c3d02addf467"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7fce3705f8c89e0835f39c357314874d7e5422563ddb5ec742950f646e2438460504e4b04d658ba6ae5aefd7dde5bd3bd1444834c01f232ad23775ba55cf0c07"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.atmosphere/nettosphere@1.4.2?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.atmosphere/nettosphere@1.4.2?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty",
+      "version": "3.5.5.Final",
+      "description": "The Netty project is an effort to provide an asynchronous event-driven network application framework and tools for rapid development of maintainable high performance and high scalability protocol servers and clients. In other words, Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9ce768c88e50cb55cf4ee87b16edb159"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "289c791f8c7d0fd930b4a08f60b2510cfb1f9cfe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e5f9898447c64f37f777bd05035388c94dbb8c2ea198235464670eb7c8628730"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0cc45b529f974be9c00789618286f63cbb69e169889c4f5135085ba6a1636491de06b612a6d050bba233a33b9cc25cd6ab78d0b2ef49a1c86a7c60cb20c3df42"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1d0c2c9ad5f75bff48064569d7f93354c890b9520ca314fe5b8e240ffc2602a5990e37eb8fb7b9cf694ed0c5b802087b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "91f41471c486886893b391bf6d108ae46842a184e4822c9fc11b08e69e7070151c388e532d725d85b4349623878cab65"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2a6f5c822eff38d0ba3a60f2f9904267b0df40af61f532e3d27f9338ccbccde5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "97525b5a537dcf2b8844280fcc20e9475fea3f58d31beb26d9dc04bb1bc1867995dfd86fca0bad44f66efbf99fb9f2f99c99152d9c5961ea4548509fe7b5e150"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty@3.5.5.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.netty/netty@3.5.5.Final?type=jar"
+    },
+    {
+      "group": "javax.servlet",
+      "name": "servlet-api",
+      "version": "2.5",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "69ca51af4e9a67a1027a7f95b52c3e8f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5959582d97d8b61f4d154ca9e495aafd16726e34"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c658ea360a70faeeadb66fb3c90a702e4142a0ab7768f9ae9828678e0d9ad4dc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "363ba5590436ab82067b7a2e14b481aeb2b12ca4048d7a1519a2e549b2d3c09ddf718ac64dc2be6c2fc24c51fdc9c8160261329403113369588ce27d87771db6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1d8b8aa3ad4edb7611a43e4e5b0f9538aa70df1d6ecf09cb977f6fb963797850d4350778530f2082aac9bedf09a27824"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2c62a7bf3f321aaa2ccd80e9fa633eb36a672a208c79e117a91e9812e3abfd7df3934930191d109be65441deed2cbd20"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "319bcec5b7eb366f63655cdf3cbdaa385e160f61edf3cbd94938e53b59905995"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "dd44fc227d6e790255376ef0473746725fa7703d38ae3805715910d1846f41ac789acdc2d2ba1ebde874f7ee32d906608966612c90c618872aed3fca8e28e952"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar"
+    },
+    {
+      "group": "com.ning",
+      "name": "async-http-client",
+      "version": "1.7.6",
+      "description": "Async Http Client library purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the HTTP responses.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "22cd1a0838e18b4631e9d8c4e0d33142"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2ff2d8386c96a916e9f75c8c3f043226ecdf9b22"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6fb33583981e7c90d174dbbdee56d5f4486ec005a5f53d12646749116da88028"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5128ced826f099bea2c9453c3caf19da6ff03aca26187b46ee0b7d55fd1dbb1e79c7956a964b83c250c44063ab33a283a524b702a5f42c7f2a13ed2ebb9464a6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6a226312f18f4999806b84c72a07f362845d1c7c6752b7187b281057f16d2c090a108c5baf8603741a15e2ce24dfe644"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d8b97d4555475b4d371bdf4939c76219861008a088d212dec3ce2e79826427c3f922803e6e73dd7b8ca6bb72743fb1c3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "321ffef9da3919a18d160850ec9b9ec8d90a30f9ce28a887335295d74e62eaff"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4e327fea04e095e25961e469ee8c77e348954ad4099081d0a207505d9b7d3cd7bfd233bbec3811012d1c0aa41dd9bacd1fd242ab7fd1e7fbac7c36dd084c423f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.ning/async-http-client@1.7.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.ning/async-http-client@1.7.6?type=jar"
+    },
+    {
+      "group": "org.testng",
+      "name": "testng",
+      "version": "6.8",
+      "description": "TestNG is a testing framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "48c0c775a14be73b83d52922f80d4206"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ad4531b28715d39f73c49a56caf0c456cb34d48c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c0f2845a7cc87e10845d6f99d41ddbeda590972aead83e672714ff7b1642cd03"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "616e5072d096bb031a483c90f666a9e39af30bba83a2d0acd49c63cc064c9394be2accfb0275da5291db6f32b30040119cea1eb9dcc72b3dcd66c3867a27fbe1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6310f01877171d84e897c63e631bdc3116239ec83e7345b1b7893fbe00f8dd9c9aa64a322ea97db24aaf551b525789d2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e817a4d27c241cfe00353a4d40226f0be18859bca415c379897a080d98b5d35e904021f74abd66b62b68622baef748b8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "81b530b6b1ae33c85afec66462a2f4de6504c201382ca42223d6985b35974ac1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ac3972314960e1f3b15019c2d7ebdf286dbdf0bae49d303be08b2bbb6883b1ef1a5c971308bc86cdbbf5c4a8d402a40a78a9ea03eeb6b06a525182f4620bd340"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.testng/testng@6.8?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.testng/testng@6.8?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.10",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "68380001b88006ebe49be50cef5bb23a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e4f1766ce7404a08f45d859fb9c226fc9e41a861"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "36a747ca1e0b86f6ea88055b8723bb87030d627766da6288bf077afdeeb0f75a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c8b595c24a5ad2499a5bd5bb01204453cd09f51308fea5834922e042b8f39bd8ef0099848eb3a8576ddc4ce4ec907181ba0c20f1222a25b3064d1c3c5499cbd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7bcbef235aec4257910398c646b2a0467aeaa952a70d1c8184b1a2fdd8d471fd02c8acb6ae26b5c6d47bfb72f9de5551"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "22243110e6d6ab29d6b76ea8acf31e9488cf16ae687cb90448044b78b7499cc7c904e5fdcbc5f250c319e73e26c8a60e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8b86f86d0c6905500c5eb85d8eeec4e3214e9bbc540a90737a693f6c977b7028"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "df5e2b5784a6799bba31688041ccfdcdfefa6dfed6e7f5127aa0c6f5d4584d1e31d0e19147eedc0238622a14a3ed4b3466e7ed2ccce907dabade0ef8574afa33"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.10?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.10?type=jar"
+    },
+    {
+      "publisher": "Hamcrest",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.1",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b66d0c48e1f1dc54d4227db52512c15b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "860340562250678d1a344907ac75754e259cdb14"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0361d1493ff0d94f861359efea91200720635072134792efb7217f6e09d5cffb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eef6453bb867d173f3611844a95e0b9d1792ee35c0c49d20a309d87c7140dfacee0fc479def9a32351773d3f0d9dc51bef8d9ec30f84189fcd7f44a2892b52b4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f0eefd636c181ad2db515e1771d8d261b0a274d7998b7a39090ad5f7b6ee75dc43043ae4976ff62145b83b567ed8042e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0340e12b1e115d4b01bdeac4e38eb16a8e413ec9c3d1da7445d2b1388c9f51b6f0e51cec11eb3caa3d2fac51d8450849"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c1cf561c262f43751e4041e6e1807a197ef2553eb3d0af276acfbfc12d56ed2d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b1c4e4857e963257880b5eb4e23c55d6479193680178da83ea84be90d19eda2a7f66d8d74182dfe3a3d5808fe62b3664f96677c94a5eaba65181c5cde57a166b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD style",
+            "url": "http://www.opensource.org/licenses/bsd-license.php"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar"
+    },
+    {
+      "publisher": "http://www.beanshell.org/",
+      "group": "org.beanshell",
+      "name": "bsh",
+      "version": "2.0b4",
+      "description": "BeanShell",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a1c60aa83c9c9a6cb2391c1c1b85eb00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a05f0a0feefa8d8467ac80e16e7de071489f0d9c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "91395c07885839a8c6986d5b7c577cd9bacf01bf129c89141f35e8ea858427b6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29ce6d2640e5806b4ba83c67a6e0bada52a572fff9055c7af14ff0ab24a705549850c537ee3273f90252a5c2ae386d46276b4f341925364e407ce165bd29d662"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "37deb3f73db7f2f3b5ad0d820966b3973dab7acb3422207d43dc524ced8bdc5907aace38db10f36b3724c347947a1d03"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f449e6c28743a7c69d21760dbdcad6813f69cbccef534387c5721d3d161680ea60a57621fbd198b2070bf27ffe8c4d9d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dd7b88e1d8e8044165945634a5307dd2d146e39b76ebbef0c7fd701b3445e1a3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9c0619d6d50327cf0387e76a1b104fecf75f1c6e3c6bb20e7d0def0dfa63510360ae39f13517f26da1feaad8cdb4aa1717c01d006791917e6e82f8fbaeea0b2d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU LESSER GENERAL PUBLIC LICENSE",
+            "url": "http://www.gnu.org/licenses/lgpl.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.beanshell/bsh@2.0b4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.beanshell/bsh@2.0b4?type=jar"
+    },
+    {
+      "group": "com.beust",
+      "name": "jcommander",
+      "version": "1.27",
+      "description": "A Java framework to parse command line options with annotations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "63161bc8e603e60bab62bd61c349f370"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "58c9cbf0f1fa296f93c712f2cf46de50471920f9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0b7873f51a5f292637f49423d9a83b19de15c4be3dc092decbd6afeff56263fa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "53ca7bfed126875234de1da4a822d13ae68b57f71a05fcb2d185318edbcf390fbf430370ec3f7ac6901d59e89228adf519d4952513d14cb15923572a63993493"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "42ff8ed32cd73f5bd81e3d1ef0a0f0c2554b2cab97e1fe91c4f1c38bbe2a4be91e498e58fe1c53f64a5345298297f309"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "62dbb0f5213ec9a8c35577528b208a6773f74a35298e7d9daffca09a784d8f79bef0add2e82023fb061ab6a0ee441784"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "41e78c16b13011c4e557ec4b36325cbcd65f6f937273d874283591b843dc0656"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2c2ef64c97e6e781bbc8804b5e0beaeca7478dd0678505a795e03376da5c378dae98ef427109d145bcb172b7400c96766ed5098385caf8a9f2fb8766c2a6e647"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.beust/jcommander@1.27?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.beust/jcommander@1.27?type=jar"
+    },
+    {
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.6",
+      "description": "YAML 1.1 parser and emitter for Java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0c3b9b14db632872da111fb59d89de91"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a1e23e31c424d566ee27382e373d73a28fdabd88"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5a7bb35371ac33c35ccc7f04ca0488cb15d573dc8df16dca9090287d74d3594b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cc994d5c0c6c566f1b442da2be302fddc0dc32d9b09f964a9f30018bfbf67d1b7eb47f5be4aff4a6f65e35cd9377a9db115edc4b68cd9b27e6fdba69fa84eb5a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a7a717453e78d78c2fb2f7cf4fe59d73a61d86e34910d3bb9b056457871ca0f8a7ea8d95f0df49756fc5ee20060cb8c0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a62ce3b10db178f7fe98cb6044974a99f77942b62153c88a288af8e3fae1195adfe7882f73221122cf70fdda1e048f59"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9ff7f6018123f179aacf457c1d4eccfb0abbd785871fed78572969ba0cb3dc51"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "521e7b4456a482d7d0981f852cdd003ed51af65a493d5b0ac012822e0773b7f6f4060117ac177b0b6790c77835da32e84864b4df2b53aee619394f16bee810e2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.6?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.0.7",
+      "description": "logback-classic module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ea514998933428852bf3e1ad85113d84"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7c56c1e6000fa1c2e71b88b09435d9a5710b8d66"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cbdcbf3f33b298071609b99761e0850bbaa49f8c0ef782a169480a4304187088"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "32d329c00d603b1d7e29c944d354cf471cebfedc4e6487bdb2ad04c062864bb828364bab0a2c3f6afc418372cb4c2bb127182c20e468a96f1d75fa53c156623b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b11d25d0dd42a5ae385862678ed95a0774c9b78d878db3065a1075e767440028822aa87eacb6c9804e8f6e62b4c261b7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "53ad8db1ad0ff2ff206c1ed9a07d11cb73108c70c43a302f5d0169532589215c68334cc2ac99bc4b139462c766c7fe1e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3f2af146f84562953dd8c50e6bc0ff28be94e64676492a2f40a6d794cb0e3eb6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9c922ba9a30ddbd19648fc0031b4c0f35e954a7292960416ed51239f63c8fd1d4e6785d86692179d7c77e6e9efa079d66a070f016234ade0ab5237125e2411c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.0.7?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.0.7?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.0.7",
+      "description": "logback-core module",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "780abc5b03c587cfb237af08f0e36c01"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "df9279b212f62a7bb96e645e643eb5c4b675ee64"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc19f7aa887381f5f8d46de5b85975d12dd3c0fe9658f1fee8bc660530fb0300"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cb2c91b11f6c993b3bae4e6c0d84aefb0eb09e5b2101746aaead35fb70a4e2cd2ac847f72459c1bba87d2628ddf65192034a7739eec660bc6a3f46e2fffa62fb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "46917910bf1b80a75311e87e19d331de2bd24efaf0dc226adad83c4959e9863a4732db376924210567eeda8ea706fadb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "28ae6cf5b71e49a1e4b65cfbd12e80f88daf672261203b9429321690b642ca84eda38df4ad85577a74f4d4e5f15e3fea"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e9dcce57e306b70a53077099d47c71713c069a0628aca0e7e5bd7a8d99fa5523"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5e1285d2a0e1cf157bf76e3972de329662306266a2c403168c1e50378b690be53a418f507936d5d58317908c1b154e3db743fab2379e24059836cefcd9673b6e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.0.7?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.0.7?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.mappush/MapPush@0.0.1-SNAPSHOT?type=war",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-classic@1.0.7?type=jar",
+        "pkg:maven/com.ning/async-http-client@1.7.6?type=jar",
+        "pkg:maven/com.sun.jersey/jersey-json@1.12?type=jar",
+        "pkg:maven/org.atmosphere/atmosphere-jersey@1.0.0?type=jar",
+        "pkg:maven/org.atmosphere/atmosphere-jquery@1.0.0?type=war",
+        "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0?type=jar",
+        "pkg:maven/org.atmosphere/nettosphere@1.4.2?type=jar",
+        "pkg:maven/org.testng/testng@6.8?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.atmosphere/atmosphere-compat-jbossweb@1.0.0?type=jar",
+        "pkg:maven/org.atmosphere/atmosphere-compat-tomcat7@1.0.0?type=jar",
+        "pkg:maven/org.atmosphere/atmosphere-compat-tomcat@1.0.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-compat-jbossweb@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.atmosphere/atmosphere-compat-tomcat@1.0.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-compat-tomcat@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-compat-tomcat7@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-jersey@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.jersey/jersey-server@1.12?type=jar",
+        "pkg:maven/com.sun.jersey/jersey-servlet@1.12?type=jar",
+        "pkg:maven/org.atmosphere/atmosphere-annotations@1.0.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-annotations@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.sun.jersey/jersey-server@1.12?type=jar",
+      "dependsOn": [
+        "pkg:maven/asm/asm@3.1?type=jar",
+        "pkg:maven/com.sun.jersey/jersey-core@1.12?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/asm/asm@3.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.jersey/jersey-core@1.12?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.jersey/jersey-servlet@1.12?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.jersey/jersey-server@1.12?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/atmosphere-jquery@1.0.0?type=war",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.jersey/jersey-json@1.12?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.jersey/jersey-core@1.12?type=jar",
+        "pkg:maven/com.sun.xml.bind/jaxb-impl@2.2.3-1?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-jaxrs@1.9.2?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.2?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-xc@1.9.2?type=jar",
+        "pkg:maven/org.codehaus.jettison/jettison@1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.jettison/jettison@1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/stax/stax-api@1.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/stax/stax-api@1.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.2.3-1?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.xml.bind/jaxb-api@2.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.xml.bind/jaxb-api@2.2.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.activation/activation@1.1?type=jar",
+        "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.activation/activation@1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.jackson/jackson-jaxrs@1.9.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.jackson/jackson-xc@1.9.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.2?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.atmosphere/nettosphere@1.4.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty@3.5.5.Final?type=jar",
+        "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+        "pkg:maven/org.atmosphere/atmosphere-runtime@1.0.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty@3.5.5.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.ning/async-http-client@1.7.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty@3.5.5.Final?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.testng/testng@6.8?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.beust/jcommander@1.27?type=jar",
+        "pkg:maven/junit/junit@4.10?type=jar",
+        "pkg:maven/org.beanshell/bsh@2.0b4?type=jar",
+        "pkg:maven/org.yaml/snakeyaml@1.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.beanshell/bsh@2.0b4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.beust/jcommander@1.27?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@1.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.0.7?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.0.7?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.0.7?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

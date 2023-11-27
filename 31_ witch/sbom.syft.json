@@ -1,0 +1,290 @@
+{
+ "artifacts": [
+  {
+   "id": "f46c49ec2e4f10f3",
+   "name": "StSLib",
+   "version": "1.21.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:evacipated:StSLib:1.21.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cardcrawl:StSLib:1.21.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:StSLib:StSLib:1.21.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mod:StSLib:1.21.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.evacipated.cardcrawl.mod/StSLib@1.21.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.evacipated.cardcrawl.mod",
+     "artifactId": "StSLib",
+     "version": "",
+     "scope": "system"
+    }
+   }
+  },
+  {
+   "id": "97249f5c5f819153",
+   "name": "basemod",
+   "version": "5.26.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:basemod:basemod:5.26.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/basemod/basemod@5.26.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "basemod",
+     "artifactId": "basemod",
+     "version": "",
+     "scope": "system"
+    }
+   }
+  },
+  {
+   "id": "ae26a7ac051cf8fe",
+   "name": "modthespire",
+   "version": "3.18.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:modthespire:modthespire:3.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:evacipated:modthespire:3.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cardcrawl:modthespire:3.18.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.evacipated.cardcrawl/modthespire@3.18.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.evacipated.cardcrawl",
+     "artifactId": "modthespire",
+     "version": "",
+     "scope": "system"
+    }
+   }
+  },
+  {
+   "id": "d6c4614d295b0def",
+   "name": "slaythespire",
+   "version": "07-30-2020",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slaythespire:slaythespire:07-30-2020:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cardcrawl:slaythespire:07-30-2020:*:*:*:*:*:*:*",
+    "cpe:2.3:a:megacrit:slaythespire:07-30-2020:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.megacrit.cardcrawl/slaythespire@07-30-2020",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.megacrit.cardcrawl",
+     "artifactId": "slaythespire",
+     "version": "",
+     "scope": "system"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "97249f5c5f819153",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ae26a7ac051cf8fe",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "97249f5c5f819153",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ae26a7ac051cf8fe",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d6c4614d295b0def",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f46c49ec2e4f10f3",
+   "type": "contains"
+  },
+  {
+   "parent": "d6c4614d295b0def",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f46c49ec2e4f10f3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

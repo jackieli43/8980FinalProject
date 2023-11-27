@@ -1,0 +1,701 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3f28d818-c531-44fa-84d7-e6e4c2da8dd3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-16T15:04:19.858Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "net.hamnaberg.rest",
+      "name": "json-collection",
+      "version": "6.1.0-SNAPSHOT",
+      "description": "RESTful JSON Collection",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.hamnaberg.rest/json-collection@6.1.0-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/hamnis/json-collection"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/hamnis/json-collection/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/hamnis/json-collection"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/net.hamnaberg.rest/json-collection@6.1.0-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "net.hamnaberg.json",
+      "name": "immutable-json-jackson",
+      "version": "5.1.0",
+      "description": "Immutable JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f9c8b28d161a5b4e7b986a8f5b31076f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d35601c88fee8d2de7f0ba558d01c354175433f9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "522cc97d9dbc0d992697976c232e3967dad4f4d3379281e7958958264b38cb8a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "19fec7d835595444a2c14a3c68ad3e944e2bfd80d5dc7a67fca5127ad04b4b2522df02449bcc91abd47468a8bc8f27e12e4e08b58a3cd9464eb993e42ddee3a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7fd450f23499ff962fab0a1b11759536743703a4e10a3b935b2ddd7758283f85512aa23492088df9ae62f6d85f6b95b4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "27fff6b19938b688269853cbd5472cefaf859e46f93108053d0a818f6c1a2505825130830a3508d74a79a41b22f82d91"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a8f21a51531534472ae4947aca60c03ac6e36848488c1b2ef9d7f3d6dcd8f80a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "02463a22d12dd10fdcbc0b919e2eb715a84150604a5306097273c08d63e8992398e6f0f162c96134dcfc55d6b346ffede1ca6077f3055c6d6ac2a90e36fcd594"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.hamnaberg.json/immutable-json-jackson@5.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.hamnaberg.json/immutable-json-jackson@5.1.0?type=jar"
+    },
+    {
+      "group": "net.hamnaberg.json",
+      "name": "immutable-json-core",
+      "version": "5.1.0",
+      "description": "Immutable JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ae2f2560887208c4330af5792c027abf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e5123821eeb07260d52511cddfe2bf2c623e7f52"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3d1f14ad9135b8c90bbf1454dc745a6be84b8e0584a3f5d92e5a1118ce407792"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1237a0c7c77499715fff283fafa02341e5b9a31b6144f2979092225a1728f2e53fcba5ed4b99fcf12c4e39a34e48c667054fe522836caa0d7908c8b3656eaf27"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "89f88c87b75770b0f1865842f1854eb8bc7271691a671bdeaaaf1783d0c4a936d24d98c290a1ac41196f21f35a88cd27"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a01470d818f95cddb61b8313ba00f1866cecb31842079fc67971ac3aaca1b53663df98b35400043da1e1b72c6e76b5e1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fa244276406a393aa90f7bff1b941bfeba7ee35371965714baf8b92532ed15a7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f4e9bdf14b2f8886e4e0c655efb87dba04324cb028b8a017f332766635226f524edadc0e94d62ec3de0545368ad10cc4d30a94a0007043a4178a9957a102f87e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.hamnaberg.json/immutable-json-core@5.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.hamnaberg.json/immutable-json-core@5.1.0?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.8.1",
+      "description": "Core Jackson abstractions, basic JSON streaming API implementation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dcbfe4152111a0c1c47d5303ca9b8aa4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fd13b1c033741d48291315c6370f7d475a42dccf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f0b5493ad3fe59a54d50aaf20cc414eb893cbed045d30e4b81925fcb4ced8e22"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5a11b5cdd68d0cf539eb4ebb024318ff73775d4819a1e1b6fb1e456ab94d73d3146b85892fcdc14a638041a8a58f5eacfa6d587a075c735430facf5f10a90678"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c98423a01a811f40573aafdb3fb5309cd9c6886cb7723a36ed0429b8764b9d0a6d73de781c3cc214fb67957caaddeb91"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d09d18f1f2a19eb5de06e8e9b950b100bce84af6b8a08d4a8fdce6a34acaf10478314dee9efb135be4cb8465be3961cc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ba1485acfe5fada1a98dc8d892c070566d253ddb3c4e16c5761a0fe5d9c2f799"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6eaeb0399c9c4f077e0d2e5c5075752093afd9f8d77a04836576e726fdef78234834f79ecbd7c2066edd58b6a2a4e2562a4b86d93281b4cd9c2c3ada8716deea"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.8.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.8.1?type=jar"
+    },
+    {
+      "group": "net.hamnaberg.json",
+      "name": "immutable-json-codec",
+      "version": "5.1.0",
+      "description": "Immutable JSON",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59170c3a65e574ded9650e34f8ab7ca8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "55f50c48d32065712a2138c1b7c63c08ceb5a62f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "04f3067c27c0492dec05646f47750a14eeab25a8f00706d2204c8c88638ce583"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "146dc81cf15e1d6bbd9b0c30f7d26e12d5c256054bff9c7d855940afef87d79dd72b3c847adc3cd62b9cead119ea582e7e4942d77a6f59889a1039d6142acc6a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ce4776df5b65ef803ec2edab1eeb2299240f17214114de2446bcc6d9070f458f4cf2d635ce574ae0d42b4d58f8d28ee5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3c016e0dbf9718420559825a039bb3ffb566a3c3d68fba15effd94a1e979ba7ef98c94e3920bd92f25deea5e119de1f3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6a077c785927d8921a6835b4fba5a62731afa53f40fb03f5196cbc21f8add94e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "44e6ce81ca2bec166ab94a7649a0cef413dd71242f73beb8c9e2ac2cd04fa32f209b980c2c218c8f365616bab2e2ba3856afa791cf10f8d994387ac92cf6b376"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.hamnaberg.json/immutable-json-codec@5.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.hamnaberg.json/immutable-json-codec@5.1.0?type=jar"
+    },
+    {
+      "group": "net.hamnaberg.json",
+      "name": "immutable-json-ast",
+      "version": "5.1.0",
+      "description": "Immutable JSON",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "02982801cfffbe5d356f9b4fb4687595"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9108b0bfdf50c06b03eb7bb988235210241e131e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6b12953bcf3236c0c403b269bd40fa776020a8a80a7e3937553c03a91c67238c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f148b1fa6390e53ab341c5a272fe12198e7c983147af2d4d3f222c42f9472cedd0a453c14b65b05481f46e9a83f15de017b4e23eacd6413c61aa0f48f2887eee"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9e71588ae90c98a4fc5d5347891ed8efbe8eb2416dad6c43faff7009b64411604ac5585ff6798c0edaea830afe38b60c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5881635e23a6a9650fce5b5b4586bf69dc9899a5660a7287a24fb1dcca6c3bf2533ad339243103a9c865d6fd6605f85e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ac29fcf92c245b17277f8e2229cde32abc06acc06f3304419db4f8d5d4c67b1c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "077c67bd657585d406ddd1ad8789bf60dc0d40a817a5c0b6dd01c10b6199645919715798a1683ad95f50cced12495ba308c735067957c517414169b5a8f9d18d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.hamnaberg.json/immutable-json-ast@5.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.hamnaberg.json/immutable-json-ast@5.1.0?type=jar"
+    },
+    {
+      "group": "io.javaslang",
+      "name": "javaslang",
+      "version": "2.0.5",
+      "description": "Javaslang is a Java standard library extension built for Java 8 and above.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "53e17f6768b12d1349a41b47467338ba"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "86a8f8c75254d948dd128388b1097183e8c6564b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "29c32481bf75366c37112689235b55c380b41b991af7a82e950833754bd1c4bf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c587f07065f4b4798a82457f87523afb303a511f9205b2cdf17754dacb48821963beca55f1d07c558f98c5b34416c325ebfc9d759a29882b018adf2871728121"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fc37ce1e1b06e649d32b9a0a9d2a6143a9257fd1eee6c7436d0eb7c128846d74efa562914e35aec1e3771b0b1b11105e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "997429a332ff29de9bf3539fa99f7baebe8e9be44f1d4ce32dec83534e5a074831e4c74741f0c2aaa94ad5f64fda4ee7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d80a35f94263079e5a29022b044d1504f4772bed372173384a117274256c58a6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5b7013a2f1381185eca33b5da350743a344a456c2201bed267ef13247e05645262194c21bae3ce949db00f8afd6cbf20c103ee8a4acaa3e7082cbc4e6c793989"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.javaslang/javaslang@2.0.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.javaslang/javaslang@2.0.5?type=jar"
+    },
+    {
+      "group": "io.javaslang",
+      "name": "javaslang-match",
+      "version": "2.0.5",
+      "description": "Annotation and processor for structural pattern matching.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f75e2828d28c1bc145ad358a13a4ef3a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "689c6da2fbb87e1326fa75b9a469315566e95e2b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bff69eb951e9a671fa9659af411bd077e2aca289f333bd4e19d93a767ada823f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "abdc9503f9066926a4c11e961b5aa59082b5837e4a568bcb2d7470d3c876648d99f3031b5ce82379a33abbd4989134040d99606c8edf741b48c2d393a0700aed"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f707995f96d180f69749ae28a165e3e9ef77595827af8ddf3ece6aa69420e3e3f8d3aa7f200f833cf66e19c69d6cb940"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ed2b9fb53688d5ebd2970f53d66f7e672b6e62fa6fbec5f85fb6560dab4fee4e84bb0741be557429144085509d314fc1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7102e43b07edf667a4a0403efc4b84b7e6b911bdbe831e72c41654b75496a062"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1dbc24c7271e822ddceaf7a486c441ef9e31e7d636a855ad4c73cf030bf7c6f9eb41421ffd2d5e68addbea0ca578981b27709e007ca98b6c915621499e3428f0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.javaslang/javaslang-match@2.0.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.javaslang/javaslang-match@2.0.5?type=jar"
+    },
+    {
+      "publisher": "Ryan J. McDonough",
+      "group": "com.damnhandy",
+      "name": "handy-uri-templates",
+      "version": "2.1.6",
+      "description": "Handy URI Templates is a RFC6570 compliant URI template processor. The library allows clients to utilize templatized URIs and inject replacement variables to expand the template into a URI. The library sports a fluent API, ability to plugin custom object renderers, and supports all levels of URI templates.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "74bebd0bce6ee0f5fce3b8eaaf6819fa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d37507104724342eff9cf47cc3dd70e866f3eb79"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "85ec58d9e9cfecb6f23e61f4e951223862b4bec465f78d8aab511d17caba18ab"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9970cc103b1280f282aeaf0b50922e4e9d64b8b1ef2fa7922722271ceb15d1c85596174ffc93dfe5cebd0e5903b1416285f27aa1bfcebb2e9ce0bb6d43427a3b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e9ee23531e00a7ca70528c134f17c4e3ba80b6c2e686605c0039b27e6be1d4ad071f91f44c5c039a40571d964ed777ff"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "048eb9974151c4b2eb3b622a0b8cb5699d30142d80a63d0212b62bcc8dbfbe010faf661a4d161b22e2df3fd3196e7f13"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3311e37d1c5f36ceb5861f9d96d85c2443f381aa102c2b545dabf651d3ac8089"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "61238f0191e07fea155905db5e8cac64d610c5b48e41ad3d01f02c6bd26cb9cf29b7bd6ec63feb3656095e6d282d322e2bdb0587eb67fa9c2ac558b561080297"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.6?type=jar"
+    },
+    {
+      "publisher": "Joda.org",
+      "group": "joda-time",
+      "name": "joda-time",
+      "version": "2.9.4",
+      "description": "Date and time library to replace JDK date handling",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e255d8f6e705d3e6918198bceb5458a0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1c295b462f16702ebe720bbb08f62e1ba80da41b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "deef06d5ead0b3f940bf6fd8aba4aea0d5857213a199874d1f7a8e6a6538d133"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b18421085f54cdf1909e94852ec5cc586c766c470373aeeb94dcdcf0fbf24ac70edbbd2d57e808ddaaad34ab27c82cee50df655240df81c5a5de966ed5c62680"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f88e349ce812f574254e831a305a365fa42dc583b3d68c2422c4d79026fca70a0621a70c5d1b04c58f6d99381a3a3b90"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "df320b73cacf859ea5cdeb1dfff18ceeb43694257cd796ba1a127290d4f81970de2339f3353ac9a8c82c667a53ee789d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6a56e15c888add5ff18817e3522647a95c488307773b9b18ea7dcfdad1d7977b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "de91c96e29af66d6321448352caf2a8169ff83448c53a268ea387d7b829002f9751987538eab150b88db74b4a290e2b97014c5d41249eaf152df6983a55d2016"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/joda-time/joda-time@2.9.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/joda-time/joda-time@2.9.4?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.11",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3c42be5ea7cbf3635716abbb429cb90d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4e031bb61df09069aeb2bffb4019e7a5034a4ee0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90a8e1603eeca48e7e879f3afbc9560715322985f39a274f6f6070b43f9d06fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a0de3a1d9924b8703736f27a0e02e243e9f50add113c8fb3477cd8d8e31505df1609755d79ba8f1e1f43c6b5201b409c116ad184978383da6613382727bedc6b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0f9ec06229184455e388ffa929bdc3a532d1b61ae22a51655fac91fca093b26695ecb48a040e869135aa4d69fff3840a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "50333b7f876d6660b89a29382a96d10077ee50d568fddbb61c83a241666893f04d3992f7a402fd49d97305acf318e877"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "57a3a358ca4ab3cc2636cfc7531920afeee3f347e221673edb7c4946b08e8a33"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "25a71bd3d476e67a4967fc81388432f55ef4d2816c28343ac4b517a4b963f51515a855d1c0ec8a23bf31b416b72774f3852cd226f8f158d16aa69e8e21b74e0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.11?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.11?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/net.hamnaberg.rest/json-collection@6.1.0-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.damnhandy/handy-uri-templates@2.1.6?type=jar",
+        "pkg:maven/junit/junit@4.11?type=jar",
+        "pkg:maven/net.hamnaberg.json/immutable-json-codec@5.1.0?type=jar",
+        "pkg:maven/net.hamnaberg.json/immutable-json-jackson@5.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.hamnaberg.json/immutable-json-jackson@5.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.8.1?type=jar",
+        "pkg:maven/net.hamnaberg.json/immutable-json-core@5.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.hamnaberg.json/immutable-json-core@5.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.hamnaberg.json/immutable-json-ast@5.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.hamnaberg.json/immutable-json-ast@5.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.javaslang/javaslang@2.0.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.javaslang/javaslang@2.0.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.javaslang/javaslang-match@2.0.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.javaslang/javaslang-match@2.0.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.8.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.hamnaberg.json/immutable-json-codec@5.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.javaslang/javaslang@2.0.5?type=jar",
+        "pkg:maven/net.hamnaberg.json/immutable-json-ast@5.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/joda-time/joda-time@2.9.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/joda-time/joda-time@2.9.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.11?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0abde7ad-5a31-4504-93ca-53e874155f1f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-09T23:52:29.905Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "de.bennetkrause.fdp",
+      "name": "fdp",
+      "version": "0.9-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/de.bennetkrause.fdp/fdp@0.9-SNAPSHOT?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/de.bennetkrause.fdp/fdp@0.9-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "javax.vecmath",
+      "name": "vecmath",
+      "version": "1.5.2",
+      "description": "3D Vector Math Package",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d9b620971b2dc84d3b3cc4ad6aeccfbc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fd17bc3e67f909573dfc039d8e2abecf407c4e27"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3558e81ca74c60dc01baca7ef05f48594bbaed43af45d4f1b9196e479734e675"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e0b3a6caf982f47e51411f07b95c2b87b3ce9231899114ecda79191f0349275ac079ed5340a170b2a2cd53626513cb75b840bbe43fe681cefbb3bc261197772f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c71604afb688b9297669a25977436faa2fc85813411074e25290bcb388de2e67b279199fad3ee7e41f70d296e22f183b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e99de79b70cffbb47749410c73658b471774c7649387c2e630c64ae56c79ebd0e62824f6ec8da2dcf9c421d0bc16527a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "039a1c0f57d7f01a352ee55059e347a50216ee7cfc6626503f7df2995d9a5c24"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b4db2dc6c82c3503fed3e013d483b7a68cdb4b9eeec1c9de4141bc6b3602b83c6b69a35d2af9b38b90ffbf79410269087b3a0ed23ce4e76689b5fcb991f8f63b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.vecmath/vecmath@1.5.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.vecmath/vecmath@1.5.2?type=jar"
+    },
+    {
+      "publisher": "JFree.org",
+      "group": "org.jfree",
+      "name": "jfreechart",
+      "version": "1.0.14",
+      "description": "JFreeChart is a class library, written in Java, for generating charts. Utilising the Java2D APIs, it currently supports bar charts, pie charts, line charts, XY-plots and time series plots.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e0ac6e8ecb858f946200b326209fe639"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fa67c798b0ae80b84f3854d69e341abacd3867c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e268fff64bd3b94a42537ecfae979fee397891e60cababe178a6564760931a0f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "540911774565019bf18f15913dc699063c2bf25b57543d5b63eb14d7a1d4f9a8a7e44061c494a8285cae255ad9a654454dd5ff0af2e163ac2db3a54eef3ba95b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "008ac75aaeceb613b13e607e0144b92d0575f1fb6530bd79171629aa01fb1b173ac7631e9c453806799c31de15375bde"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6ef47112465e93a74df0f5a4b6cd64cae7bc6705892494c0b32b58acd9279e1ec552270619b0d5cb459bd78da993d4e3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "80ae71a968f419fb76bf301cfc33a93cf72ce29b054323b6756ba35a54cdae5c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9dfa63638d58d79857a2ef4a08023ea4ae3b77734bc584f4fe29921fc3d2dadea29e8016d60d6968d6f8029c0ca80caaaaf9f6f92b9da85c91331a639b4c47cb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser General Public Licence",
+            "url": "http://www.gnu.org/licenses/lgpl.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jfree/jfreechart@1.0.14?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.jfree/jfreechart@1.0.14?type=jar"
+    },
+    {
+      "publisher": "JFree.org",
+      "group": "org.jfree",
+      "name": "jcommon",
+      "version": "1.0.17",
+      "description": "JCommon is a free general purpose Java class library that is used in several projects at www.jfree.org, including JFreeChart and JFreeReport.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d123cd511e2ebc4542e8b424cd20bbde"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7bcb68fde08258e59fe7bcc758c08af830fb2c1d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90a5f9ceaed977edfe8f514dcb15ddf5001cf9111a8fcd87b7cd8b0bb6231acc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2e49d42617502eed52dff5f3fbf620612b5da8f6f1c37f327c6a246f5717860944358d6d508ad8596892217494545d39b28fdfc845b61677dfd9ff99f122f9f8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0932599e79151670367c006eae1dda81952b37d3aea65fdacab09e0ddd834647eb180bdce7704a5d86016482bcb8bdd8"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "694b67c5a684d0b56c03e6570e69d45a518dc1fb72731c3367ce3de07326e1aaaaa1bdc612187b50ad72dfe34c62af57"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "abd19f175c38fc513f0da35fe57390c615a750d66441e5739815f231bdb35029"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e2ff3ee377b369be9af9c8786b29be2b1c1a2c469640791016d95ca06292f03b9a385e99c18700fed2bc687ff6084365cd426a784d629a370debda4d96ae4cbc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser General Public Licence",
+            "url": "http://www.gnu.org/licenses/lgpl.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jfree/jcommon@1.0.17?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jfree/jcommon@1.0.17?type=jar"
+    },
+    {
+      "publisher": "Apache Software Foundation",
+      "group": "xml-apis",
+      "name": "xml-apis",
+      "version": "1.3.04",
+      "description": "xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9ae9c29e4497fc35a3eade1e6dd0bbeb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "90b215f48fe42776c8c7f6e3509ec54e84fd65ef"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d404aa881eb9c5f7a4fb546e84ea11506cd417a72b5972e88eff17f43f9f8a64"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1086a52924add2406e0b4ec7219a8783ac20e02a32a7a2461efbf092f0070501f7cade9c0588907c403352f1a48f80b950e6d40b2e4e3e9eb886e7db4e97bdec"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f903cd32c64e2ebb042e4b0b2502ccc19a759c471067a232cdce33c0c83d26db578ed0d201fada9240b9bb384b48cd48"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5cf660101b63ceb31d2344d1caa323c16c92f3ad8fb71795498c1a13166a1f5565297a7d58f0f6ac743be0bb523322e8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ca3fe250c6bd2d90ffc0b9cf73d198ba3aeb48b081d903497c32007806b686c8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "36269b4466c9b6225c6520b62fa4cd3c09ef3154036f77e0db8b8331764376789ed5f3a9fe2f633245e5636afcb365c4815bea8edaeb2fdcc98e8d690910d7fa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar"
+    },
+    {
+      "group": "com.lowagie",
+      "name": "itext",
+      "version": "2.1.5",
+      "description": "iText, a free Java-PDF library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a42254f61f65ec0bbfca66193196ca9d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a25c4c425ebf812c65184e81d4c84d22e8641b35"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "40bc530593f9173e90aff5cd000c8cb185ebf851f9617b131d43f81989a9ad41"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2d9f53d478a3497617961d8868f1c291ebf0252fc0fff8c664887be24fd326b617aa89e8e3f14303832088467e8f9a21d023a59853b598518d35ec1db45bd322"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ab94412c5142eaa0faabe3246cb64803b341407c07d2f5824a575eb7de003f72699ca244dcfbf262e5934e2d5f792389"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d4ad22668dbba9fe569b1f55ecc8f493fca61fa2bd524c7970f7f6763482497dae975865889c4d6baadab798336dab32"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1c0eeadff55c5eb57d272f012dff5fef3e3c5ba8dacc22b1361892e3e6c0e100"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "939d726eee2d5b76189978dba61bf8f47056a5f986946dbef7b3e170a0ec469968f4f2d273c9e52bcd7bf739e591ec4aa34081b553a80970d041842da8ae62d9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.lowagie/itext@2.1.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.lowagie/itext@2.1.5?type=jar"
+    },
+    {
+      "group": "bouncycastle",
+      "name": "bcmail-jdk14",
+      "version": "138",
+      "description": "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. The package is organised so that it contains a light-weight API suitable for use in any environment (including the newly released J2ME) with the additional infrastructure to conform the algorithms to the JCE framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e2c72e958b82b9373c13739c9f14009c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "14ff2dfec8578f5f6838c4d6a77a86789afe5382"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "389f405cfa66b26004484733937a22624782a5d86456e0c35e007b60ebc8e359"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "60ed9f6519b4cac617fb0968380c618b09bad399799632c112c864661d44e09aeb957482edba3fcb0de96ab61af5aef905a7548df21a72d3a6dc7d421e640bc4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f2bfdfba137836e5bb03bb4fa7a9cadedc080b6fb066bc300750bc7cece257f3d952d7fd91ec317e09ad2f676051c0de"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "00cc966f984af3bb6bc79470404522888c1512e71bf465b429a54b6119015aa634b1a7e7423bd1fdbc3a869b10f809a6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3def5c731f05f317005db5a4fd1ba998554cabd6aebad7267fd35d2cbd204555"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "469acd7833a298f67b70659bd39ba6be291fec2f387576a4138c3af4964b4c8e5336b2b09271598f7a2b55bf4bca158480dfd52c1dc37c4333d854a8284f71ea"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Bouncy Castle License",
+            "url": "http://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/bouncycastle/bcmail-jdk14@138?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/bouncycastle/bcmail-jdk14@138?type=jar"
+    },
+    {
+      "group": "bouncycastle",
+      "name": "bcprov-jdk14",
+      "version": "138",
+      "description": "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. The package is organised so that it contains a light-weight API suitable for use in any environment (including the newly released J2ME) with the additional infrastructure to conform the algorithms to the JCE framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2cb031d0966bfebbdb7c60f799b24dc9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "de366c3243a586eb3c0e2bcde1ed9bb1bfb985ff"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d60b88c5d1932de8d98edd5a3ae2d5d5647793de3eb6157015807ee523cd2bee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2add1b0d82d79aa65051b1a273317fe43e5f6649fa41d4d32925cae1c8d919c31d7932f1ad96592d32b72382d1c569d7a7c09b16b034371d8ba01d3cd1feedd6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8f73129646efcac79fff4ea664ed95b9fcc08ccadb9cd5fe0250517cca6dbe5ef3165997e3be3d5c4131db4537155fb9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "877e86177c601d629211b2a2f9771097c2d604ea97d51d343ea767bc9afd4e46c57459c968627c34577d32955b15dd85"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "813e0a5fc5e5088f651e813af33b0f84c60ea801b1e0a558c3d0598ea1ec30b7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7445a4b2a93785af81c5ba35b3db3e17647256e2fdc5d47cedb7802259b00602e79c8e0e83a001d6addebfa88af3af2922b4786fbf6a4c50fb16e2fc0b6e42ab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Bouncy Castle License",
+            "url": "http://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/bouncycastle/bcprov-jdk14@138?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/bouncycastle/bcprov-jdk14@138?type=jar"
+    },
+    {
+      "group": "org.jgrapht",
+      "name": "jgrapht-core",
+      "version": "1.0.0",
+      "description": "A Java class library for graph-theory data structures and algorithms.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "59efb10b4d1c5c4cb78fbe87995905d3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c2adf22c2d37721489de12e70f5c226832045071"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dcca0f3ed17d33e8da31b62126c38a5d922b0533e873fae0f43d751c46795ff1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f6d420b97b6af17d434d8a414710f37d958e32fc5e86b0667fad9e5449254930ad7f474ec0ae3fa86b99d8f1d6d7861e228627502be116a2982bb474f5d27c9d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "16e79167be052178b1a6a8736777eba9200e8abb6f80daf3739fbd6c6df6d4cf08ac0b41292d73bae9e063be6a8c929d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9813b5b722a16480ddb7000a074d465f65259b53603b9717f531b26f3cb899cfe556cc1d42d282c0186f6ff18df0c597"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7a60d55bfa3b52a3ae35b98820492815c41856200a9318ebeae77b2a7f06c449"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b3da21d5e0a7de45ba7c65c73c94ccda17470c4e31918d37107e0432d8dbc4f8d1f42f65b02f2d69baae851ea50ef862bd7933fcfa42f6e5a1b4b4bf1f0ae8cf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jgrapht/jgrapht-core@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jgrapht/jgrapht-core@1.0.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.4",
+      "description": "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8667a442ee77e509fbe8176b94726eb2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5fe28b9518e58819180a43a850fbc0dd24b7c050"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "734c8356420cc8e30c795d64fd1fcd5d44ea9d90342a2cc3262c5158fbc6d98b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b1b556692341a240f8b81f8f71b8b5c0225ccf857ce1b185e7fe6d7a9bb2a4d77823496cd6e2697a20386e7f3ba02d476a0e4ff38071367beb3090104544922d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "961bd98a9b176b23f6162fa26b887ea54e970815f6ad10c5f98c0d8a35d6f056c19a46889bb380947a741daf7bc264cd"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6746ace68a264a099c275146576b709fd5482243e029bb2ed9db6717f90bcd11944be3673e5971310bf2cfaeee8dd436"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8096cfb0e8b1042bff04a5f871ef3c8eb9dceb72ff7630e403b01d76d825f9f8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "73e0beadfe538fa89c645766540dd423ee904433ac1e9e5e86de0a3f85196ef34130667950ec96aa7aa3761deed5885d2080753eaa4be5225d9b5c1f8f0d51a9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.4?type=jar"
+    },
+    {
+      "group": "com.scireum",
+      "name": "parsii",
+      "version": "1.5",
+      "description": "parsii is a super fast and lightweight parser and expression evaluator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "813ea03a12b2277af28eefe8c7ba27e1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9357c0cda2a8fbbe34b6bd5f13dcd4dd270db99a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "61d4431f5db51cde9e8ab5a1c3e79f70b45df8b967d7eea435aacbdb79afc511"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c99ba65bbb7b003a83b39e7335224f4df7490ec847bf26859bb84a5a88234d018184dca1ef2e646eb0cb5731d033a013b0021b2e04fb8eeacc950bdc021c34e3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6e7a26a47b7bed6ed28a0f1aeac1aaad1173dab3daa63764a9cb2495209d0e849936c9bf383764eed27bc2006b407eab"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ab18ad33f7290fbad2dd8e8a7c3d978fe10eef852d5bdc97c2c511a2bb49e41f3e9521236f40bab6c50ece3085f13077"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4342250536a0260922d557bfe6c1b6a794988ba5f39343c4e7bc929d8e682924"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f689b66c8520bc5b6b0b76f674e28527b22ee8afe47813688399af49179b5a91e14dbcc2739dc91622653664ba53924eb832729718b3da04928930ca62964d56"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.scireum/parsii@1.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.scireum/parsii@1.5?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/de.bennetkrause.fdp/fdp@0.9-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.scireum/parsii@1.5?type=jar",
+        "pkg:maven/javax.vecmath/vecmath@1.5.2?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.4?type=jar",
+        "pkg:maven/org.jfree/jfreechart@1.0.14?type=jar",
+        "pkg:maven/org.jgrapht/jgrapht-core@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.vecmath/vecmath@1.5.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jfree/jfreechart@1.0.14?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.lowagie/itext@2.1.5?type=jar",
+        "pkg:maven/org.jfree/jcommon@1.0.17?type=jar",
+        "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jfree/jcommon@1.0.17?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.lowagie/itext@2.1.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/bouncycastle/bcmail-jdk14@138?type=jar",
+        "pkg:maven/bouncycastle/bcprov-jdk14@138?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/bouncycastle/bcmail-jdk14@138?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/bouncycastle/bcprov-jdk14@138?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jgrapht/jgrapht-core@1.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.scireum/parsii@1.5?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3fe210da-ba1f-4d15-af26-449b7ea44d73",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-16T15:08:20.823Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "org.mybatis",
+      "name": "mybatis",
+      "version": "3.5.14",
+      "purl": "pkg:maven/org.mybatis/mybatis@3.5.14?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mybatis/mybatis@3.5.14?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "redis.clients",
+      "name": "jedis",
+      "version": "5.0.2",
+      "purl": "pkg:maven/redis.clients/jedis@5.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/redis.clients/jedis@5.0.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.esotericsoftware",
+      "name": "kryo",
+      "version": "4.0.3",
+      "purl": "pkg:maven/com.esotericsoftware/kryo@4.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.esotericsoftware/kryo@4.0.3?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "jakarta.transaction",
+      "name": "jakarta.transaction-api",
+      "version": "2.0.1",
+      "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-engine",
+      "version": "5.10.1",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-simple",
+      "version": "2.0.9",
+      "purl": "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\68_redis\\redis-cache\\pom.xml"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

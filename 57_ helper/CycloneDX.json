@@ -1,0 +1,46 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9a0f9d7f-bb01-46e2-b4f6-0c7e4d9f5be3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T17:26:59.929Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.lynden",
+      "name": "JavaFxPropertyHelperNBPlugin",
+      "version": "1.1.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.lynden/JavaFxPropertyHelperNBPlugin@1.1.2?type=nbm",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.lynden/JavaFxPropertyHelperNBPlugin@1.1.2?type=nbm"
+    }
+  },
+  "components": [],
+  "dependencies": []
+}

@@ -1,0 +1,625 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:bd4722cd-95f3-4ba3-a50b-765388484a99",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T17:30:16.767Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "com.martiansoftware",
+      "name": "jsap",
+      "version": "2.1",
+      "purl": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "colt",
+      "name": "colt",
+      "version": "1.2.0",
+      "purl": "pkg:maven/colt/colt@1.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/colt/colt@1.2.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.jgoodies",
+      "name": "jgoodies-common",
+      "version": "1.8.1",
+      "purl": "pkg:maven/com.jgoodies/jgoodies-common@1.8.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.jgoodies/jgoodies-common@1.8.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.jgoodies",
+      "name": "jgoodies-forms",
+      "version": "1.8.0",
+      "purl": "pkg:maven/com.jgoodies/jgoodies-forms@1.8.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.jgoodies/jgoodies-forms@1.8.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.jgoodies",
+      "name": "jgoodies-looks",
+      "version": "2.6.0",
+      "purl": "pkg:maven/com.jgoodies/jgoodies-looks@2.6.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.jgoodies/jgoodies-looks@2.6.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "edu.iris",
+      "name": "JavaSeedLite",
+      "version": "3.8.4",
+      "purl": "pkg:maven/edu.iris/JavaSeedLite@3.8.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/edu.iris/JavaSeedLite@3.8.4?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "edu.sc.seis",
+      "name": "seedCodec",
+      "version": "1.0.11",
+      "purl": "pkg:maven/edu.sc.seis/seedCodec@1.0.11?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/edu.sc.seis/seedCodec@1.0.11?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "edu.sc.seis",
+      "name": "seisFile",
+      "version": "1.8.2",
+      "purl": "pkg:maven/edu.sc.seis/seisFile@1.8.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/edu.sc.seis/seisFile@1.8.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.alomax",
+      "name": "seedlink_lite",
+      "version": "1.2.2",
+      "purl": "pkg:maven/net.alomax/seedlink_lite@1.2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.alomax/seedlink_lite@1.2.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.sourceforge.jtransforms",
+      "name": "jtransforms",
+      "version": "2.4.0",
+      "purl": "pkg:maven/net.sourceforge.jtransforms/jtransforms@2.4.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.jtransforms/jtransforms@2.4.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "gov.usgs.volcanoes",
+      "name": "quakeml",
+      "version": "1.1.1",
+      "purl": "pkg:maven/gov.usgs.volcanoes/quakeml@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/gov.usgs.volcanoes/quakeml@1.1.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "gov.usgs.volcanoes",
+      "name": "volcano-core",
+      "version": "3.0.4",
+      "purl": "pkg:maven/gov.usgs.volcanoes/volcano-core@3.0.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/gov.usgs.volcanoes/volcano-core@3.0.4?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "gov.usgs.volcanoes",
+      "name": "hypo71",
+      "version": "1.0.0",
+      "purl": "pkg:maven/gov.usgs.volcanoes/hypo71@1.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/gov.usgs.volcanoes/hypo71@1.0.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "gov.usgs.volcanoes",
+      "name": "winston",
+      "version": "1.3.13",
+      "purl": "pkg:maven/gov.usgs.volcanoes/winston@1.3.13?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/gov.usgs.volcanoes/winston@1.3.13?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "io.netty",
+      "name": "netty-all",
+      "version": "[4.1.42,)",
+      "purl": "pkg:maven/io.netty/netty-all@%5B4.1.42%2C)?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-all@[4.1.42,)?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "opensymphony",
+      "name": "oscache",
+      "version": "2.4.1",
+      "purl": "pkg:maven/opensymphony/oscache@2.4.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/opensymphony/oscache@2.4.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "org.pegdown",
+      "name": "pegdown",
+      "version": "1.6.0",
+      "purl": "pkg:maven/org.pegdown/pegdown@1.6.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.pegdown/pegdown@1.6.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "gov.usgs.earthquake",
+      "name": "messageUtils",
+      "version": "1.0",
+      "purl": "pkg:maven/gov.usgs.earthquake/messageUtils@1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/gov.usgs.earthquake/messageUtils@1.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.sun.xml.bind",
+      "name": "jaxb-impl",
+      "version": "2.3.2",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "javax.xml.bind",
+      "name": "jaxb-api",
+      "version": "2.3.1",
+      "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.3.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.xml.bind/jaxb-api@2.3.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "gov.usgs.volcanoes",
+      "name": "wwsclient",
+      "version": "2.0.0",
+      "purl": "pkg:maven/gov.usgs.volcanoes/wwsclient@2.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/gov.usgs.volcanoes/wwsclient@2.0.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\60_swam\\swarm\\pom.xml"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

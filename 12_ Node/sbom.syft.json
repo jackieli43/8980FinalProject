@@ -1,0 +1,4720 @@
+{
+ "artifacts": [
+  {
+   "id": "9d42779ef3859cea",
+   "name": "apache-mime4j-core",
+   "version": "0.7.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:apache-mime4j-core:0.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:apache_mime4j_core:0.7.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.james/apache-mime4j-core@0.7.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.james:apache-mime4j-core",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.james/apache-mime4j-core/pom.properties",
+     "name": "",
+     "groupId": "org.apache.james",
+     "artifactId": "apache-mime4j-core",
+     "version": "0.7.2"
+    }
+   }
+  },
+  {
+   "id": "54950544483407ab",
+   "name": "apache-mime4j-dom",
+   "version": "0.7.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:apache-mime4j-dom:0.7.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:apache_mime4j_dom:0.7.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.james:apache-mime4j-dom",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.james/apache-mime4j-dom/pom.properties",
+     "name": "",
+     "groupId": "org.apache.james",
+     "artifactId": "apache-mime4j-dom",
+     "version": "0.7.2"
+    }
+   }
+  },
+  {
+   "id": "7c8b19021a369031",
+   "name": "bzip2",
+   "version": "0.9.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "MIT License (MIT)",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://opensource.org/licenses/mit-license.php"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:itadaki:bzip2:0.9.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bzip2:bzip2:0.9.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.itadaki/bzip2@0.9.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.itadaki:bzip2",
+    "pomProperties": {
+     "path": "META-INF/maven/org.itadaki/bzip2/pom.properties",
+     "name": "",
+     "groupId": "org.itadaki",
+     "artifactId": "bzip2",
+     "version": "0.9.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.itadaki/bzip2/pom.xml",
+     "groupId": "org.itadaki",
+     "artifactId": "bzip2",
+     "version": "0.9.1",
+     "name": "Itadaki jbzip2",
+     "description": "jbzip2 is a Java bzip2 compression/decompression library. It can be used as a replacement for the Apache CBZip2InputStream / CBZip2OutputStream classes.",
+     "url": "https://code.google.com/p/jbzip2/"
+    }
+   }
+  },
+  {
+   "id": "6bbd5db7a4f3a7a9",
+   "name": "cdm",
+   "version": "4.5.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:cdm:cdm:4.5.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.ucar/cdm@4.5.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:edu.ucar:cdm",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.ucar/cdm/pom.properties",
+     "name": "",
+     "groupId": "edu.ucar",
+     "artifactId": "cdm",
+     "version": "4.5.5"
+    }
+   }
+  },
+  {
+   "id": "c5ce4f29c313ba70",
+   "name": "commons-codec",
+   "version": "1.10",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-codec/commons-codec@1.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:commons-codec:commons-codec",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-codec/commons-codec/pom.properties",
+     "name": "",
+     "groupId": "commons-codec",
+     "artifactId": "commons-codec",
+     "version": "1.10"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-codec/commons-codec/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "35"
+     },
+     "groupId": "commons-codec",
+     "artifactId": "commons-codec",
+     "version": "1.10",
+     "name": "Apache Commons Codec",
+     "description": "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal.  In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+     "url": "http://commons.apache.org/proper/commons-codec/"
+    }
+   }
+  },
+  {
+   "id": "fa8191ab166f5d4a",
+   "name": "commons-compress",
+   "version": "1.11",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-compress:1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_compress:1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-compress@1.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.commons:commons-compress",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.commons/commons-compress/pom.properties",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-compress",
+     "version": "1.11"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.apache.commons/commons-compress/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "39"
+     },
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-compress",
+     "version": "1.11",
+     "name": "Apache Commons Compress",
+     "description": "Apache Commons Compress software defines an API for working with compression and archive formats.  These include: bzip2, gzip, pack200, lzma, xz, Snappy, traditional Unix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+     "url": "http://commons.apache.org/proper/commons-compress/"
+    }
+   }
+  },
+  {
+   "id": "d875f8093aaafab9",
+   "name": "commons-csv",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-csv:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_csv:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-csv@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.commons:commons-csv",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.commons/commons-csv/pom.properties",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-csv",
+     "version": "1.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.apache.commons/commons-csv/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "34"
+     },
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-csv",
+     "version": "1.0",
+     "name": "Apache Commons CSV",
+     "description": "The Apache Commons CSV library provides a simple interface for reading and writing CSV files of various types.",
+     "url": "http://commons.apache.org/proper/commons-csv/"
+    }
+   }
+  },
+  {
+   "id": "891c1caf62730129",
+   "name": "commons-exec",
+   "version": "1.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-exec:1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_exec:1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-exec@1.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.commons:commons-exec",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.commons/commons-exec/pom.properties",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-exec",
+     "version": "1.3"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.apache.commons/commons-exec/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "35"
+     },
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-exec",
+     "version": "1.3",
+     "name": "Apache Commons Exec",
+     "description": "Apache Commons Exec is a library to reliably execute external processes from within the JVM.",
+     "url": "http://commons.apache.org/proper/commons-exec/"
+    }
+   }
+  },
+  {
+   "id": "ed4dff51ee88af2b",
+   "name": "commons-io",
+   "version": "2.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-io/commons-io@2.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:commons-io:commons-io",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-io/commons-io/pom.properties",
+     "name": "",
+     "groupId": "commons-io",
+     "artifactId": "commons-io",
+     "version": "2.4"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-io/commons-io/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "25"
+     },
+     "groupId": "commons-io",
+     "artifactId": "commons-io",
+     "version": "2.4",
+     "name": "Commons IO",
+     "description": "The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+     "url": "http://commons.apache.org/io/"
+    }
+   }
+  },
+  {
+   "id": "e09bef98480b3daa",
+   "name": "commons-lang",
+   "version": "2.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:commons-lang:commons-lang",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-lang/commons-lang/pom.properties",
+     "name": "",
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": "2.6"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-lang/commons-lang/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "17"
+     },
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": "2.6",
+     "name": "Commons Lang",
+     "description": "Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+     "url": "http://commons.apache.org/lang/"
+    }
+   }
+  },
+  {
+   "id": "be43a6553ef3a2ac",
+   "name": "commons-lang",
+   "version": "2.6",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-lang:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-lang:commons_lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_lang:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_lang:commons_lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-lang:2.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_lang:2.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3589abf98e463524",
+   "name": "commons-logging",
+   "version": "1.1.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-logging:1.1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_logging:1.1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.1.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-logging/commons-logging@1.1.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:commons-logging:commons-logging",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-logging/commons-logging/pom.properties",
+     "name": "",
+     "groupId": "commons-logging",
+     "artifactId": "commons-logging",
+     "version": "1.1.3"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-logging/commons-logging/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "28"
+     },
+     "groupId": "commons-logging",
+     "artifactId": "commons-logging",
+     "version": "1.1.3",
+     "name": "Commons Logging",
+     "description": "Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+     "url": "http://commons.apache.org/proper/commons-logging/"
+    }
+   }
+  },
+  {
+   "id": "53940b9ce59c4025",
+   "name": "commons-vfs2",
+   "version": "2.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-vfs2:2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_vfs2:2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-vfs2@2.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.commons:commons-vfs2",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.commons/commons-vfs2/pom.properties",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-vfs2",
+     "version": "2.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.apache.commons/commons-vfs2/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-vfs2-project",
+      "version": "2.0"
+     },
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-vfs2",
+     "version": "2.0",
+     "name": "Commons VFS Core",
+     "description": "VFS is a Virtual File System library."
+    }
+   }
+  },
+  {
+   "id": "72a4d609f3e15052",
+   "name": "curvesapi",
+   "version": "1.03",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "BSD License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://opensource.org/licenses/BSD-3-Clause"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:curvesapi:curvesapi:1.03:*:*:*:*:*:*:*",
+    "cpe:2.3:a:virtuald:curvesapi:1.03:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:curvesapi:1.03:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.virtuald/curvesapi@1.03",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.github.virtuald:curvesapi",
+    "pomProperties": {
+     "path": "META-INF/maven/com.github.virtuald/curvesapi/pom.properties",
+     "name": "",
+     "groupId": "com.github.virtuald",
+     "artifactId": "curvesapi",
+     "version": "1.03"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.github.virtuald/curvesapi/pom.xml",
+     "groupId": "com.github.virtuald",
+     "artifactId": "curvesapi",
+     "version": "1.03",
+     "name": "curvesapi",
+     "description": "Implementation of various mathematical curves that define themselves over a set of control points. The API is written in Java. The curves supported are: Bezier, B-Spline, Cardinal Spline, Catmull-Rom Spline, Lagrange, Natural Cubic Spline, and NURBS.",
+     "url": "https://github.com/virtuald/curvesapi"
+    }
+   }
+  },
+  {
+   "id": "4f47d1e0a3f77840",
+   "name": "cxf-core",
+   "version": "3.0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:cxf-core:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf_core:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf:3.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.cxf/cxf-core@3.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.cxf:cxf-core",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.cxf/cxf-core/pom.properties",
+     "name": "",
+     "groupId": "org.apache.cxf",
+     "artifactId": "cxf-core",
+     "version": "3.0.3"
+    }
+   }
+  },
+  {
+   "id": "60f558236da2f878",
+   "name": "cxf-rt-frontend-jaxrs",
+   "version": "3.0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:cxf-rt-frontend-jaxrs:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf_rt_frontend_jaxrs:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf:3.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.cxf:cxf-rt-frontend-jaxrs",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.cxf/cxf-rt-frontend-jaxrs/pom.properties",
+     "name": "",
+     "groupId": "org.apache.cxf",
+     "artifactId": "cxf-rt-frontend-jaxrs",
+     "version": "3.0.3"
+    }
+   }
+  },
+  {
+   "id": "6620a34462272906",
+   "name": "cxf-rt-rs-client",
+   "version": "3.0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:cxf-rt-rs-client:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf_rt_rs_client:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf:3.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.cxf:cxf-rt-rs-client",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.cxf/cxf-rt-rs-client/pom.properties",
+     "name": "",
+     "groupId": "org.apache.cxf",
+     "artifactId": "cxf-rt-rs-client",
+     "version": "3.0.3"
+    }
+   }
+  },
+  {
+   "id": "80b433d32d382b47",
+   "name": "cxf-rt-transports-http",
+   "version": "3.0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:cxf-rt-transports-http:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf_rt_transports_http:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cxf:3.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.cxf:cxf-rt-transports-http",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.cxf/cxf-rt-transports-http/pom.properties",
+     "name": "",
+     "groupId": "org.apache.cxf",
+     "artifactId": "cxf-rt-transports-http",
+     "version": "3.0.3"
+    }
+   }
+  },
+  {
+   "id": "979d137fe9dd616a",
+   "name": "ehcache-core",
+   "version": "2.6.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "src/assemble/EHCACHE-CORE-LICENSE.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:ehcache-core:ehcache-core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache-core:ehcache_core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache_core:ehcache-core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache_core:ehcache_core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache-core:ehcache:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache:ehcache-core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache:ehcache_core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache_core:ehcache:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache:ehcache:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sf:ehcache-core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sf:ehcache_core:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sf:ehcache:2.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.sf.ehcache/ehcache-core@2.6.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:net.sf.ehcache:ehcache-core",
+    "pomProperties": {
+     "path": "META-INF/maven/net.sf.ehcache/ehcache-core/pom.properties",
+     "name": "",
+     "groupId": "net.sf.ehcache",
+     "artifactId": "ehcache-core",
+     "version": "2.6.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/net.sf.ehcache/ehcache-core/pom.xml",
+     "parent": {
+      "groupId": "net.sf.ehcache",
+      "artifactId": "ehcache-parent",
+      "version": "2.3"
+     },
+     "groupId": "",
+     "artifactId": "ehcache-core",
+     "version": "2.6.2",
+     "name": "Ehcache Core",
+     "description": "This is the ehcache core module. Pair it with other modules for added functionality.",
+     "url": "http://ehcache.org"
+    }
+   }
+  },
+  {
+   "id": "cd1aebfaa6634ee3",
+   "name": "fontbox",
+   "version": "2.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:fontbox:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.pdfbox/fontbox@2.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.pdfbox:fontbox",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.pdfbox/fontbox/pom.properties",
+     "name": "",
+     "groupId": "org.apache.pdfbox",
+     "artifactId": "fontbox",
+     "version": "2.0.1"
+    }
+   }
+  },
+  {
+   "id": "d74f7bf9d434ee44",
+   "name": "geoapi",
+   "version": "3.0.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:opengis:geoapi:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:geoapi:geoapi:3.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.opengis/geoapi@3.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.opengis:geoapi",
+    "pomProperties": {
+     "path": "META-INF/maven/org.opengis/geoapi/pom.properties",
+     "name": "",
+     "groupId": "org.opengis",
+     "artifactId": "geoapi",
+     "version": "3.0.0"
+    }
+   }
+  },
+  {
+   "id": "3dcb1bc2f0b9a53b",
+   "name": "grib",
+   "version": "4.5.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:grib:grib:4.5.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.ucar/grib@4.5.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:edu.ucar:grib",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.ucar/grib/pom.properties",
+     "name": "",
+     "groupId": "edu.ucar",
+     "artifactId": "grib",
+     "version": "4.5.5"
+    }
+   }
+  },
+  {
+   "id": "e3846f08c183f9e0",
+   "name": "gson",
+   "version": "2.6.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.6.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.google.code.gson:gson",
+    "pomProperties": {
+     "path": "META-INF/maven/com.google.code.gson/gson/pom.properties",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": "2.6.2"
+    }
+   }
+  },
+  {
+   "id": "d50ef981e9c3a300",
+   "name": "gson",
+   "version": "2.6.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.6.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  },
+  {
+   "id": "bfb1667a8d9471fd",
+   "name": "guava",
+   "version": "17.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:guava:17.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:guava:guava:17.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.guava/guava@17.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.google.guava:guava",
+    "pomProperties": {
+     "path": "META-INF/maven/com.google.guava/guava/pom.properties",
+     "name": "",
+     "groupId": "com.google.guava",
+     "artifactId": "guava",
+     "version": "17.0"
+    }
+   }
+  },
+  {
+   "id": "afb6fb4196a29067",
+   "name": "httpclient",
+   "version": "4.2.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:httpclient:4.2.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.2.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.httpcomponents:httpclient",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties",
+     "name": "",
+     "groupId": "org.apache.httpcomponents",
+     "artifactId": "httpclient",
+     "version": "4.2.6"
+    }
+   }
+  },
+  {
+   "id": "f96efc67e72b9936",
+   "name": "httpcore",
+   "version": "4.2.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:httpcore:4.2.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.2.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.httpcomponents:httpcore",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties",
+     "name": "",
+     "groupId": "org.apache.httpcomponents",
+     "artifactId": "httpcore",
+     "version": "4.2.5"
+    }
+   }
+  },
+  {
+   "id": "f1205dc87f04c4b4",
+   "name": "httpmime",
+   "version": "4.2.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:httpmime:4.2.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.httpcomponents/httpmime@4.2.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.httpcomponents:httpmime",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.httpcomponents/httpmime/pom.properties",
+     "name": "",
+     "groupId": "org.apache.httpcomponents",
+     "artifactId": "httpmime",
+     "version": "4.2.6"
+    }
+   }
+  },
+  {
+   "id": "f026e912a7caa057",
+   "name": "httpservices",
+   "version": "4.5.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:httpservices:httpservices:4.5.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.ucar/httpservices@4.5.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:edu.ucar:httpservices",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.ucar/httpservices/pom.properties",
+     "name": "",
+     "groupId": "edu.ucar",
+     "artifactId": "httpservices",
+     "version": "4.5.5"
+    }
+   }
+  },
+  {
+   "id": "d0ae561a7b8274fa",
+   "name": "isoparser",
+   "version": "1.1.18",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Apache Software License - Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:googlecode:isoparser:1.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:isoparser:isoparser:1.1.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mp4parser:isoparser:1.1.18:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.googlecode.mp4parser/isoparser@1.1.18",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.googlecode.mp4parser:isoparser",
+    "pomProperties": {
+     "path": "META-INF/maven/com.googlecode.mp4parser/isoparser/pom.properties",
+     "name": "",
+     "groupId": "com.googlecode.mp4parser",
+     "artifactId": "isoparser",
+     "version": "1.1.18"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.googlecode.mp4parser/isoparser/pom.xml",
+     "groupId": "com.googlecode.mp4parser",
+     "artifactId": "isoparser",
+     "version": "1.1.18",
+     "name": "ISO Parser",
+     "description": "A generic parser and writer for all ISO 14496 based files (MP4, Quicktime, DCF, PDCF, ...)",
+     "url": "http://code.google.com/p/mp4parser/"
+    }
+   }
+  },
+  {
+   "id": "f0e2c60270b3b177",
+   "name": "jackcess",
+   "version": "2.1.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:healthmarketscience:jackcess:2.1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess:jackcess:2.1.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.healthmarketscience.jackcess/jackcess@2.1.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.healthmarketscience.jackcess:jackcess",
+    "pomProperties": {
+     "path": "META-INF/maven/com.healthmarketscience.jackcess/jackcess/pom.properties",
+     "name": "",
+     "groupId": "com.healthmarketscience.jackcess",
+     "artifactId": "jackcess",
+     "version": "2.1.3"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.healthmarketscience.jackcess/jackcess/pom.xml",
+     "parent": {
+      "groupId": "com.healthmarketscience",
+      "artifactId": "openhms-parent",
+      "version": "1.1.4"
+     },
+     "groupId": "com.healthmarketscience.jackcess",
+     "artifactId": "jackcess",
+     "version": "2.1.3",
+     "name": "Jackcess",
+     "description": "A pure Java library for reading from and writing to MS Access databases.",
+     "url": "http://jackcess.sf.net"
+    }
+   }
+  },
+  {
+   "id": "404110f0239a8195",
+   "name": "jackcess-encrypt",
+   "version": "2.1.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:healthmarketscience:jackcess-encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:healthmarketscience:jackcess_encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess-encrypt:jackcess-encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess-encrypt:jackcess_encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess_encrypt:jackcess-encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess_encrypt:jackcess_encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:healthmarketscience:jackcess:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess-encrypt:jackcess:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess:jackcess-encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess:jackcess_encrypt:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess_encrypt:jackcess:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackcess:jackcess:2.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.healthmarketscience.jackcess/jackcess-encrypt@2.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.healthmarketscience.jackcess:jackcess-encrypt",
+    "pomProperties": {
+     "path": "META-INF/maven/com.healthmarketscience.jackcess/jackcess-encrypt/pom.properties",
+     "name": "",
+     "groupId": "com.healthmarketscience.jackcess",
+     "artifactId": "jackcess-encrypt",
+     "version": "2.1.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.healthmarketscience.jackcess/jackcess-encrypt/pom.xml",
+     "parent": {
+      "groupId": "com.healthmarketscience",
+      "artifactId": "openhms-parent",
+      "version": "1.1.1"
+     },
+     "groupId": "com.healthmarketscience.jackcess",
+     "artifactId": "jackcess-encrypt",
+     "version": "2.1.1",
+     "name": "Jackcess Encrypt",
+     "description": "An add-on to the Jackcess library for handling encryption in MS Access files.",
+     "url": "http://jackcessencrypt.sf.net"
+    }
+   }
+  },
+  {
+   "id": "b86531790fee04be",
+   "name": "jackson-core",
+   "version": "2.7.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-core:jackson-core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-core:jackson_core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:jackson-core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:jackson_core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-core:jackson:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:jackson:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson-core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson_core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-core:core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_core:core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:core:2.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:core:2.7.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.7.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.fasterxml.jackson.core:jackson-core",
+    "pomProperties": {
+     "path": "META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-core",
+     "version": "2.7.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml",
+     "parent": {
+      "groupId": "com.fasterxml.jackson",
+      "artifactId": "jackson-parent",
+      "version": "2.7"
+     },
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-core",
+     "version": "2.7.1",
+     "name": "Jackson-core",
+     "description": "Core Jackson abstractions, basic JSON streaming API implementation",
+     "url": "https://github.com/FasterXML/jackson-core"
+    }
+   }
+  },
+  {
+   "id": "fed63dd963fc7d98",
+   "name": "jai-imageio-core",
+   "version": "1.3.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "BSD 3-clause License w/nuclear disclaimer",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "LICENSE.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jai-imageio-core:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio-core:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio-core:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio-core:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai_imageio:1.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-core@1.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.github.jai-imageio:jai-imageio-core",
+    "pomProperties": {
+     "path": "META-INF/maven/com.github.jai-imageio/jai-imageio-core/pom.properties",
+     "name": "",
+     "groupId": "com.github.jai-imageio",
+     "artifactId": "jai-imageio-core",
+     "version": "1.3.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.github.jai-imageio/jai-imageio-core/pom.xml",
+     "groupId": "com.github.jai-imageio",
+     "artifactId": "jai-imageio-core",
+     "version": "1.3.1",
+     "name": "Java Advanced Imaging Image I/O Tools API core (standalone)",
+     "description": "Java Advanced Imaging Image I/O Tools API core, but without the classes involved with javax.media.jai dependencies, JPEG2000 or codecLibJIIO, meaning that this library can be distributed under the modified BSD license and should be GPL compatible.",
+     "url": "https://github.com/jai-imageio/jai-imageio-core"
+    }
+   }
+  },
+  {
+   "id": "a979a2de862c4477",
+   "name": "jai-imageio-core",
+   "version": "1.3.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jai-imageio-core:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio-core:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio-core:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio-core:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio_core:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai-imageio:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai_imageio:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai-imageio-core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai_imageio_core:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:jai_imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai-imageio:1.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jai:jai_imageio:1.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-core@1.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.github.jai-imageio",
+     "artifactId": "jai-imageio-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "a6e15d5c7dae8804",
+   "name": "java-libpst",
+   "version": "0.8.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:java-libpst:java-libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java-libpst:java_libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_libpst:java-libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_libpst:java_libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:java-libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:java_libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:java-libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:java_libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:java-libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:java_libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pff:java-libpst:0.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pff:java_libpst:0.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.pff/java-libpst@0.8.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.pff:java-libpst",
+    "pomProperties": {
+     "path": "META-INF/maven/com.pff/java-libpst/pom.properties",
+     "name": "",
+     "groupId": "com.pff",
+     "artifactId": "java-libpst",
+     "version": "0.8.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.pff/java-libpst/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "7"
+     },
+     "groupId": "com.pff",
+     "artifactId": "java-libpst",
+     "version": "0.8.1",
+     "name": "java-libpst",
+     "description": "A library to read PST files with java, without need for external libraries.",
+     "url": "https://code.google.com/p/java-libpst/"
+    }
+   }
+  },
+  {
+   "id": "75f9ffb16921a8cf",
+   "name": "javax.annotation-api",
+   "version": "1.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "CDDL + GPLv2 with classpath exception",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.annotation-api:javax.annotation-api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation-api:javax.annotation_api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation_api:javax.annotation-api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation_api:javax.annotation_api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation:javax.annotation-api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation:javax.annotation_api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:javax.annotation-api:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:javax.annotation_api:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:javax.annotation:javax.annotation-api",
+    "pomProperties": {
+     "path": "META-INF/maven/javax.annotation/javax.annotation-api/pom.properties",
+     "name": "",
+     "groupId": "javax.annotation",
+     "artifactId": "javax.annotation-api",
+     "version": "1.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/javax.annotation/javax.annotation-api/pom.xml",
+     "parent": {
+      "groupId": "net.java",
+      "artifactId": "jvnet-parent",
+      "version": "3"
+     },
+     "groupId": "javax.annotation",
+     "artifactId": "javax.annotation-api",
+     "version": "1.2",
+     "name": "${extension.name} API",
+     "description": "Common Annotations for the JavaTM Platform API",
+     "url": "http://jcp.org/en/jsr/detail?id=250"
+    }
+   }
+  },
+  {
+   "id": "fca548397f438cf4",
+   "name": "javax.ws.rs-api",
+   "version": "2.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "CDDL 1.1",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://glassfish.java.net/public/CDDL+GPL_1_1.html"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    },
+    {
+     "value": "GPL2 w/ CPE",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://glassfish.java.net/public/CDDL+GPL_1_1.html"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.ws.rs-api:javax.ws.rs-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.ws.rs-api:javax.ws.rs_api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.ws.rs_api:javax.ws.rs-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.ws.rs_api:javax.ws.rs_api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.ws.rs:javax.ws.rs-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.ws.rs:javax.ws.rs_api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:javax.ws.rs-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:javax.ws.rs_api:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api@2.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:javax.ws.rs:javax.ws.rs-api",
+    "pomProperties": {
+     "path": "META-INF/maven/javax.ws.rs/javax.ws.rs-api/pom.properties",
+     "name": "",
+     "groupId": "javax.ws.rs",
+     "artifactId": "javax.ws.rs-api",
+     "version": "2.0.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/javax.ws.rs/javax.ws.rs-api/pom.xml",
+     "parent": {
+      "groupId": "net.java",
+      "artifactId": "jvnet-parent",
+      "version": "5"
+     },
+     "groupId": "javax.ws.rs",
+     "artifactId": "javax.ws.rs-api",
+     "version": "2.0.1",
+     "name": "javax.ws.rs-api",
+     "url": "http://jax-rs-spec.java.net"
+    }
+   }
+  },
+  {
+   "id": "84e202df5e668537",
+   "name": "jcommander",
+   "version": "1.35",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jcommander:jcommander:1.35:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:jcommander:1.35:*:*:*:*:*:*:*",
+    "cpe:2.3:a:beust:jcommander:1.35:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:jcommander:1.35:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.beust/jcommander@1.35",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.beust:jcommander",
+    "pomProperties": {
+     "path": "META-INF/maven/com.beust/jcommander/pom.properties",
+     "name": "",
+     "groupId": "com.beust",
+     "artifactId": "jcommander",
+     "version": "1.35"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.beust/jcommander/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "3"
+     },
+     "groupId": "com.beust",
+     "artifactId": "jcommander",
+     "version": "1.35",
+     "name": "JCommander",
+     "description": "A Java framework to parse command line options with annotations.",
+     "url": "http://beust.com/jcommander"
+    }
+   }
+  },
+  {
+   "id": "f00fd9da576713be",
+   "name": "jempbox",
+   "version": "1.8.12",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:jempbox:1.8.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.pdfbox/jempbox@1.8.12",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.pdfbox:jempbox",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.pdfbox/jempbox/pom.properties",
+     "name": "",
+     "groupId": "org.apache.pdfbox",
+     "artifactId": "jempbox",
+     "version": "1.8.12"
+    }
+   }
+  },
+  {
+   "id": "045c7a59a3bdc37c",
+   "name": "jhighlight",
+   "version": "1.0.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "CDDL, v1.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.opensource.org/licenses/cddl1.php"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    },
+    {
+     "value": "LGPL, v2.1 or later",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.opensource.org/licenses/lgpl-license.php"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jhighlight:jhighlight:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codelibs:jhighlight:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:jhighlight:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:jhighlight:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.codelibs/jhighlight@1.0.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.codelibs:jhighlight",
+    "pomProperties": {
+     "path": "META-INF/maven/org.codelibs/jhighlight/pom.properties",
+     "name": "",
+     "groupId": "org.codelibs",
+     "artifactId": "jhighlight",
+     "version": "1.0.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.codelibs/jhighlight/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "9"
+     },
+     "groupId": "org.codelibs",
+     "artifactId": "jhighlight",
+     "version": "1.0.2",
+     "name": "JHighlight",
+     "description": "JHighlight is an embeddable pure Java syntax highlighting library that supports Java, HTML, XHTML, XML and LZX languages and outputs to XHTML. It also supports RIFE templates tags and highlights them clearly so that you can easily identify the difference between your RIFE markup and the actual marked up source.",
+     "url": "https://github.com/codelibs/jhighlight"
+    }
+   }
+  },
+  {
+   "id": "8e2e2d8660f42aad",
+   "name": "jj2000",
+   "version": "5.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jj2000:jj2000:5.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.ucar/jj2000@5.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:edu.ucar:jj2000",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.ucar/jj2000/pom.properties",
+     "name": "",
+     "groupId": "edu.ucar",
+     "artifactId": "jj2000",
+     "version": "5.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/edu.ucar/jj2000/pom.xml",
+     "groupId": "edu.ucar",
+     "artifactId": "jj2000",
+     "version": "5.2",
+     "name": "Unidata jj2000",
+     "description": "Fork of jpeg2k code from https://code.google.com/p/jj2000/. This is a dependency for support of compression in Grib2 files in netCDF-java and TDS. We welcome bug fixes and other contributions to this code.",
+     "url": "https://github.com/Unidata/jj2000"
+    }
+   }
+  },
+  {
+   "id": "b5a0d42b566da4bc",
+   "name": "jmatio",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "BSD",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.linfo.org/bsdlicense.html"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:sourceforge:jmatio:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jmatio:jmatio:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.sourceforge.jmatio/jmatio@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:net.sourceforge.jmatio:jmatio",
+    "pomProperties": {
+     "path": "META-INF/maven/net.sourceforge.jmatio/jmatio/pom.properties",
+     "name": "",
+     "groupId": "net.sourceforge.jmatio",
+     "artifactId": "jmatio",
+     "version": "1.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/net.sourceforge.jmatio/jmatio/pom.xml",
+     "groupId": "net.sourceforge.jmatio",
+     "artifactId": "jmatio",
+     "version": "1.0",
+     "name": "jmatio",
+     "description": "Matlab's MAT-file I/O API in JAVA. Supports Matlab 5 MAT-flie format reading and writing. Written in pure JAVA.",
+     "url": "http://sourceforge.net/projects/jmatio/"
+    }
+   }
+  },
+  {
+   "id": "8424b6707a324a75",
+   "name": "joda-time",
+   "version": "2.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Apache 2",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:joda-time:joda-time:2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda-time:joda_time:2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda_time:joda-time:2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda_time:joda_time:2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda:joda-time:2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda:joda_time:2.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/joda-time/joda-time@2.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:joda-time:joda-time",
+    "pomProperties": {
+     "path": "META-INF/maven/joda-time/joda-time/pom.properties",
+     "name": "",
+     "groupId": "joda-time",
+     "artifactId": "joda-time",
+     "version": "2.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/joda-time/joda-time/pom.xml",
+     "groupId": "joda-time",
+     "artifactId": "joda-time",
+     "version": "2.2",
+     "name": "Joda time",
+     "description": "Date and time library to replace JDK date handling",
+     "url": "http://joda-time.sourceforge.net"
+    }
+   }
+  },
+  {
+   "id": "eba1e48df90b1276",
+   "name": "json",
+   "version": "20140107",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The JSON License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://json.org/license.html"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:sonatype:json:20140107:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json:20140107:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:json:20140107:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.json/json@20140107",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.json:json",
+    "pomProperties": {
+     "path": "META-INF/maven/org.json/json/pom.properties",
+     "name": "",
+     "groupId": "org.json",
+     "artifactId": "json",
+     "version": "20140107"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.json/json/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "7"
+     },
+     "groupId": "org.json",
+     "artifactId": "json",
+     "version": "20140107",
+     "name": "JSON in Java",
+     "description": "JSON is a light-weight, language independent, data interchange format. See http://www.JSON.org/ The files in this package implement JSON encoders/decoders in Java. It also includes the capability to convert between JSON and XML, HTTP headers, Cookies, and CDL. This is a reference implementation. There is a large number of JSON packages in Java. Perhaps someday the Java community will standardize on one. Until then, choose carefully. The license includes this restriction: \"The software shall be used for good, not evil.\" If your conscience cannot live with that, then choose a different package. The package compiles on Java 1.2 thru Java 1.4.",
+     "url": "https://github.com/douglascrockford/JSON-java"
+    }
+   }
+  },
+  {
+   "id": "998fe0ab3c38c6a0",
+   "name": "json-simple",
+   "version": "1.1.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:json-simple:json-simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json-simple:json_simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_simple:json-simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_simple:json_simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googlecode:json-simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googlecode:json_simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json-simple:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:json_simple:1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.googlecode.json-simple/json-simple@1.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.googlecode.json-simple:json-simple",
+    "pomProperties": {
+     "path": "META-INF/maven/com.googlecode.json-simple/json-simple/pom.properties",
+     "name": "",
+     "groupId": "com.googlecode.json-simple",
+     "artifactId": "json-simple",
+     "version": "1.1.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.googlecode.json-simple/json-simple/pom.xml",
+     "groupId": "com.googlecode.json-simple",
+     "artifactId": "json-simple",
+     "version": "1.1.1",
+     "name": "JSON.simple",
+     "description": "A simple Java toolkit for JSON",
+     "url": "http://code.google.com/p/json-simple/"
+    }
+   }
+  },
+  {
+   "id": "30b659ba968cdbc3",
+   "name": "jsoup",
+   "version": "1.7.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The MIT License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://jsoup.com/license"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jsoup:jsoup:1.7.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jsoup/jsoup@1.7.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.jsoup:jsoup",
+    "pomProperties": {
+     "path": "META-INF/maven/org.jsoup/jsoup/pom.properties",
+     "name": "",
+     "groupId": "org.jsoup",
+     "artifactId": "jsoup",
+     "version": "1.7.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.jsoup/jsoup/pom.xml",
+     "groupId": "org.jsoup",
+     "artifactId": "jsoup",
+     "version": "1.7.2",
+     "name": "jsoup",
+     "description": "jsoup HTML parser",
+     "url": "http://jsoup.org/"
+    }
+   }
+  },
+  {
+   "id": "f3704c270a583824",
+   "name": "jsr-275",
+   "version": "0.9.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Specification License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "LICENSE.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jsr-275:jsr-275:0.9.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr-275:jsr_275:0.9.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr_275:jsr-275:0.9.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr_275:jsr_275:0.9.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr:jsr-275:0.9.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr:jsr_275:0.9.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.measure/jsr-275@0.9.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:javax.measure:jsr-275",
+    "pomProperties": {
+     "path": "META-INF/maven/javax.measure/jsr-275/pom.properties",
+     "name": "",
+     "groupId": "javax.measure",
+     "artifactId": "jsr-275",
+     "version": "0.9.3"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/javax.measure/jsr-275/pom.xml",
+     "groupId": "javax.measure",
+     "artifactId": "jsr-275",
+     "version": "0.9.3",
+     "name": "JSR-275",
+     "description": "JSR-275 specifies Java packages for the programmatic handling of physical quantities and their expression as numbers of units.",
+     "url": "https://kenai.com/projects/jsr-275"
+    }
+   }
+  },
+  {
+   "id": "6369bda03a146180",
+   "name": "juniversalchardet",
+   "version": "1.0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Mozilla Public License 1.1 (MPL 1.1)",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.mozilla.org/MPL/MPL-1.1.html"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:juniversalchardet:juniversalchardet:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googlecode:juniversalchardet:1.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.googlecode.juniversalchardet:juniversalchardet",
+    "pomProperties": {
+     "path": "META-INF/maven/com.googlecode.juniversalchardet/juniversalchardet/pom.properties",
+     "name": "",
+     "groupId": "com.googlecode.juniversalchardet",
+     "artifactId": "juniversalchardet",
+     "version": "1.0.3"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.googlecode.juniversalchardet/juniversalchardet/pom.xml",
+     "groupId": "com.googlecode.juniversalchardet",
+     "artifactId": "juniversalchardet",
+     "version": "1.0.3",
+     "name": "juniversalchardet",
+     "description": "Java port of universalchardet",
+     "url": "http://juniversalchardet.googlecode.com/"
+    }
+   }
+  },
+  {
+   "id": "6000cff251489250",
+   "name": "junrar",
+   "version": "0.7",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "UnRar License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "https://raw.github.com/junrar/junrar/master/license.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:sonatype:junrar:0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:junrar:0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junrar:junrar:0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:junrar:0.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.junrar/junrar@0.7",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.github.junrar:junrar",
+    "pomProperties": {
+     "path": "META-INF/maven/com.github.junrar/junrar/pom.properties",
+     "name": "",
+     "groupId": "com.github.junrar",
+     "artifactId": "junrar",
+     "version": "0.7"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.github.junrar/junrar/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "7"
+     },
+     "groupId": "com.github.junrar",
+     "artifactId": "junrar",
+     "version": "0.7",
+     "name": "Java UnRar",
+     "description": "rar decompression library in plain java",
+     "url": "https://github.com/junrar/junrar"
+    }
+   }
+  },
+  {
+   "id": "98f92d6b2e7f12f0",
+   "name": "levigo-jbig2-imageio",
+   "version": "1.6.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "GPL v3",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.gnu.org/licenses/gpl.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:levigo-jbig2-imageio:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo-jbig2-imageio:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2_imageio:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2_imageio:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo-jbig2:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo-jbig2:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jbig2:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jbig2:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.levigo.jbig2/levigo-jbig2-imageio@1.6.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.levigo.jbig2:levigo-jbig2-imageio",
+    "pomProperties": {
+     "path": "META-INF/maven/com.levigo.jbig2/levigo-jbig2-imageio/pom.properties",
+     "name": "",
+     "groupId": "com.levigo.jbig2",
+     "artifactId": "levigo-jbig2-imageio",
+     "version": "1.6.5"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.levigo.jbig2/levigo-jbig2-imageio/pom.xml",
+     "groupId": "com.levigo.jbig2",
+     "artifactId": "levigo-jbig2-imageio",
+     "version": "1.6.5",
+     "name": "jbig2-imageio",
+     "description": "Java Image I/O plugin for reading JBIG2-compressed image data",
+     "url": "https://github.com/levigo/jbig2-imageio"
+    }
+   }
+  },
+  {
+   "id": "2008e0e96d68cf03",
+   "name": "levigo-jbig2-imageio",
+   "version": "1.6.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:levigo-jbig2-imageio:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo-jbig2-imageio:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2_imageio:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2_imageio:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo-jbig2:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo-jbig2:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo_jbig2:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:levigo:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jbig2:levigo-jbig2-imageio:1.6.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jbig2:levigo_jbig2_imageio:1.6.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.levigo.jbig2/levigo-jbig2-imageio@1.6.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.levigo.jbig2",
+     "artifactId": "levigo-jbig2-imageio",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "0fccc4b2a451a146",
+   "name": "maven-scm-api",
+   "version": "1.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-scm-api:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_scm_api:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven:1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven.scm/maven-scm-api@1.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.maven.scm:maven-scm-api",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.maven.scm/maven-scm-api/pom.properties",
+     "name": "",
+     "groupId": "org.apache.maven.scm",
+     "artifactId": "maven-scm-api",
+     "version": "1.4"
+    }
+   }
+  },
+  {
+   "id": "2ec003a7944ed71d",
+   "name": "maven-scm-provider-svn-commons",
+   "version": "1.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-scm-provider-svn-commons:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_scm_provider_svn_commons:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven:1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven.scm/maven-scm-provider-svn-commons@1.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.maven.scm:maven-scm-provider-svn-commons",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.maven.scm/maven-scm-provider-svn-commons/pom.properties",
+     "name": "",
+     "groupId": "org.apache.maven.scm",
+     "artifactId": "maven-scm-provider-svn-commons",
+     "version": "1.4"
+    }
+   }
+  },
+  {
+   "id": "36147cfb4f1b6fd3",
+   "name": "maven-scm-provider-svnexe",
+   "version": "1.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:maven-scm-provider-svnexe:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven_scm_provider_svnexe:1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:maven:1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.maven.scm/maven-scm-provider-svnexe@1.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.maven.scm:maven-scm-provider-svnexe",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.maven.scm/maven-scm-provider-svnexe/pom.properties",
+     "name": "",
+     "groupId": "org.apache.maven.scm",
+     "artifactId": "maven-scm-provider-svnexe",
+     "version": "1.4"
+    }
+   }
+  },
+  {
+   "id": "ade797dff9359a0f",
+   "name": "metadata-extractor",
+   "version": "2.8.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:metadata-extractor:metadata-extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metadata-extractor:metadata_extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metadata_extractor:metadata-extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metadata_extractor:metadata_extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:drewnoakes:metadata-extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:drewnoakes:metadata_extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metadata:metadata-extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:metadata:metadata_extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:metadata-extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:metadata_extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:metadata-extractor:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:metadata_extractor:2.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.drewnoakes/metadata-extractor@2.8.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.drewnoakes:metadata-extractor",
+    "pomProperties": {
+     "path": "META-INF/maven/com.drewnoakes/metadata-extractor/pom.properties",
+     "name": "",
+     "groupId": "com.drewnoakes",
+     "artifactId": "metadata-extractor",
+     "version": "2.8.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.drewnoakes/metadata-extractor/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "7"
+     },
+     "groupId": "com.drewnoakes",
+     "artifactId": "metadata-extractor",
+     "version": "2.8.1",
+     "name": "${project.groupId}:${project.artifactId}",
+     "description": "Java library for extracting EXIF, IPTC, XMP, ICC and other metadata from image files.",
+     "url": "https://drewnoakes.com/code/exif/"
+    }
+   }
+  },
+  {
+   "id": "73964a2deaaeb7d4",
+   "name": "netcdf4",
+   "version": "4.5.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:netcdf4:netcdf4:4.5.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.ucar/netcdf4@4.5.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:edu.ucar:netcdf4",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.ucar/netcdf4/pom.properties",
+     "name": "",
+     "groupId": "edu.ucar",
+     "artifactId": "netcdf4",
+     "version": "4.5.5"
+    }
+   }
+  },
+  {
+   "id": "27a10b8e6f1cab01",
+   "name": "node-tika",
+   "version": "1.13",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:node-tika:1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:node_tika:1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:tika:1.13:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.tika/node-tika@1.13",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.8.0_45",
+      "Built-By": "matt",
+      "Created-By": "Apache Maven 3.3.9",
+      "Implementation-Title": "Tika Bindings for Node.js",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache.tika",
+      "Implementation-Version": "1.13",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Tika Bindings for Node.js",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "1.13"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.tika/node-tika/pom.properties",
+     "name": "",
+     "groupId": "org.apache.tika",
+     "artifactId": "node-tika",
+     "version": "1.13"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "6a00fba7a807c985fd347c52b1ae7b7d154f440a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ed5ccde36d717b53",
+   "name": "opennlp-maxent",
+   "version": "3.0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:opennlp-maxent:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:opennlp_maxent:3.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:opennlp:3.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.opennlp/opennlp-maxent@3.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.opennlp:opennlp-maxent",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.opennlp/opennlp-maxent/pom.properties",
+     "name": "",
+     "groupId": "org.apache.opennlp",
+     "artifactId": "opennlp-maxent",
+     "version": "3.0.3"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.apache.opennlp/opennlp-maxent/pom.xml",
+     "parent": {
+      "groupId": "org.apache.opennlp",
+      "artifactId": "opennlp",
+      "version": "1.5.3"
+     },
+     "groupId": "",
+     "artifactId": "opennlp-maxent",
+     "version": "3.0.3",
+     "name": "Apache OpenNLP Maxent"
+    }
+   }
+  },
+  {
+   "id": "c09874d142b0af02",
+   "name": "opennlp-tools",
+   "version": "1.5.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:opennlp-tools:1.5.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:opennlp_tools:1.5.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:opennlp:1.5.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.opennlp/opennlp-tools@1.5.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.opennlp:opennlp-tools",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.opennlp/opennlp-tools/pom.properties",
+     "name": "",
+     "groupId": "org.apache.opennlp",
+     "artifactId": "opennlp-tools",
+     "version": "1.5.3"
+    }
+   }
+  },
+  {
+   "id": "fde2d19474b7db36",
+   "name": "pdfbox",
+   "version": "2.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:pdfbox:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.pdfbox/pdfbox@2.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.pdfbox:pdfbox",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.pdfbox/pdfbox/pom.properties",
+     "name": "",
+     "groupId": "org.apache.pdfbox",
+     "artifactId": "pdfbox",
+     "version": "2.0.1"
+    }
+   }
+  },
+  {
+   "id": "3a8f143db83a0bfd",
+   "name": "pdfbox-debugger",
+   "version": "2.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:pdfbox-debugger:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:pdfbox_debugger:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:pdfbox:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.pdfbox/pdfbox-debugger@2.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.pdfbox:pdfbox-debugger",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.pdfbox/pdfbox-debugger/pom.properties",
+     "name": "",
+     "groupId": "org.apache.pdfbox",
+     "artifactId": "pdfbox-debugger",
+     "version": "2.0.1"
+    }
+   }
+  },
+  {
+   "id": "9f135f184ce2c020",
+   "name": "pdfbox-tools",
+   "version": "2.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:pdfbox-tools:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:pdfbox_tools:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:pdfbox:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.pdfbox:pdfbox-tools",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.pdfbox/pdfbox-tools/pom.properties",
+     "name": "",
+     "groupId": "org.apache.pdfbox",
+     "artifactId": "pdfbox-tools",
+     "version": "2.0.1"
+    }
+   }
+  },
+  {
+   "id": "89defcda316312c1",
+   "name": "plexus-interpolation",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:plexus-interpolation:plexus-interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus-interpolation:plexus_interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus_interpolation:plexus-interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus_interpolation:plexus_interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:plexus-interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:plexus_interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus-interpolation:plexus:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus:plexus-interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus:plexus_interpolation:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus_interpolation:plexus:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:plexus:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus:plexus:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.codehaus.plexus/plexus-interpolation@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.codehaus.plexus:plexus-interpolation",
+    "pomProperties": {
+     "path": "META-INF/maven/org.codehaus.plexus/plexus-interpolation/pom.properties",
+     "name": "",
+     "groupId": "org.codehaus.plexus",
+     "artifactId": "plexus-interpolation",
+     "version": "1.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.codehaus.plexus/plexus-interpolation/pom.xml",
+     "parent": {
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus",
+      "version": "1.0.11"
+     },
+     "groupId": "",
+     "artifactId": "plexus-interpolation",
+     "version": "1.0",
+     "name": "Plexus Interpolation API"
+    }
+   }
+  },
+  {
+   "id": "a9722de6b02254b3",
+   "name": "plexus-utils",
+   "version": "1.5.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:plexus-utils:plexus-utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus-utils:plexus_utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus_utils:plexus-utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus_utils:plexus_utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:plexus-utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:plexus_utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus-utils:plexus:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus:plexus-utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus:plexus_utils:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus_utils:plexus:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:plexus:1.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plexus:plexus:1.5.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@1.5.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.codehaus.plexus:plexus-utils",
+    "pomProperties": {
+     "path": "META-INF/maven/org.codehaus.plexus/plexus-utils/pom.properties",
+     "name": "",
+     "groupId": "org.codehaus.plexus",
+     "artifactId": "plexus-utils",
+     "version": "1.5.6"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.codehaus.plexus/plexus-utils/pom.xml",
+     "parent": {
+      "groupId": "org.codehaus.plexus",
+      "artifactId": "plexus",
+      "version": "1.0.12"
+     },
+     "groupId": "",
+     "artifactId": "plexus-utils",
+     "version": "1.5.6",
+     "name": "Plexus Common Utilities",
+     "url": "http://plexus.codehaus.org/plexus-utils"
+    }
+   }
+  },
+  {
+   "id": "e0031e97f9d1a13b",
+   "name": "protobuf-java",
+   "version": "2.5.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "New BSD license",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.opensource.org/licenses/bsd-license.php"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:protobuf-java:protobuf-java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf-java:protobuf_java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf_java:protobuf-java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf_java:protobuf_java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf-java:protobuf:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf:protobuf-java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf:protobuf_java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf_java:protobuf:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:protobuf-java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:protobuf_java:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:protobuf:protobuf:2.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:protobuf:2.5.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.protobuf/protobuf-java@2.5.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.google.protobuf:protobuf-java",
+    "pomProperties": {
+     "path": "META-INF/maven/com.google.protobuf/protobuf-java/pom.properties",
+     "name": "",
+     "groupId": "com.google.protobuf",
+     "artifactId": "protobuf-java",
+     "version": "2.5.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.google.protobuf/protobuf-java/pom.xml",
+     "parent": {
+      "groupId": "com.google",
+      "artifactId": "google",
+      "version": "1"
+     },
+     "groupId": "com.google.protobuf",
+     "artifactId": "protobuf-java",
+     "version": "2.5.0",
+     "name": "Protocol Buffer Java API",
+     "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.",
+     "url": "http://code.google.com/p/protobuf"
+    }
+   }
+  },
+  {
+   "id": "58c36c944e02df5a",
+   "name": "quartz",
+   "version": "2.2.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:quartz-scheduler:quartz:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:quartz_scheduler:quartz:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:quartz:quartz:2.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.quartz-scheduler/quartz@2.2.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.quartz-scheduler:quartz",
+    "pomProperties": {
+     "path": "META-INF/maven/org.quartz-scheduler/quartz/pom.properties",
+     "name": "",
+     "groupId": "org.quartz-scheduler",
+     "artifactId": "quartz",
+     "version": "2.2.0"
+    }
+   }
+  },
+  {
+   "id": "1366ffb72ac64a63",
+   "name": "rome",
+   "version": "1.5.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:rometools:rome:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rome:rome:1.5.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.rometools/rome@1.5.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.rometools:rome",
+    "pomProperties": {
+     "path": "META-INF/maven/com.rometools/rome/pom.properties",
+     "name": "",
+     "groupId": "com.rometools",
+     "artifactId": "rome",
+     "version": "1.5.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.rometools/rome/pom.xml",
+     "parent": {
+      "groupId": "com.rometools",
+      "artifactId": "rome-parent",
+      "version": "1.5.1"
+     },
+     "groupId": "",
+     "artifactId": "rome",
+     "version": "1.5.1",
+     "name": "rome",
+     "description": "All Roads Lead to ROME. ROME is a set of Atom/RSS Java utilities that make it easy to work in Java with most syndication formats. Today it accepts all flavors of RSS (0.90, 0.91, 0.92, 0.93, 0.94, 1.0 and 2.0), Atom 0.3 and Atom 1.0 feeds. Rome includes a set of parsers and generators for the various flavors of feeds, as well as converters to convert from one format to another. The parsers can give you back Java objects that are either specific for the format you want to work with, or a generic normalized SyndFeed object that lets you work on with the data without bothering about the underlying format.",
+     "url": "http://rometools.github.io/rome/"
+    }
+   }
+  },
+  {
+   "id": "65c43d81f7857d3f",
+   "name": "rome-utils",
+   "version": "1.5.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:rome-utils:rome-utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rome-utils:rome_utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rome_utils:rome-utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rome_utils:rome_utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rometools:rome-utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rometools:rome_utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rome:rome-utils:1.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rome:rome_utils:1.5.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.rometools/rome-utils@1.5.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:com.rometools:rome-utils",
+    "pomProperties": {
+     "path": "META-INF/maven/com.rometools/rome-utils/pom.properties",
+     "name": "",
+     "groupId": "com.rometools",
+     "artifactId": "rome-utils",
+     "version": "1.5.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.rometools/rome-utils/pom.xml",
+     "parent": {
+      "groupId": "com.rometools",
+      "artifactId": "rome-parent",
+      "version": "1.5.1"
+     },
+     "groupId": "",
+     "artifactId": "rome-utils",
+     "version": "1.5.1",
+     "name": "rome-utils",
+     "description": "Utility classes for ROME projects",
+     "url": "http://rometools.github.io/rome-utils/"
+    }
+   }
+  },
+  {
+   "id": "5414fdf90b35a184",
+   "name": "sizeof-agent",
+   "version": "1.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:sizeof-agent:sizeof-agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sizeof-agent:sizeof_agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sizeof_agent:sizeof-agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sizeof_agent:sizeof_agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache:sizeof-agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ehcache:sizeof_agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sizeof:sizeof-agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sizeof:sizeof_agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sf:sizeof-agent:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sf:sizeof_agent:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.sf.ehcache/sizeof-agent@1.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:net/sf/ehcache/pool/sizeof/sizeof-agent.jar",
+    "manifest": {
+     "main": {
+      "Agent-Class": "net.sf.ehcache.pool.sizeof.SizeOfAgent",
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.6.0_30",
+      "Built-By": "cruise",
+      "Created-By": "Apache Maven",
+      "Hudson-Build-Number": "6",
+      "Hudson-Project": "sizeof-agent_sizeof-agent-1.0.1_publisher",
+      "Hudson-Version": "1.449",
+      "Jenkins-Build-Number": "6",
+      "Jenkins-Project": "sizeof-agent_sizeof-agent-1.0.1_publisher",
+      "Jenkins-Version": "1.449",
+      "Manifest-Version": "1.0",
+      "Premain-Class": "net.sf.ehcache.pool.sizeof.SizeOfAgent"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/net.sf.ehcache/sizeof-agent/pom.properties",
+     "name": "",
+     "groupId": "net.sf.ehcache",
+     "artifactId": "sizeof-agent",
+     "version": "1.0.1"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "e86399a80ae6a6c7a563717eaa0ce9ba4708571c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "f9d5bcb90795f9fe",
+   "name": "slf4j-api",
+   "version": "1.7.12",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.12",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.slf4j:slf4j-api",
+    "pomProperties": {
+     "path": "META-INF/maven/org.slf4j/slf4j-api/pom.properties",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": "1.7.12"
+    }
+   }
+  },
+  {
+   "id": "c673720a36fb26f5",
+   "name": "stax2-api",
+   "version": "3.1.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The BSD License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.opensource.org/licenses/bsd-license.php"
+     ],
+     "locations": [
+      {
+       "path": "\\jar\\node-tika-1.13.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:stax2-api:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stax2-api:stax2_api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stax2_api:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stax2_api:stax2_api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codehaus:stax2_api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:stax2_api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:woodstox:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:woodstox:stax2_api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stax2:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stax2:stax2_api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:stax2-api:3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:stax2_api:3.1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.codehaus.woodstox:stax2-api",
+    "pomProperties": {
+     "path": "META-INF/maven/org.codehaus.woodstox/stax2-api/pom.properties",
+     "name": "",
+     "groupId": "org.codehaus.woodstox",
+     "artifactId": "stax2-api",
+     "version": "3.1.4"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/org.codehaus.woodstox/stax2-api/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "7"
+     },
+     "groupId": "org.codehaus.woodstox",
+     "artifactId": "stax2-api",
+     "version": "3.1.4",
+     "name": "Stax2 API",
+     "description": "tax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.",
+     "url": "http://wiki.fasterxml.com/WoodstoxStax2"
+    }
+   }
+  },
+  {
+   "id": "fcb51c1ac1c4beec",
+   "name": "tika-core",
+   "version": "1.13",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:tika-core:1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:tika_core:1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:tika:1.13:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.tika/tika-core@1.13",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.tika:tika-core",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.tika/tika-core/pom.properties",
+     "name": "",
+     "groupId": "org.apache.tika",
+     "artifactId": "tika-core",
+     "version": "1.13"
+    }
+   }
+  },
+  {
+   "id": "3935ecfc421a383b",
+   "name": "tika-parsers",
+   "version": "${project.version}",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:tika-parsers:tika-parsers:\\$\\{project.version\\}:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tika-parsers:tika_parsers:\\$\\{project.version\\}:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tika_parsers:tika-parsers:\\$\\{project.version\\}:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tika_parsers:tika_parsers:\\$\\{project.version\\}:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tika:tika-parsers:\\$\\{project.version\\}:*:*:*:*:*:*:*",
+    "cpe:2.3:a:tika:tika_parsers:\\$\\{project.version\\}:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/${project.groupId}/tika-parsers@${project.version}",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "${project.groupId}",
+     "artifactId": "tika-parsers",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "11263462f510b552",
+   "name": "tika-parsers",
+   "version": "1.13",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:tika-parsers:1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:tika_parsers:1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:tika:1.13:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.tika/tika-parsers@1.13",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.tika:tika-parsers",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.tika/tika-parsers/pom.properties",
+     "name": "",
+     "groupId": "org.apache.tika",
+     "artifactId": "tika-parsers",
+     "version": "1.13"
+    }
+   }
+  },
+  {
+   "id": "e69d05913d5c894d",
+   "name": "udunits",
+   "version": "4.5.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:udunits:udunits:4.5.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/edu.ucar/udunits@4.5.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:edu.ucar:udunits",
+    "pomProperties": {
+     "path": "META-INF/maven/edu.ucar/udunits/pom.properties",
+     "name": "",
+     "groupId": "edu.ucar",
+     "artifactId": "udunits",
+     "version": "4.5.5"
+    }
+   }
+  },
+  {
+   "id": "6a79afcfce5e4c28",
+   "name": "vorbis-java-core",
+   "version": "0.8",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:vorbis-java-core:vorbis-java-core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis-java-core:vorbis_java_core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java_core:vorbis-java-core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java_core:vorbis_java_core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis-java:vorbis-java-core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis-java:vorbis_java_core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java:vorbis-java-core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java:vorbis_java_core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gagravarr:vorbis-java-core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gagravarr:vorbis_java_core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis:vorbis-java-core:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis:vorbis_java_core:0.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.gagravarr/vorbis-java-core@0.8",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.gagravarr:vorbis-java-core",
+    "pomProperties": {
+     "path": "META-INF/maven/org.gagravarr/vorbis-java-core/pom.properties",
+     "name": "",
+     "groupId": "org.gagravarr",
+     "artifactId": "vorbis-java-core",
+     "version": "0.8"
+    }
+   }
+  },
+  {
+   "id": "273c6538004f74e6",
+   "name": "vorbis-java-tika",
+   "version": "0.8",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:vorbis-java-tika:vorbis-java-tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis-java-tika:vorbis_java_tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java_tika:vorbis-java-tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java_tika:vorbis_java_tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis-java:vorbis-java-tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis-java:vorbis_java_tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java:vorbis-java-tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis_java:vorbis_java_tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gagravarr:vorbis-java-tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gagravarr:vorbis_java_tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis:vorbis-java-tika:0.8:*:*:*:*:*:*:*",
+    "cpe:2.3:a:vorbis:vorbis_java_tika:0.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.gagravarr/vorbis-java-tika@0.8",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.gagravarr:vorbis-java-tika",
+    "pomProperties": {
+     "path": "META-INF/maven/org.gagravarr/vorbis-java-tika/pom.properties",
+     "name": "",
+     "groupId": "org.gagravarr",
+     "artifactId": "vorbis-java-tika",
+     "version": "0.8"
+    }
+   }
+  },
+  {
+   "id": "e1d7fa301f8f30e2",
+   "name": "xmlschema-core",
+   "version": "2.1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\jar\\node-tika-1.13.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:xmlschema-core:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:xmlschema_core:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:xmlschema:2.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\jar\\node-tika-1.13.jar:org.apache.ws.xmlschema:xmlschema-core",
+    "pomProperties": {
+     "path": "META-INF/maven/org.apache.ws.xmlschema/xmlschema-core/pom.properties",
+     "name": "",
+     "groupId": "org.apache.ws.xmlschema",
+     "artifactId": "xmlschema-core",
+     "version": "2.1.0"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "045c7a59a3bdc37c",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0fccc4b2a451a146",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "11263462f510b552",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1366ffb72ac64a63",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2008e0e96d68cf03",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "273c6538004f74e6",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "27a10b8e6f1cab01",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2ec003a7944ed71d",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "30b659ba968cdbc3",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3589abf98e463524",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "36147cfb4f1b6fd3",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3935ecfc421a383b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3a8f143db83a0bfd",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3dcb1bc2f0b9a53b",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "404110f0239a8195",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4f47d1e0a3f77840",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "53940b9ce59c4025",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5414fdf90b35a184",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "54950544483407ab",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "58c36c944e02df5a",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6000cff251489250",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "60f558236da2f878",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6369bda03a146180",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "65c43d81f7857d3f",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6620a34462272906",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6a79afcfce5e4c28",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6bbd5db7a4f3a7a9",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "72a4d609f3e15052",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "73964a2deaaeb7d4",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "75f9ffb16921a8cf",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7c8b19021a369031",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "80b433d32d382b47",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8424b6707a324a75",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "84e202df5e668537",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "891c1caf62730129",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "89defcda316312c1",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8e2e2d8660f42aad",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "979d137fe9dd616a",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "98f92d6b2e7f12f0",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "998fe0ab3c38c6a0",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9d42779ef3859cea",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9f135f184ce2c020",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a6e15d5c7dae8804",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a9722de6b02254b3",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a979a2de862c4477",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ade797dff9359a0f",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "afb6fb4196a29067",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b5a0d42b566da4bc",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b86531790fee04be",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "be43a6553ef3a2ac",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bfb1667a8d9471fd",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c09874d142b0af02",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c5ce4f29c313ba70",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c673720a36fb26f5",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cd1aebfaa6634ee3",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "045c7a59a3bdc37c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0fccc4b2a451a146",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "11263462f510b552",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1366ffb72ac64a63",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2008e0e96d68cf03",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "273c6538004f74e6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "27a10b8e6f1cab01",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2ec003a7944ed71d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "30b659ba968cdbc3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3589abf98e463524",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "36147cfb4f1b6fd3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3935ecfc421a383b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3a8f143db83a0bfd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3dcb1bc2f0b9a53b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "404110f0239a8195",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4f47d1e0a3f77840",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "53940b9ce59c4025",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5414fdf90b35a184",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "54950544483407ab",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "58c36c944e02df5a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6000cff251489250",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "60f558236da2f878",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6369bda03a146180",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "65c43d81f7857d3f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6620a34462272906",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6a79afcfce5e4c28",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6bbd5db7a4f3a7a9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "72a4d609f3e15052",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "73964a2deaaeb7d4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "75f9ffb16921a8cf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7c8b19021a369031",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "80b433d32d382b47",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8424b6707a324a75",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "84e202df5e668537",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "891c1caf62730129",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "89defcda316312c1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8e2e2d8660f42aad",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "979d137fe9dd616a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "98f92d6b2e7f12f0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "998fe0ab3c38c6a0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9d42779ef3859cea",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9f135f184ce2c020",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a6e15d5c7dae8804",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a9722de6b02254b3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a979a2de862c4477",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ade797dff9359a0f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "afb6fb4196a29067",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b5a0d42b566da4bc",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b86531790fee04be",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "be43a6553ef3a2ac",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bfb1667a8d9471fd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c09874d142b0af02",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c5ce4f29c313ba70",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c673720a36fb26f5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cd1aebfaa6634ee3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d0ae561a7b8274fa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d50ef981e9c3a300",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d74f7bf9d434ee44",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d875f8093aaafab9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e0031e97f9d1a13b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e09bef98480b3daa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e1d7fa301f8f30e2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e3846f08c183f9e0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e69d05913d5c894d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "eba1e48df90b1276",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ed4dff51ee88af2b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ed5ccde36d717b53",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f00fd9da576713be",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f026e912a7caa057",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f0e2c60270b3b177",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f1205dc87f04c4b4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f3704c270a583824",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f96efc67e72b9936",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f9d5bcb90795f9fe",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fa8191ab166f5d4a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fca548397f438cf4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fcb51c1ac1c4beec",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fde2d19474b7db36",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fed63dd963fc7d98",
+   "type": "contains"
+  },
+  {
+   "parent": "d0ae561a7b8274fa",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d50ef981e9c3a300",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d74f7bf9d434ee44",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d875f8093aaafab9",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e0031e97f9d1a13b",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e09bef98480b3daa",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e1d7fa301f8f30e2",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e3846f08c183f9e0",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e69d05913d5c894d",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "eba1e48df90b1276",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ed4dff51ee88af2b",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ed5ccde36d717b53",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f00fd9da576713be",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f026e912a7caa057",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f0e2c60270b3b177",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f1205dc87f04c4b4",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f3704c270a583824",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f96efc67e72b9936",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f9d5bcb90795f9fe",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fa8191ab166f5d4a",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fca548397f438cf4",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fcb51c1ac1c4beec",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fde2d19474b7db36",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fed63dd963fc7d98",
+   "child": "edefe2bc722d80f1",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "edefe2bc722d80f1",
+   "location": {
+    "path": "\\jar\\node-tika-1.13.jar"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

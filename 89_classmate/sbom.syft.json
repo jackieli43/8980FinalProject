@@ -1,0 +1,263 @@
+{
+ "artifacts": [
+  {
+   "id": "9aa2ce2a38eb5c23",
+   "name": "actions/checkout",
+   "version": "b4ffde65f46336ab88eb53be808477a3936bae11",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\main.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:b4ffde65f46336ab88eb53be808477a3936bae11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11"
+  },
+  {
+   "id": "03605e91c87552e6",
+   "name": "actions/setup-java",
+   "version": "0ab4596768b603586c0de567f2430c30f5b0d2b0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\main.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:0ab4596768b603586c0de567f2430c30f5b0d2b0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:0ab4596768b603586c0de567f2430c30f5b0d2b0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:0ab4596768b603586c0de567f2430c30f5b0d2b0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:0ab4596768b603586c0de567f2430c30f5b0d2b0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:0ab4596768b603586c0de567f2430c30f5b0d2b0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:0ab4596768b603586c0de567f2430c30f5b0d2b0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@0ab4596768b603586c0de567f2430c30f5b0d2b0"
+  },
+  {
+   "id": "3c9be1ab7005d52a",
+   "name": "codecov/codecov-action",
+   "version": "eaaf4bedf32dbdc6b720b63067d99c4d77d6047d",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\main.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:eaaf4bedf32dbdc6b720b63067d99c4d77d6047d:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:eaaf4bedf32dbdc6b720b63067d99c4d77d6047d:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:eaaf4bedf32dbdc6b720b63067d99c4d77d6047d:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:eaaf4bedf32dbdc6b720b63067d99c4d77d6047d:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:eaaf4bedf32dbdc6b720b63067d99c4d77d6047d:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:eaaf4bedf32dbdc6b720b63067d99c4d77d6047d:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d"
+  },
+  {
+   "id": "e3c2b93678c993f6",
+   "name": "junit",
+   "version": "${version.junit}",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:\\$\\{version.junit\\}:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@${version.junit}",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "03605e91c87552e6",
+   "child": "50d87d7388dc1bea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3c9be1ab7005d52a",
+   "child": "50d87d7388dc1bea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9aa2ce2a38eb5c23",
+   "child": "50d87d7388dc1bea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "03605e91c87552e6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3c9be1ab7005d52a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9aa2ce2a38eb5c23",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e3c2b93678c993f6",
+   "type": "contains"
+  },
+  {
+   "parent": "e3c2b93678c993f6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "50d87d7388dc1bea",
+   "location": {
+    "path": "\\.github\\workflows\\main.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

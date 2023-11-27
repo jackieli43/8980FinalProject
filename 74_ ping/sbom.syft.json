@@ -1,0 +1,452 @@
+{
+ "artifacts": [
+  {
+   "id": "7d0cb5203f23c70e",
+   "name": "commons-codec",
+   "version": "1.10",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\libs\\commons-codec-1.10.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\libs\\commons-codec-1.10.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache-software-foundation:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache-software-foundation:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache_software_foundation:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache_software_foundation:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-codec:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-codec:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_codec:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_codec:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_codec:1.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-codec/commons-codec@1.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\libs\\commons-codec-1.10.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1415283265384",
+      "Build-Jdk": "1.7.0_71",
+      "Built-By": "ggregory",
+      "Bundle-Description": "The Apache Commons Codec package contains simple encoder and decoders for     various formats such as Base64 and Hexadecimal.  In addition to these     widely used encoders and decoders, the codec package also maintains a     collection of phonetic encodingutilities.",
+      "Bundle-DocURL": "http://commons.apache.org/proper/commons-codec/",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Apache Commons Codec",
+      "Bundle-SymbolicName": "org.apache.commons.codec",
+      "Bundle-Vendor": "The Apache Software Foundation",
+      "Bundle-Version": "1.10.0",
+      "Created-By": "Apache Maven Bundle Plugin",
+      "Export-Package": "org.apache.commons.codec;version=\"1.10\",org.apache.commons.codec.binary;version=\"1.10\",org.apache.commons.codec.digest;version=\"1.10\",org.apache.commons.codec.language;version=\"1.10\",org.apache.commons.codec.language.bm;version=\"1.10\",org.apache.commons.codec.net;version=\"1.10\"",
+      "Implementation-Build": "trunk@r1637108; 2014-11-06 14:14:12+0000",
+      "Implementation-Title": "Apache Commons Codec",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "1.10",
+      "Import-Package": "javax.crypto,javax.crypto.spec",
+      "Include-Resource": "org/apache/commons/codec/language/bm/ash_approx_any.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_any.txt,org/apache/commons/codec/language/bm/ash_approx_common.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_common.txt,org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt,org/apache/commons/codec/language/bm/ash_approx_english.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_english.txt,org/apache/commons/codec/language/bm/ash_approx_french.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_french.txt,org/apache/commons/codec/language/bm/ash_approx_german.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_german.txt,org/apache/commons/codec/language/bm/ash_approx_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_hebrew.txt,org/apache/commons/codec/language/bm/ash_approx_hungarian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_hungarian.txt,org/apache/commons/codec/language/bm/ash_approx_polish.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_polish.txt,org/apache/commons/codec/language/bm/ash_approx_romanian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_romanian.txt,org/apache/commons/codec/language/bm/ash_approx_russian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_russian.txt,org/apache/commons/codec/language/bm/ash_approx_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_approx_spanish.txt,org/apache/commons/codec/language/bm/ash_exact_any.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_any.txt,org/apache/commons/codec/language/bm/ash_exact_approx_common.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_approx_common.txt,org/apache/commons/codec/language/bm/ash_exact_common.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_common.txt,org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt,org/apache/commons/codec/language/bm/ash_exact_english.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_english.txt,org/apache/commons/codec/language/bm/ash_exact_french.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_french.txt,org/apache/commons/codec/language/bm/ash_exact_german.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_german.txt,org/apache/commons/codec/language/bm/ash_exact_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_hebrew.txt,org/apache/commons/codec/language/bm/ash_exact_hungarian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_hungarian.txt,org/apache/commons/codec/language/bm/ash_exact_polish.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_polish.txt,org/apache/commons/codec/language/bm/ash_exact_romanian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_romanian.txt,org/apache/commons/codec/language/bm/ash_exact_russian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_russian.txt,org/apache/commons/codec/language/bm/ash_exact_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_exact_spanish.txt,org/apache/commons/codec/language/bm/ash_hebrew_common.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_hebrew_common.txt,org/apache/commons/codec/language/bm/ash_lang.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_lang.txt,org/apache/commons/codec/language/bm/ash_languages.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_languages.txt,org/apache/commons/codec/language/bm/ash_rules_any.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_any.txt,org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt,org/apache/commons/codec/language/bm/ash_rules_english.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_english.txt,org/apache/commons/codec/language/bm/ash_rules_french.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_french.txt,org/apache/commons/codec/language/bm/ash_rules_german.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_german.txt,org/apache/commons/codec/language/bm/ash_rules_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_hebrew.txt,org/apache/commons/codec/language/bm/ash_rules_hungarian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_hungarian.txt,org/apache/commons/codec/language/bm/ash_rules_polish.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_polish.txt,org/apache/commons/codec/language/bm/ash_rules_romanian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_romanian.txt,org/apache/commons/codec/language/bm/ash_rules_russian.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_russian.txt,org/apache/commons/codec/language/bm/ash_rules_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/ash_rules_spanish.txt,org/apache/commons/codec/language/bm/gen_approx_any.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_any.txt,org/apache/commons/codec/language/bm/gen_approx_arabic.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_arabic.txt,org/apache/commons/codec/language/bm/gen_approx_common.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_common.txt,org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt,org/apache/commons/codec/language/bm/gen_approx_czech.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_czech.txt,org/apache/commons/codec/language/bm/gen_approx_dutch.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_dutch.txt,org/apache/commons/codec/language/bm/gen_approx_english.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_english.txt,org/apache/commons/codec/language/bm/gen_approx_french.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_french.txt,org/apache/commons/codec/language/bm/gen_approx_german.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_german.txt,org/apache/commons/codec/language/bm/gen_approx_greek.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_greek.txt,org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt,org/apache/commons/codec/language/bm/gen_approx_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_hebrew.txt,org/apache/commons/codec/language/bm/gen_approx_hungarian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_hungarian.txt,org/apache/commons/codec/language/bm/gen_approx_italian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_italian.txt,org/apache/commons/codec/language/bm/gen_approx_polish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_polish.txt,org/apache/commons/codec/language/bm/gen_approx_portuguese.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_portuguese.txt,org/apache/commons/codec/language/bm/gen_approx_romanian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_romanian.txt,org/apache/commons/codec/language/bm/gen_approx_russian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_russian.txt,org/apache/commons/codec/language/bm/gen_approx_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_spanish.txt,org/apache/commons/codec/language/bm/gen_approx_turkish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_approx_turkish.txt,org/apache/commons/codec/language/bm/gen_exact_any.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_any.txt,org/apache/commons/codec/language/bm/gen_exact_approx_common.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_approx_common.txt,org/apache/commons/codec/language/bm/gen_exact_arabic.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_arabic.txt,org/apache/commons/codec/language/bm/gen_exact_common.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_common.txt,org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt,org/apache/commons/codec/language/bm/gen_exact_czech.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_czech.txt,org/apache/commons/codec/language/bm/gen_exact_dutch.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_dutch.txt,org/apache/commons/codec/language/bm/gen_exact_english.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_english.txt,org/apache/commons/codec/language/bm/gen_exact_french.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_french.txt,org/apache/commons/codec/language/bm/gen_exact_german.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_german.txt,org/apache/commons/codec/language/bm/gen_exact_greek.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_greek.txt,org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt,org/apache/commons/codec/language/bm/gen_exact_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_hebrew.txt,org/apache/commons/codec/language/bm/gen_exact_hungarian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_hungarian.txt,org/apache/commons/codec/language/bm/gen_exact_italian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_italian.txt,org/apache/commons/codec/language/bm/gen_exact_polish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_polish.txt,org/apache/commons/codec/language/bm/gen_exact_portuguese.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_portuguese.txt,org/apache/commons/codec/language/bm/gen_exact_romanian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_romanian.txt,org/apache/commons/codec/language/bm/gen_exact_russian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_russian.txt,org/apache/commons/codec/language/bm/gen_exact_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_spanish.txt,org/apache/commons/codec/language/bm/gen_exact_turkish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_exact_turkish.txt,org/apache/commons/codec/language/bm/gen_hebrew_common.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_hebrew_common.txt,org/apache/commons/codec/language/bm/gen_lang.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_lang.txt,org/apache/commons/codec/language/bm/gen_languages.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_languages.txt,org/apache/commons/codec/language/bm/gen_rules_any.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_any.txt,org/apache/commons/codec/language/bm/gen_rules_arabic.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_arabic.txt,org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt,org/apache/commons/codec/language/bm/gen_rules_czech.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_czech.txt,org/apache/commons/codec/language/bm/gen_rules_dutch.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_dutch.txt,org/apache/commons/codec/language/bm/gen_rules_english.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_english.txt,org/apache/commons/codec/language/bm/gen_rules_french.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_french.txt,org/apache/commons/codec/language/bm/gen_rules_german.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_german.txt,org/apache/commons/codec/language/bm/gen_rules_greek.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_greek.txt,org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt,org/apache/commons/codec/language/bm/gen_rules_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_hebrew.txt,org/apache/commons/codec/language/bm/gen_rules_hungarian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_hungarian.txt,org/apache/commons/codec/language/bm/gen_rules_italian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_italian.txt,org/apache/commons/codec/language/bm/gen_rules_polish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_polish.txt,org/apache/commons/codec/language/bm/gen_rules_portuguese.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_portuguese.txt,org/apache/commons/codec/language/bm/gen_rules_romanian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_romanian.txt,org/apache/commons/codec/language/bm/gen_rules_russian.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_russian.txt,org/apache/commons/codec/language/bm/gen_rules_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_spanish.txt,org/apache/commons/codec/language/bm/gen_rules_turkish.txt=src/main/resources/org/apache/commons/codec/language/bm/gen_rules_turkish.txt,org/apache/commons/codec/language/bm/lang.txt=src/main/resources/org/apache/commons/codec/language/bm/lang.txt,org/apache/commons/codec/language/bm/sep_approx_any.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_any.txt,org/apache/commons/codec/language/bm/sep_approx_common.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_common.txt,org/apache/commons/codec/language/bm/sep_approx_french.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_french.txt,org/apache/commons/codec/language/bm/sep_approx_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_hebrew.txt,org/apache/commons/codec/language/bm/sep_approx_italian.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_italian.txt,org/apache/commons/codec/language/bm/sep_approx_portuguese.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_portuguese.txt,org/apache/commons/codec/language/bm/sep_approx_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_approx_spanish.txt,org/apache/commons/codec/language/bm/sep_exact_any.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_any.txt,org/apache/commons/codec/language/bm/sep_exact_approx_common.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_approx_common.txt,org/apache/commons/codec/language/bm/sep_exact_common.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_common.txt,org/apache/commons/codec/language/bm/sep_exact_french.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_french.txt,org/apache/commons/codec/language/bm/sep_exact_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_hebrew.txt,org/apache/commons/codec/language/bm/sep_exact_italian.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_italian.txt,org/apache/commons/codec/language/bm/sep_exact_portuguese.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_portuguese.txt,org/apache/commons/codec/language/bm/sep_exact_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_exact_spanish.txt,org/apache/commons/codec/language/bm/sep_hebrew_common.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_hebrew_common.txt,org/apache/commons/codec/language/bm/sep_lang.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_lang.txt,org/apache/commons/codec/language/bm/sep_languages.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_languages.txt,org/apache/commons/codec/language/bm/sep_rules_any.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_rules_any.txt,org/apache/commons/codec/language/bm/sep_rules_french.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_rules_french.txt,org/apache/commons/codec/language/bm/sep_rules_hebrew.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_rules_hebrew.txt,org/apache/commons/codec/language/bm/sep_rules_italian.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_rules_italian.txt,org/apache/commons/codec/language/bm/sep_rules_portuguese.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_rules_portuguese.txt,org/apache/commons/codec/language/bm/sep_rules_spanish.txt=src/main/resources/org/apache/commons/codec/language/bm/sep_rules_spanish.txt,org/apache/commons/codec/language/dmrules.txt=src/main/resources/org/apache/commons/codec/language/dmrules.txt,META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=NOTICE.txt",
+      "Manifest-Version": "1.0",
+      "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.6))\"",
+      "Specification-Title": "Apache Commons Codec",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "1.10",
+      "Tool": "Bnd-2.3.0.201405100607",
+      "X-Compile-Source-JDK": "1.6",
+      "X-Compile-Target-JDK": "1.6"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/commons-codec/commons-codec/pom.properties",
+     "name": "",
+     "groupId": "commons-codec",
+     "artifactId": "commons-codec",
+     "version": "1.10"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "4b95f4897fa13f2cd904aee711aeafc0c5295cd8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "3306d7936c4d3fd8",
+   "name": "commons-codec",
+   "version": "1.10",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-codec:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-codec:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_codec:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_codec:commons_codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-codec:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_codec:1.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-codec/commons-codec@1.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-codec",
+     "artifactId": "commons-codec",
+     "version": "",
+     "scope": "runtime"
+    }
+   }
+  },
+  {
+   "id": "6cc8b9449d4fab85",
+   "name": "gradle-wrapper",
+   "version": "3.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\gradle\\wrapper\\gradle-wrapper.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:gradle-wrapper:gradle-wrapper:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gradle-wrapper:gradle_wrapper:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gradle_wrapper:gradle-wrapper:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gradle_wrapper:gradle_wrapper:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gradle:gradle-wrapper:3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gradle:gradle_wrapper:3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/gradle-wrapper/gradle-wrapper@3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\gradle\\wrapper\\gradle-wrapper.jar",
+    "manifest": {
+     "main": {
+      "Implementation-Title": "Gradle",
+      "Implementation-Version": "3.1",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "02b860aedb748a825e668867c665ab3dedc16e22"
+     }
+    ]
+   }
+  },
+  {
+   "id": "5f8bbb2f5a3635c0",
+   "name": "gson",
+   "version": "2.6.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\libs\\gson-2.6.2.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.6.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\libs\\gson-2.6.2.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1456540313890",
+      "Build-Jdk": "1.8.0_60",
+      "Built-By": "inder",
+      "Bundle-ContactAddress": "https://github.com/google/gson",
+      "Bundle-Description": "Gson JSON library",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Gson",
+      "Bundle-RequiredExecutionEnvironment": "J2SE-1.5, JavaSE-1.6, JavaSE-1.7,JavaSE-1.8",
+      "Bundle-SymbolicName": "com.google.gson",
+      "Bundle-Vendor": "Google Gson Project",
+      "Bundle-Version": "2.6.2",
+      "Created-By": "1.8.0_60 (Oracle Corporation)",
+      "Export-Package": "com.google.gson;uses:=\"com.google.gson.reflect,com.google.gson.stream\";version=\"2.6.2\",com.google.gson.annotations;version=\"2.6.2\",com.google.gson.reflect;version=\"2.6.2\",com.google.gson.stream;version=\"2.6.2\"",
+      "Import-Package": "com.google.gson.annotations",
+      "Manifest-Version": "1.0",
+      "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.6))\"",
+      "Tool": "Bnd-3.1.0.201512181341"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/com.google.code.gson/gson/pom.properties",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": "2.6.2"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "f1bc476cc167b18e66c297df599b2377131a8947"
+     }
+    ]
+   }
+  },
+  {
+   "id": "52daf32a16cac4c7",
+   "name": "gson",
+   "version": "2.8.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.8.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.8.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.8.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.8.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": "",
+     "scope": "runtime"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "3306d7936c4d3fd8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "52daf32a16cac4c7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5f8bbb2f5a3635c0",
+   "child": "029762d1b44307fe",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6cc8b9449d4fab85",
+   "child": "b7d0ef66545658cd",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7d0cb5203f23c70e",
+   "child": "8682d6d14e6ca44b",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3306d7936c4d3fd8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "52daf32a16cac4c7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5f8bbb2f5a3635c0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6cc8b9449d4fab85",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7d0cb5203f23c70e",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "b7d0ef66545658cd",
+   "location": {
+    "path": "\\gradle\\wrapper\\gradle-wrapper.jar"
+   }
+  },
+  {
+   "id": "8682d6d14e6ca44b",
+   "location": {
+    "path": "\\libs\\commons-codec-1.10.jar"
+   }
+  },
+  {
+   "id": "029762d1b44307fe",
+   "location": {
+    "path": "\\libs\\gson-2.6.2.jar"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

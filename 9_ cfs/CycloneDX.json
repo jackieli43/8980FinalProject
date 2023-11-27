@@ -1,0 +1,1212 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:12d7cc0c-fb63-4282-9b12-c22780a35f67",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T02:25:45.739Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.cassandra.utility",
+      "name": "cfs",
+      "version": "1.0-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/com.cassandra.utility/cfs@1.0-SNAPSHOT?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.cassandra.utility/cfs@1.0-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "com.datastax.cassandra",
+      "name": "cassandra-driver-core",
+      "version": "3.1.0",
+      "description": "A driver for Apache Cassandra 1.2+ that works exclusively with the Cassandra Query Language version 3 (CQL3) and Cassandra's binary protocol.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9f590a7342a8b0584f03bd16309eecca"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "477cc9c22aba77ff8f88c4e06ac43a23182ff1eb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5356b60bfdd0d48894dab6a1f233336d0e3a3fcc4a5572ddfe6fcd3523f2d86d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2198a2267238856cb519acc5ea2c8b9b78b7d0f873041513ce43004b2622db4f6b59895753ed7d2382250ca01ecef5fb360f8dd4cebbb29174d6f08328b99fab"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c5f41e3f9208e24e3379528a948c41032aac4850e4f9dc6699ca6efbfa643c9ed7f2d95f3dcbd74844b430e4bae8189f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d0dc4852bad8bf16a030f103505ed5036192aa48515a3b24103e6852c6b5f70a3bd2bdbb4be1e05c92d281915ff95377"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c0b9c6e0c5803897e108d27fc461f8b4b6ae75e0d2907a40228fe32b9eecd676"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c59861ae53d638c1402abf35ea9f1006d8fc160460a49722c2a02fb55e7808a4853a787896b76cacdc5ba1f7653affa967286177294d61e9d5a7cea327321e1c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.datastax.cassandra/cassandra-driver-core@3.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.datastax.cassandra/cassandra-driver-core@3.1.0?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.0.37.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "72fb59c82ac9d058c7bb1f2142c3d732"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7fd9da26ef4031fa09e4436c7efd08d2bcbe1a06"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9f8ce9f6c78ab414054a23bf0995783288689675d4a0159c4597cb124d271f7b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a802b08344f500d2bcf4dae9091f25071c85a83e63df2b3721b1a9edb551769593769dd4af258ebb0f6327ea097294fc6522fc29416bfc1a1dde21fec0096b25"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8fed26d0fbfa19f97306e5489895bc3c8fc138d723b00bc90afb6ba6b7ace369e6dc6664a7cd9ab372265845db7ba700"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6b8738f5c087b1e8a4cb91794bd33c0dd5fb4f80f19847bdd27cafbe0bdc802c7de61d6768e71a667f210b1754615cf9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cc9ca256bb6929e184a7fd1032c1c78396628ab129419445915f5d4c0956273a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "32dfe7c4754b88ff922ace54961bcd23e31c959f046e85a0dd071c98e2a99483ff40828c34f1113f31db2a1f12f2bd5442e13f53bc82b46810ca143d5c594b8b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler@4.0.37.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.netty/netty-handler@4.0.37.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.0.37.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fb9aba5a83d4643180488b611d005da2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "35be4e226aaa048ebff0a10548242e5007a94196"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc4b8853c4edc6fa2b5aa9be9f980ab13acaaf813d8184a2640a02cbf1385f46"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4944f0c5eac02e053f77be6fc8fc90b28ffeb79efe3d954ada48e22f60041629e9d7b1532da2da0a47415b3decd923c0c0dfe13042b02a2227e89c9c82ab9733"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fdd01839fec523bab554b75676d604f86c3ad7965c4a351f13506a585898263bca1a09e8e43f2b4e150c5d2fceb4f51f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "80d2ce8d9ec8716848c023ff4afaba5b9967c6f5f242d8f5395dc04471cbee1a41ac2d01041c055e300d876f61f3aee2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "90550c2bc0a21a836988f3ca01efce30b162a7919133a401e84eb34877082d8f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7f31f7ce4e3632c595ea6625eef65be1cf2004bf54a081ae7e58b4a47160c15e4656d455fc6f775ff8cc5232b139784ae40924257d8508cc8612b932fec11756"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-buffer@4.0.37.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.0.37.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.0.37.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0d49619db9dd863bef4d239759211c39"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1fb66d166358d78e9ac85419fabdf2b764ff27f3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "46777613975c22f5ea7fec99a4e7286fa9e5145cf73c4d195b2be1061381f044"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "769d6cf0d30290c59603f53b65b8fffd9ad1ce76464dfd5dd6fdbc2c376bdfa7e06ad6c623140cf5e16dfbfb786841c8772362a2d2a5be0c3dbc52e602b5a9f7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "825436efde17c832c39fe480bb5da531542aa4b03fe2f9700b23344e9b984af6e56bf2748d8e8e030c364e17a3d5774f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a8e0287add560da8851c6a413803e8b1ef8be4eec2a594972c9a9d9fa36e63a1353572a587ab2294f062f168a169dc6b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "935eab7aa30c5d3efc5cd49ec0387b5884bf063bc74487bceb344f20333c5eef"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "31486dd28401400ac105f63c7abc3174af1f501da66caca4ae888f61064c022c261a500557b4beb4dd9664409d14a525a21b2526f7117ff05b14b4042abda6af"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-common@4.0.37.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.0.37.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.0.37.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fc8203bd547eceb3f080e565c649de17"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4ac573ff1fc7a99fc4a8fa8cab56cf6ab3bb008c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bac7b5eef69d4cebb990fe1db7df96615c5e47f97a0a9ee034d8eb586ba241c6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "964d1264f97825f076cf2c18d063f49f6697233c8038b08d1105b77c3c740386ede3f80634c7f3d08662a8e92499dc46ac6a2ee315df7fbbad7e654764925608"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "610ea2990d68fe2edadc8be77e4e3940454f0795cfe4fe1473d85b4370f1eac6b271a2dae4f75a958c4f301a4a83dd3f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5ba973bae0ee6836bfc2e01f513ac24e43f72240a1caff5b0630b935900cfd07d3565f9a46e96ceea41b4938ae6adab3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5fda70610904cdcfe00a687f584bd1c94c1ef463c1c198494b9a265f4f2dada8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "05e44e2c604e1f53a1599f0dace8e04ad2c03b7a361c98620ff24dda340fdb8f677cf95f741828d71b994badecd9d9f41652a78bd2d4c22a38a3a0809261d2ab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport@4.0.37.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.0.37.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.0.37.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "98c8f489dd0cd5d8e74d9dbb4c9e27d5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fbc8d248adc1ef17847817b67b8050b14e95b7e2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8dd35a37bd75d09ba2a61f75b78afd03698389347a0923262eda6b897939a87b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1267ced2e4880ad0b3f5dd96938759218e0a6955db4fbfc731d82037ba296368e159840f379452b2c7c3d802b105800a44d4ff0497261ab44f9bee663ed8d6d6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4f6a7b942324b34ce35cbb51663f8ee06483c5a46cf833496cdfa9aac1eb3cfcc048588204d5b500e0728badad59cae1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "345030692c0c6782be3c6d8e8a41f78180407e1e8edb6003e0c98766139ce0212fbc820a56f439e01a36baff80e27093"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "38ac406e1a3346a4e5d98058e965c498b5e4cac9be67067f429dad0df44f2b9b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7baa80fd254cab72775e0287b558cd7660473b33d8a545d98e0f99ab4de63d56cd293969fc1be9fb31796c754b9fad660dc1efece6a9808a2a0f8e24c20b052b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec@4.0.37.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.0.37.Final?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "16.0.1",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more. Guava has only one code dependency - javax.annotation, per the JSR-305 spec.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a68693df58191585d9af914cfbe6067a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a896857d07845d38c7dc5bbc0457b6d9b0f62ecffda010e5e9ec12d561f676d3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a9df202229a7955b70f35f33c9662bb0e7fec9e972c1fbac95fcf77ebacf18fea7e834dd60dcec1c8b6894393c75c480e08067e661cc234dea4829b952b7a2c4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "acc4ff89db23b3e6711f2be79f7c0d430f59327a3f1c9b3dd542e5618c6fec0d74357cf18c4c98c5915c587d4bcd9cbf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2408da9af0df3c949d93b1b6c642f8afd96210a641521ada29b80f19611ddc9505273de86cfa57440531e4f0234a985b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a7042d5a5d683bf80eafdac37adc3d10075ade64edb82daae574bb49cf2fe9cd"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e57cd5702d6e2bd8ac39b31eb638b77ff33d15e2498efff2c6ffee9cbf556c466dd98a7ad8d49b085302a32a6f15e1c7a0593e2cc4db90559a38daceba43221f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@16.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@16.0.1?type=jar"
+    },
+    {
+      "group": "io.dropwizard.metrics",
+      "name": "metrics-core",
+      "version": "3.1.2",
+      "description": "Metrics is a Java library which gives you unparalleled insight into what your code does in production. Metrics provides a powerful toolkit of ways to measure the behavior of critical components in your production environment.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b8b2de75247322a0c037420f5708e592"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "224f03afd2521c6c94632f566beb1bb5ee32cf07"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "245ba2a66a9bc710ce4db14711126e77bcb4e6d96ef7e622659280f3c90cbb5c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d22c007d1fdf0ec25bdeb4ceafc89009d80a746441d49d8be433be9a2a4af6de34b119a02c8270bdc50f3a4041944a2c99fd546bff85922b782607ec4f8fbd7d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "82aacdf0818ed310c816cbc1427b1c0922d810154ae15f84e4c62173f596a65f9d07fe8a7e4675d1a821a3dd190ce418"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f00c1d703da10cd72dca42f778760410637ef24bca14a9fd0393a419109ad6b3fce7384c202d1fa89467571a0fc878ae"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3c1e2f0954ef6ff9f5ccb203a85ecbf7f1e6c8d38421c793d3b8eadf685999f1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1bac2b35125754b695950a568ab17822afcdc5ead469209cbc41a85d08fba7d64308b4f10b6c63c4eb200ebef198c92a7438311c6ee0d93691e43a2bd0fcbd3e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.2?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.2?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.7",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ca4280bf93d64367723ae5c8d42dd0b9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2b8019b6249bb05d81d3a3094e468753e2b21311"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "69980c038ca1b131926561591617d9c25fabfc7b29828af91597ca8570cf35fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c47d0d78388022e38bd60fd6e613ab4ceb9cad6b2567a3d36153aefc832864a99de1f6cdcd52959f73231e5b933fd9172353434e5fd83777703f41cb40fc97a7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1b59a922a63fa73baff42db7e9eeab1525c71cd8f9d3b7ea208f310792aa7f334fe7d45c8dbbe4bf8bd664dd49ed39d2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a520c091af8ee6d2613a36f58e35d443476ec4f0e7cec437a6100470863b8e06fd8bc76c23f1d3e49a5aeb3efb610b79"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2624d4637fa5d3e7b56c66a29393ca61059565d54bbfc255d6494aa2ff7c3f20"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "173bb385f03d4ee926ec9f35fe11ca009ae5f4a5f490d6cdd310b5e4e7553a0607032d32b8ac63f638b3c1b2273252f1a333b22955e8700c50113f06ae0c244d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar"
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jnr-ffi",
+      "version": "2.0.7",
+      "description": "A library for invoking native functions from java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e860a86414640af42a402beeeed1ebee"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f0968c5bb5a283ebda2df3604c2c1129d45196e3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9406dfaad59bc3fc0de97abf8a455e70d460c294d6f445407d5080db93239643"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "12febf5fd974e17aee71661efcdcda76c2a5c29f08941f8a3dd8fe434e8029301d441cbb62625a48c6ef8906c544564b70e7862edc0824008d346a56b0a79b65"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9b926d08a2df47d0296cf898128929749db6c64c520b398d699fb9b6c4f5939510e208f2fed48e64da15fc16dc75798c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b487caaf55c24abfeedd5dd5a9679df465c3923336a36b255912942b7bebb73011a76bb6e53279c07c042e9fc82972a6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6810419c17e8b5c990d0832f1f28db021ab701029d484041340c4f5fbabcd073"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9fb4b37e63a3e16fc195743a922bf50aa8408f1a5f48379f62c27c37f17dff293c02c9d63d7e2d2ab37df61e348a40c04f3ff77a5c62f918ad37a92aba818216"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jnr/jnr-ffi@2.0.7?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jnr-ffi@2.0.7?type=jar"
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jffi",
+      "version": "1.2.10",
+      "description": "Java Foreign Function Interface",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cd314d88df74b1de8c0033596ba34737"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d58fdb2283456bc3f049bfbef40b592fa1aaa975"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "acf67c23f3320b69c8caae389f64e4d98ead14b591bac84b3f2592cbcf36a33e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3a25cea439c9cfcbcabdcf5de153a43d3b778804a585b0434810159521809dda4fed0bf593a43f12fc459a176aff7d99402551c9521f535f33aaeb4730327134"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "86c02208b8ea510b6563d9e8cbe7908c8c3e8d241555f9ad2159b691217eb7d361bd501f8f01a1be8171c17733a692e7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d726d3e004366befd99b909e4d4abbd8504d54c1f0247fa680a54ec624bd8f10984c22fca34d4e3466925ebded42e10e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ef6deefb0e486a15f6f34c2f3737874f9a9d78e0d1d848182b84f3f62a27ee2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ed10f40fb5e5f3d1b6f86fd39682914d04c671d9912a1e9b2d343233fc04fc930131677bbd8f2c25abe5cdffac9a007bfba68806f6caf26543fa440f5308c2cb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jnr/jffi@1.2.10?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jffi@1.2.10?type=jar"
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jffi",
+      "version": "1.2.10",
+      "description": "Java Foreign Function Interface",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c24ad811df673e117529b08c5e1601bc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7de1bb566847c2ed71d91ca063a8af604f250ade"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c8bc5bce45a2bcb5520902b6195b8395e9caba1518c6b72ce69de6b9844e72ae"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c3d4ceae372f599d23638592b80ee4f93c87438f654a2e971cb2fac0d589b51a92b5b33c562d0dca69db303370ed8568c0c0dbeffc2896f52b668fad9c438c2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fcd98bae2c5bd77f04f0598c3d14002fe4f1223b532cb29d49f137ac8678ce6eca4cccd8bc3f3bdbc1a963979634bb22"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d2966b321cb26c6789be7f902a47c4ac2b5bbf259d52694e5e7f70e865320b6eec489a342ffa5590236085b6970bfcd2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8cd76c22bc3bedcdd64e51a691a60ab12878ff8e9d282d4f37238db51c87836e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0e3540efec84e2785790f4b44bcacc014ba85940a90a1cca1cd8c518b286a2e848299002a698358061b6340b99afad4d1d39aef395da7fb43138764f2b5f39f4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jnr/jffi@1.2.10?classifier=native&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jffi@1.2.10?classifier=native&type=jar"
+    },
+    {
+      "publisher": "ObjectWeb",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "5.0.3",
+      "description": "A very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ccebee99fb8cdd50e1967680a2eac0ba"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dcc2193db20e19e1feca8b1240dbbc4e190824fa"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "71c4f78e437b8fdcd9cc0dfd2abea8c089eb677005a6a5cff320206cc52b46cc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d35bda1ecf09753572fd0582d2e79f07bbd563ca936d1238690d4bedaf57c68512580c49aba75d03fda41db27b84fc5cb276b8cfd990167ccc9dbecbc69f388d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1421b54bd826aae1712c0e676cd7a02fe599baefeb8bfe9b7f57a58ebdad051de01972797f3a0d694ebb82622c2bbf49"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e572aabd4b42da0c59db995716428a4a784739159d80e6a0a39a638c49185c73603fa8a746fa814436b8fd5f43eecfd8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d9950cb93566cf2ea846d445ab3fc312e0a32e6d4fc6057fd3ad9fb15e7834be"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c858dbb937427473dba46baf97cedcf6396edf11f807e42bb7bd64014c5e6c635207ee479433d3f3fc78ff7822c4460f2b66958d6d77df5860c46d6d2c855df6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@5.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@5.0.3?type=jar"
+    },
+    {
+      "publisher": "ObjectWeb",
+      "group": "org.ow2.asm",
+      "name": "asm-commons",
+      "version": "5.0.3",
+      "description": "A very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "49c4bd16df054f7b7376fcb80de5a225"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a7111830132c7f87d08fe48cb0ca07630f8cb91c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "18c1e092230233c9d29e46f21943d769bdb48130cc279e4b0e663f423948c2da"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "702037de4cc53d3c4689d25223774384ce93372f4569d05e7e32e77a0d8a7efacaf3f574ee6e3ba5547f06431cb1595426da62f307d6fcf9321aaa9c4d7f6f77"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cf67d6185dab08278e741166de629c3ce74b46b7401e8dc25aec21d2c23a4b276e6e38be8e71846e55cdeb8731d59d43"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e513199c78ebf2285da63f390480e7e08b2c549d199bb88459e870b82a5fef3e305ef35956aa4270a0b72ffa010fdb45"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "de52f4afa554268e440db87db8c47d6e2fe77e468d3cf7af50ae3275a8b1a859"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "500ff543cbbf18ec6be00d6a9e441db03c395e59b4e3a78c0ce9d75c66101f83e83c866000848fc5ed095eb1375d63f51931051f1c8d3e0903401abf77525af4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm-commons@5.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-commons@5.0.3?type=jar"
+    },
+    {
+      "publisher": "ObjectWeb",
+      "group": "org.ow2.asm",
+      "name": "asm-analysis",
+      "version": "5.0.3",
+      "description": "A very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4bd5c076645f8004663cc35044fdb32"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c7126aded0e8e13fed5f913559a0dd7b770a10f3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e8fa2a63462c96557dcd36c25525e1264b77366ff851cf0b94eb7592b290849d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1e5d21f7b878c21ff79648a1976395fb1a4a355dc5e71e48b31ede7d1312210e6b829e47b0c3630fb75c20c34d785bcbb5c6cd88e7bf281ddb13fe512e6f8291"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9e22b8bc911d60cf8cc7158fbf9104cc09a2f1985ec4d14f5457016ed68dbad856e365819bd1facfe5dfe78ff83df0e0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "953aebf69aa39e606a5e764b6122d9146f2f6141fe37905b5cf734440c6d9a3b59ba0477f4dc3182aa0adbdf1a20d52d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "29caf5cd3ccd1c0f318afac88c47c82f7331671dd4097c0b7e993acbbac3dc53"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e180073be16c886a630d3c0ae3fc5087768796c08115a0c4149a2a02bbd96f48754d5cee83952dcbce67da04216ba4396260df9d19b7d3d493d370689d3bc55"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm-analysis@5.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-analysis@5.0.3?type=jar"
+    },
+    {
+      "publisher": "ObjectWeb",
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "5.0.3",
+      "description": "A very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "94abc9b0126e1ec2c12625dfce54e32e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "287749b48ba7162fb67c93a026d690b29f410bed"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "347a7a9400f9964e87c91d3980e48eebdc8d024bc3b36f7f22189c662853a51c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "41fa352a4b1fcb482cc71a5cf8eb25770e16aeaa926ffc5c9ef5e09ffa29a19cf9f274d7d413839b889620607b16c649fb3df82a41347269fe77c8f0f0e861db"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3a50bc80460a2fe31234d36cc949a0f89882d64a2f60702a6aa63668a82f3b8dece257bd042b7276c1243362f2a7f21a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b52f32f5407a3aaf5fb0348ba000afbe03b0747c326b1f3f0694e82cb7555498ca88995257d5d489cc878dbf1bcefe79"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0fc931dd740d091b16c4aa25f56f074ce99526a5b3eebe9c5215dea301c0503d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7f9ced9a44c67efec51603f9e276b0ae39ac2c5012ebeeb9f77640ae99bdd091de51cd947f32f48b340995f86a8168abb23a3d7f69e718309059c263203f76d8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar"
+    },
+    {
+      "publisher": "ObjectWeb",
+      "group": "org.ow2.asm",
+      "name": "asm-util",
+      "version": "5.0.3",
+      "description": "A very small and fast Java bytecode manipulation framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "85b23e37383c7bb9200a2ad5067842e1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1512e5571325854b05fb1efce1db75fcced54389"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2768edbfa2681b5077f08151de586a6d66b916703cda3ab297e58b41ae8f2362"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e4520640fbda565f6907b9e368801d4b7ed63e8613493ebc9f4e267808736aab607de7a0c5f410d7e4cf6f7b4fe467446ccddcc9b3ebb2ee6c95791dff1f8d0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b58244897b275773842858ea1483d9c3a5cc1aca549b964e9c354f9811e9a20fe692ff6dbd02b7bff11bf90786a2f053"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "19acab5c0999c5358086bd956a1c22e3c59bff45b51775ee6f1dee9fd457c2966090aa66eac0a5cb55e0f99e0427465c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "92dfd26b8d4e73bdd5d8e193cc8f9d9ba2d09437b653d4f27c629aaf3927ab3e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4e1a03301be6d66e9aea95b1d5cd48be1f08c424f5cd00369e9f8cce7429e1cd86a01b146c80d49d00f81a5a9e46279f0e1e5b308d958e4bd6bb522b8991b953"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm-util@5.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-util@5.0.3?type=jar"
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jnr-x86asm",
+      "version": "1.0.2",
+      "description": "A pure-java X86 and X86_64 assembler",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "00670735acb2a9d1421b506dc7d338bc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "006936bbd6c5b235665d87bd450f5e13b52d4b48"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "39f3675b910e6e9b93825f8284bec9f4ad3044cd20a6f7c8ff9e2f8695ebf21e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e928926b01ce545144c1bbf160edee9b923773e32f9a399a71c2ab5e8325d9cbcfb41f41c8f008b80d1beab8da1c4b74845996479c07ed73bc131959911d4762"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "91839815885716f1202a824b195a475d4d7561690192b42cf05b8c6432556a3e7e2dab13b6e970986a97711fb7060844"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ed27f9b39907e92805c2d6ae6a045e00e24f51544501df3b98b593177df4fe55fee2347c668df66c2ea6fae64c66ee0c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f2e4e4807f6674a5b428cebdbdd01e8cadbeee71b785a046bec2bec1de63a41b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0dfffcf0daac9513b347ab8bf22887360feea890428e12857d7d3400400ba498fdc61307d9fd9c6a5e1baa9a96279afc07bba08c6229ed4ede71569d710fd0f6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar"
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jnr-posix",
+      "version": "3.0.27",
+      "description": "Common cross-project/cross-platform POSIX APIs",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "19037fd66ab1e56eb6130040be6485a9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f7441d13187d93d59656ac8f800cba3043935b59"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "84dab031a38688cb2ec808a011ba0233cb0d1146d39020e1447992ad505f3d78"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9bc368dfefb1a544152bdd2e27e99d608ad25c1bff030381ebfcbde93b5b15b49f1cec7d4fd7f0e01eba04f6b5932f441acdb8a833eddb4dd5d0c909c5741178"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "58e0278035b0fcb7ebd326cde1053ca06e37a02780bd1256bb110137e901a310e4529fe37188be32cc06aa57c571b1f7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4e10cad5a23265dae4102546fd6e5b144cf52e0f046212a2697f74b6da8286e293d96cf4bcad1a8a2112043f80d7be54"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "45542367028a05a0ab7746276bcbd5f33bc234ad52708fb97f19b6fc32f00a25"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "856ad5c8f4943a6fdd191babd0eeef5c3b844e6b7eb3d54216a0c370c6fb0d37d05622390fe289a251677dceae9c0dc6dbf9136c83774ee634af1e1418e58000"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License - v 1.0",
+            "url": "http://www-128.ibm.com/developerworks/library/os-cpl.html"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License Version 2",
+            "url": "http://www.gnu.org/copyleft/gpl.html"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU Lesser General Public License Version 2.1",
+            "url": "http://www.gnu.org/licenses/lgpl.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jnr/jnr-posix@3.0.27?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jnr-posix@3.0.27?type=jar"
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jnr-constants",
+      "version": "0.9.0",
+      "description": "A set of platform constants (e.g. errno values)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5f1eb0ae482bbe957120ebe56cba047f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6894684e17a84cd500836e82b5e6c674b4d4dda6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fef43ba363a6c5cc5dab671b2ea06d06511cf73ed32ac1ee82e893a840ed2733"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a6a86af19a1b2725a2c0ce1f075726eaf25f48e17a11de04ab6c38107baa5f97918601340d04715f384b9195c7128882f378c05884fb77746e1bc3510a6f0914"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4ae0a09c591903590076212d512237d18febf3f3e9635606b328eb099b2102218b2458a60d2dcb49c29ad2cdaa1bb9fc"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f134f310bc7d3cf76171148727d9fec6f611692a970a1e9aab1fb5fa2088e269b35b3f11d1f7cff59bca01edfad1a0d4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "25f94d2060b0f7f7adeeec22ad55595bc5d2bc4416f56f72a5d89dfe91dd6c48"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5eb4b4ebc4c32d9bb59f22c0dba60d763e13d3e1750deedaac32b840162b49718c6e1def0e17a064133b1e9d8a29066db10f3003901d1b6c8cce0c4e464c8cdc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jnr/jnr-constants@0.9.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jnr-constants@0.9.0?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.cassandra.utility/cfs@1.0-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.datastax.cassandra/cassandra-driver-core@3.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.datastax.cassandra/cassandra-driver-core@3.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.github.jnr/jnr-ffi@2.0.7?type=jar",
+        "pkg:maven/com.github.jnr/jnr-posix@3.0.27?type=jar",
+        "pkg:maven/com.google.guava/guava@16.0.1?type=jar",
+        "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.2?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.0.37.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler@4.0.37.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.0.37.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.0.37.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.0.37.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.0.37.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.0.37.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.0.37.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.0.37.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.0.37.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.0.37.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-transport@4.0.37.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@16.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.7?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.jnr/jnr-ffi@2.0.7?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.github.jnr/jffi@1.2.10?classifier=native&type=jar",
+        "pkg:maven/com.github.jnr/jffi@1.2.10?type=jar",
+        "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar",
+        "pkg:maven/org.ow2.asm/asm-analysis@5.0.3?type=jar",
+        "pkg:maven/org.ow2.asm/asm-commons@5.0.3?type=jar",
+        "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar",
+        "pkg:maven/org.ow2.asm/asm-util@5.0.3?type=jar",
+        "pkg:maven/org.ow2.asm/asm@5.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.jnr/jffi@1.2.10?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.jnr/jffi@1.2.10?classifier=native&type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm@5.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-commons@5.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.ow2.asm/asm@5.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-analysis@5.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-util@5.0.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.ow2.asm/asm-tree@5.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.jnr/jnr-posix@3.0.27?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.github.jnr/jnr-constants@0.9.0?type=jar",
+        "pkg:maven/com.github.jnr/jnr-ffi@2.0.7?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.jnr/jnr-constants@0.9.0?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

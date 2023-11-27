@@ -1,0 +1,409 @@
+{
+ "artifacts": [
+  {
+   "id": "9fc9767fe1c698ef",
+   "name": "junit",
+   "version": "3.8.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:3.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@3.8.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "3effdcdca86ae2bc",
+   "name": "logback-classic",
+   "version": "1.1.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-classic:logback-classic:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-classic:logback_classic:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback-classic:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback_classic:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-classic:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_classic:1.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-classic@1.1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-classic",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1ffc6085abb090ce",
+   "name": "logback-core",
+   "version": "1.1.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-core:logback-core:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-core:logback_core:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_core:logback-core:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_core:logback_core:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-core:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_core:1.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-core@1.1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "13633a954b117a48",
+   "name": "open-replicator",
+   "version": "1.0.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\releases\\open-replicator-1.0.6.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:open-replicator:open-replicator:1.0.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open-replicator:open_replicator:1.0.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open_replicator:open-replicator:1.0.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open_replicator:open_replicator:1.0.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open:open-replicator:1.0.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open:open_replicator:1.0.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/open-replicator/open-replicator@1.0.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\releases\\open-replicator-1.0.6.jar",
+    "manifest": {
+     "main": {
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "c8796fe957b29e0d9647e6449e5e8d74002c4b7d"
+     }
+    ]
+   }
+  },
+  {
+   "id": "8813db103e2697b6",
+   "name": "open-replicator",
+   "version": "1.0.7",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\releases\\open-replicator-1.0.7.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:open-replicator:open-replicator:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open-replicator:open_replicator:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open_replicator:open-replicator:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open_replicator:open_replicator:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open:open-replicator:1.0.7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:open:open_replicator:1.0.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/open-replicator/open-replicator@1.0.7",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\releases\\open-replicator-1.0.7.jar",
+    "manifest": {
+     "main": {
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "3e5df4c5e18f9d3da498a3ce37d311813fa8a2d1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "21e95091c6690d78",
+   "name": "slf4j-api",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "13633a954b117a48",
+   "child": "8723a537ae1ec284",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1ffc6085abb090ce",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "21e95091c6690d78",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3effdcdca86ae2bc",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8813db103e2697b6",
+   "child": "b97b61e8da8775da",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9fc9767fe1c698ef",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "13633a954b117a48",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1ffc6085abb090ce",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "21e95091c6690d78",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3effdcdca86ae2bc",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8813db103e2697b6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9fc9767fe1c698ef",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  },
+  {
+   "id": "8723a537ae1ec284",
+   "location": {
+    "path": "\\releases\\open-replicator-1.0.6.jar"
+   }
+  },
+  {
+   "id": "b97b61e8da8775da",
+   "location": {
+    "path": "\\releases\\open-replicator-1.0.7.jar"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

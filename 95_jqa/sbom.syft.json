@@ -1,0 +1,953 @@
+{
+ "artifacts": [
+  {
+   "id": "2e536e920a4c8724",
+   "name": "analysis",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:analysis:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:analysis:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:analysis:analysis:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:analysis:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.core/analysis",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.core",
+     "artifactId": "analysis",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "d8e8b065325c6ab1",
+   "name": "assertj-core",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:assertj-core:assertj-core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj-core:assertj_core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core:assertj-core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj_core:assertj_core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj:assertj-core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:assertj:assertj_core:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.assertj/assertj-core",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.assertj",
+     "artifactId": "assertj-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "4f8680ca438a8367",
+   "name": "common",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:common:common:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.plugin/common",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.plugin",
+     "artifactId": "common",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "91d76ae1f38eaf4b",
+   "name": "java",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:java:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:java:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:java:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.plugin/java",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.plugin",
+     "artifactId": "java",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "e0d71916dc2400ec",
+   "name": "java",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:java:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:java:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:java:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.plugin/java",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.plugin",
+     "artifactId": "java",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "9a7b2a9b77440494",
+   "name": "java-hamcrest",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:java-hamcrest:java-hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java-hamcrest:java_hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_hamcrest:java-hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java_hamcrest:java_hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hamcrest:java-hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hamcrest:java_hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:java-hamcrest:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:java_hamcrest:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.hamcrest/java-hamcrest",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.hamcrest",
+     "artifactId": "java-hamcrest",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "b8703c9b30bcbc76",
+   "name": "jqassistant.plugin.git",
+   "version": "1.8.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant.plugin.git:jqassistant.plugin.git:1.8.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/de.kontext-e.jqassistant.plugin/jqassistant.plugin.git@1.8.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "de.kontext-e.jqassistant.plugin",
+     "artifactId": "jqassistant.plugin.git",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1140388da978ee9f",
+   "name": "junit",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:junit:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:junit:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.plugin/junit",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.plugin",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "d0dea29e8510895b",
+   "name": "junit-jupiter-engine",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit-jupiter-engine:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter-engine:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter_engine:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter_engine:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit_jupiter_engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit-jupiter-engine:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit_jupiter_engine:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.junit.jupiter",
+     "artifactId": "junit-jupiter-engine",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "145c80a67f153981",
+   "name": "junit-jupiter-params",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit-jupiter-params:junit-jupiter-params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter-params:junit_jupiter_params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter_params:junit-jupiter-params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter_params:junit_jupiter_params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit-jupiter-params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit_jupiter_params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit-jupiter-params:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit_jupiter_params:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.junit.jupiter",
+     "artifactId": "junit-jupiter-params",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "100d25fd4a504285",
+   "name": "mockito-junit-jupiter",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mockito-junit-jupiter:mockito-junit-jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-junit-jupiter:mockito_junit_jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_junit_jupiter:mockito-junit-jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_junit_jupiter:mockito_junit_jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-junit:mockito-junit-jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-junit:mockito_junit_jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_junit:mockito-junit-jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_junit:mockito_junit_jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito-junit-jupiter:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito_junit_jupiter:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-junit-jupiter",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mockito",
+     "artifactId": "mockito-junit-jupiter",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "4a43bba45f4aeee9",
+   "name": "neo4jv3",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:neo4jv3:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:neo4jserver:neo4jv3:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:neo4jv3:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:neo4jv3:neo4jv3:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.neo4jserver/neo4jv3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.neo4jserver",
+     "artifactId": "neo4jv3",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "c5f2cb12d33b68ba",
+   "name": "plugin",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:plugin:plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:plugin:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.core/plugin",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.core",
+     "artifactId": "plugin",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "31627b4d27bbe6da",
+   "name": "report",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:report:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:report:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:report:report:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:report:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.core/report",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.core",
+     "artifactId": "report",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "6568c38565dd3484",
+   "name": "scanner",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:scanner:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:scanner:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:scanner:scanner:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:scanner:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.core/scanner",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.core",
+     "artifactId": "scanner",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "296910016129570c",
+   "name": "slf4j-simple",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-simple:slf4j-simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-simple:slf4j_simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j-simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j_simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_simple:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-simple",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-simple",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bf265e7c01fa01b1",
+   "name": "store",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:store:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:store:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:store:store:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:store:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.core/store",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.core",
+     "artifactId": "store",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "fbcb05c3225baab7",
+   "name": "store",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jqassistant:store:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:buschmais:store:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:store:store:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:store:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.buschmais.jqassistant.core/store",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.buschmais.jqassistant.core",
+     "artifactId": "store",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "100d25fd4a504285",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1140388da978ee9f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "145c80a67f153981",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "296910016129570c",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2e536e920a4c8724",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "31627b4d27bbe6da",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4a43bba45f4aeee9",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4f8680ca438a8367",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6568c38565dd3484",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "91d76ae1f38eaf4b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9a7b2a9b77440494",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b8703c9b30bcbc76",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bf265e7c01fa01b1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c5f2cb12d33b68ba",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "100d25fd4a504285",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1140388da978ee9f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "145c80a67f153981",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "296910016129570c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2e536e920a4c8724",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "31627b4d27bbe6da",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4a43bba45f4aeee9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4f8680ca438a8367",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6568c38565dd3484",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "91d76ae1f38eaf4b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9a7b2a9b77440494",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b8703c9b30bcbc76",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bf265e7c01fa01b1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c5f2cb12d33b68ba",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d0dea29e8510895b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d8e8b065325c6ab1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e0d71916dc2400ec",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fbcb05c3225baab7",
+   "type": "contains"
+  },
+  {
+   "parent": "d0dea29e8510895b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d8e8b065325c6ab1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e0d71916dc2400ec",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fbcb05c3225baab7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

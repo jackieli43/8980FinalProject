@@ -1,0 +1,5318 @@
+{
+ "artifacts": [
+  {
+   "id": "18515a37b65359cf",
+   "name": "android-support-v4",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\client-android\\libs\\android-support-v4.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:android-support-v4:android-support-v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android-support-v4:android_support_v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android_support_v4:android-support-v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android_support_v4:android_support_v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android-support:android-support-v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android-support:android_support_v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android_support:android-support-v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android_support:android_support_v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android:android-support-v4:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:android:android_support_v4:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/android-support-v4/android-support-v4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\client-android\\libs\\android-support-v4.jar",
+    "manifest": {
+     "main": {
+      "Created-By": "1.6.0_26 (Sun Microsystems Inc.)",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "8790fea7a0bc1d42c69c648571e2c7a02c92cf4c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "376be4372736dc50",
+   "name": "bonecp",
+   "version": "0.8.0-rc3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:bonecp:bonecp:0.8.0-rc3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jolbox:bonecp:0.8.0-rc3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.jolbox/bonecp@0.8.0-rc3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:com.jolbox:bonecp",
+    "pomProperties": {
+     "path": "META-INF/maven/com.jolbox/bonecp/pom.properties",
+     "name": "",
+     "groupId": "com.jolbox",
+     "artifactId": "bonecp",
+     "version": "0.8.0-rc3"
+    }
+   }
+  },
+  {
+   "id": "6b1628131f8714eb",
+   "name": "bonecp",
+   "version": "0.8.0-rc3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\bonecp-0.8.0-rc3.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.html",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\bonecp-0.8.0-rc3.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:bonecp:bonecp:0.8.0-rc3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jolbox:bonecp:0.8.0-rc3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.jolbox/bonecp@0.8.0-rc3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\bonecp-0.8.0-rc3.jar",
+    "manifest": {
+     "main": {
+      "Bnd-LastModified": "1378984541857",
+      "Build-Jdk": "1.7.0_09",
+      "Built-By": "wwadge",
+      "Bundle-Description": "Lightweight connection pool.",
+      "Bundle-DocURL": "http://jolbox.com",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.html",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "BoneCP :: Core Library",
+      "Bundle-SymbolicName": "com.jolbox.bonecp",
+      "Bundle-Vendor": "JolBox",
+      "Bundle-Version": "0.8.0.rc3",
+      "Created-By": "Apache Maven Bundle Plugin",
+      "Export-Package": "com.jolbox.bonecp;uses:=\"com.jolbox.bonecp.hooks,com.google.common.util.concurrent,com.google.common.base,com.jolbox.bonecp.proxy,javax.management,org.slf4j,javax.sql,javax.xml.parsers,org.w3c.dom,com.google.common.cache,javax.naming,javax.naming.spi,com.google.common.collect\";version=\"0.8.0.rc3\",com.jolbox.bonecp.hooks;uses:=\"com.jolbox.bonecp,org.slf4j\";version=\"0.8.0.rc3\",com.jolbox.bonecp.proxy;version=\"0.8.0.rc3\"",
+      "Import-Package": "com.google.common.base;version=\"[15.0,16)\",com.google.common.cache;version=\"[15.0,16)\",com.google.common.collect;version=\"[15.0,16)\",com.google.common.util.concurrent;version=\"[15.0,16)\",javax.management,javax.naming,javax.naming.spi,javax.sql,javax.xml.parsers,org.slf4j;version=\"[1.7,2)\",org.w3c.dom",
+      "Manifest-Version": "1.0",
+      "Tool": "Bnd-1.50.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/com.jolbox/bonecp/pom.properties",
+     "name": "",
+     "groupId": "com.jolbox",
+     "artifactId": "bonecp",
+     "version": "0.8.0-rc3"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "9b63da302137df9fa151468a930183484219ab99"
+     }
+    ]
+   }
+  },
+  {
+   "id": "05ab46836b4f9e56",
+   "name": "commons-cli",
+   "version": "1.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-cli/commons-cli@1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:commons-cli:commons-cli",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-cli/commons-cli/pom.properties",
+     "name": "",
+     "groupId": "commons-cli",
+     "artifactId": "commons-cli",
+     "version": "1.2"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-cli/commons-cli/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "11"
+     },
+     "groupId": "commons-cli",
+     "artifactId": "commons-cli",
+     "version": "1.2",
+     "name": "Commons CLI",
+     "description": "Commons CLI provides a simple API for presenting, processing and validating a command line interface.",
+     "url": "http://commons.apache.org/cli/"
+    }
+   }
+  },
+  {
+   "id": "6a67aa75e76372c8",
+   "name": "commons-cli",
+   "version": "1.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\commons-cli-1.2.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\commons-cli-1.2.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:cli:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-cli/commons-cli@1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\commons-cli-1.2.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1237188678711",
+      "Build-Jdk": "1.5.0_16",
+      "Built-By": "hen",
+      "Bundle-Description": "Commons CLI provides a simple API for presenting,processing and validating a command line interface.",
+      "Bundle-DocURL": "http://commons.apache.org/cli/",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Commons CLI",
+      "Bundle-SymbolicName": "org.apache.commons.cli",
+      "Bundle-Vendor": "The Apache Software Foundation",
+      "Bundle-Version": "1.2",
+      "Created-By": "1.5.0_16 (Apple Computer, Inc.)",
+      "Export-Package": "org.apache.commons.cli;version=\"1.2\"",
+      "Implementation-Title": "Commons CLI",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "1.2",
+      "Import-Package": "org.apache.commons.cli;version=\"1.2\"",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Commons CLI",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "1.2",
+      "Tool": "Bnd-0.0.238",
+      "X-Compile-Source-JDK": "1.4",
+      "X-Compile-Target-JDK": "1.4"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/commons-cli/commons-cli/pom.properties",
+     "name": "",
+     "groupId": "commons-cli",
+     "artifactId": "commons-cli",
+     "version": "1.2"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "2bf96b7aa8b611c177d329452af1dc933e14501c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "154b6ec6ecdecd0b",
+   "name": "commons-cli",
+   "version": "1.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-cli:commons-cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-cli:commons_cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_cli:commons-cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_cli:commons_cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-cli:1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_cli:1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-cli/commons-cli@1.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-cli",
+     "artifactId": "commons-cli",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "91ab17610e673fba",
+   "name": "commons-collections",
+   "version": "3.2.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-collections:3.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_collections:3.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:3.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:commons-collections:commons-collections",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-collections/commons-collections/pom.properties",
+     "name": "",
+     "groupId": "commons-collections",
+     "artifactId": "commons-collections",
+     "version": "3.2.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-collections/commons-collections/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "9"
+     },
+     "groupId": "commons-collections",
+     "artifactId": "commons-collections",
+     "version": "3.2.1",
+     "name": "Commons Collections",
+     "description": "Types that extend and augment the Java Collections Framework.",
+     "url": "http://commons.apache.org/collections/"
+    }
+   }
+  },
+  {
+   "id": "3c5b2a52a646727a",
+   "name": "commons-configuration",
+   "version": "1.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-configuration/commons-configuration@1.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:commons-configuration:commons-configuration",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-configuration/commons-configuration/pom.properties",
+     "name": "",
+     "groupId": "commons-configuration",
+     "artifactId": "commons-configuration",
+     "version": "1.6"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-configuration/commons-configuration/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "11"
+     },
+     "groupId": "commons-configuration",
+     "artifactId": "commons-configuration",
+     "version": "1.6",
+     "name": "Commons Configuration",
+     "description": "Tools to assist in the reading of configuration/preferences files in various formats",
+     "url": "http://commons.apache.org/configuration/"
+    }
+   }
+  },
+  {
+   "id": "c0c8d927c6820cf3",
+   "name": "commons-configuration",
+   "version": "1.6",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\commons-configuration-1.6.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\commons-configuration-1.6.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-configuration/commons-configuration@1.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\commons-configuration-1.6.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1229672080479",
+      "Build-Jdk": "1.4.2_18",
+      "Built-By": "oheger",
+      "Bundle-Description": "Tools to assist in the reading of configuration/preferences files in        various formats",
+      "Bundle-DocURL": "http://commons.apache.org/configuration/",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Commons Configuration",
+      "Bundle-SymbolicName": "org.apache.commons.configuration",
+      "Bundle-Vendor": "The Apache Software Foundation",
+      "Bundle-Version": "1.6",
+      "Created-By": "1.4.2_18 (Sun Microsystems Inc.)",
+      "Export-Package": "org.apache.commons.configuration.event;version=\"1.6\",org.apache.commons.configuration.plist;version=\"1.6\",org.apache.commons.configuration.reloading;version=\"1.6\",org.apache.commons.configuration.interpol;version=\"1.6\",org.apache.commons.configuration.web;version=\"1.6\",org.apache.commons.configuration.tree.xpath;version=\"1.6\",org.apache.commons.configuration;version=\"1.6\",org.apache.commons.configuration.beanutils;version=\"1.6\",org.apache.commons.configuration.tree;version=\"1.6\"",
+      "Implementation-Title": "Commons Configuration",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "1.6",
+      "Import-Package": "javax.mail.internet,javax.naming,javax.servlet,javax.sql,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.stream,org.apache.commons.beanutils,org.apache.commons.codec.binary,org.apache.commons.collections,org.apache.commons.collections.iterators,org.apache.commons.collections.map,org.apache.commons.collections.set,org.apache.commons.configuration;version=\"1.6\",org.apache.commons.configuration.beanutils;version=\"1.6\",org.apache.commons.configuration.event;version=\"1.6\",org.apache.commons.configuration.interpol;version=\"1.6\",org.apache.commons.configuration.plist;version=\"1.6\",org.apache.commons.configuration.reloading;version=\"1.6\",org.apache.commons.configuration.tree;version=\"1.6\",org.apache.commons.configuration.tree.xpath;version=\"1.6\",org.apache.commons.configuration.web;version=\"1.6\",org.apache.commons.digester,org.apache.commons.digester.substitution,org.apache.commons.digester.xmlrules,org.apache.commons.jxpath,org.apache.commons.jxpath.ri,org.apache.commons.jxpath.ri.compiler,org.apache.commons.jxpath.ri.model,org.apache.commons.lang,org.apache.commons.lang.exception,org.apache.commons.lang.text,org.apache.commons.logging,org.apache.commons.logging.impl,org.apache.tools.ant.taskdefs,org.w3c.dom,org.xml.sax,org.xml.sax.helpers",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Commons Configuration",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "1.6",
+      "Tool": "Bnd-0.0.238",
+      "X-Compile-Source-JDK": "1.3",
+      "X-Compile-Target-JDK": "1.3"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/commons-configuration/commons-configuration/pom.properties",
+     "name": "",
+     "groupId": "commons-configuration",
+     "artifactId": "commons-configuration",
+     "version": "1.6"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "32cadde23955d7681b0d94a2715846d20b425235"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cc32eebc4ea507a7",
+   "name": "commons-configuration",
+   "version": "1.6",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-configuration:commons-configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-configuration:commons_configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_configuration:commons-configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_configuration:commons_configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-configuration:1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_configuration:1.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-configuration/commons-configuration@1.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-configuration",
+     "artifactId": "commons-configuration",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "504478a22396d645",
+   "name": "commons-lang",
+   "version": "2.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-lang/commons-lang@2.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:commons-lang:commons-lang",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-lang/commons-lang/pom.properties",
+     "name": "",
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": "2.5"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-lang/commons-lang/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "12"
+     },
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": "2.5",
+     "name": "Commons Lang",
+     "description": "Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+     "url": "http://commons.apache.org/lang/"
+    }
+   }
+  },
+  {
+   "id": "aff0ae4916612bbf",
+   "name": "commons-lang",
+   "version": "2.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\commons-lang-2.5.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\commons-lang-2.5.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:lang:2.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-lang/commons-lang@2.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\commons-lang-2.5.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1266795463687",
+      "Build-Jdk": "1.6.0_17",
+      "Built-By": "pemben",
+      "Bundle-Description": "Commons Lang, a package of Java utility classes for the        classes that are in java.lang's hierarchy, or are considered to be so        standard as to justify existence in java.lang.",
+      "Bundle-DocURL": "http://commons.apache.org/lang/",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Commons Lang",
+      "Bundle-SymbolicName": "org.apache.commons.lang",
+      "Bundle-Vendor": "The Apache Software Foundation",
+      "Bundle-Version": "2.5",
+      "Created-By": "1.6.0_17 (Sun Microsystems Inc.)",
+      "Export-Package": "org.apache.commons.lang.enum;version=\"2.5\",org.apache.commons.lang.enums;version=\"2.5\",org.apache.commons.lang.builder;version=\"2.5\",org.apache.commons.lang.time;version=\"2.5\",org.apache.commons.lang.exception;version=\"2.5\",org.apache.commons.lang.mutable;version=\"2.5\",org.apache.commons.lang.text;version=\"2.5\",org.apache.commons.lang.reflect;version=\"2.5\",org.apache.commons.lang.math;version=\"2.5\",org.apache.commons.lang;version=\"2.5\"",
+      "Implementation-Title": "Commons Lang",
+      "Implementation-Vendor": "The Apache Software Foundation",
+      "Implementation-Vendor-Id": "org.apache",
+      "Implementation-Version": "2.5",
+      "Import-Package": "org.apache.commons.lang;version=\"2.5\",org.apache.commons.lang.builder;version=\"2.5\",org.apache.commons.lang.enum;version=\"2.5\",org.apache.commons.lang.enums;version=\"2.5\",org.apache.commons.lang.exception;version=\"2.5\",org.apache.commons.lang.math;version=\"2.5\",org.apache.commons.lang.mutable;version=\"2.5\",org.apache.commons.lang.reflect;version=\"2.5\",org.apache.commons.lang.text;version=\"2.5\",org.apache.commons.lang.time;version=\"2.5\"",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Commons Lang",
+      "Specification-Vendor": "The Apache Software Foundation",
+      "Specification-Version": "2.5",
+      "Tool": "Bnd-0.0.238",
+      "X-Compile-Source-JDK": "1.3",
+      "X-Compile-Target-JDK": "1.3"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/commons-lang/commons-lang/pom.properties",
+     "name": "",
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": "2.5"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "b0236b252e86419eef20c31a44579d2aee2f0a69"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ef8c26734208c5d5",
+   "name": "commons-lang",
+   "version": "2.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-lang:commons-lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-lang:commons_lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_lang:commons-lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_lang:commons_lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-lang:2.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_lang:2.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-lang/commons-lang@2.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-lang",
+     "artifactId": "commons-lang",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2c6f966d8f75df1d",
+   "name": "commons-logging",
+   "version": "1.1.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-logging:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_logging:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:commons-logging:commons-logging",
+    "pomProperties": {
+     "path": "META-INF/maven/commons-logging/commons-logging/pom.properties",
+     "name": "",
+     "groupId": "commons-logging",
+     "artifactId": "commons-logging",
+     "version": "1.1.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/commons-logging/commons-logging/pom.xml",
+     "parent": {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-parent",
+      "version": "5"
+     },
+     "groupId": "commons-logging",
+     "artifactId": "commons-logging",
+     "version": "1.1.1",
+     "name": "Commons Logging",
+     "description": "Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+     "url": "http://commons.apache.org/logging"
+    }
+   }
+  },
+  {
+   "id": "e9ae391b934605b8",
+   "name": "druid",
+   "version": "0.2.26",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:alibaba:druid:0.2.26:*:*:*:*:*:*:*",
+    "cpe:2.3:a:druid:druid:0.2.26:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.alibaba/druid@0.2.26",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.alibaba",
+     "artifactId": "druid",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8cb3ead6a78ab353",
+   "name": "freemarker",
+   "version": "2.3.19",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\freemarker-2.3.19.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:visigoth-software-society:freemarker:2.3.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:visigoth_software_society:freemarker:2.3.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:freemarker:freemarker:2.3.19:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/freemarker/freemarker@2.3.19",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\freemarker-2.3.19.jar",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.8.1",
+      "Created-By": "1.6.0_22-b04 (Sun Microsystems Inc.)",
+      "Extension-name": "FreeMarker",
+      "Implementation-Title": "VSS Java FreeMarker",
+      "Implementation-Vendor": "Visigoth Software Society",
+      "Implementation-Version": "2.3.19",
+      "Main-Class": "freemarker.core.CommandLine",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "FreeMarker",
+      "Specification-Vendor": "Visigoth Software Society",
+      "Specification-Version": "2.3.19"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "a251045e5fadd02824d17f1aa8c412accf1aa1c9"
+     }
+    ]
+   }
+  },
+  {
+   "id": "0d51db324d02c016",
+   "name": "freemarker",
+   "version": "2.3.19",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:freemarker:freemarker:2.3.19:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.freemarker/freemarker@2.3.19",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.freemarker",
+     "artifactId": "freemarker",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "0082d9f30783e9ba",
+   "name": "gson",
+   "version": "2.2.4",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\gson-2.2.4.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.2.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.gson/gson@2.2.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\gson-2.2.4.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.7.0_21",
+      "Built-By": "inder",
+      "Bundle-ClassPath": ".",
+      "Bundle-ContactAddress": "http://code.google.com/p/google-gson/",
+      "Bundle-Description": "Google Gson library",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Gson",
+      "Bundle-RequiredExecutionEnvironment": "J2SE-1.5",
+      "Bundle-SymbolicName": "com.google.gson",
+      "Bundle-Vendor": "Google Gson Project",
+      "Bundle-Version": "2.2.4",
+      "Created-By": "Apache Maven 3.0.4",
+      "Export-Package": "com.google.gson;version=2.2.4, com.google.gson.annotations;version=2.2.4, com.google.gson.reflect;version=2.2.4, com.google.gson.stream;version=2.2.4, com.google.gson.internal;version=2.2.4, com.google.gson.internal.bind;version=2.2.4",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "a60a5e993c98c864010053cb901b7eab25306568"
+     }
+    ]
+   }
+  },
+  {
+   "id": "3f22b95413a71d85",
+   "name": "gson",
+   "version": "2.2.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.2.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.2.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "51a354fb3e54bb5c",
+   "name": "guava",
+   "version": "15.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:guava:15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:guava:guava:15.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.guava/guava@15.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:com.google.guava:guava",
+    "pomProperties": {
+     "path": "META-INF/maven/com.google.guava/guava/pom.properties",
+     "name": "",
+     "groupId": "com.google.guava",
+     "artifactId": "guava",
+     "version": "15.0"
+    }
+   }
+  },
+  {
+   "id": "817c8175e41738e2",
+   "name": "guava",
+   "version": "15.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\guava-15.0.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\guava-15.0.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:guava:15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:guava:guava:15.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.guava/guava@15.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\guava-15.0.jar",
+    "manifest": {
+     "main": {
+      "Bnd-LastModified": "1378497155216",
+      "Build-Jdk": "1.7.0-google-v5",
+      "Built-By": "cgdecker",
+      "Bundle-Description": "Guava is a suite of core and expanded libraries thatinclude    utility classes, google's collections, io classes, and muchmuch more.    Guava has two code dependencies - javax.annotationper the JSR-305 spec and javax.inject per the JSR-330 spec.",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Guava: Google Core Libraries for Java",
+      "Bundle-SymbolicName": "com.google.guava",
+      "Bundle-Version": "15.0.0",
+      "Created-By": "Apache Maven Bundle Plugin",
+      "Export-Package": "com.google.common.net;uses:=\"javax.annotation,com.google.common.base,com.google.common.hash,com.google.common.io,com.google.common.primitives,com.google.common.collect,com.google.common.escape\";version=\"15.0.0\",com.google.common.html;uses:=\"com.google.common.escape,javax.annotation\";version=\"15.0.0\",com.google.common.collect;uses:=\"com.google.common.base,javax.annotation,com.google.common.primitives,com.google.common.math\";version=\"15.0.0\",com.google.common.primitives;uses:=\"javax.annotation,com.google.common.base,sun.misc\";version=\"15.0.0\",com.google.common.base;uses:=\"javax.annotation\";version=\"15.0.0\",com.google.common.escape;uses:=\"com.google.common.base,javax.annotation\";version=\"15.0.0\",com.google.common.cache;uses:=\"com.google.common.collect,com.google.common.util.concurrent,javax.annotation,com.google.common.base,com.google.common.primitives,sun.misc\";version=\"15.0.0\",com.google.common.eventbus;uses:=\"com.google.common.collect,com.google.common.cache,javax.annotation,com.google.common.base,com.google.common.util.concurrent,com.google.common.reflect\";version=\"15.0.0\",com.google.common.util.concurrent;uses:=\"com.google.common.base,javax.annotation,com.google.common.collect,javax.inject,com.google.common.primitives,com.google.common.math\";version=\"15.0.0\",com.google.common.hash;uses:=\"com.google.common.primitives,com.google.common.base,javax.annotation,com.google.common.math\";version=\"15.0.0\",com.google.common.io;uses:=\"javax.annotation,com.google.common.base,com.google.common.math,com.google.common.hash,com.google.common.collect,com.google.common.primitives\";version=\"15.0.0\",com.google.common.xml;uses:=\"com.google.common.escape\";version=\"15.0.0\",com.google.common.reflect;uses:=\"javax.annotation,com.google.common.base,com.google.common.collect,com.google.common.primitives\";version=\"15.0.0\",com.google.common.math;uses:=\"com.google.common.base,com.google.common.primitives,javax.annotation\";version=\"15.0.0\",com.google.common.annotations;version=\"15.0.0\"",
+      "Import-Package": "javax.annotation;resolution:=optional,javax.inject;resolution:=optional,sun.misc;resolution:=optional",
+      "Manifest-Version": "1.0",
+      "Tool": "Bnd-1.50.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/com.google.guava/guava/pom.properties",
+     "name": "",
+     "groupId": "com.google.guava",
+     "artifactId": "guava",
+     "version": "15.0"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "ed727a8d9f247e2050281cb083f1c77b09dcb5cd"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bd66233eabfcb74d",
+   "name": "guava",
+   "version": "15.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:guava:15.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:guava:guava:15.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.guava/guava@15.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.guava",
+     "artifactId": "guava",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "6d42b1568a3676f8",
+   "name": "h2",
+   "version": "1.3.167",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\h2-1.3.167.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:DbDriverActivator:DbDriverActivator:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:DbDriverActivator:util:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util:DbDriverActivator:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:DbDriverActivator:h2:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:h2:DbDriverActivator:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util:util:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:h2:util:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util:h2:1.3.167:*:*:*:*:*:*:*",
+    "cpe:2.3:a:h2:h2:1.3.167:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.h2/h2@1.3.167",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\h2-1.3.167.jar",
+    "manifest": {
+     "main": {
+      "Build-Jdk": "1.5",
+      "Bundle-Activator": "org.h2.util.DbDriverActivator",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "H2 Database Engine",
+      "Bundle-SymbolicName": "org.h2",
+      "Bundle-Vendor": "H2 Group",
+      "Bundle-Version": "1.3.167",
+      "Created-By": "1.5.0_22-b03 (Sun Microsystems Inc.)",
+      "DynamicImport-Package": "*",
+      "Export-Package": "org.h2;version=\"1.3.167\",org.h2.api;version=\"1.3.167\",org.h2.fulltext;version=\"1.3.167\",org.h2.jdbcx;version=\"1.3.167\",org.h2.tools;version=\"1.3.167\",org.h2.util;version=\"1.3.167\"",
+      "Implementation-Title": "H2 Database Engine",
+      "Implementation-URL": "http://www.h2database.com",
+      "Implementation-Version": "1.3.167",
+      "Main-Class": "org.h2.tools.Console",
+      "Manifest-Version": "1.0",
+      "Premain-Class": "org.h2.util.Profiler"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "c2d14ffcf6da0687dc6a64e435814e7a6335951c"
+     }
+    ]
+   }
+  },
+  {
+   "id": "0bfa956e9c43dec1",
+   "name": "h2",
+   "version": "1.4.178",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:h2database:h2:1.4.178:*:*:*:*:*:*:*",
+    "cpe:2.3:a:h2:h2:1.4.178:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.h2database/h2@1.4.178",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.h2database",
+     "artifactId": "h2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8ca498b49cbe8a4d",
+   "name": "javax.servlet-api",
+   "version": "3.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "CDDL + GPLv2 with classpath exception",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"
+     ],
+     "locations": [
+      {
+       "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.servlet-api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet-api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:javax.servlet_api:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:javax.servlet:javax.servlet-api",
+    "pomProperties": {
+     "path": "META-INF/maven/javax.servlet/javax.servlet-api/pom.properties",
+     "name": "",
+     "groupId": "javax.servlet",
+     "artifactId": "javax.servlet-api",
+     "version": "3.0.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/javax.servlet/javax.servlet-api/pom.xml",
+     "parent": {
+      "groupId": "net.java",
+      "artifactId": "jvnet-parent",
+      "version": "1"
+     },
+     "groupId": "javax.servlet",
+     "artifactId": "javax.servlet-api",
+     "version": "3.0.1",
+     "name": "Java Servlet API",
+     "url": "http://servlet-spec.java.net"
+    }
+   }
+  },
+  {
+   "id": "83a1548910476608",
+   "name": "javax.servlet-api",
+   "version": "3.0.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\javax.servlet-api-3.0.1.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\javax.servlet-api-3.0.1.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:glassfish-community:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish-community:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish_community:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish_community:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet-api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet-api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oracle:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oracle:javax.servlet_api:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\javax.servlet-api-3.0.1.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Bnd-LastModified": "1310501403262",
+      "Build-Jdk": "1.6.0_11",
+      "Built-By": "java_re",
+      "Bundle-Description": "Java.net - The Source for Java Technology Collaboration",
+      "Bundle-DocURL": "https://glassfish.dev.java.net",
+      "Bundle-License": "https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Java Servlet API",
+      "Bundle-SymbolicName": "javax.servlet-api",
+      "Bundle-Vendor": "GlassFish Community",
+      "Bundle-Version": "3.0.1",
+      "Created-By": "1.6.0_11 (Sun Microsystems Inc.)",
+      "Export-Package": "javax.servlet;uses:=\"javax.servlet.descriptor,javax.servlet.annotation\";version=\"3.0\",javax.servlet.descriptor;version=\"3.0\",javax.servlet.annotation;uses:=\"javax.servlet\";version=\"3.0\",javax.servlet.http;uses:=\"javax.servlet\";version=\"3.0\"",
+      "Extension-Name": "javax.servlet",
+      "Implementation-Vendor": "GlassFish Community",
+      "Implementation-Vendor-Id": "org.glassfish",
+      "Implementation-Version": "3.0.1",
+      "Import-Package": "javax.servlet;version=\"3.0\",javax.servlet.annotation;version=\"3.0\",javax.servlet.descriptor;version=\"3.0\",javax.servlet.http;version=\"3.0\"",
+      "Manifest-Version": "1.0",
+      "Specification-Title": "Java(TM) Servlet API Design Specification",
+      "Specification-Vendor": "Oracle",
+      "Specification-Version": "3.0",
+      "Tool": "Bnd-0.0.255"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/javax.servlet/javax.servlet-api/pom.properties",
+     "name": "",
+     "groupId": "javax.servlet",
+     "artifactId": "javax.servlet-api",
+     "version": "3.0.1"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "6bf0ebb7efd993e222fc1112377b5e92a13b38dd"
+     }
+    ]
+   }
+  },
+  {
+   "id": "7a8943b2f4b67646",
+   "name": "javax.servlet-api",
+   "version": "3.0.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.servlet-api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet-api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet_api:javax.servlet_api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet-api:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.servlet:javax.servlet_api:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.servlet",
+     "artifactId": "javax.servlet-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f654bcdc921a53a7",
+   "name": "jetty-ajp",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-ajp:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-ajp:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_ajp:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_ajp:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-ajp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_ajp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-ajp@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-ajp",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-ajp/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-ajp",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "8e1ee47559461326",
+   "name": "jetty-ajp",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-ajp:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-ajp:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_ajp:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_ajp:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-ajp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_ajp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_ajp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-ajp@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-ajp",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-ajp/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-ajp",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "05c641b6162fbe99",
+   "name": "jetty-all",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aggregate:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty.aggregate:jetty-all",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty.aggregate/jetty-all/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty.aggregate",
+     "artifactId": "jetty-all",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "34eb81dcb7f79b61",
+   "name": "jetty-all",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:eclipse-org---jetty:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse-org---jetty:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse_org___jetty:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse_org___jetty:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse-org---jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse_org___jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.7.0_25",
+      "Built-By": "jesse",
+      "Created-By": "Apache Maven",
+      "Implementation-Vendor": "Eclipse.org - Jetty",
+      "Implementation-Version": "8.1.13.v20130916",
+      "Manifest-Version": "1.0",
+      "url": "http://www.eclipse.org/jetty"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty.aggregate/jetty-all/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty.aggregate",
+     "artifactId": "jetty-all",
+     "version": "8.1.13.v20130916"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "d6b2019995e60f5b61947beb2db07e51631ba953"
+     }
+    ]
+   }
+  },
+  {
+   "id": "38944d14a9d92779",
+   "name": "jetty-all",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aggregate:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aggregate:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-all:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_all:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_all:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.eclipse.jetty.aggregate",
+     "artifactId": "jetty-all",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3fc853d7c3b93d7d",
+   "name": "jetty-annotations",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-annotations:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-annotations:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_annotations:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_annotations:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-annotations:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_annotations:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-annotations",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-annotations/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-annotations",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "fe54e8a5a25a7e0a",
+   "name": "jetty-annotations",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-annotations:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-annotations:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_annotations:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_annotations:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-annotations:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_annotations:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_annotations:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-annotations",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-annotations/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-annotations",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "3b6627fcb8d6765d",
+   "name": "jetty-client",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-client:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-client:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_client:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_client:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-client:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_client:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-client@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-client",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-client/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-client",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "ee687b1626ffeaaa",
+   "name": "jetty-client",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-client:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-client:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_client:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_client:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-client:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_client:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_client:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-client@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-client",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-client/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-client",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "a2fa07395c1ed7f2",
+   "name": "jetty-continuation",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-continuation:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-continuation:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_continuation:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_continuation:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-continuation:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_continuation:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-continuation",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-continuation",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "578e8add7c41c2d1",
+   "name": "jetty-continuation",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-continuation:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-continuation:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_continuation:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_continuation:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-continuation:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_continuation:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_continuation:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-continuation",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-continuation/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-continuation",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "f158683f029e4175",
+   "name": "jetty-deploy",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-deploy:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-deploy:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_deploy:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_deploy:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-deploy:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_deploy:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-deploy@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-deploy",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-deploy/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-deploy",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "0c97738267a850a7",
+   "name": "jetty-deploy",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-deploy:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-deploy:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_deploy:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_deploy:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-deploy:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_deploy:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_deploy:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-deploy@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-deploy",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-deploy/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-deploy",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "e217a30331aeea8a",
+   "name": "jetty-http",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-http:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-http:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_http:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_http:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-http:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_http:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-http@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-http",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-http/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-http",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "c3f27bfe1a2d8048",
+   "name": "jetty-http",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-http:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-http:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_http:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_http:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-http:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_http:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_http:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-http@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-http",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-http/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-http",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "fb69dee31136b43b",
+   "name": "jetty-io",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-io:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-io:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_io:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_io:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-io:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_io:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-io@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-io",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-io/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-io",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "003f3714df7fe17b",
+   "name": "jetty-io",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-io:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-io:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_io:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_io:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-io:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_io:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_io:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-io@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-io",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-io/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-io",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "c26803fd4292bbc7",
+   "name": "jetty-jaspi",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jaspi:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jaspi:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaspi:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaspi:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jaspi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaspi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-jaspi",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-jaspi/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jaspi",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "c033f016482c710f",
+   "name": "jetty-jaspi",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jaspi:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jaspi:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaspi:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaspi:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jaspi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jaspi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaspi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-jaspi",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-jaspi/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jaspi",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "15dd9a89cfbbffe5",
+   "name": "jetty-jmx",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jmx:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jmx:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jmx:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jmx:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jmx:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jmx:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-jmx",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-jmx/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jmx",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "6ecfb86877be7c21",
+   "name": "jetty-jmx",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jmx:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jmx:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jmx:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jmx:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jmx:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jmx:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jmx:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-jmx",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-jmx/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jmx",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "d701d7742993d4c9",
+   "name": "jetty-jndi",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jndi:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jndi:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jndi:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jndi:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jndi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jndi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-jndi",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-jndi/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jndi",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "a0ff1ecff683308b",
+   "name": "jetty-jndi",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jndi:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jndi:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jndi:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jndi:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jndi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jndi:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jndi:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-jndi",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-jndi/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jndi",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "d61209e8899ca006",
+   "name": "jetty-nested",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-nested:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-nested:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_nested:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_nested:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-nested:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_nested:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-nested@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-nested",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-nested/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-nested",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "6a8b2ec5bed7a5f9",
+   "name": "jetty-nested",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-nested:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-nested:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_nested:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_nested:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-nested:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_nested:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_nested:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-nested@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-nested",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-nested/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-nested",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "25165fb96fb99d3b",
+   "name": "jetty-plus",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-plus:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-plus:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_plus:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_plus:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-plus:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_plus:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-plus",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-plus/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-plus",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "d4c7df164eb8adce",
+   "name": "jetty-plus",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-plus:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-plus:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_plus:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_plus:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-plus:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_plus:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_plus:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-plus",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-plus/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-plus",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "d51af090f5abd9b3",
+   "name": "jetty-rewrite",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-rewrite:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-rewrite:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_rewrite:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_rewrite:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-rewrite:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_rewrite:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-rewrite",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-rewrite/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-rewrite",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "f19cea5ca568c6a4",
+   "name": "jetty-rewrite",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-rewrite:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-rewrite:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_rewrite:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_rewrite:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-rewrite:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_rewrite:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_rewrite:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-rewrite",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-rewrite/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-rewrite",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "d443f8284be7cabe",
+   "name": "jetty-security",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-security:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-security:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_security:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_security:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-security:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_security:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-security@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-security",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-security/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-security",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "11befc03c41af00b",
+   "name": "jetty-security",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-security:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-security:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_security:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_security:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-security:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_security:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_security:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-security@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-security",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-security/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-security",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "8f5ee3ed33e1ff5c",
+   "name": "jetty-server",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-server:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-server:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_server:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_server:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-server:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_server:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-server@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-server",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-server/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-server",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "ccefa57e590ca7b1",
+   "name": "jetty-server",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-server:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-server:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_server:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_server:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-server:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_server:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_server:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-server@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-server",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-server/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-server",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "e423d47ad0759b5d",
+   "name": "jetty-servlet",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-servlet:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlet:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlet:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlet:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlet:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlet:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-servlet",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-servlet",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "6748e3519b15e49b",
+   "name": "jetty-servlet",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-servlet:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlet:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlet:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlet:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlet:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_servlet:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlet:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-servlet",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-servlet/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-servlet",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "280247cb0b15cf2b",
+   "name": "jetty-servlets",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-servlets:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlets:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlets:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlets:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlets:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlets:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-servlets",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-servlets/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-servlets",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "ee39b8fa4ca25877",
+   "name": "jetty-servlets",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-servlets:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlets:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlets:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlets:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-servlets:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_servlets:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_servlets:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-servlets",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-servlets/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-servlets",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "dce08e7ea137acde",
+   "name": "jetty-util",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-util:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-util:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_util:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_util:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-util:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_util:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-util@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-util",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-util/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-util",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "b75cecab0eab02b5",
+   "name": "jetty-util",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-util:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-util:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_util:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_util:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-util:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_util:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_util:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-util@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-util",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-util/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-util",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "21dec03353a56956",
+   "name": "jetty-webapp",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-webapp:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-webapp:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_webapp:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_webapp:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-webapp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_webapp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-webapp",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-webapp/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-webapp",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "3f6168669b600dc2",
+   "name": "jetty-webapp",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-webapp:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-webapp:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_webapp:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_webapp:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-webapp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_webapp:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_webapp:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-webapp",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-webapp/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-webapp",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "3d7145b960e943f0",
+   "name": "jetty-websocket",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-websocket:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-websocket:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_websocket:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_websocket:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-websocket:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_websocket:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-websocket@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-websocket",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-websocket/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-websocket",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "f006bd9177394a81",
+   "name": "jetty-websocket",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-websocket:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-websocket:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_websocket:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_websocket:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-websocket:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_websocket:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_websocket:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-websocket@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-websocket",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-websocket/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-websocket",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "b77ff1e52f422fcd",
+   "name": "jetty-xml",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-xml:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-xml:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_xml:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_xml:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-xml:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_xml:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.eclipse.jetty:jetty-xml",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-xml/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-xml",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "e95a7bff3a519892",
+   "name": "jetty-xml",
+   "version": "8.1.13.v20130916",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-xml:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-xml:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_xml:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_xml:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-xml:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_xml:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_xml:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:8.1.13.v20130916:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:8.1.13.v20130916:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-xml@8.1.13.v20130916",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar:org.eclipse.jetty:jetty-xml",
+    "pomProperties": {
+     "path": "META-INF/maven/org.eclipse.jetty/jetty-xml/pom.properties",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-xml",
+     "version": "8.1.13.v20130916"
+    }
+   }
+  },
+  {
+   "id": "dda408377aaec8e6",
+   "name": "jpush-api-v2",
+   "version": "0.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\jpush-api-v2.0.3.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jpush-api-v2:jpush-api-v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-api-v2:jpush_api_v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_api_v2:jpush-api-v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_api_v2:jpush_api_v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-api:jpush-api-v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-api:jpush_api_v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_api:jpush-api-v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_api:jpush_api_v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush-api-v2:0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush_api_v2:0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/jpush-api-v2/jpush-api-v2@0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\jpush-api-v2.0.3.jar",
+    "manifest": {
+     "main": {
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "8b2e204241a569aa4df6d7a6dc600c45adb8ddec"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b157dc8cd238af2b",
+   "name": "jpush-client",
+   "version": "2.3.1",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jpush-client:jpush-client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-client:jpush_client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_client:jpush-client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_client:jpush_client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:jpush-client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:jpush_client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush-client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush_client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:jpush-client:2.3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:jpush_client:2.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/cn.jpush.api/jpush-client@2.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:cn.jpush.api:jpush-client",
+    "pomProperties": {
+     "path": "META-INF/maven/cn.jpush.api/jpush-client/pom.properties",
+     "name": "",
+     "groupId": "cn.jpush.api",
+     "artifactId": "jpush-client",
+     "version": "2.3.1"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/cn.jpush.api/jpush-client/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "7"
+     },
+     "groupId": "cn.jpush.api",
+     "artifactId": "jpush-client",
+     "version": "2.3.1",
+     "name": "JPush API Java Client",
+     "description": "JPush's officially supported Java client library for accessing JPush APIs.",
+     "url": "https://github.com/jpush/jpush-api-java-client"
+    }
+   }
+  },
+  {
+   "id": "3da762403835ff9d",
+   "name": "jpush-client",
+   "version": "3.1.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jpush-client:jpush-client:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-client:jpush_client:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_client:jpush-client:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_client:jpush_client:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush-client:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush_client:3.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/cn.jpush.api/jpush-client@3.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "cn.jpush.api",
+     "artifactId": "jpush-client",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c262f4121b175871",
+   "name": "jpush-sdk-release1",
+   "version": "6.3",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\client-android\\libs\\jpush-sdk-release1.6.3.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jpush-sdk-release1:jpush-sdk-release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-sdk-release1:jpush_sdk_release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_sdk_release1:jpush-sdk-release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_sdk_release1:jpush_sdk_release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-sdk:jpush-sdk-release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush-sdk:jpush_sdk_release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_sdk:jpush-sdk-release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush_sdk:jpush_sdk_release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush-sdk-release1:6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jpush:jpush_sdk_release1:6.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/jpush-sdk-release1/jpush-sdk-release1@6.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\client-android\\libs\\jpush-sdk-release1.6.3.jar",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.8.4",
+      "Created-By": "1.6.0_24-b24 (Sun Microsystems Inc.)",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "402b9f50bfa7bf421550399ab1c6899077ce56d2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "4cf9328f19af4a3b",
+   "name": "junit",
+   "version": "4.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "997c0f8a2983c7f1",
+   "name": "log4j",
+   "version": "1.2.16",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Apache Software License, Version 2.0",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "http://www.apache.org/licenses/LICENSE-2.0.txt"
+     ],
+     "locations": [
+      {
+       "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:log4j:1.2.16:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/log4j/log4j@1.2.16",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:log4j:log4j",
+    "pomProperties": {
+     "path": "META-INF/maven/log4j/log4j/pom.properties",
+     "name": "",
+     "groupId": "log4j",
+     "artifactId": "log4j",
+     "version": "1.2.16"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/log4j/log4j/pom.xml",
+     "groupId": "log4j",
+     "artifactId": "log4j",
+     "version": "1.2.16",
+     "name": "Apache Log4j",
+     "description": "Apache Log4j 1.2",
+     "url": "http://logging.apache.org/log4j/1.2/"
+    }
+   }
+  },
+  {
+   "id": "07c9bbe18dcb973d",
+   "name": "log4j",
+   "version": "1.2.16",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\log4j-1.2.16.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\server-java\\libs\\log4j-1.2.16.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:log4j:1.2.16:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/log4j/log4j@1.2.16",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\log4j-1.2.16.jar",
+    "manifest": {
+     "main": {
+      "Bnd-LastModified": "1270009535003",
+      "Build-Jdk": "1.6.0_16",
+      "Built-By": "curta",
+      "Bundle-Description": "Apache Log4j 1.2",
+      "Bundle-DocURL": "http://logging.apache.org/log4j/1.2",
+      "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "Apache Log4j",
+      "Bundle-SymbolicName": "log4j",
+      "Bundle-Vendor": "Apache Software Foundation",
+      "Bundle-Version": "1.2.16",
+      "Created-By": "Apache Maven Bundle Plugin",
+      "Export-Package": "org.apache.log4j.net;uses:=\"org.apache.log4j,org.apache.log4j.spi,javax.naming,org.apache.log4j.helpers,javax.jms,org.apache.log4j.xml,javax.mail,javax.mail.internet,org.w3c.dom,javax.jmdns\",org.apache.log4j.jmx;uses:=\"org.apache.log4j,javax.management,com.sun.jdmk.comm,org.apache.log4j.helpers,org.apache.log4j.spi\",org.apache.log4j.jdbc;uses:=\"org.apache.log4j,org.apache.log4j.spi\",org.apache.log4j.config;uses:=\"org.apache.log4j.helpers,org.apache.log4j,org.apache.log4j.spi\",org.apache.log4j.helpers;uses:=\"org.apache.log4j,org.apache.log4j.spi,org.apache.log4j.pattern\",org.apache.log4j;uses:=\"org.apache.log4j.spi,org.apache.log4j.helpers,org.apache.log4j.pattern,org.apache.log4j.or,org.apache.log4j.config\",org.apache.log4j.or.jms;uses:=\"org.apache.log4j.helpers,javax.jms,org.apache.log4j.or\",org.apache.log4j.nt;uses:=\"org.apache.log4j.helpers,org.apache.log4j,org.apache.log4j.spi\",org.apache.log4j.or.sax;uses:=\"org.apache.log4j.or,org.xml.sax\",org.apache.log4j.pattern;uses:=\"org.apache.log4j.helpers,org.apache.log4j.spi,org.apache.log4j,org.apache.log4j.or\",org.apache.log4j.spi;uses:=\"org.apache.log4j,org.apache.log4j.helpers,com.ibm.uvm.tools,org.apache.log4j.or\",org.apache.log4j.or;uses:=\"org.apache.log4j.helpers,org.apache.log4j.spi,org.apache.log4j\",org.apache.log4j.xml;uses:=\"javax.xml.parsers,org.w3c.dom,org.xml.sax,org.apache.log4j.config,org.apache.log4j.helpers,org.apache.log4j,org.apache.log4j.spi,org.apache.log4j.or\",org.apache.log4j.varia;uses:=\"org.apache.log4j.spi,org.apache.log4j,org.apache.log4j.helpers\"",
+      "Import-Package": "com.ibm.uvm.tools;resolution:=optional,com.sun.jdmk.comm;resolution:=optional,com.sun.jdmk.comm;resolution:=optional,javax.jmdns,javax.jms;resolution:=optional,javax.mail;resolution:=optional,javax.mail.internet;resolution:=optional,javax.management;resolution:=optional,javax.naming;resolution:=optional,javax.swing;resolution:=optional,javax.swing.border;resolution:=optional,javax.swing.event;resolution:=optional,javax.swing.table;resolution:=optional,javax.swing.text;resolution:=optional,javax.swing.tree;resolution:=optional,javax.xml.parsers,org.apache.log4j,org.apache.log4j.config,org.apache.log4j.helpers,org.apache.log4j.jdbc,org.apache.log4j.jmx,org.apache.log4j.net,org.apache.log4j.nt,org.apache.log4j.or,org.apache.log4j.or.jms,org.apache.log4j.or.sax,org.apache.log4j.pattern,org.apache.log4j.spi,org.apache.log4j.varia,org.apache.log4j.xml,org.w3c.dom,org.xml.sax,org.xml.sax.helpers",
+      "Manifest-Version": "1.0",
+      "Tool": "Bnd-0.0.357"
+     },
+     "namedSections": {
+      "org.apache.log4j": {
+       "Implementation-Title": "log4j",
+       "Implementation-Vendor": "\"Apache Software Foundation\"",
+       "Implementation-Version": "1.2.16"
+      }
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/log4j/log4j/pom.properties",
+     "name": "",
+     "groupId": "log4j",
+     "artifactId": "log4j",
+     "version": "1.2.16"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "7999a63bfccbc7c247a9aea10d83d4272bd492c6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "d394200ceb2b7500",
+   "name": "log4j",
+   "version": "1.2.16",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:log4j:1.2.16:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/log4j/log4j@1.2.16",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "log4j",
+     "artifactId": "log4j",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e6faa5309a0d127a",
+   "name": "logback-classic",
+   "version": "1.0.13",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-classic:logback-classic:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-classic:logback_classic:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback-classic:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_classic:logback_classic:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-classic:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_classic:1.0.13:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-classic@1.0.13",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:ch.qos.logback:logback-classic",
+    "pomProperties": {
+     "path": "META-INF/maven/ch.qos.logback/logback-classic/pom.properties",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-classic",
+     "version": "1.0.13"
+    }
+   }
+  },
+  {
+   "id": "a02b197f48059009",
+   "name": "logback-core",
+   "version": "1.0.13",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:logback-core:logback-core:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback-core:logback_core:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_core:logback-core:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback_core:logback_core:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback-core:1.0.13:*:*:*:*:*:*:*",
+    "cpe:2.3:a:logback:logback_core:1.0.13:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/ch.qos.logback/logback-core@1.0.13",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:ch.qos.logback:logback-core",
+    "pomProperties": {
+     "path": "META-INF/maven/ch.qos.logback/logback-core/pom.properties",
+     "name": "",
+     "groupId": "ch.qos.logback",
+     "artifactId": "logback-core",
+     "version": "1.0.13"
+    }
+   }
+  },
+  {
+   "id": "5fafc06b3c2bb507",
+   "name": "pushtalk-server",
+   "version": "1.1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "Apache-2.0",
+     "spdxExpression": "Apache-2.0",
+     "type": "concluded",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    },
+    {
+     "value": "CDDL-1.0",
+     "spdxExpression": "CDDL-1.0",
+     "type": "concluded",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    },
+    {
+     "value": "GPL-2.0",
+     "spdxExpression": "GPL-2.0-only",
+     "type": "concluded",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:pushtalk-server:pushtalk-server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk-server:pushtalk_server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk_server:pushtalk-server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk_server:pushtalk_server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:JettyServer:pushtalk-server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:JettyServer:pushtalk_server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk:pushtalk-server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk:pushtalk_server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk-server:server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk_server:server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:server:pushtalk-server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:server:pushtalk_server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:JettyServer:server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pushtalk:server:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:server:server:1.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.pushtalk/pushtalk-server@1.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.7.0_45",
+      "Built-By": "fang",
+      "Created-By": "Apache Maven 3.1.1",
+      "Main-Class": "org.pushtalk.server.JettyServer",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/org.pushtalk/pushtalk-server/pom.properties",
+     "name": "",
+     "groupId": "org.pushtalk",
+     "artifactId": "pushtalk-server",
+     "version": "1.1.0"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "fb7ebd398b4d661772c6725278427b6524a236e2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "9981e8ee6e3abeef",
+   "name": "slf4j-api",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.slf4j:slf4j-api",
+    "pomProperties": {
+     "path": "META-INF/maven/org.slf4j/slf4j-api/pom.properties",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": "1.7.5"
+    }
+   }
+  },
+  {
+   "id": "3c5e8c19f2e94d7b",
+   "name": "slf4j-api",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\slf4j-api-1.7.5.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\slf4j-api-1.7.5.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.6.0_23",
+      "Built-By": "ceki",
+      "Bundle-Description": "The slf4j API",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "slf4j-api",
+      "Bundle-RequiredExecutionEnvironment": "J2SE-1.3",
+      "Bundle-SymbolicName": "slf4j.api",
+      "Bundle-Vendor": "SLF4J.ORG",
+      "Bundle-Version": "1.7.5",
+      "Created-By": "Apache Maven",
+      "Export-Package": "org.slf4j;version=1.7.5, org.slf4j.spi;version=1.7.5,org.slf4j.helpers;version=1.7.5",
+      "Implementation-Title": "slf4j-api",
+      "Implementation-Version": "1.7.5",
+      "Import-Package": "org.slf4j.impl;version=1.6.0",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/org.slf4j/slf4j-api/pom.properties",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": "1.7.5"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "6b262da268f8ad9eff941b25503a9198f0a0ac93"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ad1aa700746919df",
+   "name": "slf4j-api",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "94631e45fb2e6450",
+   "name": "slf4j-log4j12",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar:org.slf4j:slf4j-log4j12",
+    "pomProperties": {
+     "path": "META-INF/maven/org.slf4j/slf4j-log4j12/pom.properties",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-log4j12",
+     "version": "1.7.5"
+    }
+   }
+  },
+  {
+   "id": "a67c42366cbf34f9",
+   "name": "slf4j-log4j12",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\libs\\slf4j-log4j12-1.7.5.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\server-java\\libs\\slf4j-log4j12-1.7.5.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.6.0_23",
+      "Built-By": "ceki",
+      "Bundle-Description": "SLF4J LOG4J-12 Binding",
+      "Bundle-ManifestVersion": "2",
+      "Bundle-Name": "slf4j-log4j12",
+      "Bundle-RequiredExecutionEnvironment": "J2SE-1.3",
+      "Bundle-SymbolicName": "slf4j.log4j12",
+      "Bundle-Vendor": "SLF4J.ORG",
+      "Bundle-Version": "1.7.5",
+      "Created-By": "Apache Maven",
+      "Export-Package": "org.slf4j.impl;version=1.7.5",
+      "Fragment-Host": "slf4j.api",
+      "Implementation-Title": "slf4j-log4j12",
+      "Implementation-Version": "1.7.5",
+      "Import-Package": "org.slf4j;version=1.7.5, org.slf4j.spi;version=1.7.5,org.slf4j.helpers;version=1.7.5, org.apache.log4j",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/org.slf4j/slf4j-log4j12/pom.properties",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-log4j12",
+     "version": "1.7.5"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "6edffc576ce104ec769d954618764f39f0f0f10d"
+     }
+    ]
+   }
+  },
+  {
+   "id": "92ead9c767c30d38",
+   "name": "slf4j-log4j12",
+   "version": "1.7.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\server-java\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-log4j12:1.7.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_log4j12:1.7.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-log4j12",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "003f3714df7fe17b",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0082d9f30783e9ba",
+   "child": "adb72c0a9fb152a7",
+   "type": "evident-by"
+  },
+  {
+   "parent": "05ab46836b4f9e56",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "05c641b6162fbe99",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "07c9bbe18dcb973d",
+   "child": "2fae3fad4612bd32",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0bfa956e9c43dec1",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0c97738267a850a7",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0d51db324d02c016",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "11befc03c41af00b",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "154b6ec6ecdecd0b",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "15dd9a89cfbbffe5",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "18515a37b65359cf",
+   "child": "8f7a6c0f13e6b0fa",
+   "type": "evident-by"
+  },
+  {
+   "parent": "21dec03353a56956",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "25165fb96fb99d3b",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "280247cb0b15cf2b",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2c6f966d8f75df1d",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "34eb81dcb7f79b61",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "376be4372736dc50",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "38944d14a9d92779",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3b6627fcb8d6765d",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3c5b2a52a646727a",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3c5e8c19f2e94d7b",
+   "child": "1458ab06e9f2b6b5",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3d7145b960e943f0",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3da762403835ff9d",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3f22b95413a71d85",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3f6168669b600dc2",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3fc853d7c3b93d7d",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4cf9328f19af4a3b",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "504478a22396d645",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "51a354fb3e54bb5c",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "578e8add7c41c2d1",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5fafc06b3c2bb507",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6748e3519b15e49b",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6a67aa75e76372c8",
+   "child": "b605117974838814",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6a8b2ec5bed7a5f9",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6b1628131f8714eb",
+   "child": "7de0c4c85accc7e7",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6d42b1568a3676f8",
+   "child": "19dcc35264bbaa12",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6ecfb86877be7c21",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7a8943b2f4b67646",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "817c8175e41738e2",
+   "child": "9e9a4df7c05965aa",
+   "type": "evident-by"
+  },
+  {
+   "parent": "83a1548910476608",
+   "child": "bb60f505693e52a6",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8ca498b49cbe8a4d",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8cb3ead6a78ab353",
+   "child": "5825804ba799e7fc",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8e1ee47559461326",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8f5ee3ed33e1ff5c",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "91ab17610e673fba",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "92ead9c767c30d38",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "94631e45fb2e6450",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "997c0f8a2983c7f1",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9981e8ee6e3abeef",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a02b197f48059009",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a0ff1ecff683308b",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a2fa07395c1ed7f2",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a67c42366cbf34f9",
+   "child": "d8a738e33788db59",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ad1aa700746919df",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "aff0ae4916612bbf",
+   "child": "9f1f51348d074436",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b157dc8cd238af2b",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b75cecab0eab02b5",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b77ff1e52f422fcd",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bd66233eabfcb74d",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c033f016482c710f",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c0c8d927c6820cf3",
+   "child": "1ffcaf53b812bbe5",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c262f4121b175871",
+   "child": "0ee8c995d87ca499",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c26803fd4292bbc7",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c3f27bfe1a2d8048",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cc32eebc4ea507a7",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ccefa57e590ca7b1",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "003f3714df7fe17b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0082d9f30783e9ba",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "05ab46836b4f9e56",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "05c641b6162fbe99",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "07c9bbe18dcb973d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0bfa956e9c43dec1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0c97738267a850a7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0d51db324d02c016",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "11befc03c41af00b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "154b6ec6ecdecd0b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "15dd9a89cfbbffe5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "18515a37b65359cf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "21dec03353a56956",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "25165fb96fb99d3b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "280247cb0b15cf2b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2c6f966d8f75df1d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "34eb81dcb7f79b61",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "376be4372736dc50",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "38944d14a9d92779",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3b6627fcb8d6765d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3c5b2a52a646727a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3c5e8c19f2e94d7b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3d7145b960e943f0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3da762403835ff9d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3f22b95413a71d85",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3f6168669b600dc2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3fc853d7c3b93d7d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4cf9328f19af4a3b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "504478a22396d645",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "51a354fb3e54bb5c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "578e8add7c41c2d1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5fafc06b3c2bb507",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6748e3519b15e49b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6a67aa75e76372c8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6a8b2ec5bed7a5f9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6b1628131f8714eb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6d42b1568a3676f8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6ecfb86877be7c21",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7a8943b2f4b67646",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "817c8175e41738e2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "83a1548910476608",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8ca498b49cbe8a4d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8cb3ead6a78ab353",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8e1ee47559461326",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8f5ee3ed33e1ff5c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "91ab17610e673fba",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "92ead9c767c30d38",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "94631e45fb2e6450",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "997c0f8a2983c7f1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9981e8ee6e3abeef",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a02b197f48059009",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a0ff1ecff683308b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a2fa07395c1ed7f2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a67c42366cbf34f9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ad1aa700746919df",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "aff0ae4916612bbf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b157dc8cd238af2b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b75cecab0eab02b5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b77ff1e52f422fcd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bd66233eabfcb74d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c033f016482c710f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c0c8d927c6820cf3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c262f4121b175871",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c26803fd4292bbc7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c3f27bfe1a2d8048",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cc32eebc4ea507a7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ccefa57e590ca7b1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d394200ceb2b7500",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d443f8284be7cabe",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d4c7df164eb8adce",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d51af090f5abd9b3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d61209e8899ca006",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d701d7742993d4c9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "dce08e7ea137acde",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "dda408377aaec8e6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e217a30331aeea8a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e423d47ad0759b5d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e6faa5309a0d127a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e95a7bff3a519892",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e9ae391b934605b8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ee39b8fa4ca25877",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ee687b1626ffeaaa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ef8c26734208c5d5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f006bd9177394a81",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f158683f029e4175",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f19cea5ca568c6a4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f654bcdc921a53a7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fb69dee31136b43b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fe54e8a5a25a7e0a",
+   "type": "contains"
+  },
+  {
+   "parent": "d394200ceb2b7500",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d443f8284be7cabe",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d4c7df164eb8adce",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d51af090f5abd9b3",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d61209e8899ca006",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d701d7742993d4c9",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "dce08e7ea137acde",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "dda408377aaec8e6",
+   "child": "7c8791949ce80980",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e217a30331aeea8a",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e423d47ad0759b5d",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e6faa5309a0d127a",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e95a7bff3a519892",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e9ae391b934605b8",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ee39b8fa4ca25877",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ee687b1626ffeaaa",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ef8c26734208c5d5",
+   "child": "0194c097cc413009",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f006bd9177394a81",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f158683f029e4175",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f19cea5ca568c6a4",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f654bcdc921a53a7",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fb69dee31136b43b",
+   "child": "adfc7335e6eae682",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fe54e8a5a25a7e0a",
+   "child": "7352d11926102bef",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "8f7a6c0f13e6b0fa",
+   "location": {
+    "path": "\\client-android\\libs\\android-support-v4.jar"
+   }
+  },
+  {
+   "id": "0ee8c995d87ca499",
+   "location": {
+    "path": "\\client-android\\libs\\jpush-sdk-release1.6.3.jar"
+   }
+  },
+  {
+   "id": "adfc7335e6eae682",
+   "location": {
+    "path": "\\dist\\pushtalk-server-1.1.0-jar-with-dependencies.jar"
+   }
+  },
+  {
+   "id": "7de0c4c85accc7e7",
+   "location": {
+    "path": "\\server-java\\libs\\bonecp-0.8.0-rc3.jar"
+   }
+  },
+  {
+   "id": "b605117974838814",
+   "location": {
+    "path": "\\server-java\\libs\\commons-cli-1.2.jar"
+   }
+  },
+  {
+   "id": "1ffcaf53b812bbe5",
+   "location": {
+    "path": "\\server-java\\libs\\commons-configuration-1.6.jar"
+   }
+  },
+  {
+   "id": "9f1f51348d074436",
+   "location": {
+    "path": "\\server-java\\libs\\commons-lang-2.5.jar"
+   }
+  },
+  {
+   "id": "5825804ba799e7fc",
+   "location": {
+    "path": "\\server-java\\libs\\freemarker-2.3.19.jar"
+   }
+  },
+  {
+   "id": "adb72c0a9fb152a7",
+   "location": {
+    "path": "\\server-java\\libs\\gson-2.2.4.jar"
+   }
+  },
+  {
+   "id": "9e9a4df7c05965aa",
+   "location": {
+    "path": "\\server-java\\libs\\guava-15.0.jar"
+   }
+  },
+  {
+   "id": "19dcc35264bbaa12",
+   "location": {
+    "path": "\\server-java\\libs\\h2-1.3.167.jar"
+   }
+  },
+  {
+   "id": "bb60f505693e52a6",
+   "location": {
+    "path": "\\server-java\\libs\\javax.servlet-api-3.0.1.jar"
+   }
+  },
+  {
+   "id": "7352d11926102bef",
+   "location": {
+    "path": "\\server-java\\libs\\jetty-all-8.1.13.v20130916.jar"
+   }
+  },
+  {
+   "id": "7c8791949ce80980",
+   "location": {
+    "path": "\\server-java\\libs\\jpush-api-v2.0.3.jar"
+   }
+  },
+  {
+   "id": "2fae3fad4612bd32",
+   "location": {
+    "path": "\\server-java\\libs\\log4j-1.2.16.jar"
+   }
+  },
+  {
+   "id": "1458ab06e9f2b6b5",
+   "location": {
+    "path": "\\server-java\\libs\\slf4j-api-1.7.5.jar"
+   }
+  },
+  {
+   "id": "d8a738e33788db59",
+   "location": {
+    "path": "\\server-java\\libs\\slf4j-log4j12-1.7.5.jar"
+   }
+  },
+  {
+   "id": "0194c097cc413009",
+   "location": {
+    "path": "\\server-java\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

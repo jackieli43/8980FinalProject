@@ -1,0 +1,330 @@
+{
+ "artifacts": [
+  {
+   "id": "67c61bf7a1bf0bd7",
+   "name": "commons-lang3",
+   "version": "3.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\fdp\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-lang3:3.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_lang3:3.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:3.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-lang3",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "6e8cc096f3532594",
+   "name": "jfreechart",
+   "version": "1.0.14",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\fdp\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jfreechart:jfreechart:1.0.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jfree:jfreechart:1.0.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jfree/jfreechart@1.0.14",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jfree",
+     "artifactId": "jfreechart",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "edccebb2e7cf817d",
+   "name": "jgrapht-core",
+   "version": "1.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\fdp\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jgrapht-core:jgrapht-core:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jgrapht-core:jgrapht_core:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jgrapht_core:jgrapht-core:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jgrapht_core:jgrapht_core:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jgrapht:jgrapht-core:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jgrapht:jgrapht_core:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jgrapht/jgrapht-core@1.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jgrapht",
+     "artifactId": "jgrapht-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1c48011892c9fe9b",
+   "name": "parsii",
+   "version": "1.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\fdp\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:scireum:parsii:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parsii:parsii:1.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.scireum/parsii@1.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.scireum",
+     "artifactId": "parsii",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "5ee5dbe60f901009",
+   "name": "vecmath",
+   "version": "1.5.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\fdp\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:vecmath:vecmath:1.5.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.vecmath/vecmath@1.5.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.vecmath",
+     "artifactId": "vecmath",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "1c48011892c9fe9b",
+   "child": "007f9e6f740414a6",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5ee5dbe60f901009",
+   "child": "007f9e6f740414a6",
+   "type": "evident-by"
+  },
+  {
+   "parent": "67c61bf7a1bf0bd7",
+   "child": "007f9e6f740414a6",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6e8cc096f3532594",
+   "child": "007f9e6f740414a6",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1c48011892c9fe9b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5ee5dbe60f901009",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "67c61bf7a1bf0bd7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6e8cc096f3532594",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "edccebb2e7cf817d",
+   "type": "contains"
+  },
+  {
+   "parent": "edccebb2e7cf817d",
+   "child": "007f9e6f740414a6",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "007f9e6f740414a6",
+   "location": {
+    "path": "\\fdp\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

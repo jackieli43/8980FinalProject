@@ -1,0 +1,558 @@
+{
+ "artifacts": [
+  {
+   "id": "57144f5328c7e45a",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "453550fe92bd2b27",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "7e235da00539b15f",
+   "name": "nanohttpd",
+   "version": "2.3.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:nanohttpd:nanohttpd:2.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.nanohttpd/nanohttpd@2.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.nanohttpd",
+     "artifactId": "nanohttpd",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "49fe99b011b1cb4a",
+   "name": "osmotester",
+   "version": "3.7.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:osmotester:osmotester:3.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kanstren:osmotester:3.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmo:osmotester:3.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmotester:osmo:3.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kanstren:osmo:3.7.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:osmo:osmo:3.7.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.kanstren.osmo/osmotester@3.7.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "net.kanstren.osmo",
+     "artifactId": "osmotester",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "d9ecaa02bd2c4d4f",
+   "name": "swid-builder",
+   "version": "0.6.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:swid-builder:swid-builder:0.6.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swid-builder:swid_builder:0.6.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swid_builder:swid-builder:0.6.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swid_builder:swid_builder:0.6.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swid:swid-builder:0.6.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swid:swid_builder:0.6.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/gov.nist.secauto.swid/swid-builder@0.6.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "gov.nist.secauto.swid",
+     "artifactId": "swid-builder",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "d38e60b13ea0fa60",
+   "name": "tcptunnel",
+   "version": "1.2.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\target\\tcptunnel-1.2.0.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "MIT License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [
+      "https://github.com/mukatee/java-tcp-tunnel/blob/master/LICENSE"
+     ],
+     "locations": [
+      {
+       "path": "\\target\\tcptunnel-1.2.0.jar",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:tcptunnel:tcptunnel:1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kanstren:tcptunnel:1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:tcptunnel:1.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.kanstren.tcptunnel/tcptunnel@1.2.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\target\\tcptunnel-1.2.0.jar",
+    "manifest": {
+     "main": {
+      "Build-Jdk-Spec": "11",
+      "Created-By": "Maven Jar Plugin 3.2.0",
+      "Main-Class": "net.kanstren.tcptunnel.Main",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "pomProperties": {
+     "path": "META-INF/maven/net.kanstren.tcptunnel/tcptunnel/pom.properties",
+     "name": "",
+     "groupId": "net.kanstren.tcptunnel",
+     "artifactId": "tcptunnel",
+     "version": "1.2.0"
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "3eaf445f9edf1ad93febb3a44e146e8bffc0f51a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "9746e8947184d90d",
+   "name": "tcptunnel",
+   "version": "1.2.0-javadoc",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\target\\tcptunnel-1.2.0-javadoc.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:tcptunnel:tcptunnel:1.2.0-javadoc:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/tcptunnel/tcptunnel@1.2.0-javadoc",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\target\\tcptunnel-1.2.0-javadoc.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "11.0.20.1",
+      "Built-By": "Jackie",
+      "Created-By": "Apache Maven",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "fd094f7d3ebecfc6331099f127f09bf947d82fcf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "072a660f3c602561",
+   "name": "tcptunnel",
+   "version": "1.2.0-sources",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\target\\tcptunnel-1.2.0-sources.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:tcptunnel:tcptunnel:1.2.0-sources:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/tcptunnel/tcptunnel@1.2.0-sources",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\target\\tcptunnel-1.2.0-sources.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "11.0.20.1",
+      "Built-By": "Jackie",
+      "Created-By": "Apache Maven",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "af3cbc03a439d5e66568a271793b6d8b5194c3a4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "26a2a0a1d7d8a2c1",
+   "name": "testng",
+   "version": "6.1.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:testng:testng:6.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.testng/testng@6.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.testng",
+     "artifactId": "testng",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "072a660f3c602561",
+   "child": "6c454793e493f16d",
+   "type": "evident-by"
+  },
+  {
+   "parent": "26a2a0a1d7d8a2c1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "453550fe92bd2b27",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "49fe99b011b1cb4a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "57144f5328c7e45a",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7e235da00539b15f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9746e8947184d90d",
+   "child": "da4488a280c418e7",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "072a660f3c602561",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "26a2a0a1d7d8a2c1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "453550fe92bd2b27",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "49fe99b011b1cb4a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "57144f5328c7e45a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7e235da00539b15f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9746e8947184d90d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d38e60b13ea0fa60",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d9ecaa02bd2c4d4f",
+   "type": "contains"
+  },
+  {
+   "parent": "d38e60b13ea0fa60",
+   "child": "a56c7960040de3f9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d9ecaa02bd2c4d4f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "d7adab924ed45cea",
+   "location": {
+    "path": "\\.github\\workflows\\maven.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  },
+  {
+   "id": "da4488a280c418e7",
+   "location": {
+    "path": "\\target\\tcptunnel-1.2.0-javadoc.jar"
+   }
+  },
+  {
+   "id": "6c454793e493f16d",
+   "location": {
+    "path": "\\target\\tcptunnel-1.2.0-sources.jar"
+   }
+  },
+  {
+   "id": "a56c7960040de3f9",
+   "location": {
+    "path": "\\target\\tcptunnel-1.2.0.jar"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

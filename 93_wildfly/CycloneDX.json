@@ -1,0 +1,2176 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5eb12840-8351-4deb-a7d5-67afa19a64a8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-17T00:22:35.880Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.swarm",
+      "name": "spi",
+      "version": "1.0.12.Final-SNAPSHOT",
+      "description": "WildFly Swarm: SPI",
+      "licenses": [
+        {
+          "license": {
+            "name": "AL2"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.swarm/spi@1.0.12.Final-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://www.jboss.org/parent/spi"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://issues.jboss.org/"
+        },
+        {
+          "type": "mailing-list",
+          "url": "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/wildfly-swarm/wildfly-swarm-spi"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.wildfly.swarm/spi@1.0.12.Final-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap",
+      "name": "shrinkwrap-api",
+      "version": "1.2.6",
+      "description": "Client View of the ShrinkWrap Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "25ec1381d61c9d7e4d10c825fae1fca1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "39916427fc0d7f0db64499e36b0f3bdd97c0ee1b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "84895690e1ae4d988693ff18acd069141602a5c869aaca19b2d027291f8f0bdd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3274595ce7f02dfa65047d51ead4988a8b37f3861bb8af7448c637723f0bb6966976ec2e6a508491f53fe6fdbdf154d6773b3fb748eb8cf2b3d36646706ed290"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4d0e4440c8d0884e5a3d25e93f2b6bb892d2b5fd7f04a03c5945da8274a0c3cfb4dced514f7662b39bfa0d83b5a75fa5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cb978697a0ea84a919193eccc343374f168af3314ffb66bed5279d4474b678351c9b174a6595e97a3c574af93ce6aad2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7c08724949a5442b79fb22b119c561c1deaea16aac66c9b624f0725d8677bfa2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2b582d62e0e1d0969510e9a5e2494da02a392820747511aed89c7819e9157fecc98975c64ab45c92bdf0a56e07536622858588d309667f3e41a62b50b5ec1aa0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.6?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap",
+      "name": "shrinkwrap-impl-base",
+      "version": "1.2.6",
+      "description": "Common Base for Implementations of the ShrinkWrap Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bb03bc1f98cd217ac2965a9ceb4ff56e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ad8a42acf8404b9dbdfb586a011a34cc353c2818"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7b92757d599d4f21efd70182981efdc193d66b03312a5d293ed6ab10de646ae2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "60a512b58bffee90687f434bd5c54497e1b895319bd0800ef06da199713d45ba0ba9d4a1738c523905926c23cf4cd94709f4542088cabd45e6c5d96395a732db"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f7ab5c57c30ceaab9b59b6290595b57ee9e45dfd875ea5c8ead7e3cceb6661b3ff6d82ea5865d469e22b137cd5dcad32"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f08d298365fee6b9fc29bb191cd18713dbe988dd9dddbf060f3e8feece71917bd6d4dc71d9cc798e459c64d492543b6f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4ae33924a8e9197775148759170e66f1c7b3427ae3acaeca5b1c381bc0658df1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "091f1d90baea5ade33cc31cd19462ef78bb133449ec9aa5297a9d06eb2e4c99cc0fadbd5a8f80df650256425939d6f13b65b4414e1c0815f699bbdac400a42c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.6?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap",
+      "name": "shrinkwrap-spi",
+      "version": "1.2.6",
+      "description": "Generic Service Provider Contract of the ShrinkWrap Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "de56903edf6c0a6ea49646d330012894"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2f5f82d975335e64793684452604d9e8edb433ae"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c0e674c1461e18cfa3c24789fb4420476962e2f0e379d1b4bfe8f72bc99d1348"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9cb045479d169c97b10cf4e46c8e5e7310c7e4e8951da222d04144d111aa6c91d3e6015a3961df09ffccddc788bbe10a241eb5e26c1142d3b4743b04f02d90fb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6e4e07699ec2aa010c71c2395bf1e79302e1edc96af5128eed16b02a92b45533dd26f830b63a6f81351ffb6168457360"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "19aab9fdb99c823ac7b32de6bf75727c88f2b24313749d2148d2930dcdbcdc3490d26f36d55103d4e501512ab1be2d8e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b23de3de29a0e11533bf99c3b5580409526d7aad7174c2d58e2b7e903a341476"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1dd9385e4ae1f2e19ccbb0366111df98e5fd258f0ffe0c6f0ef0800d3c955adeeacd8207e448389050b4b4021cf3b3d64776bef4cd6b9ce69398f263a5fdc235"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-spi@1.2.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-spi@1.2.6?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-api-jboss",
+      "version": "2.0.0-alpha-9",
+      "description": "Client View of the JBoss related ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "972d45a142268e3372878e52ebc5fb7c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "999d266220c29f2c65d68788b4c6bcbcff29b061"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0969e72179c26ebb3363d5865c54878c1d1064fab4484a0085cf52fe5d876ffd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7719f8ac2c47f119072ac864385ecad97e525d4266e006888da49491ae9a4928030f8e95b09b8212449d248a7bdd2e01fd29fe87ef069c0624d87189d3fac9db"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "58b78ff4a9e0d7bb1f9b87c431c4ce6ae566d06cb1a00df4c68f2ac2cf1d1208f466b1590f679c58ef85ef5ddcc94f7d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a607db515b9a156890c1ed034b19e2bb3b9cdd333e22120ad7704454dd002d41bc833b4dbe3ef68b9b818cc99d77f031"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bf63b7f10dfca168999c41e4e4c8c3abf149c5e785f179d0b239ac82c128c0f5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4dbf22cbd456c0fe43af82c54dbcad8911b4a5d16d1d98e555411d36ef1859ebc271df55c04bfb789343def1e87268931ecd6d7ff77f8ad594f861e4fc992ed8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-api-javaee",
+      "version": "2.0.0-alpha-9",
+      "description": "Client View of the ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "76d9611409767c2e00aeb7a5b972081c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8126e0f63d803604767153384b7a942c6f0dd753"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "40e82003a0856280e56314d5eb03182b9de297f5c03cbdc12fcfeec00df0f250"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "22aa82478e4c5d2d8a26bde903cdf003578cad3ceda60809478cd76615c46b012149800288e37ff06464b9df832440ebef264beb0336a17b5ef1b8c6c499879c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d1cc4deb1f1dcb99df3e0bc069829b5d466706c9080e041a7f840a4b24d156a7068e75020fd2cc6e080e2b9b12a3dc70"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b701097d8e98f05052a7d22feca52c4dffcc877826e203d95d6ea859130bd680a4b89e8b8bfe8bcfb483f33bd5f135df"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1eebdfb2769d31d800d02be689fb32baee62dff7d8459ca1868f041a9dfebba5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "807897c4e3f34f64b097ab32357421807a8897c32a8c7a007b59293454201e4ba56072f4b725cec46357d81bef41b2e0ddb750b6df25c83b79367a50b0d224f8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-javaee@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-javaee@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-api-base",
+      "version": "2.0.0-alpha-9",
+      "description": "Base for Client View of the ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "07f3bbe49ea0ebd87e78ddb987fe577a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f26f02a604a47953edac83817dfc6d480bffe545"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc85734b38366c1afea6c1636e3a84a65e98433e492f39eb2d7ba0c8d130439e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "811a58eb16c3533f75081d05afdf76a8aa17ee77d2eba07067a799b2317ac6b6ada9303839ed7d7e8559ff0a068d2d5cd48e386b051774077b46a2ed679c13bd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d8be549477cdbe53245c44acbd4bb0bb46908279dc399331c4aee8b9261aef155694af358156a066aa3aaeaea10dd59a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4f5f89f9a6277396aab7d6a38a0551a58e1afbee40958cfd41c152c2ce66c083f65e58457e5438baa6f469c1798f7fe8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "30bd35d9fab98451f38e6a43e711b0b6a92f7af878bd7c119b9d220dc7fffb42"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7c0976b2b6bb345bf8a7d9f3124338a6a4b2ff1758996d003ec48dc37b41a368040b84788c538df0c51ed9602d822da35dc871901247c64e42cf5c95342518cd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-impl-jboss",
+      "version": "2.0.0-alpha-9",
+      "description": "Generated JBoss Implementation of the ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "98ad7678286087b7e380f35400c52140"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "98e87ead02198521d6f0bb0816025314de8c0058"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "71c695173969b21153ad37524830630ff8ef0178037d061f10c087a03930a3a8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fcf03c63b90b742fc65cae6de39d923c2f814f583073a29b6af9f03b7ab287df8e3cf48bcbd065e9d42014e7b071c1cb665528034ed08e266b50f347dfa0c165"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a854eca2cfa5d40504401d23e1c1a21db5bcc34936a98f61a0814707382202e765899b951f0f7333b6899073958142b6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fac7bb557dfb7d2adf3a392a16017b903dbed1eb1f644bf4cd243e7c0d455210938be06862040283d27c508a86cca41f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9ab491ca9038be84a3b2a73d4a008211b12a5b18bc779012925f2db18df721fd"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f2a3b1bbac9ac8f7c8dab95957c7f161f81528f9f9d0b77fdcb4b8ddd4e3d9aa2300d34b88641e599daf264ae3df997ca06f54be66451f747d8eb93e81fda2c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-jboss@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-jboss@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-impl-javaee",
+      "version": "2.0.0-alpha-9",
+      "description": "Generated Implementation of the ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "92b5d4414029f159105c49278f34f384"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ad542782fb96e78830bbd49b409bc204eb8f45c7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "39c9c0a7e29c44a7c73d6960f1500ebf7a64351fd249d0c76fcdf953657d57d5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eda6426aa8cdfcec3320a7c4bf1cbcac1207df49e54dfa0d18ea9fb47603ad256a211b8bae317ea9055cb9846ab3b5424e49a86b68cb5c929e7c13c6f0ecda95"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6e1c5b69b72819254bf057550b1bf758e9b1aa7f0b6405c720e87a63a4646942a9ca3d91a5d3f6bd36d9845f7d3024fc"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a294f2713e72996add49aabe1f7670b70aac198906326df936d3e5c081cab11f93738c5bed87231cc90192025e3984df"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "44b1bf2f99fdae595e0e235c0cf96738cf7103ab12ef669ff3dbb69e3d857bee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "75473ef46f72702887ed73d26a7c3be57accf95c2bce53ab3b127157676c4c2aa795e59c856bd750e2ed05f81ebe3f81a3c6d90a420df9cab56a088bf77c5e75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-javaee@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-javaee@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-impl-base",
+      "version": "2.0.0-alpha-9",
+      "description": "Implementation of the ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "57679a36d3aece5d9c70134e8dd4ae85"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d91dc27d2c6f208434d746b2149e8c9d4c9fbc86"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "75dbfe3516266edff4242f5f39b46a8ef1e160ec46194f1eb2d4b63e71dc3c94"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3a55a34d514428b2fb80beda8cb56fed7605dfdc340636bb15a19db8b53e327dcafc973432f9ef2ab308157a57d8f5c614947f95fb03acd56bc0fd167126d11c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ea758c1e91e18350656dc8cee74ec015c2955d77ac71e4325483dda53899b6225e60e4313cf77ec1faac97f18f45f9f8"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c7d8960451df5d8a7f0fef7bc512b9e7bfe63c46543a4384a5bfac11c131cc45939c229cbbd463326f7331410983c2eb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a3e9ea452a3969f3ae91e550a408c5b311b3eddc5876e244b0e4c1f6c8dc17e9"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c49d3aa4e33dd5a9d03b635b068c684a2fb9cc081a4c0c19369967a53efeddb2846421b6eabd6cda55e7185200af7c69e9e4c30177291ca0149b5fdf9bbd0fa2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.shrinkwrap.descriptors",
+      "name": "shrinkwrap-descriptors-spi",
+      "version": "2.0.0-alpha-9",
+      "description": "Service Provider Interface of the ShrinkWrap Descriptors Project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6f664933b3d2318faed4982f2ee16cb6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d7d3922d55ad6a0a7ca1cb688d647e37143d2cec"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fb432e02769f6067454ceff4bfd31aec2a1aee0bb4aaa3ad8d0ed1e14290bf8a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "440af35597157d0eafd08929fe365e090d1b430e5e3cf2338e3fdd30b2fe9038fc5da5ffbba52db094b02a202f16ce1c221438658121fae8635b0edbc3d756b7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d048df728e932255d926c5cd84fa58cbe56beb240aa9d44b3133281842604e89d93454a263f4a283197df47ac50f773d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e62bd739e5cbc0fa982769806ca065438d226e46ffa6c3269cf704cc128c8b571d5ee64dd29fe7051058f47ecef0d244"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7f69967441829fbe0f7e203ae559e19d6d5f1d3aef43048f385756e0e7416b51"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7b01ba8909f8957eef0b9766692266fc8848e99430c168d4a38116d9bb02f81c21808061ee107a72c9dd4607f19262add4d0ec41b0d89b4e641086d28067b6bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi@2.0.0-alpha-9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi@2.0.0-alpha-9?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat, Inc.",
+      "group": "javax.enterprise",
+      "name": "cdi-api",
+      "version": "2.0.Alpha4",
+      "description": "APIs for CDI (Contexts and Dependency Injection for Java)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "748dde9d5e7a4e01980ee8cf5d293cd9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4d702ab6a7ed6128e72418fadf2ad7acda547d78"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8793e30373d0256e2f5b40c8abd2684c62b57db5e003f19430e0233e28668a2d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8dcd720bcb69ea87fb1dfef46d18a3045f7258ecd5384f7ccf9d35f2ca50579313018cee915d961d9d9b89a13a122cd66d2ef4f1ef5ce6d2638f92e570da91f3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7873f40b5e61b1d7342b3d1baabba08d294c871136dd575aaca5d5100c12131f7ed22ec29bee06f1298ba417586870ea"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "da7b7d5f1d89586e81b353f0a77aeb53d1f44e3a292a78ea36875060a93c28ed982a542e1a3b975d7c6bb118662b38a8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2afb33b431731a8a2687c47d631ff57a0019b27645cdccaeca4ec9e916c371f4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2b76b466c08b13d314c9111997b20051476093c52515692adde1efa7694adae767753fa499e464e7730e457c9c74b93b649817922159d3320728b41090d826c8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.enterprise/cdi-api@2.0.Alpha4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.enterprise/cdi-api@2.0.Alpha4?type=jar"
+    },
+    {
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "description": "The javax.inject API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "289075e48b909e9e74e6c915b3631d2e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6975da39a7040257bd51d21a231b76c915872d38"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e126b7ccf3e42fd1984a0beef1004a7269a337c202e59e04e8e2af714280d2f2d8d2ba5e6f59481b8dcd34aaf35c966a688d0b48ec7e96f102c274dc0d3b381e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ac04c9f03ccbe35a25deb8b50280a0ca01dbe6aff0dd795d55af6112bfe3cd5817eb82f32fb18378d86cd64b07597190"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fca090ecb1edeacb9fe865dc515cd1d109b323cd742d4a9733ff199a96ee96e0db4f924079520b9c189ef750f255475d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5b0054e39e522de0e0ffc4034d12f72270291fb24d94d5ffc9c4d69c25035fc6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fb290f5a70b1efc1dff12f40a0b2d7b94019f66da42e78010c0b8e61f222c4f267b67e356a9e9c346eb801e5515e36243888f280c5cb95c2dd69016a30cadeb9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.msc",
+      "name": "jboss-msc",
+      "version": "1.2.6.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f215a9a1bc5d661251fa46be8203d476"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8071c9b6b73bd47c9df937f54e6081c97cb6a4fd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1b28a2719d7a026035a0cca96233196bba40d795705dc9d53c64f7755e12af19"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7930721cc859ff12050310c41d4d92177b9aad9edc6be2dd3bf01b3293877238b684162517cdbceaf49df987f0bf557226cd35f5a0ca33aa61ab7c0462ca374a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "41a364f6da745356240ca25c80e5f42860eec2573914db0c11f1fa9b498b33f7ac78792df92a1b40ba457c3b9e7feb86"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "aa6f9a9792ce3cfaf445af422146a70eec111ddbdfdb21630afddf58e718de2c089d07d5e7fe7f1e7c63e93e45d2aa31"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "95c48672994fe3ae3b703dc6192caffb8a0f0d54a3572d219aeedd4c787260a4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "19f2c9a4870522c7f9f33f30668b2ded5ccf81b79f1ee3297b43c0bfac5a4f13041ace4d89fd9ab5d30919900374c24cb6722c4f95ce470ded6b9f70bb8256c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.msc/jboss-msc@1.2.6.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.msc/jboss-msc@1.2.6.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss",
+      "name": "staxmapper",
+      "version": "1.2.0.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c4d4d6b64b12ece0dd6ac0a2ac5ccb89"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "527c34c682080be6f442b525ea89607fcd8e88ea"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e37619aab9d03347f6adf01c63c886beeba0574206784de541087695b51da081"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "656b61024b549094a760e07269748aff7740142f03f0b6ce7e464621efccf7bba50c1bdfbec202fa4ecea525a8f279aaaaa7a4f46e20dd049b8ff722c67fe2df"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "afdfd2ba64c2044bb5342bdd45866373831e8abd486f31d4bed7a405ebd53a55be4941302df53fe7a213fc134ac1c3c4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "388354b0e63705a77de9fb675b13a82cfca01472658be35cc86cfd88f82cd73acb29df7fb607dec0ea33bb340fef492b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "57f59e66cf8999ce092d64be5550047ca721f6ea8e910ead86812da11e32b910"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1cfadf7eab4dd3bcf36c58f57cd3e46975a472088fddf086ce7d956765b9be3ddb833cc897d47aec20ead8575e4fecc9697a83363aafe3c6760901e8d24c04de"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss/staxmapper@1.2.0.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss/staxmapper@1.2.0.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss",
+      "name": "jboss-dmr",
+      "version": "1.3.0.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f44742f923b304e3d0b85f26f7e593c8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fbc5b8f030921b08120bac3433525eadcfe09255"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fd6ff466f1b85580ce81c0ed7cb79e6f490c240e2e7096929548336296deda73"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d8ff7de97c6aa6911759379a00460ed5ae41bf0f3d5a0beffa3857274a7341394ca9201ecdf3b8da4c1a48279c4f68e691193e3448498d89cb182aa123244d80"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "08e9efa9889e16704ffcdcf3af9c2718ec938ca03657ea1ee5cd262d6e61e50adeafcc81418b356872430dd67b14bec1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ea80a8deea6b0f52ef40ef4881beb53471b8604de846ad59e2e39512e551698efa283b32db7a89b3880e355e30ab1356"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9a3397c89a83de7970ca5113d54199034c47aa8744bced4f8aadfe3dbc9db6e1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0c6ba88d8748407ae3589a92c73d2d3df249dcc1b0532e9c432f1b4d8a8f538e9ab8df31005ce38ca223b4fca308617bf74463bc6dc6df5acadf86d3f31af588"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss/jboss-dmr@1.3.0.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss/jboss-dmr@1.3.0.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.core",
+      "name": "wildfly-controller",
+      "version": "2.0.10.Final",
+      "description": "WildFly: Core Parent Aggregator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "221f2ccaec6461f7b3e7f4d791d3fcaa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5e2a6a8d1f9a3f4018a309d902cfe16292cd9371"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2876a51cfdd6cb83a53d921613ff7994732350f12df80f6d91c6e06ed2211ea9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a365fc514c48e3191a23eb186ab7cfcc30b791d53bc3e3a150c36807e1aa06a0588dc20287af82e7416a0be92a3cc260b45c33acd68372395cdf0a485834e011"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3f477a3204283e18265ad0010c961737deb2d1396c386470a280ec5d176718fdef6e3ae1dbaf266b611899cc6c4d50b8"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5fd28b7be960f749a6618c43d273d99dc8a1bcc09fb7fa625050a6a4a92512da8ead436030173075a7407689bb7b0780"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "489de4a913f60f1bd572135dcff72c741483b57627d7712f7ba6e29b254f9b5d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "109ca213fe0543c8fa0995f8f48138d818d6b5fb7b7e0b0b9481fd91c44897e59c2cde002d55ec420721acbbb15e210200bbcf414af7064fa7eb8d95d377f50b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.core/wildfly-controller@2.0.10.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.core/wildfly-controller@2.0.10.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.core",
+      "name": "wildfly-controller-client",
+      "version": "2.0.10.Final",
+      "description": "WildFly: Core Parent Aggregator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f54bd8d1e7acfb8fcddbd65a58cab6b8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2908d053b1b0a5d574d5f123482c7fb93b36bed8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "56a5197fa0d9c98970c2e0ebded8749a87672eeabb3423b7fc90bfb57a268f1b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "37b2690511ff91face1016e97e3234714c03a13d82aa041815cdeb98d1b35e140f9606d0728afc9d81a493ac48b097e9f22f2aa1e61eeec4c597a908d5e571f1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cffbd479b78b36b969f962eadecc599b2db0473b5fb9e86997fe0b2e9376642d2768903726ae59cd25775513e09c8af1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b51ac8c1544b586cc4e6ccadb1eed42cd664b693e1bfd4afbe60fc365472941501039450282bc2e7a512f9a2cdc3b2f8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c871c4faf064ecc034e64e9fefa491854904a47fb55b59eca4f9f49f01562f7d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "92e1e1c34b9ff84c2bfa3b25feed61d565bbc36233f4723f81cd3543eff0e68060139577fc53438a471f80ddd00f92cb2250b4eeaeb8251d3e81b1d23d7839b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.core/wildfly-controller-client@2.0.10.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.core/wildfly-controller-client@2.0.10.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.core",
+      "name": "wildfly-protocol",
+      "version": "2.0.10.Final",
+      "description": "WildFly: Core Parent Aggregator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e7af10e4c60b7db7483b253ce407e774"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8a62210f9e0f69c0b805523556fee75d30e39f82"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "73652fd1a3803074344b54cb0f745a03a7b254626f2b662babbfcf5c290330d4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1afb449a48e7dd08e27e3985749958257373e426a4471f5a70cd9ebd7d32385c73e7c4dc7cade8521b9facfdd2ebfa7f44d12935f96d6abb1418d6989c4cbc38"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2d847384eb4b6c853e244a2120bc690f4db47dccc9641ef7643b96765cfd767142a3970db13463c21d2abcddeecb319e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "afd7107b849db50eb61d41f79d602bda47a08633c96890382c264e755229dae50252f9ecec36fdafcaf8a969012c10c6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c72f654e7cfb38929fff85f18b487937d31a4528d50bc7163fe9e981793bb2b1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b5e3ba0b0e86779242a71855dc5fb92bbb9bf3911f800b1cb19e3939f6e039d45c9235f3feebdbbc2b508e293a38e5fe7ec8c38d2f72f28e2f46202eb72f6f24"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.core/wildfly-protocol@2.0.10.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.core/wildfly-protocol@2.0.10.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss, a division of Red Hat, Inc.",
+      "group": "org.jboss.remoting",
+      "name": "jboss-remoting",
+      "version": "4.0.18.Final",
+      "description": "JBoss Remoting",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "213eff3e7d932cd83e86875190f7251f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "01e12f83da1a7562a38f01d500caa3eac8fbc841"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "015d168ce2756ba5df690170d91ae46afe12ec7219bae81d2e44270ba4fe3f1a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5acce625bc213f8aa4775e71dc9b967f24406bebd42783109aa3bfad2219890b410fe3003a7c6a7d4e16a865fec678b032bf2bc7c7c1bb7894cf46d4e967935c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "82f39183e53e6e225d7f2e80e46348d7fc51b7ba13d6dd998411e4e682f6477cc7a434c68ba2e02d9858af1973ff597e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4ffc7760c0dc25fec8701212fd50c9ee316e92e76e85bfff8aa76fda225a4138d4b1c012293e018213bcb23666ab239d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b5c65aab4f7c14fef4fc09c4a7b4f048399aedd5cf670e99e3437b3dcf9f0ae4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c212b8d32e2605755d21b3b80fc90d34dd066749e4292b06920df1c1ec4aab21b0ff1cfca87125f8ce1f95105bdb7956026d9db8933c782dea6517f80a1765aa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.remoting/jboss-remoting@4.0.18.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.remoting/jboss-remoting@4.0.18.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.sasl",
+      "name": "jboss-sasl",
+      "version": "1.0.5.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "39543f6bf37319eb243b034682e4196c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "44fb5196d36ab056b930ed571029505330d25978"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "113079bebcd053e281dfd2b20a22239989e3d5d44369d75d6c0f47216a2664a1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c38259984f3d26f6576aed486b7e0baaab0335268faab209082c302134867a54ea1519ac2c809cc6709275244c319d06e06cff4c0803cff6c365d99b52d28a64"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e6f829c7fda1f76a7f8ba6db369cddb33f7b2a071d5f107a4e16ef80f390ab84fa8ab5ef3edb503ce8f9ce097ed3031d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a2a74a7701ad5418e0298911b92a9a7c09be7fcbe8d922d7c6bbfc071951cd784ea86c7576f666c49bb3c49fc6c8ec97"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "04e7dcde6abf711ab1a70d3008b4ba35aad55fefb95fbbbd47fedd4dc539d537"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0d38ef195265960b79f248ab802af2c35759091b24dbe0a1424096905674122ac2cd6bad527f75d701a8fbab24a599761e767589d60b74dd0b53c97931d4425f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.sasl/jboss-sasl@1.0.5.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.sasl/jboss-sasl@1.0.5.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.xnio",
+      "name": "xnio-api",
+      "version": "3.3.4.Final",
+      "description": "The API JAR of the XNIO project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "78dad209fb752c2c86ab76c7ad22d6b4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d7b198b24fce03e5d172bee37b1008e0afa668c4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2048ef13ce1846d38fde481fdfcc8257ee170f432b5a2f552d01a90c6b6e568d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1e796ce5b6486d2c9d9da2b154fc36dcad1872e084e692af9e843a98c98cd61acde9f246e1eeb6b3d7989f7c28b74d6d89fe5ba62a5a583c318d4c3d01691e0c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e68cc3fe0ef80f438ad0daa28275c33cfd4fd289654288331b09bfd3f4eb75b763ee41afcd0a2b63b202efb7777abf08"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "beff9db1a24f37c8132b1d5880675b2718054bf0441c86dac6c95160e0c5400359b15517ef102fa90f877a6a3ef25e73"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f1f1d8584090a2ec48baa32db6ca9a1641e44dd450f39920a845d3ba81b05e92"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "017da84d36a038a1056bf76618620efb02c2d58b28778ef2fa2848776d896f242dfdedfed3af5d399176f86d37b6fa22497ac0d8ec43b7e78d28956901908ead"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.xnio/xnio-api@3.3.4.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.xnio/xnio-api@3.3.4.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.xnio",
+      "name": "xnio-nio",
+      "version": "3.3.4.Final",
+      "description": "The NIO implementation of the XNIO project",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b7401541c2d2d1662bd2be1c49db90aa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f1a024ef260c91c9b0aa4d4ea4edd06627463abe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b4cf2fe46361f993b9b664defc587632635a338e61be94166c85413e8029c018"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "beb9eb2675913bfc2299ed2e92131cde4baf73329f34aa8075d3e82db2afbec1439f11bdf89fdeaf8ef89a0ac4b49d30e9893ce1e87af62332c0fa285d7896dd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ac723abd898efc9fed1040d58f3838ba733ea2309fd9ad65188badfdcf2b2a1d91770c07937964be809de3a9e86b057d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "08ad8879e886f04c263d909b5036e7e9421ebaa27d4541f8b15ef280d1e3b998ad0f9350f52c8e81fbc07a3fb113cb12"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1d93fe80cfd6b7072081b372bdbf6c736a7204c9d4c04da615b388db374baf1d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "580e407ef6338774765fe3994a73b493c331bcca9da1fa2c0ee1c28059be25c1916222c7b67e15ca18bdd289099fa9341848ce7f6379bf96ed8793738a815af9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.xnio/xnio-nio@3.3.4.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.xnio/xnio-nio@3.3.4.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging",
+      "version": "3.3.0.Final",
+      "description": "The JBoss Logging Framework",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bc11af4b8ce7138cdc79b7ba8561638c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3616bb87707910296e2c195dc016287080bba5af"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e0e0595e7f70c464609095aef9e47a8484e05f2f621c0aa5081c18e3db2d498c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6cd839a07c55a75befa9a95c7cb2e4a87445432d475bc747410fce625ad4496ee5cc6631a445420940ef1cb408d74873980504e4d785d8ec851223301a76807b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "90434309db295c401fd2c62bbaec1a9c724d24128a2db1f940a453572fb99b8ff02c38ba122d8ab06e3f7a3a802e3d12"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4108070133863a249a03dbdfaeed146bc73f4afbfeb9370d28400063bb49bc0411cdc6e856dd30368ba95b65c1773850"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "12fa4c6092728e4d1d780db85e3567ac16a8ec515daac930326513a471f60bd4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3f2a0f9e1ce18e1fce8b658a9ce7603eae6a2eeb96b8c26c0a49fde515ea97b319e94f48617fdbd8b102cd51c6a3c957528b456b821e2287ac1b35a3442c35c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.threads",
+      "name": "jboss-threads",
+      "version": "2.2.1.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9a48faa15a6884c1fbd0f465e4b086ee"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "241031168e702352bf44a147585f95e5ac01abd6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "73d873785a3bf9853971528e4d42fb6a7f7f1001e2aa52b3fcae01190972b739"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5b0de7b904709ad1e756ad0fd24b97f0e2ee03c3d98995b612eaf29df67b95868be9d723cc9d18ec1a6ab425ce6d6b0b7d0794e7a74d48ac031de44705d490a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0d72bbeb7e2cc66005cbbc0a337a051d5121da28dcdf13f8a04d775ef9e4d03a0ebb14a8198f424b7f303309ae4c1357"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9f1cd4b136a69b4e60b03f67173f2eed355bcdec036d941418b67e04d3f4c0d0e6429f7a5b28a056f197f255a2a5ac6e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a9a619cb1d863a316366f4cb5cc5d59536f8fb0f74248b69f1395fb7bb3c0584"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ea901fe7040c0e1fbf836bc0995eeedfdfc164b292b5f5ee79164c5894e071c6b538d9a1ced0ae942194ade5fdeba5183368618e44cac317ee154e5a073377b8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.threads/jboss-threads@2.2.1.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.threads/jboss-threads@2.2.1.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.security",
+      "name": "wildfly-elytron",
+      "version": "1.0.2.Final",
+      "description": "WildFly Security SPIs",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0fe40b5eaa51b428fa62ddbf166092a2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0e3ac7d06d1a1fef337e90ea2fc0a9d6fdee9c26"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c2e1d724a35a898749b42bdb6f90543ea6988a94b016c1e3a11d98a90946aeee"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "841c53b09ea38a0715cdebd6eba367a80907b8170605813e4becad35d2daad0bfad269464e0bb1f1d16464594d158da970df93c7907f2ec136d758f90a60c378"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7098fc32172117ddca392e3efb538050a4a4d5d75aee82ffc5941ed0a152c3da88de504336a6f3aa243c97f92f06a36e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e3a2e7fa31aaaa3cd609261b8f4ceec3fd683f5e9c62a80a5587a94b2ba614e95604ead4439d43d45329bff706214c50"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cc26c319151c45392fd624f8e9780a8f927900cc6941191430c7c2c96b8ce0c0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "22d78e0c77346627fd6074839969a15d9f8b82727592a4f03d2935db1fc464c981403d8719d75592842260375a18e1be874331d4a7073d64fb3c76c2c66d90c4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.security/wildfly-elytron@1.0.2.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.security/wildfly-elytron@1.0.2.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.core",
+      "name": "wildfly-core-security",
+      "version": "2.0.10.Final",
+      "description": "WildFly: Core Parent Aggregator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4b586a26107767ba49f7be4502a931be"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a69f42a3a4e179b7566eb62274f2578454919c9c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5b6209399c72d2f4b66ea73cb0b0b5837c3a0f59f7c96805566b0b4a8782898e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "37dabb8baf4bb525dcc3652ec5f97b68370985e2a4122c412d11b2c634b2a30f65cdbd4336d30204559c93b16a3c33e171fee2c92b6a0a6f56f4e9aac3e22093"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f13c04f099c49712433a0dd160920e2d90f68408ae36c8386ac8253908fa7df824d2565c16526ffcd86ec5b3544ca5c9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "db14bfdce92a8a5150ea5464bd670099c2eee9f36aa925d316be3df5d47a1b63cc8e3c4ea0e0047eb678e98c8de772b9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fe9d0f15e12cc205968ccb17c5d2d7aec3178b1dcb5daaea40f5711de243fd07"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "42292c0998c805b5804c1f60fd38fa0ef42c97f8f04eb38ebab0b560c9a26e7b0e4f987108db9024f1dac1c5cc93f936689ab0908da60513662b113c90839235"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.core/wildfly-core-security@2.0.10.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.core/wildfly-core-security@2.0.10.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.core",
+      "name": "wildfly-core-security-api",
+      "version": "2.0.10.Final",
+      "description": "WildFly: Core Parent Aggregator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2ae9be399b28c24eb50faffa3a51ff68"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dfb5402fadeec2c7ca0e2085d8e659d96eb3b57b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "08e7be07aa067738a46d187be84e57db1595af35db3ea2a15bed6c321173a2cf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dba167de9432c3a7daf2eb751ff94d1508895d589a624c510d64b475d2adc8b8ae37aa67225bbb90a751d29c719829ee89c7601e4b1cfff7facc94ba4b89e4da"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "45ad8d3e6fb22a841b0f6e7caec499f812a0c329cc7c125cded3cfcdcd88440db1c2047de502326ba06abce612dd01a1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "34d12080d0551ed4dc04e015c218a0e53a47069a763357d273f7f4a5599c3247de23501016fb100e6692c7d4cddfd55a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "79d1973b8ec9f5f41325172c2dec5e17949d2e04b2947e10ff752c86bd636926"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cc34fabf9e8bdcb00648701cd154f44ab32504ad53108ce07c07147d67155785904214038ae48ceb5c4867076e3e0e76c3e08a048cbe2683143e42a1c19ca503"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.core/wildfly-core-security-api@2.0.10.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.core/wildfly-core-security-api@2.0.10.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.core",
+      "name": "wildfly-version",
+      "version": "2.0.10.Final",
+      "description": "WildFly: Core Parent Aggregator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "38558b14e72d04568e86b5968369b4b2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ce44eeb2403c5e9a4181f386a18888d352a8743c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6032f9055e5dc0cbbb01a7ffbd9f15227e0a6d7bc4f744206d3979bbf19f9d44"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "56680717e44b38624133b04351831475a59fe5097730fe7cee90fb9f63d00e0f3893b3fb70de914a57cb2ad298b27f08fc30b47f340189499af48b05530179f4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8e2fc89260905c79b1a76ed507336368cca1a8c85cdaf17d6838467d3b3bfd82ef440186e447d3f05962246025b976d6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c7295dcc8cd03342dd8215d01b8135b079d983eaa60715ac1db65eff350ad78ac01729030e6ccc0ccb7133b23ca7c01e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c21c32bdc2c2abc2507a7a3f36917198d638ad04a3a7bf5e1d1eb44d03606e06"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e44612fd68d9dc17688446cb2cb28fddc76b6664b783c75a22f51664c449671060e84bb51c79dfee820e5c10313d1e17816acbbcdfefa0081844c4161b1549db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.core/wildfly-version@2.0.10.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.core/wildfly-version@2.0.10.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.modules",
+      "name": "jboss-modules",
+      "version": "1.5.1.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "71a3bf82c7291038ac501a2444c8d302"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a0abdbea3b403ce47fc515a2f5cf4eee210acc5a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c4130e0943fce6dff15600c602d401635f095ac78397f26d3c170f3502c8fa24"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4f9f146a97972ca437c8935587f0e0392a31c867b0819d1836f29293b232f4d0145d442eeda348d007ededf0fcd43f16853e36015b57b224d12ff58e73d42c1d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "47d661c3e0df2aeb25ffc2c386fc5e1491c231abb70fd35f01eb491f22a9b478b5cad47ba623d390559e3325bbb6549c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "97d7a7552420328eba68b327d3216510e09a728fe1b73ff66d759b92812cad0c7704155473de859d39e6669eeb2f3b41"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1a626816edba98f5c4d84b5ceb0d0961f0af1f74bf1c251e6f702d0683223bea"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "169018045bbf4adce0dea3ce6dfd1f283e3375064eee130f97206db557b2f4223c8a8e9ba7a5d1a7b6b679fe3390abe231e35f22f919727a0b709833e971c878"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "asl",
+            "url": "http://repository.jboss.org/licenses/apache-2.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.modules/jboss-modules@1.5.1.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.modules/jboss-modules@1.5.1.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.logmanager",
+      "name": "jboss-logmanager",
+      "version": "2.0.3.Final",
+      "description": "An implementation of java.util.logging.LogManager",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "05865e429caaecad906a11986294e52e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0d2c746f4d4e237339bda5dbf6914b27190c4347"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "119f07f791768432ee0ae3dbada3063481eca1924c217d47290fe5c8cbbea579"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b61f2fc07eedf07f521efc1b760239f7edb53a9f8b4c057d1b0c91715207ced1c2fef21116a9849cf071b7b4a7736751d9188cd36d6c0b07dcb0381e777f7a9f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a875c33de1bb03d55fd35eae6c69b6f5285a5da57b727378a2893161a9ca8a72d9fd0997a7b2df33e1ebe03cfdcf4ee9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0e114d7412bb9e6014896a8626504d12aeaea0fbd3bb47f5f140afd1fbe6ce4838862e39b6550a56e1c755e25b4b2e0a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ee4b49f3b5e39b6f0ac5cb1cabbd9d8b2e82aece2be00cfb8ff92b668961d28d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b1112452bdd0a0c3bb88d2c03332e0abe30d97b255313afff3d637ff1fe4d0506abaa4dd14674bec82833561d248629fae2b11c3b8190f82f7140ca3318c203f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.0.3.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.0.3.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.swarm",
+      "name": "config-api-runtime",
+      "version": "0.4.4",
+      "description": "WildFly Swarm: Parent",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "980e69492c5749fd63c8c870dfcc53f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94920ef0f65c4bd7be550786fcfd83a19280bf1a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2751571ec3c5a7e518aa3d2514e1514b8889d9ab3a2223311e966456d72cfb94"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e721d8ed663d159354ef7be885edcc964079ce3a38871f1b88a0b46a1bb543671e3aa71c201331f48bda71bf6d40806d04883dd5fd3876db309a0cd2c452677b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "48bb3567f668f5f4b2c94a408b215b8dc294e64ed721bb97e2d681a43c15d7f10b72fc65c8acb19b9b9109fd4f387fd3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d79a1e375738d369df1933a1410b5e7b4bcf20514181d6ce87347e5e98fa5aa440af92fca4294148742464deae407922"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dbf566fbed6b5a9f5b4ef73da0dca19cd0934b67926eb8b754f985806204125a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "deace50da912f6bb4eb3c4c8562d0d0402a3c87737705d8ae903f433eaabd3d153840531c3da36872cc52e26b01f7235e19d4cc709b9793c57b8c34076929ea2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "AL2"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.swarm/config-api-runtime@0.4.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.wildfly.swarm/config-api-runtime@0.4.4?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss",
+      "name": "jandex",
+      "version": "2.0.1.Final",
+      "description": "Parent POM for JBoss projects. Provides default project build configuration.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a3f203cc50c3351e5cbbcd355371aa27"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da85eaecc9a2543a5272b5db13f515dcd4edd738"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9ad11b8447037aa2e0927f3c001ec70a2375758834466b7f0627c0ac593cf1fa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5e95c4c5b28efcbae4beed6d35317a84e191f1782ba6c462575d53188295b740ed7d5ff1e538fc8a31fc972bfa5603c01a3ff34fb1dcb188782aa34eeeedebea"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "56f5aab6da96b8d474a7b63336452a9fc5657a6f6f36b20d7bb9ceaa31ef81deaa3809e0237f5e02c6b5ed9f8ce0483a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5ae3669b980545ede14939cacd021cc1861169a91775c7d693722b5fc80d1b884f77eaf4b61fe265c46790b7fc6d3216"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "49c8181f83c08911a1dae72389307095482a8c319c023caad127d01d5884b3c1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c4bc0a8e2186f473b54cef07f6d563ab1c75fd0fb71b3a1d359bd463694ec57c7cc3f0d920b195c5301b0e272a019d5d9f5afd448e59d58d6d742e9aaf0360a4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss/jandex@2.0.1.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss/jandex@2.0.1.Final?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.12",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5b38c40c97fbd0adee29f91e60405584"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2973d150c0dc1fefe998f834810d68f278ea58ec"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5974670c3d178a12da5929ba5dd9b4f5ff461bdc1b92618c2c36d53e88650df7adbf3c1684017bb082b477cb8f40f15dcf7526f06f06183f93118ba9ebeaccce"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e2f0c2db405e282d0f84a1766b9e8d9736d4377e292a5ef8457aec10384f9077005865167025b2779634d75bcb4d62cd"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a24a1d6d5ffe2f9fc3a90a442c3d1d5a12ae7bda3c68996c3b50f00186a2f961808c5ef504a771e9d6ab95ee38a383f0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "02b1f076652120813646a0cb34350f0c73a3299b221567e089f6aaadf8ab444a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e8f7057647c11564178e4569cf4f5682d3688b49d81acc60fd301f61053932ee9ac109c19cb639f7710d23afc76cb106ebde0f8143e2fe5fa08605201720a8b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.12?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.12?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    },
+    {
+      "publisher": "FEST (Fixtures for Easy Software Testing)",
+      "group": "org.easytesting",
+      "name": "fest-assert",
+      "version": "1.4",
+      "description": "'Flexible' or 'fluent' assertions for testing",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "05b9012baeccce4379d125a2050c6574"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "88ec2d3bbc35a2e9613f584b29e26adb1bc2c515"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8af99cb0cd7a357b564401d6a5cdf2babbe4038eb0082e5a9aa4b19a2634244f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "38df9abd4252fc722eb5176b52caa08701998fb37874e50cf2e1af5d8a7dadd5a9acbf35e6e8f52e92a9abc09a36d616d6b9cef6bf4c4dd7d6f29807c45f1c93"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "14abd04acf21676dae608049af278b104ae75ba4ee4b5817eea7687e9075c945e7c96a57f6a603b21d96dc0633f0e619"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "25cf4d46b52ac9def47df3363c7a40ff9b6aefb32a0771954374452fa1d0cbcea4e935259a420158db338d894c18b9df"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "852c4847e8939966ca3d05eb1fa91d8466ab55285c649ce652601b54c791c2a4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5859ac434f98020dcdbf3a08b5fad391a811c3f72cc9f3611fd1cbfa24117e740ac2bf033a5cc00834af163eb9910ee379c46f39e72de342e3ac3d0b6547de75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.easytesting/fest-assert@1.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.easytesting/fest-assert@1.4?type=jar"
+    },
+    {
+      "publisher": "FEST (Fixtures for Easy Software Testing)",
+      "group": "org.easytesting",
+      "name": "fest-util",
+      "version": "1.1.6",
+      "description": "Utility methods used by FEST modules",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ba072a27f402d2dcdd69a612e42d7520"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e785ee9c1f314bbf9e5a824b85143e440642557a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "df8820a9225f1580ece9da3b405b7080b4bdc88d6a42d2569276b2c8f1ecdd89"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c6e2e38debc6a50aab10e4a3f4cc484de6c8f74108fb8a443f3c37b83e2b6c015684eddf4a9af8f6c49d8060c90eb029147244895f9f913f01c5c4b435206b97"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f39d184a8fd08d359dbe8e38ec42fc3b2ec04262d4d1b5f267009bf99b0f4654c7ea93e50ac70d3b675601bef96f0684"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6df9ad57662eb83b4e4b665939ed3d2f84aafdfbcb60e0ecea17bd3fb2f8ab5090dec66eea8b3b5c8c54403d8503b886"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7e71831e3461ccaa7415d2109a8a18d82c4f1c52f1fc819901fcc3e196135d17"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8f77ac368d6e39911f8c9d94115f8cacda263d3de7994c382426c1af8ecb025963a1a7d64763be8ac3fe6243985982f0df7b65570c0783389b207bf2e6a43e95"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.easytesting/fest-util@1.1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.easytesting/fest-util@1.1.6?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.wildfly.swarm/spi@1.0.12.Final-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.enterprise/cdi-api@2.0.Alpha4?type=jar",
+        "pkg:maven/junit/junit@4.12?type=jar",
+        "pkg:maven/org.easytesting/fest-assert@1.4?type=jar",
+        "pkg:maven/org.jboss.msc/jboss-msc@1.2.6.Final?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-9?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-jboss@2.0.0-alpha-9?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.6?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.6?type=jar",
+        "pkg:maven/org.jboss/jandex@2.0.1.Final?type=jar",
+        "pkg:maven/org.jboss/jboss-dmr@1.3.0.Final?type=jar",
+        "pkg:maven/org.jboss/staxmapper@1.2.0.Final?type=jar",
+        "pkg:maven/org.wildfly.core/wildfly-controller@2.0.10.Final?type=jar",
+        "pkg:maven/org.wildfly.swarm/config-api-runtime@0.4.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base@1.2.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.6?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-spi@1.2.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-spi@1.2.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api@1.2.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-javaee@2.0.0-alpha-9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-javaee@2.0.0-alpha-9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base@2.0.0-alpha-9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base@2.0.0-alpha-9?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-jboss@2.0.0-alpha-9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-9?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-javaee@2.0.0-alpha-9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-javaee@2.0.0-alpha-9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-javaee@2.0.0-alpha-9?type=jar",
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi@2.0.0-alpha-9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi@2.0.0-alpha-9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-base@2.0.0-alpha-9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.enterprise/cdi-api@2.0.Alpha4?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.inject/javax.inject@1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.msc/jboss-msc@1.2.6.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss/staxmapper@1.2.0.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss/jboss-dmr@1.3.0.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.core/wildfly-controller@2.0.10.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.0.3.Final?type=jar",
+        "pkg:maven/org.jboss.modules/jboss-modules@1.5.1.Final?type=jar",
+        "pkg:maven/org.jboss.msc/jboss-msc@1.2.6.Final?type=jar",
+        "pkg:maven/org.jboss/jboss-dmr@1.3.0.Final?type=jar",
+        "pkg:maven/org.jboss/staxmapper@1.2.0.Final?type=jar",
+        "pkg:maven/org.wildfly.core/wildfly-controller-client@2.0.10.Final?type=jar",
+        "pkg:maven/org.wildfly.core/wildfly-core-security@2.0.10.Final?type=jar",
+        "pkg:maven/org.wildfly.core/wildfly-version@2.0.10.Final?type=jar",
+        "pkg:maven/org.wildfly.security/wildfly-elytron@1.0.2.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.core/wildfly-controller-client@2.0.10.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
+        "pkg:maven/org.jboss.threads/jboss-threads@2.2.1.Final?type=jar",
+        "pkg:maven/org.jboss/jboss-dmr@1.3.0.Final?type=jar",
+        "pkg:maven/org.wildfly.core/wildfly-protocol@2.0.10.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.core/wildfly-protocol@2.0.10.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
+        "pkg:maven/org.jboss.remoting/jboss-remoting@4.0.18.Final?type=jar",
+        "pkg:maven/org.jboss.sasl/jboss-sasl@1.0.5.Final?type=jar",
+        "pkg:maven/org.jboss.threads/jboss-threads@2.2.1.Final?type=jar",
+        "pkg:maven/org.jboss.xnio/xnio-api@3.3.4.Final?type=jar",
+        "pkg:maven/org.jboss.xnio/xnio-nio@3.3.4.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.remoting/jboss-remoting@4.0.18.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
+        "pkg:maven/org.jboss.xnio/xnio-api@3.3.4.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.xnio/xnio-api@3.3.4.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.sasl/jboss-sasl@1.0.5.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.threads/jboss-threads@2.2.1.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.xnio/xnio-nio@3.3.4.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.xnio/xnio-api@3.3.4.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.security/wildfly-elytron@1.0.2.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.core/wildfly-core-security@2.0.10.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar",
+        "pkg:maven/org.wildfly.core/wildfly-core-security-api@2.0.10.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.core/wildfly-core-security-api@2.0.10.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.core/wildfly-version@2.0.10.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.modules/jboss-modules@1.5.1.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.modules/jboss-modules@1.5.1.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.0.3.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.swarm/config-api-runtime@0.4.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss/jandex@2.0.1.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.12?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.easytesting/fest-assert@1.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.easytesting/fest-util@1.1.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.easytesting/fest-util@1.1.6?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

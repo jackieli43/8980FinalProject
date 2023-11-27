@@ -1,0 +1,841 @@
+{
+ "artifacts": [
+  {
+   "id": "de7703b3b757dc38",
+   "name": "8BitJonny/gh-get-current-pr",
+   "version": "2.2.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:8BitJonny\\/gh-get-current-pr:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh-get-current-pr:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh_get_current_pr:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh_get_current_pr:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh-get-current:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh-get-current:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh_get_current:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh_get_current:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh-get:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh-get:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh_get:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh_get:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh:8BitJonny\\/gh-get-current-pr:2.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:8BitJonny\\/gh:8BitJonny\\/gh_get_current_pr:2.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/8BitJonny/gh-get-current-pr@2.2.0"
+  },
+  {
+   "id": "a6c3269ffbeb6e6c",
+   "name": "actions/checkout",
+   "version": "b4ffde65f46336ab88eb53be808477a3936bae11",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:b4ffde65f46336ab88eb53be808477a3936bae11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11"
+  },
+  {
+   "id": "2a613363926e382c",
+   "name": "actions/checkout",
+   "version": "b4ffde65f46336ab88eb53be808477a3936bae11",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:b4ffde65f46336ab88eb53be808477a3936bae11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11"
+  },
+  {
+   "id": "d559054e15da0da8",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "cf057d5bc5636424",
+   "name": "codecov/codecov-action",
+   "version": "v4.0.0-beta.2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:v4.0.0-beta.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:v4.0.0-beta.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:v4.0.0-beta.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:v4.0.0-beta.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:v4.0.0-beta.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:v4.0.0-beta.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/codecov/codecov-action@v4.0.0-beta.2"
+  },
+  {
+   "id": "6d341cebe2ae696b",
+   "name": "github/codeql-action/analyze",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#analyze"
+  },
+  {
+   "id": "e76e34f7265a870d",
+   "name": "github/codeql-action/autobuild",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/autobuild:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/autobuild:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/autobuild:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/autobuild:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#autobuild"
+  },
+  {
+   "id": "ecef180f3c7f7533",
+   "name": "github/codeql-action/init",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#init"
+  },
+  {
+   "id": "16b69aa5bd219fe5",
+   "name": "gson",
+   "version": "2.10.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.10.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.10.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "13217d7dc80a7d15",
+   "name": "httpclient5-cache",
+   "version": "5.2.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:httpclient5-cache:5.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:httpclient5_cache:5.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5-cache@5.2.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.httpcomponents.client5",
+     "artifactId": "httpclient5-cache",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "96504d09facee0ff",
+   "name": "jackson-databind",
+   "version": "2.16.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jackson-databind:jackson-databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson_databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson-databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson_databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson-databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson_databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson-databind:jackson:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson-databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson_databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson_databind:jackson:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson-databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson_databind:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fasterxml:jackson:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jackson:jackson:2.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:jackson:2.16.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.fasterxml.jackson.core",
+     "artifactId": "jackson-databind",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "72e79485645a9148",
+   "name": "junit-jupiter",
+   "version": "5.10.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit-jupiter:junit-jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit_jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit-jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit_jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit-jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit_jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit-jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit_jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:jupiter:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:jupiter:5.10.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.junit.jupiter/junit-jupiter@5.10.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.junit.jupiter",
+     "artifactId": "junit-jupiter",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "b66ef1f55d1285f0",
+   "name": "mockito-core",
+   "version": "5.7.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mockito-core:mockito-core:5.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-core:mockito_core:5.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_core:mockito-core:5.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_core:mockito_core:5.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito-core:5.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito_core:5.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-core@5.7.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mockito",
+     "artifactId": "mockito-core",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "beaca7a023a7b6d6",
+   "name": "nv-i18n",
+   "version": "1.29",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:neovisionaries:nv-i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:neovisionaries:nv_i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nv-i18n:nv-i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nv-i18n:nv_i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nv_i18n:nv-i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nv_i18n:nv_i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nv:nv-i18n:1.29:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nv:nv_i18n:1.29:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.neovisionaries/nv-i18n@1.29",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.neovisionaries",
+     "artifactId": "nv-i18n",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "fadb8e62e09b8c4b",
+   "name": "slf4j-api",
+   "version": "2.0.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:2.0.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "88e4f998e243048d",
+   "name": "slf4j-simple",
+   "version": "2.0.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-simple:slf4j-simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-simple:slf4j_simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j-simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j_simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_simple:2.0.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-simple@2.0.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-simple",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "26ee21092cc34f3e",
+   "name": "wiremock",
+   "version": "3.3.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:wiremock:wiremock:3.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.wiremock/wiremock@3.3.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.wiremock",
+     "artifactId": "wiremock",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "13217d7dc80a7d15",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "16b69aa5bd219fe5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "26ee21092cc34f3e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2a613363926e382c",
+   "child": "baf7713bd06bddcb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6d341cebe2ae696b",
+   "child": "baf7713bd06bddcb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "72e79485645a9148",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "88e4f998e243048d",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "96504d09facee0ff",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a6c3269ffbeb6e6c",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b66ef1f55d1285f0",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "beaca7a023a7b6d6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "13217d7dc80a7d15",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "16b69aa5bd219fe5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "26ee21092cc34f3e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2a613363926e382c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6d341cebe2ae696b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "72e79485645a9148",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "88e4f998e243048d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "96504d09facee0ff",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a6c3269ffbeb6e6c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b66ef1f55d1285f0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "beaca7a023a7b6d6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cf057d5bc5636424",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d559054e15da0da8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "de7703b3b757dc38",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e76e34f7265a870d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ecef180f3c7f7533",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fadb8e62e09b8c4b",
+   "type": "contains"
+  },
+  {
+   "parent": "cf057d5bc5636424",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d559054e15da0da8",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "de7703b3b757dc38",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e76e34f7265a870d",
+   "child": "baf7713bd06bddcb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ecef180f3c7f7533",
+   "child": "baf7713bd06bddcb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fadb8e62e09b8c4b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "7f46309ca868cff9",
+   "location": {
+    "path": "\\.github\\workflows\\ci.yml"
+   }
+  },
+  {
+   "id": "baf7713bd06bddcb",
+   "location": {
+    "path": "\\.github\\workflows\\codeql.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

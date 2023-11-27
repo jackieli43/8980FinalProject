@@ -1,0 +1,5600 @@
+{
+ "artifacts": [
+  {
+   "id": "ee4b3c82cd0d95d5",
+   "name": "@popperjs/core",
+   "version": "2.11.8",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:\\@popperjs\\/core:\\@popperjs\\/core:2.11.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/%40popperjs/core@2.11.8",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz",
+    "integrity": "sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A=="
+   }
+  },
+  {
+   "id": "6649b57adb6a1271",
+   "name": "abbrev",
+   "version": "1.1.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:abbrev:abbrev:1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/abbrev@1.1.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz",
+    "integrity": "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q=="
+   }
+  },
+  {
+   "id": "2735d78a405f40b9",
+   "name": "actions/checkout",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v3"
+  },
+  {
+   "id": "15c85fdfd8f74403",
+   "name": "actions/checkout",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\github-build.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v3"
+  },
+  {
+   "id": "9f2906abbfb8443e",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\github-build.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "7fe5777f46d174da",
+   "name": "ansi-regex",
+   "version": "2.1.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:ansi-regex_project:ansi-regex:2.1.1:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/ansi-regex@2.1.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz",
+    "integrity": "sha1-w7M6te42DYbg5ijwRorn7yfWVN8="
+   }
+  },
+  {
+   "id": "d623248fb1964311",
+   "name": "ansi-styles",
+   "version": "2.2.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:ansi-styles:ansi-styles:2.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi-styles:ansi_styles:2.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi_styles:ansi-styles:2.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi_styles:ansi_styles:2.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi:ansi-styles:2.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi:ansi_styles:2.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/ansi-styles@2.2.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz",
+    "integrity": "sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4="
+   }
+  },
+  {
+   "id": "5a0718e21529fda3",
+   "name": "ansi-styles",
+   "version": "4.3.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:ansi-styles:ansi-styles:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi-styles:ansi_styles:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi_styles:ansi-styles:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi_styles:ansi_styles:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi:ansi-styles:4.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ansi:ansi_styles:4.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/ansi-styles@4.3.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
+    "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="
+   }
+  },
+  {
+   "id": "8a417389314acd3c",
+   "name": "argparse",
+   "version": "1.0.10",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:argparse:argparse:1.0.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/argparse@1.0.10",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz",
+    "integrity": "sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg=="
+   }
+  },
+  {
+   "id": "9f3b8f3e631a939e",
+   "name": "array-each",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:array-each:array-each:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array-each:array_each:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_each:array-each:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_each:array_each:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array-each:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array_each:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/array-each@1.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/array-each/-/array-each-1.0.1.tgz",
+    "integrity": "sha1-p5SvDAWrF1KEbudTofIRoFugxE8="
+   }
+  },
+  {
+   "id": "ae2626f24a9b20f4",
+   "name": "array-slice",
+   "version": "1.1.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:array-slice:array-slice:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array-slice:array_slice:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_slice:array-slice:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array_slice:array_slice:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array-slice:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:array:array_slice:1.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/array-slice@1.1.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/array-slice/-/array-slice-1.1.0.tgz",
+    "integrity": "sha512-B1qMD3RBP7O8o0H2KbrXDyB0IccejMF15+87Lvlor12ONPRHP6gTjXMNkt/d3ZuOGbAe66hFmaCfECI24Ufp6w=="
+   }
+  },
+  {
+   "id": "94cdb5bc24f0f50b",
+   "name": "async",
+   "version": "3.2.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:async:async:3.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/async@3.2.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/async/-/async-3.2.3.tgz",
+    "integrity": "sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g=="
+   }
+  },
+  {
+   "id": "b090e296dffd1fb7",
+   "name": "balanced-match",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:balanced-match:balanced-match:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:balanced-match:balanced_match:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:balanced_match:balanced-match:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:balanced_match:balanced_match:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:balanced:balanced-match:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:balanced:balanced_match:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/balanced-match@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz",
+    "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
+   }
+  },
+  {
+   "id": "9371d6d86455baf7",
+   "name": "bastillion",
+   "version": "",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [
+    {
+     "value": "The Prosperity Public License",
+     "spdxExpression": "",
+     "type": "declared",
+     "urls": [],
+     "locations": [
+      {
+       "path": "\\package-lock.json",
+       "annotations": {
+        "evidence": "primary"
+       }
+      }
+     ]
+    }
+   ],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:bastillion:bastillion:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/bastillion",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "",
+    "integrity": ""
+   }
+  },
+  {
+   "id": "1d162b71c9b1f440",
+   "name": "bootstrap",
+   "version": "5.3.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:bootstrap:bootstrap:5.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/bootstrap@5.3.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.1.tgz",
+    "integrity": "sha512-jzwza3Yagduci2x0rr9MeFSORjcHpt0lRZukZPZQJT1Dth5qzV7XcgGqYzi39KGAVYR8QEDVoO0ubFKOxzMG+g=="
+   }
+  },
+  {
+   "id": "8774aaba1c0f5c05",
+   "name": "brace-expansion",
+   "version": "1.1.11",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:brace-expansion:brace-expansion:1.1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:brace-expansion:brace_expansion:1.1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:brace_expansion:brace-expansion:1.1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:brace_expansion:brace_expansion:1.1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:brace:brace-expansion:1.1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:brace:brace_expansion:1.1.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/brace-expansion@1.1.11",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz",
+    "integrity": "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="
+   }
+  },
+  {
+   "id": "066ee2101c149967",
+   "name": "braces",
+   "version": "3.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:braces_project:braces:3.0.2:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/braces@3.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz",
+    "integrity": "sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A=="
+   }
+  },
+  {
+   "id": "ae23d698da346325",
+   "name": "chalk",
+   "version": "1.1.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:chalk:chalk:1.1.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/chalk@1.1.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz",
+    "integrity": "sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg="
+   }
+  },
+  {
+   "id": "5c4a8b099b19a3f8",
+   "name": "chalk",
+   "version": "4.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:chalk:chalk:4.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/chalk@4.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
+    "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+   }
+  },
+  {
+   "id": "11ce26be0a2534d7",
+   "name": "color-convert",
+   "version": "2.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:color-convert:color-convert:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color-convert:color_convert:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color_convert:color-convert:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color_convert:color_convert:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color:color-convert:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color:color_convert:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/color-convert@2.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
+    "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="
+   }
+  },
+  {
+   "id": "80c95cdfc7543d16",
+   "name": "color-name",
+   "version": "1.1.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:color-name:color-name:1.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color-name:color_name:1.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color_name:color-name:1.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color_name:color_name:1.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color:color-name:1.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:color:color_name:1.1.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/color-name@1.1.4",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
+    "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
+   }
+  },
+  {
+   "id": "0ee7449e640cb1b6",
+   "name": "colors",
+   "version": "1.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:colors:colors:1.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/colors@1.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/colors/-/colors-1.1.2.tgz",
+    "integrity": "sha1-FopHAXVran9RoSzgyXv6KMCE7WM="
+   }
+  },
+  {
+   "id": "558f6d3ede876678",
+   "name": "commons-codec",
+   "version": "1.16.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-codec:commons-codec:1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-codec:commons_codec:1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_codec:commons-codec:1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_codec:commons_codec:1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-codec:1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_codec:1.16.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-codec/commons-codec@1.16.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-codec",
+     "artifactId": "commons-codec",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bd626a30e67bfa20",
+   "name": "commons-configuration",
+   "version": "1.10",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-configuration:commons-configuration:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-configuration:commons_configuration:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_configuration:commons-configuration:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_configuration:commons_configuration:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-configuration:1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_configuration:1.10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-configuration/commons-configuration@1.10",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-configuration",
+     "artifactId": "commons-configuration",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1ada1f9d720570c3",
+   "name": "commons-dbcp2",
+   "version": "2.9.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-dbcp2:2.9.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_dbcp2:2.9.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:2.9.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-dbcp2@2.9.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-dbcp2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "19ed1391b615943b",
+   "name": "commons-fileupload",
+   "version": "1.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-fileupload:commons-fileupload:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-fileupload:commons_fileupload:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_fileupload:commons-fileupload:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_fileupload:commons_fileupload:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-fileupload:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_fileupload:1.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-fileupload/commons-fileupload@1.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-fileupload",
+     "artifactId": "commons-fileupload",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "9dc7be8fd543dc57",
+   "name": "concat-map",
+   "version": "0.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:concat-map:concat-map:0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:concat-map:concat_map:0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:concat_map:concat-map:0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:concat_map:concat_map:0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:concat:concat-map:0.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:concat:concat_map:0.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/concat-map@0.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz",
+    "integrity": "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
+   }
+  },
+  {
+   "id": "fe4b4a414d162a7e",
+   "name": "core",
+   "version": "3.5.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:core:3.5.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:zxing:core:3.5.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:core:3.5.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.zxing/core@3.5.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.zxing",
+     "artifactId": "core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "02fd83cd15a56e91",
+   "name": "dateformat",
+   "version": "4.6.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:dateformat:dateformat:4.6.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/dateformat@4.6.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/dateformat/-/dateformat-4.6.3.tgz",
+    "integrity": "sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA=="
+   }
+  },
+  {
+   "id": "af23ea10110eee73",
+   "name": "detect-file",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:detect-file:detect-file:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:detect-file:detect_file:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:detect_file:detect-file:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:detect_file:detect_file:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:detect:detect-file:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:detect:detect_file:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/detect-file@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/detect-file/-/detect-file-1.0.0.tgz",
+    "integrity": "sha1-8NZtA2cqglyxtzvbP+YjEMjlUrc="
+   }
+  },
+  {
+   "id": "c3e0c6aaaf142a66",
+   "name": "escape-string-regexp",
+   "version": "1.0.5",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:escape-string-regexp:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape-string-regexp:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape_string_regexp:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape_string_regexp:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape-string:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape-string:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape_string:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape_string:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:escape:escape_string_regexp:1.0.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/escape-string-regexp@1.0.5",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz",
+    "integrity": "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
+   }
+  },
+  {
+   "id": "9d8da1498485e1c3",
+   "name": "esprima",
+   "version": "4.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:esprima:esprima:4.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/esprima@4.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz",
+    "integrity": "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A=="
+   }
+  },
+  {
+   "id": "c045381d8ae59289",
+   "name": "eventemitter2",
+   "version": "0.4.14",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:eventemitter2:eventemitter2:0.4.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/eventemitter2@0.4.14",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/eventemitter2/-/eventemitter2-0.4.14.tgz",
+    "integrity": "sha1-j2G3XN4BKy6esoTUVFWDtWQ7Yas="
+   }
+  },
+  {
+   "id": "a2bc02f0779a621a",
+   "name": "exit",
+   "version": "0.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:exit:exit:0.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/exit@0.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/exit/-/exit-0.1.2.tgz",
+    "integrity": "sha1-BjJjj42HfMghB9MKD/8aF8uhzQw="
+   }
+  },
+  {
+   "id": "baf9ba86987e5582",
+   "name": "expand-tilde",
+   "version": "2.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:expand-tilde:expand-tilde:2.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:expand-tilde:expand_tilde:2.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:expand_tilde:expand-tilde:2.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:expand_tilde:expand_tilde:2.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:expand:expand-tilde:2.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:expand:expand_tilde:2.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/expand-tilde@2.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/expand-tilde/-/expand-tilde-2.0.2.tgz",
+    "integrity": "sha1-l+gBqgUt8CRU3kawK/YhZCzchQI="
+   }
+  },
+  {
+   "id": "8ab0c3a717a66dea",
+   "name": "extend",
+   "version": "3.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:extend_project:extend:3.0.2:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/extend@3.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz",
+    "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g=="
+   }
+  },
+  {
+   "id": "8ce91c2c0af6a63b",
+   "name": "file-sync-cmp",
+   "version": "0.1.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:file-sync-cmp:file-sync-cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file-sync-cmp:file_sync_cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file_sync_cmp:file-sync-cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file_sync_cmp:file_sync_cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file-sync:file-sync-cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file-sync:file_sync_cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file_sync:file-sync-cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file_sync:file_sync_cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file:file-sync-cmp:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:file:file_sync_cmp:0.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/file-sync-cmp@0.1.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz",
+    "integrity": "sha1-peeo/7+kk7Q7kju9TKiaU7Y7YSs="
+   }
+  },
+  {
+   "id": "5a3450d0a0c07013",
+   "name": "fill-range",
+   "version": "7.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:fill-range:fill-range:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fill-range:fill_range:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fill_range:fill-range:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fill_range:fill_range:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fill:fill-range:7.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fill:fill_range:7.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/fill-range@7.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz",
+    "integrity": "sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ=="
+   }
+  },
+  {
+   "id": "7f6ec9a8fead2882",
+   "name": "findup-sync",
+   "version": "4.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:findup-sync:findup-sync:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup-sync:findup_sync:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup_sync:findup-sync:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup_sync:findup_sync:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup:findup-sync:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup:findup_sync:4.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/findup-sync@4.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/findup-sync/-/findup-sync-4.0.0.tgz",
+    "integrity": "sha512-6jvvn/12IC4quLBL1KNokxC7wWTvYncaVUYSoxWw7YykPLuRrnv4qdHcSOywOI5RpkOVGeQRtWM8/q+G6W6qfQ=="
+   }
+  },
+  {
+   "id": "5b371b91f5ddf8d1",
+   "name": "findup-sync",
+   "version": "5.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:findup-sync:findup-sync:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup-sync:findup_sync:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup_sync:findup-sync:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup_sync:findup_sync:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup:findup-sync:5.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:findup:findup_sync:5.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/findup-sync@5.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/findup-sync/-/findup-sync-5.0.0.tgz",
+    "integrity": "sha512-MzwXju70AuyflbgeOhzvQWAvvQdo1XL0A9bVvlXsYcFEBM87WR4OakL4OfZq+QRmr+duJubio+UtNQCPsVESzQ=="
+   }
+  },
+  {
+   "id": "be6b1ca139888560",
+   "name": "fined",
+   "version": "1.2.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:fined:fined:1.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/fined@1.2.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/fined/-/fined-1.2.0.tgz",
+    "integrity": "sha512-ZYDqPLGxDkDhDZBjZBb+oD1+j0rA4E0pXY50eplAAOPg2N/gUBSSk5IM1/QhPfyVo19lJ+CvXpqfvk+b2p/8Ng=="
+   }
+  },
+  {
+   "id": "cf52cd6bc44fa57a",
+   "name": "flagged-respawn",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:flagged-respawn:flagged-respawn:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flagged-respawn:flagged_respawn:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flagged_respawn:flagged-respawn:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flagged_respawn:flagged_respawn:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flagged:flagged-respawn:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flagged:flagged_respawn:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/flagged-respawn@1.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/flagged-respawn/-/flagged-respawn-1.0.1.tgz",
+    "integrity": "sha512-lNaHNVymajmk0OJMBn8fVUAU1BtDeKIqKoVhk4xAALB57aALg6b4W0MfJ/cUE0g9YBXy5XhSlPIpYIJ7HaY/3Q=="
+   }
+  },
+  {
+   "id": "d19beb652286e1ab",
+   "name": "floatthead",
+   "version": "2.2.5",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:floatthead:floatthead:2.2.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/floatthead@2.2.5",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/floatthead/-/floatthead-2.2.5.tgz",
+    "integrity": "sha512-kpSxF0FWhrJMIy/Fu28oMXD8HNzHMwOJsgZ3n+IyRSCH39zaQtUDVq90XxJl3ZRzuWeyn+d802UNzsVqBoBa9w=="
+   }
+  },
+  {
+   "id": "3e466c7705650cb4",
+   "name": "for-in",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:for-in:for-in:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for-in:for_in:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for_in:for-in:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for_in:for_in:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for:for-in:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for:for_in:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/for-in@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/for-in/-/for-in-1.0.2.tgz",
+    "integrity": "sha1-gQaNKVqBQuwKxybG4iAMMPttXoA="
+   }
+  },
+  {
+   "id": "767b5d7c087b3a2a",
+   "name": "for-own",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:for-own:for-own:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for-own:for_own:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for_own:for-own:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for_own:for_own:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for:for-own:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:for:for_own:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/for-own@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/for-own/-/for-own-1.0.0.tgz",
+    "integrity": "sha1-xjMy9BXO3EsE2/5wz4NklMU8tEs="
+   }
+  },
+  {
+   "id": "8f47951a850566bb",
+   "name": "fs.realpath",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:fs.realpath:fs.realpath:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/fs.realpath@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz",
+    "integrity": "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
+   }
+  },
+  {
+   "id": "8c7e47d99bc8fe75",
+   "name": "function-bind",
+   "version": "1.1.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:function-bind:function-bind:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:function-bind:function_bind:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:function_bind:function-bind:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:function_bind:function_bind:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:function:function-bind:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:function:function_bind:1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/function-bind@1.1.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz",
+    "integrity": "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
+   }
+  },
+  {
+   "id": "b9207ef138a0d6bf",
+   "name": "getobject",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:getobject_project:getobject:1.0.2:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/getobject@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/getobject/-/getobject-1.0.2.tgz",
+    "integrity": "sha512-2zblDBaFcb3rB4rF77XVnuINOE2h2k/OnqXAiy0IrTxUfV1iFp3la33oAQVY9pCpWU268WFYVt2t71hlMuLsOg=="
+   }
+  },
+  {
+   "id": "e6ec26edaeb2f92b",
+   "name": "github/codeql-action/analyze",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#analyze"
+  },
+  {
+   "id": "8d993cbe786b1d96",
+   "name": "github/codeql-action/autobuild",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/autobuild:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/autobuild:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/autobuild:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/autobuild:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/autobuild:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/autobuild:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#autobuild"
+  },
+  {
+   "id": "c4d363645ce47e28",
+   "name": "github/codeql-action/init",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/github/codeql-action@v2#init"
+  },
+  {
+   "id": "05bf7ca395ac47b8",
+   "name": "glob",
+   "version": "7.1.7",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:glob:glob:7.1.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/glob@7.1.7",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/glob/-/glob-7.1.7.tgz",
+    "integrity": "sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ=="
+   }
+  },
+  {
+   "id": "056a6da084153c46",
+   "name": "global-modules",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:global-modules:global-modules:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global-modules:global_modules:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global_modules:global-modules:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global_modules:global_modules:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global:global-modules:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global:global_modules:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/global-modules@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/global-modules/-/global-modules-1.0.0.tgz",
+    "integrity": "sha512-sKzpEkf11GpOFuw0Zzjzmt4B4UZwjOcG757PPvrfhxcLFbq0wpsgpOqxpxtxFiCG4DtG93M6XRVbF2oGdev7bg=="
+   }
+  },
+  {
+   "id": "004003fa4b773efe",
+   "name": "global-prefix",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:global-prefix:global-prefix:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global-prefix:global_prefix:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global_prefix:global-prefix:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global_prefix:global_prefix:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global:global-prefix:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:global:global_prefix:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/global-prefix@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/global-prefix/-/global-prefix-1.0.2.tgz",
+    "integrity": "sha1-2/dDxsFJklk8ZVVoy2btMsASLr4="
+   }
+  },
+  {
+   "id": "d2b3acfa823e3668",
+   "name": "grunt",
+   "version": "1.6.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt:grunt:1.6.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt@1.6.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt/-/grunt-1.6.1.tgz",
+    "integrity": "sha512-/ABUy3gYWu5iBmrUSRBP97JLpQUm0GgVveDCp6t3yRNIoltIYw7rEj3g5y1o2PGPR2vfTRGa7WC/LZHLTXnEzA=="
+   }
+  },
+  {
+   "id": "6592bf2d8cc586b1",
+   "name": "grunt-cli",
+   "version": "1.4.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-cli:grunt-cli:1.4.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-cli:grunt_cli:1.4.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_cli:grunt-cli:1.4.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_cli:grunt_cli:1.4.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-cli:1.4.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_cli:1.4.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-cli@1.4.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.4.3.tgz",
+    "integrity": "sha512-9Dtx/AhVeB4LYzsViCjUQkd0Kw0McN2gYpdmGYKtE2a5Yt7v1Q+HYZVWhqXc/kGnxlMtqKDxSwotiGeFmkrCoQ=="
+   }
+  },
+  {
+   "id": "60cb41f4c46f9608",
+   "name": "grunt-contrib-clean",
+   "version": "2.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-contrib-clean:grunt-contrib-clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-contrib-clean:grunt_contrib_clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib_clean:grunt-contrib-clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib_clean:grunt_contrib_clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-contrib:grunt-contrib-clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-contrib:grunt_contrib_clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib:grunt-contrib-clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib:grunt_contrib_clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-contrib-clean:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_contrib_clean:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-contrib-clean@2.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-contrib-clean/-/grunt-contrib-clean-2.0.1.tgz",
+    "integrity": "sha512-uRvnXfhiZt8akb/ZRDHJpQQtkkVkqc/opWO4Po/9ehC2hPxgptB9S6JHDC/Nxswo4CJSM0iFPT/Iym3cEMWzKA=="
+   }
+  },
+  {
+   "id": "d44c90ab0ebd4fd3",
+   "name": "grunt-contrib-copy",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-contrib-copy:grunt-contrib-copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-contrib-copy:grunt_contrib_copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib_copy:grunt-contrib-copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib_copy:grunt_contrib_copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-contrib:grunt-contrib-copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-contrib:grunt_contrib_copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib:grunt-contrib-copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_contrib:grunt_contrib_copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-contrib-copy:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_contrib_copy:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-contrib-copy@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz",
+    "integrity": "sha1-cGDGWB6QS4qw0A8HbgqPbj58NXM="
+   }
+  },
+  {
+   "id": "26ce51eb45bd22db",
+   "name": "grunt-known-options",
+   "version": "2.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-known-options:grunt-known-options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-known-options:grunt_known_options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_known_options:grunt-known-options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_known_options:grunt_known_options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-known:grunt-known-options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-known:grunt_known_options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_known:grunt-known-options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_known:grunt_known_options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-known-options:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_known_options:2.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-known-options@2.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-known-options/-/grunt-known-options-2.0.0.tgz",
+    "integrity": "sha512-GD7cTz0I4SAede1/+pAbmJRG44zFLPipVtdL9o3vqx9IEyb7b4/Y3s7r6ofI3CchR5GvYJ+8buCSioDv5dQLiA=="
+   }
+  },
+  {
+   "id": "2c4c8ca5b065997c",
+   "name": "grunt-legacy-log",
+   "version": "3.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-legacy-log:grunt-legacy-log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy-log:grunt_legacy_log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_log:grunt-legacy-log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_log:grunt_legacy_log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy:grunt-legacy-log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy:grunt_legacy_log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy:grunt-legacy-log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy:grunt_legacy_log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-legacy-log:3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_legacy_log:3.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-legacy-log@3.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-legacy-log/-/grunt-legacy-log-3.0.0.tgz",
+    "integrity": "sha512-GHZQzZmhyq0u3hr7aHW4qUH0xDzwp2YXldLPZTCjlOeGscAOWWPftZG3XioW8MasGp+OBRIu39LFx14SLjXRcA=="
+   }
+  },
+  {
+   "id": "c0213cd656492b61",
+   "name": "grunt-legacy-log-utils",
+   "version": "2.1.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-legacy-log-utils:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy-log-utils:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_log_utils:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_log_utils:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy-log:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy-log:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_log:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_log:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-legacy-log-utils:2.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_legacy_log_utils:2.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-legacy-log-utils@2.1.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-legacy-log-utils/-/grunt-legacy-log-utils-2.1.0.tgz",
+    "integrity": "sha512-lwquaPXJtKQk0rUM1IQAop5noEpwFqOXasVoedLeNzaibf/OPWjKYvvdqnEHNmU+0T0CaReAXIbGo747ZD+Aaw=="
+   }
+  },
+  {
+   "id": "de63d84a32f65a30",
+   "name": "grunt-legacy-util",
+   "version": "2.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-legacy-util:grunt-legacy-util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy-util:grunt_legacy_util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_util:grunt-legacy-util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy_util:grunt_legacy_util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy:grunt-legacy-util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-legacy:grunt_legacy_util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy:grunt-legacy-util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_legacy:grunt_legacy_util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-legacy-util:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_legacy_util:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-legacy-util@2.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-legacy-util/-/grunt-legacy-util-2.0.1.tgz",
+    "integrity": "sha512-2bQiD4fzXqX8rhNdXkAywCadeqiPiay0oQny77wA2F3WF4grPJXCvAcyoWUJV+po/b15glGkxuSiQCK299UC2w=="
+   }
+  },
+  {
+   "id": "107075c767a2e5aa",
+   "name": "grunt-mkdir",
+   "version": "1.1.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:grunt-mkdir:grunt-mkdir:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt-mkdir:grunt_mkdir:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_mkdir:grunt-mkdir:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt_mkdir:grunt_mkdir:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt-mkdir:1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grunt:grunt_mkdir:1.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/grunt-mkdir@1.1.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/grunt-mkdir/-/grunt-mkdir-1.1.0.tgz",
+    "integrity": "sha512-FRE17OYVveNbVJFX8GPGa5bzH2ZiAdBx3q0Kwk2Dg6l+TzLGaTdufUxiUWUbS2MERFacnmXZwDDOR5ZbYW0o+Q=="
+   }
+  },
+  {
+   "id": "16b69aa5bd219fe5",
+   "name": "gson",
+   "version": "2.10.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:gson:2.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:gson:2.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:gson:gson:2.10.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.gson/gson@2.10.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.gson",
+     "artifactId": "gson",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "5ca99990c6f29bbb",
+   "name": "h2",
+   "version": "2.2.220",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:h2database:h2:2.2.220:*:*:*:*:*:*:*",
+    "cpe:2.3:a:h2:h2:2.2.220:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.h2database/h2@2.2.220",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.h2database",
+     "artifactId": "h2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3ec931af1dc54a36",
+   "name": "has",
+   "version": "1.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:has:has:1.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/has@1.0.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/has/-/has-1.0.3.tgz",
+    "integrity": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw=="
+   }
+  },
+  {
+   "id": "3d3c4520196cd0e4",
+   "name": "has-ansi",
+   "version": "2.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:has-ansi:has-ansi:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has-ansi:has_ansi:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has_ansi:has-ansi:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has_ansi:has_ansi:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has:has-ansi:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has:has_ansi:2.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/has-ansi@2.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz",
+    "integrity": "sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE="
+   }
+  },
+  {
+   "id": "5f7fcfb4c6741feb",
+   "name": "has-flag",
+   "version": "4.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:has-flag:has-flag:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has-flag:has_flag:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has_flag:has-flag:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has_flag:has_flag:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has:has-flag:4.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:has:has_flag:4.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/has-flag@4.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+    "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="
+   }
+  },
+  {
+   "id": "17b0fb35506935ab",
+   "name": "homedir-polyfill",
+   "version": "1.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:homedir-polyfill:homedir-polyfill:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:homedir-polyfill:homedir_polyfill:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:homedir_polyfill:homedir-polyfill:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:homedir_polyfill:homedir_polyfill:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:homedir:homedir-polyfill:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:homedir:homedir_polyfill:1.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/homedir-polyfill@1.0.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/homedir-polyfill/-/homedir-polyfill-1.0.3.tgz",
+    "integrity": "sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA=="
+   }
+  },
+  {
+   "id": "4fb0d684906a4ec9",
+   "name": "hooker",
+   "version": "0.2.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:hooker:hooker:0.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/hooker@0.2.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz",
+    "integrity": "sha1-uDT3I8xKJCqmWWNFnfbZhMXT2Vk="
+   }
+  },
+  {
+   "id": "3a42869b95bf67cf",
+   "name": "iconv-lite",
+   "version": "0.6.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:iconv-lite:iconv-lite:0.6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:iconv-lite:iconv_lite:0.6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:iconv_lite:iconv-lite:0.6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:iconv_lite:iconv_lite:0.6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:iconv:iconv-lite:0.6.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:iconv:iconv_lite:0.6.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/iconv-lite@0.6.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz",
+    "integrity": "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="
+   }
+  },
+  {
+   "id": "de866553b2efff24",
+   "name": "inflight",
+   "version": "1.0.6",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:inflight:inflight:1.0.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/inflight@1.0.6",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz",
+    "integrity": "sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk="
+   }
+  },
+  {
+   "id": "28c610d59be8cdc8",
+   "name": "inherits",
+   "version": "2.0.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:inherits:inherits:2.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/inherits@2.0.4",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+    "integrity": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ=="
+   }
+  },
+  {
+   "id": "6deb62d5087be118",
+   "name": "ini",
+   "version": "1.3.8",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:ini_project:ini:1.3.8:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/ini@1.3.8",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz",
+    "integrity": "sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew=="
+   }
+  },
+  {
+   "id": "e4bf20120d79b5aa",
+   "name": "interpret",
+   "version": "1.1.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:interpret:interpret:1.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/interpret@1.1.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/interpret/-/interpret-1.1.0.tgz",
+    "integrity": "sha1-ftGxQQxqDg94z5XTuEQMY/eLhhQ="
+   }
+  },
+  {
+   "id": "bd6e5e097c662037",
+   "name": "is-absolute",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-absolute:is-absolute:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-absolute:is_absolute:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_absolute:is-absolute:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_absolute:is_absolute:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-absolute:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_absolute:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-absolute@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-absolute/-/is-absolute-1.0.0.tgz",
+    "integrity": "sha512-dOWoqflvcydARa360Gvv18DZ/gRuHKi2NU/wU5X1ZFzdYfH29nkiNZsF3mp4OJ3H4yo9Mx8A/uAGNzpzPN3yBA=="
+   }
+  },
+  {
+   "id": "03068341b5d50631",
+   "name": "is-core-module",
+   "version": "2.8.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-core-module:is-core-module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-core-module:is_core_module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core_module:is-core-module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core_module:is_core_module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-core:is-core-module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-core:is_core_module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core:is-core-module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_core:is_core_module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-core-module:2.8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_core_module:2.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-core-module@2.8.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.1.tgz",
+    "integrity": "sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA=="
+   }
+  },
+  {
+   "id": "96dc5a0363d3b71b",
+   "name": "is-extglob",
+   "version": "2.1.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-extglob:is-extglob:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-extglob:is_extglob:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_extglob:is-extglob:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_extglob:is_extglob:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-extglob:2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_extglob:2.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-extglob@2.1.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz",
+    "integrity": "sha1-qIwCU1eR8C7TfHahueqXc8gz+MI="
+   }
+  },
+  {
+   "id": "bc9ca52b03909eb1",
+   "name": "is-glob",
+   "version": "4.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-glob:is-glob:4.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-glob:is_glob:4.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_glob:is-glob:4.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_glob:is_glob:4.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-glob:4.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_glob:4.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-glob@4.0.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz",
+    "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg=="
+   }
+  },
+  {
+   "id": "8e754dbd6004b981",
+   "name": "is-number",
+   "version": "7.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-number:is-number:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-number:is_number:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_number:is-number:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_number:is_number:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-number:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_number:7.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-number@7.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz",
+    "integrity": "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng=="
+   }
+  },
+  {
+   "id": "2e4b621452d671bb",
+   "name": "is-plain-object",
+   "version": "2.0.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-plain-object:is-plain-object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-plain-object:is_plain_object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_plain_object:is-plain-object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_plain_object:is_plain_object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-plain:is-plain-object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-plain:is_plain_object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_plain:is-plain-object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_plain:is_plain_object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-plain-object:2.0.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_plain_object:2.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-plain-object@2.0.4",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz",
+    "integrity": "sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og=="
+   }
+  },
+  {
+   "id": "0311c3aaa45f5fc8",
+   "name": "is-relative",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-relative:is-relative:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-relative:is_relative:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_relative:is-relative:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_relative:is_relative:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-relative:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_relative:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-relative@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-relative/-/is-relative-1.0.0.tgz",
+    "integrity": "sha512-Kw/ReK0iqwKeu0MITLFuj0jbPAmEiOsIwyIXvvbfa6QfmN9pkD1M+8pdk7Rl/dTKbH34/XBFMbgD4iMJhLQbGA=="
+   }
+  },
+  {
+   "id": "d92dc45f26dc67d1",
+   "name": "is-unc-path",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-unc-path:is-unc-path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-unc-path:is_unc_path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_unc_path:is-unc-path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_unc_path:is_unc_path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-unc:is-unc-path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-unc:is_unc_path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_unc:is-unc-path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_unc:is_unc_path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-unc-path:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_unc_path:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-unc-path@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-unc-path/-/is-unc-path-1.0.0.tgz",
+    "integrity": "sha512-mrGpVd0fs7WWLfVsStvgF6iEJnbjDFZh9/emhRDcGWTduTfNHd9CHeUwH3gYIjdbwo4On6hunkztwOaAw0yllQ=="
+   }
+  },
+  {
+   "id": "986b75196a456ec8",
+   "name": "is-windows",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:is-windows:is-windows:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is-windows:is_windows:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_windows:is-windows:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is_windows:is_windows:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is-windows:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:is:is_windows:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/is-windows@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz",
+    "integrity": "sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA=="
+   }
+  },
+  {
+   "id": "ceb37d9f48fca4a9",
+   "name": "isexe",
+   "version": "2.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:isexe:isexe:2.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/isexe@2.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz",
+    "integrity": "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
+   }
+  },
+  {
+   "id": "f2bd5c00223f4d08",
+   "name": "isobject",
+   "version": "3.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:isobject:isobject:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/isobject@3.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz",
+    "integrity": "sha1-TkMekrEalzFjaqH5yNHMvP2reN8="
+   }
+  },
+  {
+   "id": "26f0be00d0bf09e8",
+   "name": "javax-websocket-server-impl",
+   "version": "9.4.51.v20230217",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax-websocket-server-impl:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax-websocket-server-impl:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax_websocket_server_impl:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax_websocket_server_impl:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax-websocket-server:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax-websocket-server:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax_websocket_server:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax_websocket_server:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax-websocket:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax-websocket:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax_websocket:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax_websocket:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:websocket:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:websocket:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:javax-websocket-server-impl:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:javax_websocket_server_impl:9.4.51.v20230217:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-server-impl@9.4.51.v20230217",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.eclipse.jetty.websocket",
+     "artifactId": "javax-websocket-server-impl",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "54285f4b1292acb6",
+   "name": "jetty-jaas",
+   "version": "9.4.51.v20230217",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jetty-jaas:jetty-jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jaas:jetty_jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaas:jetty-jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaas:jetty_jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty-jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty_jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty-jaas:jetty:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty-jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty_jaas:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty_jaas:jetty:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:eclipse:jetty:9.4.51.v20230217:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetty:jetty:9.4.51.v20230217:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.51.v20230217",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.eclipse.jetty",
+     "artifactId": "jetty-jaas",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "f4ec38a118f3cd55",
+   "name": "jquery",
+   "version": "3.7.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:jquery:jquery:3.7.0:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/jquery@3.7.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.7.0.tgz",
+    "integrity": "sha512-umpJ0/k8X0MvD1ds0P9SfowREz2LenHsQaxSohMZ5OMNEU2r0tf8pdeEFTHMFxWVxKNyU9rTtK3CWzUCTKJUeQ=="
+   }
+  },
+  {
+   "id": "d8958c623ee06412",
+   "name": "jquery-ui",
+   "version": "1.13.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:jquery-ui:jquery-ui:1.13.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jquery-ui:jquery_ui:1.13.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jquery_ui:jquery-ui:1.13.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jquery_ui:jquery_ui:1.13.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jquery:jquery-ui:1.13.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jquery:jquery_ui:1.13.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/jquery-ui@1.13.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/jquery-ui/-/jquery-ui-1.13.2.tgz",
+    "integrity": "sha512-wBZPnqWs5GaYJmo1Jj0k/mrSkzdQzKDwhXNtHKcBdAcKVxMM3KNYFq+iJ2i1rwiG53Z8M4mTn3Qxrm17uH1D4Q=="
+   }
+  },
+  {
+   "id": "6118031b561672af",
+   "name": "js-yaml",
+   "version": "3.14.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:js-yaml:js-yaml:3.14.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:js-yaml:js_yaml:3.14.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:js_yaml:js-yaml:3.14.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:js_yaml:js_yaml:3.14.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:js:js-yaml:3.14.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:js:js_yaml:3.14.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/js-yaml@3.14.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.14.1.tgz",
+    "integrity": "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g=="
+   }
+  },
+  {
+   "id": "12674330b070ce31",
+   "name": "jsch",
+   "version": "0.2.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:github:jsch:0.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mwiede:jsch:0.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsch:jsch:0.2.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.mwiede/jsch@0.2.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.github.mwiede",
+     "artifactId": "jsch",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "5e3409189fcd02c2",
+   "name": "kind-of",
+   "version": "6.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:kind-of:kind-of:6.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kind-of:kind_of:6.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kind_of:kind-of:6.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kind_of:kind_of:6.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kind:kind-of:6.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kind:kind_of:6.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/kind-of@6.0.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz",
+    "integrity": "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw=="
+   }
+  },
+  {
+   "id": "07ca3cf0f7f1ac43",
+   "name": "liftup",
+   "version": "3.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:liftup:liftup:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/liftup@3.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/liftup/-/liftup-3.0.1.tgz",
+    "integrity": "sha512-yRHaiQDizWSzoXk3APcA71eOI/UuhEkNN9DiW2Tt44mhYzX4joFoCZlxsSOF7RyeLlfqzFLQI1ngFq3ggMPhOw=="
+   }
+  },
+  {
+   "id": "787ee0e3bd8d94da",
+   "name": "lmvc",
+   "version": "1.12.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:bastillion:lmvc:1.12.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:lmvc:lmvc:1.12.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.bastillion/lmvc@1.12.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "io.bastillion",
+     "artifactId": "lmvc",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "40b05b2e914d7797",
+   "name": "lodash",
+   "version": "4.17.21",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:lodash:lodash:4.17.21:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/lodash@4.17.21",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+    "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+   }
+  },
+  {
+   "id": "1b7f1a71896cf3ed",
+   "name": "make-iterator",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:make-iterator:make-iterator:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:make-iterator:make_iterator:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:make_iterator:make-iterator:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:make_iterator:make_iterator:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:make:make-iterator:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:make:make_iterator:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/make-iterator@1.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/make-iterator/-/make-iterator-1.0.1.tgz",
+    "integrity": "sha512-pxiuXh0iVEq7VM7KMIhs5gxsfxCux2URptUQaXo4iZZJxBAzTPOLE2BumO5dbfVYq/hBJFBR/a1mFDmOx5AGmw=="
+   }
+  },
+  {
+   "id": "59e4dd872055c015",
+   "name": "map-cache",
+   "version": "0.2.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:map-cache:map-cache:0.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:map-cache:map_cache:0.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:map_cache:map-cache:0.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:map_cache:map_cache:0.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:map:map-cache:0.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:map:map_cache:0.2.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/map-cache@0.2.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/map-cache/-/map-cache-0.2.2.tgz",
+    "integrity": "sha1-wyq9C9ZSXZsFFkW7TyasXcmKDb8="
+   }
+  },
+  {
+   "id": "99de8cd001f4b806",
+   "name": "micromatch",
+   "version": "4.0.4",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:micromatch:micromatch:4.0.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/micromatch@4.0.4",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/micromatch/-/micromatch-4.0.4.tgz",
+    "integrity": "sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg=="
+   }
+  },
+  {
+   "id": "671506b01819c798",
+   "name": "minimatch",
+   "version": "3.0.7",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:minimatch:minimatch:3.0.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/minimatch@3.0.7",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.7.tgz",
+    "integrity": "sha512-pYjbG0o9W2Wb3KVBuV6s7R/bzS/iS3HPiHcFcDee5GGiN1M5MErXqgS4jGn8pwVwTZAoy7B8bYb/+AqQU0NhZA=="
+   }
+  },
+  {
+   "id": "999e4c54121aa37c",
+   "name": "nopt",
+   "version": "3.0.6",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:nopt:nopt:3.0.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/nopt@3.0.6",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz",
+    "integrity": "sha1-xkZdvwirzU2zWTF/eaxopkayj/k="
+   }
+  },
+  {
+   "id": "b1c68a2cf7ac286d",
+   "name": "nopt",
+   "version": "4.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:nopt:nopt:4.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/nopt@4.0.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/nopt/-/nopt-4.0.3.tgz",
+    "integrity": "sha512-CvaGwVMztSMJLOeXPrez7fyfObdZqNUK1cPAEzLHrTybIua9pMdmmPR5YwtfNftIOMv3DPUhFaxsZMNTQO20Kg=="
+   }
+  },
+  {
+   "id": "19394718a16f9644",
+   "name": "object.defaults",
+   "version": "1.1.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:object.defaults:object.defaults:1.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/object.defaults@1.1.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/object.defaults/-/object.defaults-1.1.0.tgz",
+    "integrity": "sha1-On+GgzS0B96gbaFtiNXNKeQ1/s8="
+   }
+  },
+  {
+   "id": "967ea35b1331be86",
+   "name": "object.map",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:object.map:object.map:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/object.map@1.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/object.map/-/object.map-1.0.1.tgz",
+    "integrity": "sha1-z4Plncj8wK1fQlDh94s7gb2AHTc="
+   }
+  },
+  {
+   "id": "593972f8e4e0b455",
+   "name": "object.pick",
+   "version": "1.3.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:object.pick:object.pick:1.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/object.pick@1.3.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/object.pick/-/object.pick-1.3.0.tgz",
+    "integrity": "sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c="
+   }
+  },
+  {
+   "id": "e4a04ef57dc15a15",
+   "name": "once",
+   "version": "1.4.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:once:once:1.4.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/once@1.4.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+    "integrity": "sha1-WDsap3WWHUsROsF9nFC6753Xa9E="
+   }
+  },
+  {
+   "id": "24622e6e1eb8a860",
+   "name": "os-homedir",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:os-homedir:os-homedir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os-homedir:os_homedir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os_homedir:os-homedir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os_homedir:os_homedir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os:os-homedir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os:os_homedir:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/os-homedir@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz",
+    "integrity": "sha1-/7xJiDNuDoM94MFox+8VISGqf7M="
+   }
+  },
+  {
+   "id": "879e9f971003784f",
+   "name": "os-tmpdir",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:os-tmpdir:os-tmpdir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os-tmpdir:os_tmpdir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os_tmpdir:os-tmpdir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os_tmpdir:os_tmpdir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os:os-tmpdir:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:os:os_tmpdir:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/os-tmpdir@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
+    "integrity": "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
+   }
+  },
+  {
+   "id": "e92ef60a17d85ff9",
+   "name": "osenv",
+   "version": "0.1.5",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:osenv:osenv:0.1.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/osenv@0.1.5",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/osenv/-/osenv-0.1.5.tgz",
+    "integrity": "sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g=="
+   }
+  },
+  {
+   "id": "ecb7b54a38ffdccf",
+   "name": "parse-filepath",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:parse-filepath:parse-filepath:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse-filepath:parse_filepath:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse_filepath:parse-filepath:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse_filepath:parse_filepath:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse:parse-filepath:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse:parse_filepath:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/parse-filepath@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/parse-filepath/-/parse-filepath-1.0.2.tgz",
+    "integrity": "sha1-pjISf1Oq89FYdvWHLz/6x2PWyJE="
+   }
+  },
+  {
+   "id": "e7e8bc588e06f10e",
+   "name": "parse-passwd",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:parse-passwd:parse-passwd:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse-passwd:parse_passwd:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse_passwd:parse-passwd:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse_passwd:parse_passwd:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse:parse-passwd:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:parse:parse_passwd:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/parse-passwd@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/parse-passwd/-/parse-passwd-1.0.0.tgz",
+    "integrity": "sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY="
+   }
+  },
+  {
+   "id": "ef524334b2142255",
+   "name": "path-is-absolute",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:path-is-absolute:path-is-absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-is-absolute:path_is_absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_is_absolute:path-is-absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_is_absolute:path_is_absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-is:path-is-absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-is:path_is_absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_is:path-is-absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_is:path_is_absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path-is-absolute:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path_is_absolute:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/path-is-absolute@1.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz",
+    "integrity": "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
+   }
+  },
+  {
+   "id": "826d3ce75f2d6732",
+   "name": "path-parse",
+   "version": "1.0.7",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:path-parse_project:path-parse:1.0.7:*:*:*:*:node.js:*:*"
+   ],
+   "purl": "pkg:npm/path-parse@1.0.7",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz",
+    "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="
+   }
+  },
+  {
+   "id": "9e8a3722a71e1c14",
+   "name": "path-root",
+   "version": "0.1.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:path-root:path-root:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-root:path_root:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_root:path-root:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_root:path_root:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path-root:0.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path_root:0.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/path-root@0.1.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/path-root/-/path-root-0.1.1.tgz",
+    "integrity": "sha1-mkpoFMrBwM1zNgqV8yCDyOpHRbc="
+   }
+  },
+  {
+   "id": "b382f3cddd9bceae",
+   "name": "path-root-regex",
+   "version": "0.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:path-root-regex:path-root-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-root-regex:path_root_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_root_regex:path-root-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_root_regex:path_root_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-root:path-root-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path-root:path_root_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_root:path-root-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path_root:path_root_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path-root-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:path:path_root_regex:0.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/path-root-regex@0.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/path-root-regex/-/path-root-regex-0.1.2.tgz",
+    "integrity": "sha1-v8zcjfWxLcUsi0PsONGNcsBLqW0="
+   }
+  },
+  {
+   "id": "38bd980cf046e1fb",
+   "name": "picomatch",
+   "version": "2.3.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:picomatch:picomatch:2.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/picomatch@2.3.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz",
+    "integrity": "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
+   }
+  },
+  {
+   "id": "224b143514b80255",
+   "name": "rechoir",
+   "version": "0.7.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:rechoir:rechoir:0.7.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/rechoir@0.7.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/rechoir/-/rechoir-0.7.1.tgz",
+    "integrity": "sha512-/njmZ8s1wVeR6pjTZ+0nCnv8SpZNRMT2D1RLOJQESlYFDBvwpTA4KWJpZ+sBJ4+vhjILRcK7JIFdGCdxEAAitg=="
+   }
+  },
+  {
+   "id": "160b76d79106e182",
+   "name": "resolve",
+   "version": "1.22.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:resolve:resolve:1.22.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/resolve@1.22.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.22.0.tgz",
+    "integrity": "sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw=="
+   }
+  },
+  {
+   "id": "f5f19d12666399db",
+   "name": "resolve-dir",
+   "version": "1.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:resolve-dir:resolve-dir:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:resolve-dir:resolve_dir:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:resolve_dir:resolve-dir:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:resolve_dir:resolve_dir:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:resolve:resolve-dir:1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:resolve:resolve_dir:1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/resolve-dir@1.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/resolve-dir/-/resolve-dir-1.0.1.tgz",
+    "integrity": "sha1-eaQGRMNivoLybv/nOcm7U4IEb0M="
+   }
+  },
+  {
+   "id": "68ebf5f1553845b8",
+   "name": "rimraf",
+   "version": "2.7.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:rimraf:rimraf:2.7.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/rimraf@2.7.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz",
+    "integrity": "sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w=="
+   }
+  },
+  {
+   "id": "061d0989a48156f8",
+   "name": "safer-buffer",
+   "version": "2.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:safer-buffer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:safer-buffer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:safer_buffer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:safer_buffer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:safer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:safer:safer_buffer:2.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/safer-buffer@2.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+    "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
+   }
+  },
+  {
+   "id": "f564427f191710f1",
+   "name": "sprintf-js",
+   "version": "1.0.3",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:sprintf-js:sprintf-js:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf-js:sprintf_js:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf_js:sprintf-js:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf_js:sprintf_js:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf:sprintf-js:1.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf:sprintf_js:1.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/sprintf-js@1.0.3",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz",
+    "integrity": "sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw="
+   }
+  },
+  {
+   "id": "1f5dc1cd46fd009f",
+   "name": "sprintf-js",
+   "version": "1.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:sprintf-js:sprintf-js:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf-js:sprintf_js:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf_js:sprintf-js:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf_js:sprintf_js:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf:sprintf-js:1.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sprintf:sprintf_js:1.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/sprintf-js@1.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.1.2.tgz",
+    "integrity": "sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug=="
+   }
+  },
+  {
+   "id": "6197e3290216b3a8",
+   "name": "strip-ansi",
+   "version": "3.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:strip-ansi:strip-ansi:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:strip-ansi:strip_ansi:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:strip_ansi:strip-ansi:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:strip_ansi:strip_ansi:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:strip:strip-ansi:3.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:strip:strip_ansi:3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/strip-ansi@3.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz",
+    "integrity": "sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8="
+   }
+  },
+  {
+   "id": "aeca1a33f1a480bd",
+   "name": "supports-color",
+   "version": "2.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:supports-color:supports-color:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-color:supports_color:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_color:supports-color:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_color:supports_color:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports:supports-color:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports:supports_color:2.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/supports-color@2.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz",
+    "integrity": "sha1-U10EXOa2Nj+kARcIRimZXp3zJMc="
+   }
+  },
+  {
+   "id": "53c4ac0c4affdf6c",
+   "name": "supports-color",
+   "version": "7.2.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:supports-color:supports-color:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-color:supports_color:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_color:supports-color:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_color:supports_color:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports:supports-color:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports:supports_color:7.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/supports-color@7.2.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+    "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
+   }
+  },
+  {
+   "id": "605950c1ff0d5e98",
+   "name": "supports-preserve-symlinks-flag",
+   "version": "1.0.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:supports-preserve-symlinks-flag:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-preserve-symlinks-flag:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_preserve_symlinks_flag:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_preserve_symlinks_flag:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-preserve-symlinks:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-preserve-symlinks:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_preserve_symlinks:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_preserve_symlinks:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-preserve:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports-preserve:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_preserve:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports_preserve:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports:supports-preserve-symlinks-flag:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supports:supports_preserve_symlinks_flag:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz",
+    "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
+   }
+  },
+  {
+   "id": "55b8b1e02a62f124",
+   "name": "to-regex-range",
+   "version": "5.0.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:to-regex-range:to-regex-range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to-regex-range:to_regex_range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to_regex_range:to-regex-range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to_regex_range:to_regex_range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to-regex:to-regex-range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to-regex:to_regex_range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to_regex:to-regex-range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to_regex:to_regex_range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to:to-regex-range:5.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:to:to_regex_range:5.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/to-regex-range@5.0.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz",
+    "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ=="
+   }
+  },
+  {
+   "id": "ff072b1ea63958e2",
+   "name": "unc-path-regex",
+   "version": "0.1.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:unc-path-regex:unc-path-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc-path-regex:unc_path_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc_path_regex:unc-path-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc_path_regex:unc_path_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc-path:unc-path-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc-path:unc_path_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc_path:unc-path-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc_path:unc_path_regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc:unc-path-regex:0.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:unc:unc_path_regex:0.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/unc-path-regex@0.1.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/unc-path-regex/-/unc-path-regex-0.1.2.tgz",
+    "integrity": "sha1-5z3T17DXxe2G+6xrCufYxqadUPo="
+   }
+  },
+  {
+   "id": "f395d064fe5496df",
+   "name": "underscore.string",
+   "version": "3.3.6",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:underscore.string:underscore.string:3.3.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/underscore.string@3.3.6",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/underscore.string/-/underscore.string-3.3.6.tgz",
+    "integrity": "sha512-VoC83HWXmCrF6rgkyxS9GHv8W9Q5nhMKho+OadDJGzL2oDYbYEppBaCMH6pFlwLeqj2QS+hhkw2kpXkSdD1JxQ=="
+   }
+  },
+  {
+   "id": "b2a77c0dbc51811e",
+   "name": "util-deprecate",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:util-deprecate:util-deprecate:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util-deprecate:util_deprecate:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util_deprecate:util-deprecate:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util_deprecate:util_deprecate:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util:util-deprecate:1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:util:util_deprecate:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/util-deprecate@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+    "integrity": "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
+   }
+  },
+  {
+   "id": "3836e82c5b436c1f",
+   "name": "v8flags",
+   "version": "3.2.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:v8flags:v8flags:3.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/v8flags@3.2.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/v8flags/-/v8flags-3.2.0.tgz",
+    "integrity": "sha512-mH8etigqMfiGWdeXpaaqGfs6BndypxusHHcv2qSHyZkGEznCd/qAXCWWRzeowtL54147cktFOC4P5y+kl8d8Jg=="
+   }
+  },
+  {
+   "id": "39133a4021970b77",
+   "name": "which",
+   "version": "1.3.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:which:which:1.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/which@1.3.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/which/-/which-1.3.1.tgz",
+    "integrity": "sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ=="
+   }
+  },
+  {
+   "id": "9b1debfeb3d52c3d",
+   "name": "which",
+   "version": "2.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:which:which:2.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/which@2.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/which/-/which-2.0.2.tgz",
+    "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="
+   }
+  },
+  {
+   "id": "c217e82ffb6b57ee",
+   "name": "wrappy",
+   "version": "1.0.2",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:wrappy:wrappy:1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/wrappy@1.0.2",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+    "integrity": "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
+   }
+  },
+  {
+   "id": "ee2132ce360ac363",
+   "name": "xterm",
+   "version": "5.2.1",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:xterm:xterm:5.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/xterm@5.2.1",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/xterm/-/xterm-5.2.1.tgz",
+    "integrity": "sha512-cs5Y1fFevgcdoh2hJROMVIWwoBHD80P1fIP79gopLHJIE4kTzzblanoivxTiQ4+92YM9IxS36H1q0MxIJXQBcA=="
+   }
+  },
+  {
+   "id": "05c8f7f5e3fae0e3",
+   "name": "xterm-addon-fit",
+   "version": "0.7.0",
+   "type": "npm",
+   "foundBy": "javascript-lock-cataloger",
+   "locations": [
+    {
+     "path": "\\package-lock.json",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "javascript",
+   "cpes": [
+    "cpe:2.3:a:xterm-addon-fit:xterm-addon-fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm-addon-fit:xterm_addon_fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm_addon_fit:xterm-addon-fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm_addon_fit:xterm_addon_fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm-addon:xterm-addon-fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm-addon:xterm_addon_fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm_addon:xterm-addon-fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm_addon:xterm_addon_fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm:xterm-addon-fit:0.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:xterm:xterm_addon_fit:0.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:npm/xterm-addon-fit@0.7.0",
+   "metadataType": "NpmPackageLockJsonMetadata",
+   "metadata": {
+    "resolved": "https://registry.npmjs.org/xterm-addon-fit/-/xterm-addon-fit-0.7.0.tgz",
+    "integrity": "sha512-tQgHGoHqRTgeROPnvmtEJywLKoC/V9eNs4bLLz7iyJr1aW/QFzRwfd3MGiJ6odJd9xEfxcW36/xRU47JkD5NKQ=="
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "004003fa4b773efe",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "02fd83cd15a56e91",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "03068341b5d50631",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0311c3aaa45f5fc8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "056a6da084153c46",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "05bf7ca395ac47b8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "05c8f7f5e3fae0e3",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "061d0989a48156f8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "066ee2101c149967",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "07ca3cf0f7f1ac43",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0ee7449e640cb1b6",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "107075c767a2e5aa",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "11ce26be0a2534d7",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "12674330b070ce31",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "15c85fdfd8f74403",
+   "child": "5629d7ef1f81babb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "160b76d79106e182",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "16b69aa5bd219fe5",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "17b0fb35506935ab",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "19394718a16f9644",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "19ed1391b615943b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1ada1f9d720570c3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1b7f1a71896cf3ed",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1d162b71c9b1f440",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1f5dc1cd46fd009f",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "224b143514b80255",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "24622e6e1eb8a860",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "26ce51eb45bd22db",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "26f0be00d0bf09e8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2735d78a405f40b9",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "28c610d59be8cdc8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2c4c8ca5b065997c",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2e4b621452d671bb",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3836e82c5b436c1f",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "38bd980cf046e1fb",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "39133a4021970b77",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3a42869b95bf67cf",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3d3c4520196cd0e4",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3e466c7705650cb4",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3ec931af1dc54a36",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "40b05b2e914d7797",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4fb0d684906a4ec9",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "53c4ac0c4affdf6c",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "54285f4b1292acb6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "558f6d3ede876678",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "55b8b1e02a62f124",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "593972f8e4e0b455",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "59e4dd872055c015",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5a0718e21529fda3",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5a3450d0a0c07013",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5b371b91f5ddf8d1",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5c4a8b099b19a3f8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5ca99990c6f29bbb",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5e3409189fcd02c2",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5f7fcfb4c6741feb",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "605950c1ff0d5e98",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "60cb41f4c46f9608",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6118031b561672af",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6197e3290216b3a8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6592bf2d8cc586b1",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6649b57adb6a1271",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "671506b01819c798",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "68ebf5f1553845b8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6deb62d5087be118",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "767b5d7c087b3a2a",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "787ee0e3bd8d94da",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7f6ec9a8fead2882",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7fe5777f46d174da",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "80c95cdfc7543d16",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "826d3ce75f2d6732",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8774aaba1c0f5c05",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "879e9f971003784f",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8a417389314acd3c",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8ab0c3a717a66dea",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8c7e47d99bc8fe75",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8ce91c2c0af6a63b",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8d993cbe786b1d96",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8e754dbd6004b981",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8f47951a850566bb",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9371d6d86455baf7",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "94cdb5bc24f0f50b",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "967ea35b1331be86",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "96dc5a0363d3b71b",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "986b75196a456ec8",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "999e4c54121aa37c",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "99de8cd001f4b806",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9b1debfeb3d52c3d",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9d8da1498485e1c3",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9dc7be8fd543dc57",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9e8a3722a71e1c14",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9f2906abbfb8443e",
+   "child": "5629d7ef1f81babb",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9f3b8f3e631a939e",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a2bc02f0779a621a",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ae23d698da346325",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ae2626f24a9b20f4",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "aeca1a33f1a480bd",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "af23ea10110eee73",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b090e296dffd1fb7",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b1c68a2cf7ac286d",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b2a77c0dbc51811e",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b382f3cddd9bceae",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b9207ef138a0d6bf",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "baf9ba86987e5582",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bc9ca52b03909eb1",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bd626a30e67bfa20",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bd6e5e097c662037",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "be6b1ca139888560",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c0213cd656492b61",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c045381d8ae59289",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c217e82ffb6b57ee",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c3e0c6aaaf142a66",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c4d363645ce47e28",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "004003fa4b773efe",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "02fd83cd15a56e91",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "03068341b5d50631",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0311c3aaa45f5fc8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "056a6da084153c46",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "05bf7ca395ac47b8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "05c8f7f5e3fae0e3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "061d0989a48156f8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "066ee2101c149967",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "07ca3cf0f7f1ac43",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0ee7449e640cb1b6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "107075c767a2e5aa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "11ce26be0a2534d7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "12674330b070ce31",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "15c85fdfd8f74403",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "160b76d79106e182",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "16b69aa5bd219fe5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "17b0fb35506935ab",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "19394718a16f9644",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "19ed1391b615943b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1ada1f9d720570c3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1b7f1a71896cf3ed",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1d162b71c9b1f440",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1f5dc1cd46fd009f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "224b143514b80255",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "24622e6e1eb8a860",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "26ce51eb45bd22db",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "26f0be00d0bf09e8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2735d78a405f40b9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "28c610d59be8cdc8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2c4c8ca5b065997c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2e4b621452d671bb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3836e82c5b436c1f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "38bd980cf046e1fb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "39133a4021970b77",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3a42869b95bf67cf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3d3c4520196cd0e4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3e466c7705650cb4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3ec931af1dc54a36",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "40b05b2e914d7797",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4fb0d684906a4ec9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "53c4ac0c4affdf6c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "54285f4b1292acb6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "558f6d3ede876678",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "55b8b1e02a62f124",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "593972f8e4e0b455",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "59e4dd872055c015",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5a0718e21529fda3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5a3450d0a0c07013",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5b371b91f5ddf8d1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5c4a8b099b19a3f8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5ca99990c6f29bbb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5e3409189fcd02c2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5f7fcfb4c6741feb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "605950c1ff0d5e98",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "60cb41f4c46f9608",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6118031b561672af",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6197e3290216b3a8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6592bf2d8cc586b1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6649b57adb6a1271",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "671506b01819c798",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "68ebf5f1553845b8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6deb62d5087be118",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "767b5d7c087b3a2a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "787ee0e3bd8d94da",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7f6ec9a8fead2882",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7fe5777f46d174da",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "80c95cdfc7543d16",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "826d3ce75f2d6732",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8774aaba1c0f5c05",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "879e9f971003784f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8a417389314acd3c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8ab0c3a717a66dea",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8c7e47d99bc8fe75",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8ce91c2c0af6a63b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8d993cbe786b1d96",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8e754dbd6004b981",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8f47951a850566bb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9371d6d86455baf7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "94cdb5bc24f0f50b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "967ea35b1331be86",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "96dc5a0363d3b71b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "986b75196a456ec8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "999e4c54121aa37c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "99de8cd001f4b806",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9b1debfeb3d52c3d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9d8da1498485e1c3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9dc7be8fd543dc57",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9e8a3722a71e1c14",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9f2906abbfb8443e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9f3b8f3e631a939e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a2bc02f0779a621a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ae23d698da346325",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ae2626f24a9b20f4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "aeca1a33f1a480bd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "af23ea10110eee73",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b090e296dffd1fb7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b1c68a2cf7ac286d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b2a77c0dbc51811e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b382f3cddd9bceae",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b9207ef138a0d6bf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "baf9ba86987e5582",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bc9ca52b03909eb1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bd626a30e67bfa20",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bd6e5e097c662037",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "be6b1ca139888560",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c0213cd656492b61",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c045381d8ae59289",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c217e82ffb6b57ee",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c3e0c6aaaf142a66",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c4d363645ce47e28",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ceb37d9f48fca4a9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cf52cd6bc44fa57a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d19beb652286e1ab",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d2b3acfa823e3668",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d44c90ab0ebd4fd3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d623248fb1964311",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d8958c623ee06412",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d92dc45f26dc67d1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "de63d84a32f65a30",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "de866553b2efff24",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e4a04ef57dc15a15",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e4bf20120d79b5aa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e6ec26edaeb2f92b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e7e8bc588e06f10e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e92ef60a17d85ff9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ecb7b54a38ffdccf",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ee2132ce360ac363",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ee4b3c82cd0d95d5",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ef524334b2142255",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f2bd5c00223f4d08",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f395d064fe5496df",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f4ec38a118f3cd55",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f564427f191710f1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f5f19d12666399db",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fe4b4a414d162a7e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ff072b1ea63958e2",
+   "type": "contains"
+  },
+  {
+   "parent": "ceb37d9f48fca4a9",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cf52cd6bc44fa57a",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d19beb652286e1ab",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d2b3acfa823e3668",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d44c90ab0ebd4fd3",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d623248fb1964311",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d8958c623ee06412",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "d92dc45f26dc67d1",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "de63d84a32f65a30",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "de866553b2efff24",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e4a04ef57dc15a15",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e4bf20120d79b5aa",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e6ec26edaeb2f92b",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e7e8bc588e06f10e",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e92ef60a17d85ff9",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ecb7b54a38ffdccf",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ee2132ce360ac363",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ee4b3c82cd0d95d5",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ef524334b2142255",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f2bd5c00223f4d08",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f395d064fe5496df",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f4ec38a118f3cd55",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f564427f191710f1",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f5f19d12666399db",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fe4b4a414d162a7e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ff072b1ea63958e2",
+   "child": "1b2b37f4aaeb40d1",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "b9310217f078b352",
+   "location": {
+    "path": "\\.github\\workflows\\codeql-analysis.yml"
+   }
+  },
+  {
+   "id": "5629d7ef1f81babb",
+   "location": {
+    "path": "\\.github\\workflows\\github-build.yml"
+   }
+  },
+  {
+   "id": "1b2b37f4aaeb40d1",
+   "location": {
+    "path": "\\package-lock.json"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

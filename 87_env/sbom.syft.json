@@ -1,0 +1,364 @@
+{
+ "artifacts": [
+  {
+   "id": "7907297c15094206",
+   "name": "jenkins-core",
+   "version": "2.332.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jenkins-core:jenkins-core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-core:jenkins_core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_core:jenkins-core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_core:jenkins_core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:jenkins-core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-ci:jenkins_core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:jenkins-core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_ci:jenkins_core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins-core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins_core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:main:jenkins-core:2.332.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:main:jenkins_core:2.332.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jenkins-ci.main/jenkins-core@2.332.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jenkins-ci.main",
+     "artifactId": "jenkins-core",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "a95f231923a0951c",
+   "name": "jenkins-infra/github-reusable-workflows/.github/workflows/maven-cd.yml",
+   "version": "v1",
+   "type": "github-action-workflow",
+   "foundBy": "github-action-workflow-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\cd.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github-reusable:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github-reusable:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github_reusable:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github_reusable:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/github:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/github:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins-infra\\/github-reusable-workflows\\/.github\\/workflows\\/maven-cd.yml:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins_infra\\/github_reusable_workflows\\/.github\\/workflows\\/maven_cd.yml:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/jenkins-infra/github-reusable-workflows@v1#.github/workflows/maven-cd.yml"
+  },
+  {
+   "id": "59fa189631c2e3a2",
+   "name": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml",
+   "version": "v2",
+   "type": "github-action-workflow",
+   "foundBy": "github-action-workflow-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\jenkins-security-scan.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins-security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins_security:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins-infra\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins_infra\\/jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins-infra\\/jenkins-security-scan\\/.github\\/workflows\\/jenkins-security-scan.yaml:v2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jenkins:jenkins_infra\\/jenkins_security_scan\\/.github\\/workflows\\/jenkins_security_scan.yaml:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/jenkins-infra/jenkins-security-scan@v2#.github/workflows/jenkins-security-scan.yaml"
+  },
+  {
+   "id": "ef254e2105cea206",
+   "name": "junit",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "2b74a33fdf8a47d1",
+   "name": "stapler",
+   "version": "1802.v9e2750160d01",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:kohsuke:stapler:1802.v9e2750160d01:*:*:*:*:*:*:*",
+    "cpe:2.3:a:stapler:stapler:1802.v9e2750160d01:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kohsuke.stapler/stapler@1802.v9e2750160d01",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kohsuke.stapler",
+     "artifactId": "stapler",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "2b74a33fdf8a47d1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "59fa189631c2e3a2",
+   "child": "bd44a5270cc0f2d1",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7907297c15094206",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a95f231923a0951c",
+   "child": "ffe5c19d2d449331",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2b74a33fdf8a47d1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "59fa189631c2e3a2",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7907297c15094206",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a95f231923a0951c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ef254e2105cea206",
+   "type": "contains"
+  },
+  {
+   "parent": "ef254e2105cea206",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "ffe5c19d2d449331",
+   "location": {
+    "path": "\\.github\\workflows\\cd.yml"
+   }
+  },
+  {
+   "id": "bd44a5270cc0f2d1",
+   "location": {
+    "path": "\\.github\\workflows\\jenkins-security-scan.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

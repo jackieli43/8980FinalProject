@@ -1,0 +1,140 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-11-07T03:38:21Z",
+        "creators": [
+            "Tool: GitHub.com-Dependency-Graph"
+        ]
+    },
+    "name": "com.github.idsc-frazzoli/tensor",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-com.github.idsc-frazzoli-tensor"
+    ],
+    "documentNamespace": "https://github.com/idsc-frazzoli/tensor/dependency_graph/sbom-cfeeadc9704cfcbf",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-com.github.idsc-frazzoli-tensor",
+            "name": "com.github.idsc-frazzoli/tensor",
+            "versionInfo": "",
+            "downloadLocation": "git+https://github.com/idsc-frazzoli/tensor",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/idsc-frazzoli/tensor"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-com.github.github-site-maven-plugin-0.11",
+            "name": "maven:com.github.github:site-maven-plugin",
+            "versionInfo": "0.11",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/com.github.github/site-maven-plugin@0.11",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-junit-junit-3.8.2",
+            "name": "maven:junit:junit",
+            "versionInfo": "3.8.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "CPL-1.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/junit/junit@3.8.2",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.1",
+            "name": "maven:org.apache.maven.plugins:maven-compiler-plugin",
+            "versionInfo": "3.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-compiler-plugin@3.1",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-2.10.4",
+            "name": "maven:org.apache.maven.plugins:maven-javadoc-plugin",
+            "versionInfo": "2.10.4",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin@2.10.4",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-3.0.1",
+            "name": "maven:org.apache.maven.plugins:maven-source-plugin",
+            "versionInfo": "3.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-source-plugin@3.0.1",
+                    "referenceType": "purl"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.idsc-frazzoli-tensor",
+            "relatedSpdxElement": "SPDXRef-maven-com.github.github-site-maven-plugin-0.11"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.idsc-frazzoli-tensor",
+            "relatedSpdxElement": "SPDXRef-maven-junit-junit-3.8.2"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.idsc-frazzoli-tensor",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin-3.1"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.idsc-frazzoli-tensor",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-2.10.4"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.idsc-frazzoli-tensor",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-3.0.1"
+        }
+    ]
+}

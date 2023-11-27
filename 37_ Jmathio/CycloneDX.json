@@ -1,0 +1,55 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:394541b8-26b9-489e-acc4-c9362a27c40a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-10T15:26:01.811Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.github.yannrichet",
+      "name": "JMathIO",
+      "version": "1.0",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "licenses": [],
+      "purl": "pkg:maven/com.github.yannrichet/JMathIO@1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/yannrichet/jmathio"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.yannrichet/JMathIO@1.0?type=jar"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.github.yannrichet/JMathIO@1.0?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

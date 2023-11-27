@@ -1,0 +1,618 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:47ad0229-7d72-4c94-9861-ee8e402caf2f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T01:41:41.409Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "cn.hhchat",
+      "name": "record-nian-forever",
+      "version": "1.2",
+      "licenses": [],
+      "purl": "pkg:maven/cn.hhchat/record-nian-forever@1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/cn.hhchat/record-nian-forever@1.2?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "Jonathan Hedley",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.11.2",
+      "description": "jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods. jsoup implements the WHATWG HTML5 specification, and parses HTML to the same DOM as modern browsers do.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "798fe34ab37709e67188cbdf6a504435"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e3eeb8a0b4ce1db246059a41e353cd7413dad226"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f4b843e5012648676117f1cadf0adbd5dff91f0cb07b888d6b4d6e7cbb9737db"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d38078985c5a2e36ee0db158e098cbf450599ac4910e23f663f0de61f41ccb7378701be04bb881d036d7b8e2ebf6fc4f2fbece6f991bfb918006b8e39abb8185"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f32fdbf453a1eee691a9aa2657422d5e886cf400ac07da798c193ed778f9bf54054d961e7b88ef025ed73af5ee736f05"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "17801cc110694ed69b4e036f7bc9b12b7d01b0d7599d1e061fcdfa11101acd6708e7f9a9f6be79f43882a8155ce60eb1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7a3ea9e098cb5f0fa293a2a96f1fd59114b872fb7c48cfd962e327e349493f3a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5ad9713d9168ad315072023c94951ca0cb0454ad63dd92db0f84902a4eee50870c9fba13384d2f8b660342ce708f49400bbd8389c7c155555ee3a6dce1a0de75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.11.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jsoup/jsoup@1.11.2?type=jar"
+    },
+    {
+      "group": "com.xiaoleilu",
+      "name": "hutool-all",
+      "version": "3.3.2",
+      "description": "提供丰富的Java工具方法",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "abeed0a9636089db975ee6e764c95697"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e3949fd2c2fbbaaa65e7fc7ca12860fd63744b90"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9218512c349cb8187fd60decf3a8d834b2d074bdc9177e331ee9e7645ec6c786"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f4266838519cb563b9a9cc17d56ce32925c283da3f4037139565c47b3e14f937f7da559e295013d47d16f6af06eccdec50c223ed4545fee0856568a13158daec"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e2e7edcb42b43771d96f46d348d7100dce83171f6a98ed16661f74811323188791ea0383ab0d74df13c49f3fd0571226"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9eb19162b6bc754cba75cca425ccbae17698a9bc7ef7110d17148afbcb97e1ce4abbb7ab03d6aea1608c256cdfe302b2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "59df2e2022f70377cd25dff4155921a56875c03807e7f661f66a4b454d0ddab5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "281ddd3dca7ff09bf155bfad9d5cd1b3bb2cf4120ad8fbd3210e04d1b972e868781426bd2cea48b0561717d65963ac06a28d7090a63af1cc67789b263ae957da"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.xiaoleilu/hutool-all@3.3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.xiaoleilu/hutool-all@3.3.2?type=jar"
+    },
+    {
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "3.10.0",
+      "description": "An HTTP+HTTP/2 client for Android and Java applications",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6aaeda95994c63c8901930c2866ba04b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4aca3e552afb1ceb47f8956685f6295a276e49fa03f9066f8b6be83bec56fb66"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b6cb672740ddac08c7d48ba1e2b5520367bbcbf93fa0e05879b0d039a94fd556deeee1cf69b4b319c80ad4b03a5f14828787aa17b13df44b866768bf86810157"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "de1b7babbd07e6718ec173717708515bdf1c38b27b376a3bc4a517bccf73b33bad73e2930907b74b227003f303ee1f24"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1d562113f887b87626e34331c2d0bad20ed12865e4cf486cb9ce471c79721e3cde33c5fc99843656b82b04f45256af88"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ecb005fc4a9ce713029daa816a38cafb2424b0664b18d2d42227b85ffbfa7590"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "66de308ca4de1d6f74e52d9ef8d2936733d5fad07472bfc1f2bae9b19cfacf2ce685cd63e8ffcce6fcda8485f3d58a86ca109b22ab167f7ef6428bf08e566173"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0?type=jar"
+    },
+    {
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "1.14.0",
+      "description": "A modern I/O API for Java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ae447128b0a0625524178873c6b9aa12"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "102d7be47241d781ef95f1581d414b0943053130"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4633c331f50642ebe795dc089d6a5928aff43071c9d17e7840a009eea2fe95a3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e1ccdbc18c0d0cea2ddf388a3ef49c43b6861cc631e77608c6e11e163f088454f63b7052b5807c0339c3225b6bc9d68aaa83e8cc061f98a39ff1da3f36f75965"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "23318428dc66c6ced13c22f54385a981100615b2460fbedeac56fbad7988a59ddeefb519aac1cd0779b027ef6d3f1574"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f0133819b7036f8b877fac3fd3cd4bb28700077273023a246406a9717472552cfcf9db114514dd7f66ca8a2ce3a43185"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f2a2904c8418b0f9f864a6540cc85c4bc0e9cbf3cf5c24da458dd42238f4fa16"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a9906eac295349b04df791dc8e3c7e94c301927d6dee3a51d3b49377852207447865f1380cc7dce04bffea900d86b51d2a049e61159d1a99f2dff995fb0022ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okio/okio@1.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okio/okio@1.14.0?type=jar"
+    },
+    {
+      "group": "org.projectlombok",
+      "name": "lombok",
+      "version": "1.16.20",
+      "description": "Spice up your java: Automatic Resource Management, automatic generation of getters, setters, equals, hashCode and toString, and more!",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "006c258e47684d5e8955f315d717049a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ac76d9b956045631d1561a09289cbf472e077c01"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c5178b18caaa1a15e17b99ba5e4023d2de2ebc18b58cde0f5a04ca4b31c10e6d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c5760ac4dfb76ae8615716d8981509cd7861d1974577814285c6334cc1177036e74f07dbb0f3cd385914e3032d3bc16c7afda63746987a2b480fbc115efc9b9f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e935c95079f0f5d813fdf49115cbbb265a6f39286650c3bf5bcee59f5c0258563817a177c95fc62955fbc0580b19dd04"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "cc5980802b78efca25e5220b1a88f6f24e44395b32dd7affdcee392b8e3e2075c031e0bd2d60b45b7b9d83004a961c66"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "08545d93629e736539bc6fdf214b6b1c6b1a11659d9f6d90eef542c16c9997d7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f6ad84a3760110823661f29d2389c532ef31cbfbaf82875728600f62fbfb9fa09bf9a94374759da6dbdb750f95124651cb99819bf9dee07ec0c01a6e008a47ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.projectlombok/lombok@1.16.20?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.projectlombok/lombok@1.16.20?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-slf4j-impl",
+      "version": "2.10.0",
+      "description": "The Apache Log4j SLF4J API binding to Log4j 2 Core",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ddeafec01672f550eb2a0b7f30c03c5a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e4e0a30736175e31c7f714d95032c1734cfbdea"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4e3d177a03b98bb11e590d0b7ed11a619c11587c4aa94617797b9ca924b41171"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "97d744da6426a69357132b7af3ba038699518a25101156baf623022ebbf29d6fa38c306aa5cb3af4dd46f417b85938f78bda5d6bab7051d9435ba50934582384"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1e19a9bae9c6308e97aa0f7e00f379cea9f6fec01d5c42fb4ca4c592626899c450c7ad72b6a1009ed196813f5b948ef7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "16242732aecbc9b0475c4f3dc20c4c42d611e87d71ebace62b1dd3204ad24211150f9735ce3fb8205144c307512aefef"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "26696412729299a9ad3c7b2f6d9db9e93621f2e4fc286471dfa24238dbd1caae"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "62d8254abbfb76fdadb6e36876edc60de69b85112d3fb6f02fb900de21ab12d7a2b46d722de9ab89110f14bcda9e2d715664b1b67d2df58e086811b8181a1771"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.10.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.10.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.10.0",
+      "description": "The Apache Log4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b15b1def49daaf7e74fffcce9442ba98"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fec5797a55b786184a537abd39c3fa1449d752d6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "26af661e5c37cfe233cdec402e8a5c0bd112e03d3b6cf12b0d9db7ee7f6fbdd9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "19264538372ef3b4d21c08918f8ca728c1af3198196eb0fc9b22594f7d1f908a40bf699f7caa53eebb40081248400785c51cfcb9ecd36d0730dd6c60c98c6c22"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e04ef7d41572d79b0a64c60c2314d4a20b380058eaa65f2f392f2ad61069023bb06eb1f613690651b3064da15ce1ae2e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "06f45f1c0d46e99aeac4602cf940e2c66bfc4e183969d16d3ab58388ea6081654c0f2514437cf52461c43334b93220e5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a3c2cae784c800ae17b830a32d6c5efee324c51d993ec98d7c90c2b606bc05cf"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d0fae8fe2b6ca37036b697bb55dcb4c2432b5df78f4b99103d7a00b486029d44b23c9ef00c9c955c8cd16c6e0d924a7dbc6ab8f30ca91b06354f2cecf760ed95"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.10.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.10.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.10.0",
+      "description": "The Apache Log4j Implementation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dc99011f047e63dcc741b5ab68d116db"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c90b597163cd28ab6d9687edd53db601b6ea75a1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "22b58febab566eddd5d4863f09dad4d5cc57677b6d4be745e3c6ce547124a66d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cff5b68ee28c7bc4e7425739cd0b3303c907b2a3f5942a73790a2904e526a7fccdcaa14bd6164a9da17b6113dcdf86dd458e9c46ad20f2c4c8b7ccbe801568ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "aec7c94f862194bdcddf361f2e7f720a75fb3b3e0e0c7ca22fa1de24cbc4b2e427b828f6b606d9a099553eddf547c570"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f39b9727b75cd0ea050b579005d9770b23234cf20e3362bf7cc077099a574187e0b5b9704defead7126b0d03414dfad5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "225139047e1ec3df9ec44aa86b4bc427dd64a39777ae660f45405287dd048ad2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "34cd9742cdc65d50796a71d3de870d6256c62a1d163db7b569594e6a12114c083e5ff0de27ca85226917b451d5496cd77242542669dddea3f58af27112b3b46a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.10.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.10.0?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.25",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "caafe376afb7086dcbee79f780394ca3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da76ca59f6a57ee3102f8f9bd9cee742973efa8a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5dd6271fd5b34579d8e66271bab75c89baca8b2ebeaa9966de391284bd08f2d720083c6e0e1edda106ecf8a04e9a32116de6873f0f88c19c049c0fe27e5d820b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f2791380e87fccb18519efd016c03be11206984f4765586d348e57e2f33756b21ed51a95fa09679e1473a5bf5d2d76e1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d621071a8bca1a32ac3603a816721fd93180a29e520d16a1c655686b169605f679818d6acc0000470ebe25265bdc9962"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "abb590301fbb93baf4f7afe227f230ee7992d9a56f7034ef2c37447ac8c52a9b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c025c503db0d09d0d435c1c96f0e7165f08375abc58eb4e4bf52b0b4689801019a7e966fa5372c03b0697083a992a0baceb7ab5d18659d262f5db4c9bca26584"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
+    },
+    {
+      "publisher": "Alibaba Group",
+      "group": "com.alibaba",
+      "name": "fastjson",
+      "version": "1.2.47",
+      "description": "Fastjson is a JSON processor (JSON parser + JSON generator) written in Java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cc1c6055eefd044267b1adc44a7891bd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "73d66d7ee99e81373b4955f2ee3797791520329b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a56d6baee62b36822879d60a961c37cb10cc06814aead115cf65a67917032ccf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77decaf0a182764e7650a6b4724b8606a56ef3324e353f7e0e54991dec68f70e76c7b10e827e52b37ac7d788a1d36ad0047b5a51f2c5c0a0a8c63b7f447e30bf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6fa8e812f11991a4aafbe4f3842fe57df36dd92d0584321e80a1a43efd74fe4a1b5deb9e292e7722a24743b6bb918b0b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "92985295eb18a7059dc5206660fa62cee5dcb69eb14dab5e78dbc86b574181081f8849ed939c88939e2d93a23fa9884b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e1d51c7c30b7c2a73f549363abd39250291e067f87e5fca7d4c3759e21c39d26"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "54b64db6efc619ba0ced79b6228cc4e62c955e5e894f6db9914b51d7f0f4faae20998d040779b5c046b74fd757cd5681dd983ab6d57ca212d25119a741eaad08"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.alibaba/fastjson@1.2.47?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.alibaba/fastjson@1.2.47?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/cn.hhchat/record-nian-forever@1.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.alibaba/fastjson@1.2.47?type=jar",
+        "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0?type=jar",
+        "pkg:maven/com.xiaoleilu/hutool-all@3.3.2?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.10.0?type=jar",
+        "pkg:maven/org.jsoup/jsoup@1.11.2?type=jar",
+        "pkg:maven/org.projectlombok/lombok@1.16.20?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jsoup/jsoup@1.11.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.xiaoleilu/hutool-all@3.3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio@1.14.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio@1.14.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.projectlombok/lombok@1.16.20?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.10.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.10.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.10.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.10.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.10.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.alibaba/fastjson@1.2.47?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

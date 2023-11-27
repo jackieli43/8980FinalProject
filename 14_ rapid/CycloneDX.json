@@ -1,0 +1,40 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b42934d3-37c6-498a-8f2e-a68e2e7b5526",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T15:19:09.537Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "org.mhisoft",
+      "name": "RdPro",
+      "version": "1.0",
+      "description": "Recursive delete Pro",
+      "licenses": [],
+      "purl": "pkg:maven/org.mhisoft/RdPro@1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mhisoft/RdPro@1.0?type=jar"
+    }
+  },
+  "components": [],
+  "dependencies": []
+}

@@ -1,0 +1,696 @@
+{
+ "artifacts": [
+  {
+   "id": "4b527ab1ea1ced30",
+   "name": "ant",
+   "version": "1.9.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:ant:1.9.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.ant/ant@1.9.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.ant",
+     "artifactId": "ant",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3646de88a37d2138",
+   "name": "aws-java-sdk-cloudformation",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-cloudformation:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-cloudformation:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_cloudformation:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_cloudformation:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-cloudformation:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_cloudformation:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-cloudformation@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-cloudformation",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "57dfe57807b411f6",
+   "name": "aws-java-sdk-core",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-core:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-core:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_core:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_core:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-core:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_core:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-core",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "7df770af57ff76ab",
+   "name": "aws-java-sdk-ec2",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-ec2:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-ec2:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_ec2:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_ec2:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-ec2:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_ec2:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-ec2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ce1bdfb84da1b965",
+   "name": "aws-java-sdk-elasticbeanstalk",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-elasticbeanstalk:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-elasticbeanstalk:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_elasticbeanstalk:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_elasticbeanstalk:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-elasticbeanstalk:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_elasticbeanstalk:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-elasticbeanstalk@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-elasticbeanstalk",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2be6872918136231",
+   "name": "aws-java-sdk-iam",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-iam:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-iam:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_iam:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_iam:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-iam:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_iam:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-iam@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-iam",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ffb39ead0da1c6da",
+   "name": "aws-java-sdk-opsworks",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-opsworks:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-opsworks:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_opsworks:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_opsworks:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-opsworks:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_opsworks:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-opsworks@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-opsworks",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8097d55a9d6bf597",
+   "name": "aws-java-sdk-s3",
+   "version": "1.9.24",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:aws-java-sdk-s3:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk-s3:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_s3:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk_s3:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java-sdk:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java_sdk:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:amazonaws:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws-java:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws_java:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws-java-sdk-s3:1.9.24:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_java_sdk_s3:1.9.24:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.amazonaws/aws-java-sdk-s3@1.9.24",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.amazonaws",
+     "artifactId": "aws-java-sdk-s3",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "3ca4aa1e729d8ddd",
+   "name": "commons-io",
+   "version": "2.4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:commons-io:commons-io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons-io:commons_io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_io:commons-io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons_io:commons_io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons-io:2.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:commons_io:2.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/commons-io/commons-io@2.4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "commons-io",
+     "artifactId": "commons-io",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2007e7a01bd9f65a",
+   "name": "junit",
+   "version": "4.8.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.8.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "aad3cca1a9fadaad",
+   "name": "test",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\test.war",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:test:test:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/test/test",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\test.war",
+    "manifest": {
+     "main": {
+      "Ant-Version": "Apache Ant 1.6.5",
+      "Created-By": "1.5.0_06-b05 (Sun Microsystems Inc.)",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "80f5053b166c69d81697ba21113c673f8372aca0"
+     }
+    ]
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "2007e7a01bd9f65a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2be6872918136231",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3646de88a37d2138",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3ca4aa1e729d8ddd",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4b527ab1ea1ced30",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "57dfe57807b411f6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7df770af57ff76ab",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8097d55a9d6bf597",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "aad3cca1a9fadaad",
+   "child": "f04ecb2db0ee7e84",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2007e7a01bd9f65a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2be6872918136231",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3646de88a37d2138",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3ca4aa1e729d8ddd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4b527ab1ea1ced30",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "57dfe57807b411f6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7df770af57ff76ab",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8097d55a9d6bf597",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "aad3cca1a9fadaad",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ce1bdfb84da1b965",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ffb39ead0da1c6da",
+   "type": "contains"
+  },
+  {
+   "parent": "ce1bdfb84da1b965",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ffb39ead0da1c6da",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  },
+  {
+   "id": "f04ecb2db0ee7e84",
+   "location": {
+    "path": "\\test.war"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

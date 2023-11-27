@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0befc2cf-eadb-4917-85ec-f7e6fede3b46",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T02:05:17.885Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "fr.inria.powerapi.sensor",
+      "name": "sensor-cpu-sigar",
+      "version": "1.5",
+      "purl": "pkg:maven/fr.inria.powerapi.sensor/sensor-cpu-sigar@1.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/fr.inria.powerapi.sensor/sensor-cpu-sigar@1.5?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "com.github.jnr",
+      "name": "jnr-posix",
+      "version": "3.0.17",
+      "purl": "pkg:maven/com.github.jnr/jnr-posix@3.0.17?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jnr/jnr-posix@3.0.17?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.java.dev.jna",
+      "name": "jna-platform",
+      "version": "4.1.0",
+      "purl": "pkg:maven/net.java.dev.jna/jna-platform@4.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.java.dev.jna/jna-platform@4.1.0?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.9",
+      "purl": "pkg:maven/commons-codec/commons-codec@1.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.9?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+        }
+      ]
+    },
+    {
+      "group": "net.jodah",
+      "name": "concurrentunit",
+      "version": "0.4.1",
+      "purl": "pkg:maven/net.jodah/concurrentunit@0.4.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.jodah/concurrentunit@0.4.1?type=jar",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\Jackie\\School Stuff\\8980\\Project\\8_common\\common-utils\\pom.xml"
+        }
+      ]
+    }
+  ],
+  "dependencies": []
+}

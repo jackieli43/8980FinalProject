@@ -1,0 +1,2163 @@
+{
+ "artifacts": [
+  {
+   "id": "846725226b31ad1d",
+   "name": "actions/checkout",
+   "version": "v2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v2"
+  },
+  {
+   "id": "8ad585da5dd14f2d",
+   "name": "actions/setup-java",
+   "version": "v1",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v1"
+  },
+  {
+   "id": "bfe5ac034b446d40",
+   "name": "commons-email",
+   "version": "1.5",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-email:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_email:1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-email@1.5",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-email",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "007926001bfd06f8",
+   "name": "embedded-postgres",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:embedded-postgres:embedded-postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:embedded-postgres:embedded_postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:embedded_postgres:embedded-postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:embedded_postgres:embedded_postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:embedded:embedded-postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:embedded:embedded_postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:zonky:embedded-postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:zonky:embedded_postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:test:embedded-postgres:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:test:embedded_postgres:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/io.zonky.test/embedded-postgres",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "io.zonky.test",
+     "artifactId": "embedded-postgres",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "a60b1f5063466b5d",
+   "name": "guava",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:google:guava:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:guava:guava:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.guava/guava",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.guava",
+     "artifactId": "guava",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e696fa99ed66a1d0",
+   "name": "jakarta.activation",
+   "version": "2.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jakarta.activation:jakarta.activation:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activation:jakarta.activation:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.activation:activation:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:jakarta.activation:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activation:activation:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:activation:2.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sun.activation/jakarta.activation@2.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sun.activation",
+     "artifactId": "jakarta.activation",
+     "version": "",
+     "scope": "runtime"
+    }
+   }
+  },
+  {
+   "id": "9597ac9c153aa157",
+   "name": "jakarta.servlet-api",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jakarta.servlet-api:jakarta.servlet-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.servlet-api:jakarta.servlet_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.servlet_api:jakarta.servlet-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.servlet_api:jakarta.servlet_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.servlet:jakarta.servlet-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.servlet:jakarta.servlet_api:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "jakarta.servlet",
+     "artifactId": "jakarta.servlet-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "28bc562edeb09531",
+   "name": "javax.annotation-api",
+   "version": "1.3.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.annotation-api:javax.annotation-api:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation-api:javax.annotation_api:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation_api:javax.annotation-api:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation_api:javax.annotation_api:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation:javax.annotation-api:1.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.annotation:javax.annotation_api:1.3.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.annotation",
+     "artifactId": "javax.annotation-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "c1103b2b054c9f76",
+   "name": "javax.inject",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.inject:javax.inject:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.inject/javax.inject",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.inject",
+     "artifactId": "javax.inject",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e608939ba3a9ae30",
+   "name": "javax.mail",
+   "version": "1.6.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:javax.mail:javax.mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:javax.mail:mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mail:javax.mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:javax.mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mail:mail:1.6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sun:mail:1.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.sun.mail/javax.mail@1.6.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.sun.mail",
+     "artifactId": "javax.mail",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "373fc281de6980f0",
+   "name": "jmustache",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:samskivert:jmustache:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jmustache:jmustache:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.samskivert/jmustache",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.samskivert",
+     "artifactId": "jmustache",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "9adece5ed79129af",
+   "name": "joda-money",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:joda-money:joda-money:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda-money:joda_money:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda_money:joda-money:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda_money:joda_money:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda:joda-money:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda:joda_money:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.joda/joda-money",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.joda",
+     "artifactId": "joda-money",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "86db6a6c67cd058e",
+   "name": "joda-time",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:joda-time:joda-time:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda-time:joda_time:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda_time:joda-time:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda_time:joda_time:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda:joda-time:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:joda:joda_time:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/joda-time/joda-time",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "joda-time",
+     "artifactId": "joda-time",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "1759bf58d49a410e",
+   "name": "jooby",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jooby:jooby:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jooby/jooby",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jooby",
+     "artifactId": "jooby",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2b3d03aafbcdd7d7",
+   "name": "jooq",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jooq:jooq:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jooq/jooq",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jooq",
+     "artifactId": "jooq",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8a98fec3f8a833ae",
+   "name": "jsr305",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:findbugs:jsr305:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:jsr305:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr305:jsr305:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:code:jsr305:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.google.code.findbugs",
+     "artifactId": "jsr305",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2c94f35aad74b8a6",
+   "name": "killbill-api",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-api:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-api:killbill_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_api:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_api:killbill_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_api:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing/killbill-api",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing",
+     "artifactId": "killbill-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "a93885ea506d7315",
+   "name": "killbill-base-plugin",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-base-plugin:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-base-plugin:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base_plugin:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base_plugin:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-base:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-base:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_base_plugin:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing.plugin.java/killbill-base-plugin",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing.plugin.java",
+     "artifactId": "killbill-base-plugin",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "1aa90df34071fca4",
+   "name": "killbill-base-plugin",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-base-plugin:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-base-plugin:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base_plugin:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base_plugin:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-base:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-base:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_base:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:java:killbill_base_plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-base-plugin:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_base_plugin:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing.plugin.java/killbill-base-plugin",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing.plugin.java",
+     "artifactId": "killbill-base-plugin",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "deec7ba096423323",
+   "name": "killbill-clock",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-clock:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-clock:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_clock:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_clock:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_clock:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.commons/killbill-clock",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.commons",
+     "artifactId": "killbill-clock",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "c1f39404c0dd5ea4",
+   "name": "killbill-clock",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-clock:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-clock:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_clock:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_clock:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill_clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-clock:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_clock:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.commons/killbill-clock",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.commons",
+     "artifactId": "killbill-clock",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "0f9992de31405bb3",
+   "name": "killbill-config-magic",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-config-magic:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-config-magic:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_config_magic:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_config_magic:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-config:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-config:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_config:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_config:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill_config_magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-config-magic:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_config_magic:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.commons/killbill-config-magic",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.commons",
+     "artifactId": "killbill-config-magic",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "29ac9124accbb325",
+   "name": "killbill-embeddeddb-common",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-embeddeddb-common:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-embeddeddb-common:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb_common:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb_common:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-embeddeddb:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-embeddeddb:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill_embeddeddb_common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-embeddeddb-common:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_embeddeddb_common:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.commons/killbill-embeddeddb-common",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.commons",
+     "artifactId": "killbill-embeddeddb-common",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "40d23959d5a3ca8f",
+   "name": "killbill-embeddeddb-mysql",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-embeddeddb-mysql:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-embeddeddb-mysql:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb_mysql:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb_mysql:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-embeddeddb:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-embeddeddb:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_embeddeddb:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-embeddeddb-mysql:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_embeddeddb_mysql:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.commons/killbill-embeddeddb-mysql",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.commons",
+     "artifactId": "killbill-embeddeddb-mysql",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "f841616f48e6fb49",
+   "name": "killbill-metrics-api",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-metrics-api:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-metrics-api:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_metrics_api:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_metrics_api:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-metrics:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-metrics:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_metrics:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_metrics:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:commons:killbill_metrics_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-metrics-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_metrics_api:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.commons/killbill-metrics-api",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.commons",
+     "artifactId": "killbill-metrics-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "db8d409e3fc09d27",
+   "name": "killbill-platform-osgi-api",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-platform-osgi-api:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi-api:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_api:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_api:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_platform_osgi_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-platform-osgi-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_platform_osgi_api:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing/killbill-platform-osgi-api",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing",
+     "artifactId": "killbill-platform-osgi-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "7e2fb68cbacf47eb",
+   "name": "killbill-platform-osgi-bundles-lib-killbill",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-platform-osgi-bundles-lib-killbill:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi-bundles-lib-killbill:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_bundles_lib_killbill:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_bundles_lib_killbill:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi-bundles-lib:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi-bundles-lib:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_bundles_lib:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_bundles_lib:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi-bundles:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi-bundles:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_bundles:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi_bundles:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-osgi:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_osgi:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-platform-osgi-bundles-lib-killbill:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_platform_osgi_bundles_lib_killbill:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing/killbill-platform-osgi-bundles-lib-killbill",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing",
+     "artifactId": "killbill-platform-osgi-bundles-lib-killbill",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "21f17baf767439ee",
+   "name": "killbill-platform-test",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-platform-test:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform-test:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_test:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform_test:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-platform:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_platform:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_platform_test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-platform-test:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_platform_test:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing/killbill-platform-test",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing",
+     "artifactId": "killbill-platform-test",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "2cf78cfb943f4b20",
+   "name": "killbill-plugin-api-notification",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-plugin-api-notification:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin-api-notification:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api_notification:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api_notification:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin-api:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin-api:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_plugin_api_notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-plugin-api-notification:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_plugin_api_notification:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing.plugin/killbill-plugin-api-notification",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing.plugin",
+     "artifactId": "killbill-plugin-api-notification",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "08cb550d2ad45409",
+   "name": "killbill-plugin-api-payment",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:killbill-plugin-api-payment:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin-api-payment:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api_payment:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api_payment:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin-api:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin-api:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin_api:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill-plugin:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill_plugin:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:billing:killbill_plugin_api_payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill-plugin-api-payment:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:killbill_plugin_api_payment:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.billing.plugin/killbill-plugin-api-payment",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.billing.plugin",
+     "artifactId": "killbill-plugin-api-payment",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "9724c3bbaae2a822",
+   "name": "killbill/gh-actions-shared/.github/workflows/ci.yml",
+   "version": "main",
+   "type": "github-action-workflow",
+   "foundBy": "github-action-workflow-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh-actions-shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh_actions_shared\\/.github\\/workflows\\/ci.yml:main:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/killbill/gh-actions-shared@main#.github/workflows/ci.yml"
+  },
+  {
+   "id": "52ce5f89119dbd84",
+   "name": "killbill/gh-actions-shared/.github/workflows/codeql-analysis.yml",
+   "version": "main",
+   "type": "github-action-workflow",
+   "foundBy": "github-action-workflow-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\codeql-analysis.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh-actions-shared\\/.github\\/workflows\\/codeql-analysis.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh_actions_shared\\/.github\\/workflows\\/codeql_analysis.yml:main:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/killbill/gh-actions-shared@main#.github/workflows/codeql-analysis.yml"
+  },
+  {
+   "id": "3f0250b360d51c0c",
+   "name": "killbill/gh-actions-shared/.github/workflows/integration_test.yml",
+   "version": "main",
+   "type": "github-action-workflow",
+   "foundBy": "github-action-workflow-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh-actions:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh_actions:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration-test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh-actions-shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*",
+    "cpe:2.3:a:killbill\\/gh:killbill\\/gh_actions_shared\\/.github\\/workflows\\/integration_test.yml:main:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/killbill/gh-actions-shared@main#.github/workflows/integration_test.yml"
+  },
+  {
+   "id": "843d2d3687a985ef",
+   "name": "mockito-core",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mockito-core:mockito-core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito-core:mockito_core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_core:mockito-core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito_core:mockito_core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito-core:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mockito:mockito_core:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mockito/mockito-core",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mockito",
+     "artifactId": "mockito-core",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "5009a9b32db97caa",
+   "name": "org.apache.felix.framework",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:org.apache.felix.framework:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:framework:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:felix:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.felix/org.apache.felix.framework",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.felix",
+     "artifactId": "org.apache.felix.framework",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "fc49f4161b8fed08",
+   "name": "s4u/maven-settings-action",
+   "version": "v2.3.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\release.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:s4u\\/maven-settings-action:s4u\\/maven-settings-action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven-settings-action:s4u\\/maven_settings_action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven_settings_action:s4u\\/maven-settings-action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven_settings_action:s4u\\/maven_settings_action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven-settings:s4u\\/maven-settings-action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven-settings:s4u\\/maven_settings_action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven_settings:s4u\\/maven-settings-action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven_settings:s4u\\/maven_settings_action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven:s4u\\/maven-settings-action:v2.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:s4u\\/maven:s4u\\/maven_settings_action:v2.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/s4u/maven-settings-action@v2.3.0"
+  },
+  {
+   "id": "e6a3f0471b7ba2d6",
+   "name": "slf4j-api",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-api:slf4j-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-api:slf4j_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_api:slf4j_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_api:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-api",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "44243a60b29a0080",
+   "name": "slf4j-simple",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-simple:slf4j-simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-simple:slf4j_simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j-simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j_simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-simple:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_simple:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-simple",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-simple",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "d53656cf73f5ef11",
+   "name": "testing-mysql-server",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:testing-mysql-server:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing-mysql-server:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing_mysql_server:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing_mysql_server:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing-mysql:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing-mysql:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing_mysql:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing_mysql:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing-mysql-server:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing_mysql_server:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:testing-mysql-server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:testing_mysql_server:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing-mysql:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing_mysql:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill-bill:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill_bill:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:testing:testing:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kill:testing:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.kill-bill.testing/testing-mysql-server",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.kill-bill.testing",
+     "artifactId": "testing-mysql-server",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "4e1b912eea37c4c8",
+   "name": "testng",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:testng:testng:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.testng/testng",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.testng",
+     "artifactId": "testng",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "007926001bfd06f8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "08cb550d2ad45409",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "0f9992de31405bb3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1759bf58d49a410e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1aa90df34071fca4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "21f17baf767439ee",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "28bc562edeb09531",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "29ac9124accbb325",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2b3d03aafbcdd7d7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2c94f35aad74b8a6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2cf78cfb943f4b20",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "373fc281de6980f0",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3f0250b360d51c0c",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "40d23959d5a3ca8f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "44243a60b29a0080",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4e1b912eea37c4c8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5009a9b32db97caa",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "52ce5f89119dbd84",
+   "child": "b9310217f078b352",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7e2fb68cbacf47eb",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "843d2d3687a985ef",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "846725226b31ad1d",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "86db6a6c67cd058e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8a98fec3f8a833ae",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8ad585da5dd14f2d",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9597ac9c153aa157",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9724c3bbaae2a822",
+   "child": "7f46309ca868cff9",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9adece5ed79129af",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a60b1f5063466b5d",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a93885ea506d7315",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bfe5ac034b446d40",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c1103b2b054c9f76",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c1f39404c0dd5ea4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "007926001bfd06f8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "08cb550d2ad45409",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0f9992de31405bb3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1759bf58d49a410e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1aa90df34071fca4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "21f17baf767439ee",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "28bc562edeb09531",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "29ac9124accbb325",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2b3d03aafbcdd7d7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2c94f35aad74b8a6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2cf78cfb943f4b20",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "373fc281de6980f0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3f0250b360d51c0c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "40d23959d5a3ca8f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "44243a60b29a0080",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4e1b912eea37c4c8",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5009a9b32db97caa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "52ce5f89119dbd84",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7e2fb68cbacf47eb",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "843d2d3687a985ef",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "846725226b31ad1d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "86db6a6c67cd058e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8a98fec3f8a833ae",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8ad585da5dd14f2d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9597ac9c153aa157",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9724c3bbaae2a822",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9adece5ed79129af",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a60b1f5063466b5d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a93885ea506d7315",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bfe5ac034b446d40",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c1103b2b054c9f76",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c1f39404c0dd5ea4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d53656cf73f5ef11",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "db8d409e3fc09d27",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "deec7ba096423323",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e608939ba3a9ae30",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e696fa99ed66a1d0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e6a3f0471b7ba2d6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f841616f48e6fb49",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fc49f4161b8fed08",
+   "type": "contains"
+  },
+  {
+   "parent": "d53656cf73f5ef11",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "db8d409e3fc09d27",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "deec7ba096423323",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e608939ba3a9ae30",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e696fa99ed66a1d0",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e6a3f0471b7ba2d6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f841616f48e6fb49",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fc49f4161b8fed08",
+   "child": "bcc92ffc67a456b9",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "7f46309ca868cff9",
+   "location": {
+    "path": "\\.github\\workflows\\ci.yml"
+   }
+  },
+  {
+   "id": "b9310217f078b352",
+   "location": {
+    "path": "\\.github\\workflows\\codeql-analysis.yml"
+   }
+  },
+  {
+   "id": "bcc92ffc67a456b9",
+   "location": {
+    "path": "\\.github\\workflows\\release.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

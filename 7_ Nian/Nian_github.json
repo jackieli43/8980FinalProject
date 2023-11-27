@@ -1,0 +1,195 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-11-08T01:40:12Z",
+        "creators": [
+            "Tool: GitHub.com-Dependency-Graph"
+        ],
+        "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
+    },
+    "name": "com.github.hh23485/record-nian-forever",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-com.github.hh23485-record-nian-forever"
+    ],
+    "documentNamespace": "https://github.com/hh23485/record-nian-forever/dependency_graph/sbom-602923f4fd24e690",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "name": "com.github.hh23485/record-nian-forever",
+            "versionInfo": "",
+            "downloadLocation": "git+https://github.com/hh23485/record-nian-forever",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/hh23485/record-nian-forever"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-com.alibaba-fastjson-1.2.47",
+            "name": "maven:com.alibaba:fastjson",
+            "versionInfo": "1.2.47",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/com.alibaba/fastjson@1.2.47",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-com.squareup.okhttp3-okhttp-3.10.0",
+            "name": "maven:com.squareup.okhttp3:okhttp",
+            "versionInfo": "3.10.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/com.squareup.okhttp3/okhttp@3.10.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-com.xiaoleilu-hutool-all-3.3.2",
+            "name": "maven:com.xiaoleilu:hutool-all",
+            "versionInfo": "3.3.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/com.xiaoleilu/hutool-all@3.3.2",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.logging.log4j-log4j-slf4j-impl-2.10.0",
+            "name": "maven:org.apache.logging.log4j:log4j-slf4j-impl",
+            "versionInfo": "2.10.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.10.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin",
+            "name": "maven:org.apache.maven.plugins:maven-compiler-plugin",
+            "versionInfo": "",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.jsoup-jsoup-1.11.2",
+            "name": "maven:org.jsoup:jsoup",
+            "versionInfo": "1.11.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.jsoup/jsoup@1.11.2",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.projectlombok-lombok-1.16.20",
+            "name": "maven:org.projectlombok:lombok",
+            "versionInfo": "1.16.20",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.projectlombok/lombok@1.16.20",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.slf4j-slf4j-api-1.7.25",
+            "name": "maven:org.slf4j:slf4j-api",
+            "versionInfo": "1.7.25",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+                    "referenceType": "purl"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-com.alibaba-fastjson-1.2.47"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-com.squareup.okhttp3-okhttp-3.10.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-com.xiaoleilu-hutool-all-3.3.2"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.logging.log4j-log4j-slf4j-impl-2.10.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-org.jsoup-jsoup-1.11.2"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-org.projectlombok-lombok-1.16.20"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.hh23485-record-nian-forever",
+            "relatedSpdxElement": "SPDXRef-maven-org.slf4j-slf4j-api-1.7.25"
+        }
+    ]
+}

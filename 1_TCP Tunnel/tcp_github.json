@@ -1,0 +1,263 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+      "created": "2023-10-18T23:49:24Z",
+      "creators": [
+        "Tool: GitHub.com-Dependency-Graph"
+      ]
+    },
+    "name": "com.github.jackieli43/java-tcp-tunnel",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+      "SPDXRef-com.github.jackieli43-java-tcp-tunnel"
+    ],
+    "documentNamespace": "https://github.com/jackieli43/java-tcp-tunnel/dependency_graph/sbom-9c455d2f6e8c237e",
+    "packages": [
+      {
+        "SPDXID": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "name": "com.github.jackieli43/java-tcp-tunnel",
+        "versionInfo": "",
+        "downloadLocation": "git+https://github.com/jackieli43/java-tcp-tunnel",
+        "licenseDeclared": "MIT",
+        "filesAnalyzed": false,
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/jackieli43/java-tcp-tunnel"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-net.kanstren.osmo-osmotester-3.7.1",
+        "name": "maven:net.kanstren.osmo:osmotester",
+        "versionInfo": "3.7.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/net.kanstren.osmo/osmotester@3.7.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-gpg-plugin-1.5",
+        "name": "maven:org.apache.maven.plugins:maven-gpg-plugin",
+        "versionInfo": "1.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-gpg-plugin@1.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.2.0",
+        "name": "maven:org.apache.maven.plugins:maven-jar-plugin",
+        "versionInfo": "3.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-jar-plugin@3.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-2.9.1",
+        "name": "maven:org.apache.maven.plugins:maven-javadoc-plugin",
+        "versionInfo": "2.9.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-javadoc-plugin@2.9.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-2.2.1",
+        "name": "maven:org.apache.maven.plugins:maven-source-plugin",
+        "versionInfo": "2.2.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-source-plugin@2.2.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.0.0-M5",
+        "name": "maven:org.apache.maven.plugins:maven-surefire-plugin",
+        "versionInfo": "3.0.0-M5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-surefire-plugin@3.0.0-M5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.nanohttpd-nanohttpd-2.3.1",
+        "name": "maven:org.nanohttpd:nanohttpd",
+        "versionInfo": "2.3.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-3-Clause",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.nanohttpd/nanohttpd@2.3.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-1.6.7",
+        "name": "maven:org.sonatype.plugins:nexus-staging-maven-plugin",
+        "versionInfo": "1.6.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.sonatype.plugins/nexus-staging-maven-plugin@1.6.7",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-maven-org.testng-testng-6.1.1",
+        "name": "maven:org.testng:testng",
+        "versionInfo": "6.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:maven/org.testng/testng@6.1.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-actions-actions-checkout-2",
+        "name": "actions:actions/checkout",
+        "versionInfo": "2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:githubactions/actions/checkout@2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-actions-actions-setup-java-1",
+        "name": "actions:actions/setup-java",
+        "versionInfo": "1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:githubactions/actions/setup-java@1",
+            "referenceType": "purl"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-net.kanstren.osmo-osmotester-3.7.1"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-gpg-plugin-1.5"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-jar-plugin-3.2.0"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-javadoc-plugin-2.9.1"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-source-plugin-2.2.1"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-surefire-plugin-3.0.0-M5"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.nanohttpd-nanohttpd-2.3.1"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.sonatype.plugins-nexus-staging-maven-plugin-1.6.7"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-maven-org.testng-testng-6.1.1"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-actions-actions-checkout-2"
+      },
+      {
+        "relationshipType": "DEPENDS_ON",
+        "spdxElementId": "SPDXRef-com.github.jackieli43-java-tcp-tunnel",
+        "relatedSpdxElement": "SPDXRef-actions-actions-setup-java-1"
+      }
+    ]
+  }

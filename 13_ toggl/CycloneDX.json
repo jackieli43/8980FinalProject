@@ -1,0 +1,57 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e3273d95-7da9-4a8b-91de-aee0041c8b60",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-08T15:17:28.501Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "publisher": "Pivotal Software, Inc.",
+      "group": "io.rocketbase.toggl",
+      "name": "toggl-reporter",
+      "version": "1.1.1-SNAPSHOT",
+      "description": "Demo project for Spring Boot",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.rocketbase.toggl/toggl-reporter@1.1.1-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://projects.spring.io/spring-boot/toggl-reporter/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/rocketbase-io/toggl-reporter.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/io.rocketbase.toggl/toggl-reporter@1.1.1-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [],
+  "dependencies": []
+}

@@ -1,0 +1,220 @@
+{
+ "artifacts": [
+  {
+   "id": "2cf563329a43c157",
+   "name": "JMathIO",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\jmathio.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:yannrichet:JMathIO:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sonatype:JMathIO:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:JMathIO:JMathIO:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:github:JMathIO:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:oss:JMathIO:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.github.yannrichet/JMathIO@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\jmathio.jar:com.github.yannrichet:JMathIO",
+    "pomProperties": {
+     "path": "META-INF/maven/com.github.yannrichet/JMathIO/pom.properties",
+     "name": "",
+     "groupId": "com.github.yannrichet",
+     "artifactId": "JMathIO",
+     "version": "1.0"
+    },
+    "pomProject": {
+     "path": "META-INF/maven/com.github.yannrichet/JMathIO/pom.xml",
+     "parent": {
+      "groupId": "org.sonatype.oss",
+      "artifactId": "oss-parent",
+      "version": "9"
+     },
+     "groupId": "com.github.yannrichet",
+     "artifactId": "JMathIO",
+     "version": "1.0",
+     "name": "jmathio",
+     "url": "https://github.com/yannrichet/jmathio"
+    }
+   }
+  },
+  {
+   "id": "cad14fd990d26bae",
+   "name": "jmathio",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\dist\\jmathio.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jmathio:jmathio:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/jmathio/jmathio",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\dist\\jmathio.jar",
+    "manifest": {
+     "main": {
+      "Archiver-Version": "Plexus Archiver",
+      "Build-Jdk": "1.8.0_40",
+      "Built-By": "richet",
+      "Created-By": "Apache Maven",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "4dde733e37f954a96ac707b58187687aac29bc8b"
+     }
+    ]
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "2cf563329a43c157",
+   "child": "20fcf0dc9731e68c",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cad14fd990d26bae",
+   "child": "20fcf0dc9731e68c",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2cf563329a43c157",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cad14fd990d26bae",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "20fcf0dc9731e68c",
+   "location": {
+    "path": "\\dist\\jmathio.jar"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

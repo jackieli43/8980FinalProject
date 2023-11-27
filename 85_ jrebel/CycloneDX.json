@@ -1,0 +1,645 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f2b3a3de-1a7b-4ed8-9e8f-69eda5a73ac1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-17T00:11:39.168Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "online.githuboy",
+      "name": "jr-mybatisplus",
+      "version": "1.0.5",
+      "description": "A hook for Support MybatisPlus that reloads modified SQL maps.",
+      "licenses": [],
+      "purl": "pkg:maven/online.githuboy/jr-mybatisplus@1.0.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/online.githuboy/jr-mybatisplus@1.0.5?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "org.zeroturnaround",
+      "name": "jr-sdk",
+      "version": "7.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a7359a1310276ad1d62b42a299ca6bda"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94fb8ac49b358744dc111df8e599437f1e6f7336"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7e9c4e368057fca36eea3c4d7a6ac95b5ff5981a1a20bb4c35301b88580f31d2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "df3234aaf2d713197aa830dcc0453675a5e0b895a713675709c18284b40dc6948ddf30c8d239711eae4055989d6b071ef8bd9c0ae2c4f103cec4db75829e8aad"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "761cc18090e3ec2903efe0a782a8fbd78993d617b9fa0c5e805fcf45fdcb99e6d245b2504d01ab221505de44df9e3561"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "85a9b1282531cea299ccfd7dadc616b1107112a357a26b7fbe88b32774dde1b1a3ae2def8aed8ecc511cbaeee7be6eac"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cbfdbb6dc3bce57752932ea10ee65b9a162fcfe9fd5eed58941fd7edce29fef3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5bf34f55e12b3004b31739b26e1144b59d8bf92d68a7627b87605bcf990191038b376b043b8e221f5a3bbc21e087fb1a455dd4de6655a242a4ab8aa1aafd67f4"
+        }
+      ],
+      "purl": "pkg:maven/org.zeroturnaround/jr-sdk@7.0.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.zeroturnaround/jr-sdk@7.0.0?type=jar"
+    },
+    {
+      "group": "org.zeroturnaround",
+      "name": "jr-servlet-api",
+      "version": "7.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9e1677c0e907a51951353b938ac8bee7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "afac5f97b0f634f5e972ccd7c60bb2678e34140c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2b86cfcd2173b50411176991a0b85546ec4d4949e9cbd0102db55bb026f5af4f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e9f7d19e2352b3dfa869486f000ea24b99656a469430276600359be4739556be138c7bd4e053495f349c14017e9f4ccc220663072b0e0c394d3b8f442942dfc4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "33fdab3f6717ef16213247de87c8ecc22beb86aab150d7d049c064c0e04c89dfb04b8238a62caec584e132dce78720d4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0c0df80db9f8d688872dc2445eeb624a00b8ce8f6cd7830bcb2affaca14d8487a8440a7b0814c3a9c2cbceeb5d9a8596"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "08726e92579d0c0d22f203686fefef3eef0fd035bfa2319d816a9104a733c09e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6f149165cc245103cfc2c73e3663e1e252b11c40d0d5e31839e99f9c6acb5f90303bfa1fa857427c1ada6429fae542366184badf63f5703a534c919b84150d95"
+        }
+      ],
+      "purl": "pkg:maven/org.zeroturnaround/jr-servlet-api@7.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.zeroturnaround/jr-servlet-api@7.0.0?type=jar"
+    },
+    {
+      "group": "org.zeroturnaround",
+      "name": "jr-utils",
+      "version": "7.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "485e581cfc4fc0219920c0dce883fa06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "de97402d0d018ec2a7bb3d2dfd8ecfbb71b60fb2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "feac13fb8ec6efb5622a188b1b4e50efc1d4b30c5011d93058778bddd4d81755"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b43d40bf874e04e198a701ae57a1a3c87b7aa5db621f29516ed5670b97ec128b6f2620006111eeeab37fbe80133444dac777dc2e61fe4d9f44ad1534fc18abd1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "bfd8893b054fafad8bba024282b1c52535c921579fb126a41d3af0c82708e8a85e55f0bf56725b897973b9915d68d961"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e310f7abc9dfb8ab89ac921a7ec1d88becdc17c7f3b376ce858d8e3eac284fd4d50a5987d9f2803f147a9ac302bfa793"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "3bc0c4b965736cd63f24cb62ddcdae8aef957bf56cbd688b178566b891feb7e4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7fa2082ce722081dd708fb96164b428cec3c5413ed5580d03e45475f2ff1f26cf3a58c9e0c0e150d3f4963f54abe59f6ecfe008c198b2ee108b7c6245fd64d18"
+        }
+      ],
+      "purl": "pkg:maven/org.zeroturnaround/jr-utils@7.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.zeroturnaround/jr-utils@7.0.0?type=jar"
+    },
+    {
+      "group": "org.zeroturnaround",
+      "name": "jr-javassist",
+      "version": "3.20.0-GA-java4-zt",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "418814b69351bd72004fa61a72413253"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "68c1c1adbd47c13ce39eef7f080ed809c3d1cb46"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "40304916eab17fee0653c42ff325e72a228422179d084ea62b4b8086e25d4128"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "de5bc85581fbf3a99320b4f158f56bd983385424aca3ca31c7c15237852cb8df5844c54d97cc0af4b26add81986914ad31da070d679bce6ccf030175bccedcc6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "70aec6a99a809f3d8255f473726dde1c5540c4768175348934dd4726c40862b48e03d5e6435f84489c1e5bc1210a72d3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f060a12c4096d6ce1ab9a66d6e694780a4ff015deb9f4b84afa8aa5390a33cf6ea4fc070a03f594e92406fb505a0922b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "813d1dadb0a9539cbed6ae7b9aa8f9ebd7a540718d63ea2852638ee18140f99e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4dba2d8142c906b9e1e9c6f49ec8a9fb6ee46602e4c7eb7922432e8c91fb96ace6e305d4b1c4520fcc00d5cc336179f1018a58d1eb8e2915e73e88d479526678"
+        }
+      ],
+      "purl": "pkg:maven/org.zeroturnaround/jr-javassist@3.20.0-GA-java4-zt?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.zeroturnaround/jr-javassist@3.20.0-GA-java4-zt?type=jar"
+    },
+    {
+      "group": "com.baomidou",
+      "name": "mybatis-plus",
+      "version": "3.1.1",
+      "description": "An enhanced toolkit of Mybatis to simplify development.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d90199d83166f5993bc2be859753caf1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "efc10a4eb714957e57e6d58c33d9023fcfb5f9a8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bb87393901110d3cd2dd8f35f850bfaa6e4afd53e9d641464fff3108b39d3e64"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f5bf04b46c4498908996e27b3d4146eedbf15dbbc45d16976f55ff8c79081de4a4caee16945fd1c652acc72a57856c1bb08b466469843c812043fe4eae5dba00"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b1dd849a4d7a2ca2a95fe582b0c1d64b6a8deb4d897d45968617db1861eee5e26c28beb29e85b6795370775ebeb3f790"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7d531dc166aa79552cca5667f30db2f9335e7b7181d443f60034454b5b58c84492137097817937878af928df93757ef6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4fe98c086dc2581e2a63e74c62501e294bbb3810b8d8641dd63db37f581bd621"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6563d1dfc290e973b96abdc564e2580e9e9f3307f2159efc562081ec7edef810b50329b7c1a2b3e0403a47945bebd2993098f244906d2ced51c87ff47281e363"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.baomidou/mybatis-plus@3.1.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.baomidou/mybatis-plus@3.1.1?type=jar"
+    },
+    {
+      "group": "com.baomidou",
+      "name": "mybatis-plus-extension",
+      "version": "3.1.1",
+      "description": "An enhanced toolkit of Mybatis to simplify development.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "48a4244a60574c25df410ce19797eb36"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "43e751214b61c1c83c888b91e7e13b42ec6906da"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "456c34cc5c84a8ee3a7b319d449dac9cd881bbf0ee0445ca11f710964562b928"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "12f520c7f2e8c72168f58dc1520bb559a64840160dc539222189f995bd2da0a67f3be84a3c5c9863099b3a34fe741e3e826b327b84f11422f5bf2c283d73721b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f5feb16e64db3cee29fd4da843d6ff15ac0e5daf02a4155e526392fb2a489f25c42c57ef619a52ac4e45a272836c9ee3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bcb20b6c1af8a655e101c7eadb6aba15f60681b7efe0dfdd09184783071605b9180f45993aaa7a1c6e78a335a03f929d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a74f4a2e8d6622ed1deeaff63d0aadcf314b415b98e985a00390f81315c39834"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2e29c3fc48d94a3ea82f3481edda1676ea98cdc554a4733953cc90863585efaa00845b12bb8c1be31cb5f4a97a907f9af2f0c1655d0b2c2ff3b46842011429d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.baomidou/mybatis-plus-extension@3.1.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.baomidou/mybatis-plus-extension@3.1.1?type=jar"
+    },
+    {
+      "group": "com.baomidou",
+      "name": "mybatis-plus-core",
+      "version": "3.1.1",
+      "description": "An enhanced toolkit of Mybatis to simplify development.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dcd8c61951954d25426d4c38fd465379"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7b23a888dd676b92a1d9e5918839fd76cdfd9f5b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c417318428511f421874878d8f409e960e8f2c4138afe2d7dbec273c4da7804f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7970ce8fa3970888745382241cdce3a075aac308d4a43d0744310f1b4947657be743db1cebaf1e7742c344ae41d374e09448fc823cfa48fe5baef80563f53581"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "91cac596e8708816c43bbedcb447e37b0f210265f3a3dd28ff4a3466589ab1a2db3fe856b9faf7c1c726824bcb3d1bb8"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5769e87495e8120f5a3353e952ec7946a96c173ab432450d0f4b9b0200d790d5b02f36798ddde0c0fd323a4e282a50b9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cbbb0596c234fc3c67601f2316e9f28867a60c233b2a882494839d4781334c85"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b08f3f9924af829bcffa9607c5fbdd06457381563fbb111ef6a67e882425f9a124df0d8b104a4de52104005bc0e167874a34ea7688ae60df2abe04065a93d346"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.baomidou/mybatis-plus-core@3.1.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.baomidou/mybatis-plus-core@3.1.1?type=jar"
+    },
+    {
+      "group": "com.baomidou",
+      "name": "mybatis-plus-annotation",
+      "version": "3.1.1",
+      "description": "An enhanced toolkit of Mybatis to simplify development.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9b9432321b15920fea439a22dee7dcfd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7444e0d8c739e84f76674d9992219f68ccf9dc45"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "456f32bc989e134c03c9d001e381001c634706247491997c3753dd627665f142"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cd1d860581aa3d6d8dab466f55bb25ffc9be558ffa12a9f6317b619c20673bbaf8469d95d55864ca91c60ff03974a8c384b7876e7ae6d0e9cce6e151c2b2e05f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f3f1724166ce93b3616c49a9fdeddbd4479907fbd94eec981b5cc88c330030bc347ba9f99d561989fea015829c4a5df7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "468b8090dcd91e8885b18f9c45b780a1e41b678287f481cede9180f014bcd8a2e4c16b268cd125eb3e8b6e47f77ee11d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2c2becf75a522ff1d177fcbba02d11e960826d418dd8e0f37c78370edccc4f0a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fa670361258e3b3089339908e761b9c97629620be571e8301d9e3a5e149d084f9c843a7bd94d6d77f6e81562f1dcd7b85b63282a0283a6bed08595269890dda9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.baomidou/mybatis-plus-annotation@3.1.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.baomidou/mybatis-plus-annotation@3.1.1?type=jar"
+    },
+    {
+      "publisher": "JSQLParser",
+      "group": "com.github.jsqlparser",
+      "name": "jsqlparser",
+      "version": "1.2",
+      "description": "JSqlParser parses an SQL statement and translate it into a hierarchy of Java classes. The generated hierarchy can be navigated using the Visitor Pattern.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c92a7d03f4f0b5db2b773014743acbd3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bc8a4e852bde9114b97fda9a3f73c8ae2b7748b9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e68c8d41143cd82f65b143494ab55162dab572d813e97fd6e411b9d5a920f013"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "15a21bbc0d6b548720b35646eb8a75a92b3b5701df142dd19fef865976671c391d5ab4d0aa9299afbbdb2b8b9474ab1f0ef7579d1da083da1fc89dcf254415f5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "89fae19fe4599ccae082da624c098f096556b9839cd9fc98ab17b93c884e3ab342189b3a2ccb24c57e59262a3a95a261"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "78acad3ad2988ec19da20eed930843355d6246c6e923dfb0ce98c2db42c270d2fb6f12b361b406f01c1c4134bef8c233"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d3934d2c4f219f63b9e2f01dcadee1767827aaf06f61e6fcbb474b93ca7d9d90"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "dbe430e62e1a57ac7086989de49d0cc5f57942570175e6d2945b1dfc6fd1ec7d0072e75d7a36ae72c2ed7471166f3f6bc1a70772d310cba27e58a9114ec70b0f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jsqlparser/jsqlparser@1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jsqlparser/jsqlparser@1.2?type=jar"
+    },
+    {
+      "publisher": "MyBatis.org",
+      "group": "org.mybatis",
+      "name": "mybatis",
+      "version": "3.5.1",
+      "description": "The MyBatis SQL mapper framework makes it easier to use a relational database with object-oriented applications. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations. Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping tools.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d1408027bb71a29287a8b99e97e2889e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f30bc9bd00bad020ecb07d45ed229cd1410b9718"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0b878c468d28b3d2c3a2125314899f85e76f165f7cb58256993b93b973c9847d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c9dca6b387f5df8f8751a7451bb4e9bc6efc254c0dee8ecf7555390a137462d8edd4006127e42c930cf7466cb6d95c34f1fe01bd50e0d7a61077444f1518b8eb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4f3c30279a34fdfebb25652735d2bc8b4b71d2289ca2138d5341fc5702edabdb8a79269ca9d54a4696ef12ec7144fbcc"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4e8de2f279d3c6315e6b52058c449c9f48b4cfbe8c1014500481f2177779063fa89a51e559375c8b62837c337c57af1e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d5e1803399b5ce68fe0cbae2c3049c6472ebfd7b014f81a6318334982dc7f197"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "51afdbc4024d08120f65d7d951718d6f397df1252d3b0ebb47dd3d360734f4b0b45dd80c6af04b8482e43404cb6d710fddfdbf04f0d63b9e2ab03f4c5afb4807"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mybatis/mybatis@3.5.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.mybatis/mybatis@3.5.1?type=jar"
+    },
+    {
+      "publisher": "MyBatis.org",
+      "group": "org.mybatis",
+      "name": "mybatis-spring",
+      "version": "2.0.1",
+      "description": "An easy-to-use Spring bridge for MyBatis sql mapping framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6ef838b10a1c059f9579ae8966f958dd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "752c8dd1f2ed597b90d48fbf4426f20663a16fcb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "af99d8ae1c1375efa62308771dc3b302004a9965b05dbe2dd09698ba29e747fa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f5d8edac9b99f14e1993adfa325f0400b314c7d5aeb4e50522828e9e1fdadf5fd71ae3b14106936002ae5672e9a4e3dfc3b8da07935ef594d3ebb1f3bb67db48"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0606e93b6439ee22e37c54cc15d8eab46b3d0d12a8a196d94c8b726b551ead51694aa7bc090af228bd60000f22d49dcd"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a1ad3cbd220f4ef339534b69d080eaa0cfee7a46d50679b4197e4095f688a2f1d723737ee7cf8e8e3966131e86c7d21f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "df5d81655a260676893fab0a10c7ace6b054476b014bee6a4f2f099c5547b68b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f80d6b86aa12025beeca09949a46b85b5307c96b5eeaef963ba0552a75cd54625f293d4220104435bb3aef80c5c1b13741e00bcb39d1c047018308f3df264401"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mybatis/mybatis-spring@2.0.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.mybatis/mybatis-spring@2.0.1?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/online.githuboy/jr-mybatisplus@1.0.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.baomidou/mybatis-plus@3.1.1?type=jar",
+        "pkg:maven/org.zeroturnaround/jr-sdk@7.0.0?type=jar",
+        "pkg:maven/org.zeroturnaround/jr-utils@7.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.zeroturnaround/jr-sdk@7.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.zeroturnaround/jr-servlet-api@7.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.zeroturnaround/jr-servlet-api@7.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.zeroturnaround/jr-utils@7.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.zeroturnaround/jr-javassist@3.20.0-GA-java4-zt?type=jar",
+        "pkg:maven/org.zeroturnaround/jr-sdk@7.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.zeroturnaround/jr-javassist@3.20.0-GA-java4-zt?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.baomidou/mybatis-plus@3.1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.baomidou/mybatis-plus-extension@3.1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.baomidou/mybatis-plus-extension@3.1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.baomidou/mybatis-plus-core@3.1.1?type=jar",
+        "pkg:maven/org.mybatis/mybatis-spring@2.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.baomidou/mybatis-plus-core@3.1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.baomidou/mybatis-plus-annotation@3.1.1?type=jar",
+        "pkg:maven/com.github.jsqlparser/jsqlparser@1.2?type=jar",
+        "pkg:maven/org.mybatis/mybatis@3.5.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.baomidou/mybatis-plus-annotation@3.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.github.jsqlparser/jsqlparser@1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mybatis/mybatis@3.5.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.mybatis/mybatis-spring@2.0.1?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+ "artifacts": [
+  {
+   "id": "4179a2ce33dfede2",
+   "name": "cassandra-driver-core",
+   "version": "3.1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:cassandra-driver-core:cassandra-driver-core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra-driver-core:cassandra_driver_core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra_driver_core:cassandra-driver-core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra_driver_core:cassandra_driver_core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra-driver:cassandra-driver-core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra-driver:cassandra_driver_core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra_driver:cassandra-driver-core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra_driver:cassandra_driver_core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra-driver-core:cassandra:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra:cassandra-driver-core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra:cassandra_driver_core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra_driver_core:cassandra:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:datastax:cassandra-driver-core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:datastax:cassandra_driver_core:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra-driver:cassandra:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra_driver:cassandra:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cassandra:cassandra:3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:datastax:cassandra:3.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.datastax.cassandra/cassandra-driver-core@3.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.datastax.cassandra",
+     "artifactId": "cassandra-driver-core",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "4179a2ce33dfede2",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4179a2ce33dfede2",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

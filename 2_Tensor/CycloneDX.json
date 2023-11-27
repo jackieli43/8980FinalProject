@@ -1,0 +1,110 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c028607c-db6a-45b0-a14a-60300fece740",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-07T03:42:38.470Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "ch.ethz.idsc",
+      "name": "tensor",
+      "version": "0.8.1",
+      "licenses": [],
+      "purl": "pkg:maven/ch.ethz.idsc/tensor@0.8.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://maven.apache.org"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.ethz.idsc/tensor@0.8.1?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "3.8.2",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "28e7eb9eeefe31a657c68755bfccc541"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "07e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ecdcc08183708ea3f7b0ddc96f19678a0db8af1fb397791d484aed63200558b0"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29a3084a39cf3f78f766056fbe59d7a14d9e766ce53859260a9a6b5ae4c43223c13f18a688ca721545c98a183a3511ce5369ace8978758a7326a8c1120c0c8a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "681f20ecbae4bc174bfd9723f4e512ec23aefa30bba7d05c65fcf754ebadf493470115cb3d9b79436736f2feb29522d0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f939655850b0bac5803ce0b10b23dc2df4f7643b7babc8eb45be548a3786bed08ef9b7451d33a4b81e87728136c736b0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2b4ea67050b05a43d158974bfa2c57c038a3484d24e26290862b3184045eb759"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fd36fafca47641a72f1804cc736a626f73f592959ba3d2d3e1019f55d5344963891f53c9d8649235ff8c80f135a0428b2e8fee279c36249a2e31d42d031aac77"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@3.8.2?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@3.8.2?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/ch.ethz.idsc/tensor@0.8.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/junit/junit@3.8.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@3.8.2?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

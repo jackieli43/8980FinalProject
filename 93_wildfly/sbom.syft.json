@@ -1,0 +1,796 @@
+{
+ "artifacts": [
+  {
+   "id": "6ade54306c978c97",
+   "name": "cdi-api",
+   "version": "2.0.Alpha4",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:cdi-api:cdi-api:2.0.Alpha4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cdi-api:cdi_api:2.0.Alpha4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cdi_api:cdi-api:2.0.Alpha4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cdi_api:cdi_api:2.0.Alpha4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cdi:cdi-api:2.0.Alpha4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cdi:cdi_api:2.0.Alpha4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.enterprise/cdi-api@2.0.Alpha4",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.enterprise",
+     "artifactId": "cdi-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "89c468fcd8ecc903",
+   "name": "config-api-runtime",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:config-api-runtime:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config-api-runtime:config_api_runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config_api_runtime:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config_api_runtime:config_api_runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config-api:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config-api:config_api_runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config_api:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config_api:config_api_runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly:config_api_runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:config:config_api_runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swarm:config-api-runtime:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:swarm:config_api_runtime:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.wildfly.swarm/config-api-runtime",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.wildfly.swarm",
+     "artifactId": "config-api-runtime",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "7d01271c647eb129",
+   "name": "fest-assert",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:easytesting:fest-assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:easytesting:fest_assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fest-assert:fest-assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fest-assert:fest_assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fest_assert:fest-assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fest_assert:fest_assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fest:fest-assert:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fest:fest_assert:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.easytesting/fest-assert",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.easytesting",
+     "artifactId": "fest-assert",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "fb2abb8eea0e78f7",
+   "name": "jandex",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jandex:jandex:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:jandex:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss/jandex",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss",
+     "artifactId": "jandex",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "40d675f685de9de4",
+   "name": "jboss-dmr",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jboss-dmr:jboss-dmr:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss-dmr:jboss_dmr:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss_dmr:jboss-dmr:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss_dmr:jboss_dmr:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:jboss-dmr:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:jboss_dmr:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss/jboss-dmr",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss",
+     "artifactId": "jboss-dmr",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "dd21e48e4a607433",
+   "name": "jboss-msc",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jboss-msc:jboss-msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss-msc:jboss_msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss_msc:jboss-msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss_msc:jboss_msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:jboss-msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:jboss_msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss-msc:msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss_msc:msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:msc:jboss-msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:msc:jboss_msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:msc:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:msc:msc:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss.msc/jboss-msc",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss.msc",
+     "artifactId": "jboss-msc",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "ef254e2105cea206",
+   "name": "junit",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "32408aab43c3d96f",
+   "name": "shrinkwrap-api",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:shrinkwrap-api:shrinkwrap-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-api:shrinkwrap_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_api:shrinkwrap-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_api:shrinkwrap_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-api:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_api:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap-api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap_api:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-api",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss.shrinkwrap",
+     "artifactId": "shrinkwrap-api",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2533dbc66e885546",
+   "name": "shrinkwrap-descriptors-api-jboss",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:shrinkwrap-descriptors-api-jboss:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-api-jboss:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_api_jboss:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_api_jboss:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-api:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-api:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_api:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_api:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:descriptors:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:descriptors:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-api-jboss:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_api_jboss:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap-descriptors-api-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap_descriptors_api_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-api:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_api:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:descriptors:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss.shrinkwrap.descriptors",
+     "artifactId": "shrinkwrap-descriptors-api-jboss",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1cce64f4bc55ab61",
+   "name": "shrinkwrap-descriptors-impl-jboss",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:shrinkwrap-descriptors-impl-jboss:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-impl-jboss:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_impl_jboss:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_impl_jboss:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-impl:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-impl:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_impl:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_impl:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:descriptors:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:descriptors:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-impl-jboss:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_impl_jboss:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap-descriptors-impl-jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap_descriptors_impl_jboss:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors-impl:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors_impl:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-descriptors:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_descriptors:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:descriptors:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-jboss",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss.shrinkwrap.descriptors",
+     "artifactId": "shrinkwrap-descriptors-impl-jboss",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "504f5465d1812664",
+   "name": "shrinkwrap-impl-base",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:shrinkwrap-impl-base:shrinkwrap-impl-base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-impl-base:shrinkwrap_impl_base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_impl_base:shrinkwrap-impl-base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_impl_base:shrinkwrap_impl_base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-impl:shrinkwrap-impl-base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-impl:shrinkwrap_impl_base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_impl:shrinkwrap-impl-base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_impl:shrinkwrap_impl_base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-impl-base:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap-impl-base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap_impl_base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_impl_base:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap-impl-base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap_impl_base:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap-impl:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap_impl:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:shrinkwrap:shrinkwrap:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:shrinkwrap:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss.shrinkwrap/shrinkwrap-impl-base",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss.shrinkwrap",
+     "artifactId": "shrinkwrap-impl-base",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "7bb0f4fcc92b8918",
+   "name": "staxmapper",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:staxmapper:staxmapper:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jboss:staxmapper:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jboss/staxmapper",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jboss",
+     "artifactId": "staxmapper",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "b7e838e81b726cdd",
+   "name": "wildfly-controller",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:wildfly-controller:wildfly-controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly-controller:wildfly_controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly_controller:wildfly-controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly_controller:wildfly_controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly:wildfly-controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:wildfly:wildfly_controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:wildfly-controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:core:wildfly_controller:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.wildfly.core/wildfly-controller",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.wildfly.core",
+     "artifactId": "wildfly-controller",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "1cce64f4bc55ab61",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2533dbc66e885546",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "32408aab43c3d96f",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "40d675f685de9de4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "504f5465d1812664",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "6ade54306c978c97",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7bb0f4fcc92b8918",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7d01271c647eb129",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "89c468fcd8ecc903",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b7e838e81b726cdd",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1cce64f4bc55ab61",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2533dbc66e885546",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "32408aab43c3d96f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "40d675f685de9de4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "504f5465d1812664",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "6ade54306c978c97",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7bb0f4fcc92b8918",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7d01271c647eb129",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "89c468fcd8ecc903",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b7e838e81b726cdd",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "dd21e48e4a607433",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ef254e2105cea206",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fb2abb8eea0e78f7",
+   "type": "contains"
+  },
+  {
+   "parent": "dd21e48e4a607433",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ef254e2105cea206",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fb2abb8eea0e78f7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

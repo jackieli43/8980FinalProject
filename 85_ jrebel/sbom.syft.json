@@ -1,0 +1,261 @@
+{
+ "artifacts": [
+  {
+   "id": "5fdbef703b7b16da",
+   "name": "jr-sdk",
+   "version": "7.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:zeroturnaround:jr-sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:zeroturnaround:jr_sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr-sdk:jr-sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr-sdk:jr_sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr_sdk:jr-sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr_sdk:jr_sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr:jr-sdk:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr:jr_sdk:7.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.zeroturnaround/jr-sdk@7.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.zeroturnaround",
+     "artifactId": "jr-sdk",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "300d2847eac67244",
+   "name": "jr-utils",
+   "version": "7.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:zeroturnaround:jr-utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:zeroturnaround:jr_utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr-utils:jr-utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr-utils:jr_utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr_utils:jr-utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr_utils:jr_utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr:jr-utils:7.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jr:jr_utils:7.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.zeroturnaround/jr-utils@7.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.zeroturnaround",
+     "artifactId": "jr-utils",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "13a5231387a2ac81",
+   "name": "mybatis-plus",
+   "version": "3.1.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mybatis-plus:mybatis-plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mybatis-plus:mybatis_plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mybatis_plus:mybatis-plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mybatis_plus:mybatis_plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:baomidou:mybatis-plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:baomidou:mybatis_plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mybatis:mybatis-plus:3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mybatis:mybatis_plus:3.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.baomidou/mybatis-plus@3.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.baomidou",
+     "artifactId": "mybatis-plus",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "13a5231387a2ac81",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "300d2847eac67244",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "5fdbef703b7b16da",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "13a5231387a2ac81",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "300d2847eac67244",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "5fdbef703b7b16da",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

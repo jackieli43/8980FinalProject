@@ -1,0 +1,482 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:527d8272-c09c-4d8c-b535-06be19610fbf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-16T15:31:10.658Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "science.raketen.voodoo",
+      "name": "VoodooDI",
+      "version": "0.0.5-SNAPSHOT",
+      "description": "Voodoo DI - educational JSR-330 implementation.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/science.raketen.voodoo/VoodooDI@0.0.5-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.knitelius.com"
+        },
+        {
+          "type": "distribution",
+          "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/sknitelius/VoodooDI"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/science.raketen.voodoo/VoodooDI@0.0.5-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "description": "The javax.inject API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "289075e48b909e9e74e6c915b3631d2e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6975da39a7040257bd51d21a231b76c915872d38"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e126b7ccf3e42fd1984a0beef1004a7269a337c202e59e04e8e2af714280d2f2d8d2ba5e6f59481b8dcd34aaf35c966a688d0b48ec7e96f102c274dc0d3b381e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ac04c9f03ccbe35a25deb8b50280a0ca01dbe6aff0dd795d55af6112bfe3cd5817eb82f32fb18378d86cd64b07597190"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fca090ecb1edeacb9fe865dc515cd1d109b323cd742d4a9733ff199a96ee96e0db4f924079520b9c189ef750f255475d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5b0054e39e522de0e0ffc4034d12f72270291fb24d94d5ffc9c4d69c25035fc6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fb290f5a70b1efc1dff12f40a0b2d7b94019f66da42e78010c0b8e61f222c4f267b67e356a9e9c346eb801e5515e36243888f280c5cb95c2dd69016a30cadeb9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "group": "org.reflections",
+      "name": "reflections",
+      "version": "0.9.10",
+      "description": "Reflections - a Java runtime metadata analysis",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8291cb0fd9d0a1ac61e78f6234bcf51e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c7f4ea230aedc757ca1499ebcfb2953c81cf8b67"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6eecd8b68f937e7220cf4da839403730e102cc31d25ccf5685a2dba0ea8d7553"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0d809a93787779c617c67403487d7b7a37855251aaa936194907e41d1c26a3977ef8b7462a6c224b1312f16cc5c16f12664e18066f6845bc2b61f58b1dd42081"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1957b7726cdcb8903f9540b8b3cd46842c6b819affb2c0e42a731d351129b61144012208f3575f141c0c709f9dd4cd19"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3b10844a472aba373bd62e2ac22a046dc5f08337fe86e192631b3cfde7479e5f2e3b320a6ffa87096a09eb1723f337cf"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f04d176bbf67cc7cb0cfb46d6ebf4c75db393a5bf963ba4d33d9ed6d48b4544e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8974097521a6bf1b35a4b842ffcb370db55ea9f771a64db2e1cffea5bceedd558eea669157a76fccd06d79ce1332b2f79ea6b085b7185a53de6799befdd352db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "WTFPL",
+            "url": "http://www.wtfpl.net/about/"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.reflections/reflections@0.9.10?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.reflections/reflections@0.9.10?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "15.0",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more. Guava has two code dependencies - javax.annotation per the JSR-305 spec and javax.inject per the JSR-330 spec.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2c10bb2ca3ac8b55b0e77e54a7eb3744"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed727a8d9f247e2050281cb083f1c77b09dcb5cd"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7a34575770eebc60a5476616e3676a6cb6f2975c78c415e2a6014ac724ba5783"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "47d9a7526c3c039b3793750f537fee19b645b1293b574fd1939ee058d8fdeb8ad956e0e0aa36b5d4b527e9cace51b71aefa6c8fdf40acbf611606a162d878f58"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "178a0cddd98a39ced52c2ff96d9657cefe3adb3e7336bad45a4cd8f33e0e3a4579b732f9890bdb7914a8e98c06faa828"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9677565f23d6e9baeb52447b65080aee4335c6a4692ef9eb5b1620c7bae7fc7876f8aab2e6552906c4623736364dbe42"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1ba9f9e075e15636e2992090c7acf2b637480b81ea56b2e0fbbce85974bc73e6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2252a79ed5b9cabe523eeaa2760ef8924ea5e45225eb558d2c17f5b70f4cd2f5f3cb69c8bbe7d697255f1a883173cb4acaacd720d3461a1373a3b37b50d7f9a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@15.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@15.0?type=jar"
+    },
+    {
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.19.0-GA",
+      "description": "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "60974bfbf014085986b1d1eac44222c8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "50120f69224dd8684b445a6f3a5b08fe9b5c60f6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d19c1ef43ccd9cb1b39466bb2f1c8e45c2b6752f1e13a3dfb60096543d1791fa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f08d31069e208d1ecc2956445098dd54947db3c3f1cb719513b9660c152877d45a528482af937a58724b76f935d82849805ed2e6cb0161f06e9aab6a32389bc4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "760ab976f2eac568889fe2eff9e2b11d2b1a3ab975058967ac8c905875c86fd52b0d83966cb0b80812abc21a214fd3a3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "90788ae313c4184c2dbd55274d87055d45fd9add29369a00c2fe083b82e1dd7a37fa7af8fda5a4f36f1218ce049868d6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ebd3298c16e1991eeb0abedabff7aae97553cc31fdfc24a4fa50fc4263e64eed"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e4602ce668d34b5602179d563ee53270e87c71f576be81b362b3bd2892c6be06b1087f02cac129df997cad6493500e123071f3d4a2c181e3a251a12b09d3f36"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-1.1"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        },
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.javassist/javassist@3.19.0-GA?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.javassist/javassist@3.19.0-GA?type=jar"
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "annotations",
+      "version": "2.0.1",
+      "description": "Annotation supports the FindBugs tool",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "35ef911c85603829ded63f211feb2d68"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9ef6656259841cebfb9fb0697bb122ada4485498"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "893b2203a27e4a8ba9d16cd6ed6e9f730736b4878a6bfffeff06861f32e6631b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0f11fc3a2f18936a0a4fbbe274d07333dbc5c41f51aa196dd472fa5bab7f68e3fc8256b2ac0e0c3abaf6536d34928da6f171db885ad672d688cc318b1308b650"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a5027ecfa154fa245c2e739e2bcaf479ddad42d7b70a092a5120d3899026af24f78397f296eeda1bd90a9d960b9462fa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4e011491676b28046a4d9ca4a747ff0070821a5a4e58b60ff0fa7e34b675d716ca169cab4b8ea7adc07b1b366372c313"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b3a7a50e4b920e6f0fedeb6b010169335cb217630496ddaf4ebf5e924ffcd1d6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0624eb619c5a4f550235aea5b44153ea32e9786fca0c3b36e07e961dbee5ec4d8897ae8ac67a6c361fbfe0f087516f29a2f191940d3b2adbbc9e4d361e5bc205"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser Public License",
+            "url": "http://www.gnu.org/licenses/lgpl.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/annotations@2.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/annotations@2.0.1?type=jar"
+    },
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.12",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5b38c40c97fbd0adee29f91e60405584"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2973d150c0dc1fefe998f834810d68f278ea58ec"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5974670c3d178a12da5929ba5dd9b4f5ff461bdc1b92618c2c36d53e88650df7adbf3c1684017bb082b477cb8f40f15dcf7526f06f06183f93118ba9ebeaccce"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e2f0c2db405e282d0f84a1766b9e8d9736d4377e292a5ef8457aec10384f9077005865167025b2779634d75bcb4d62cd"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a24a1d6d5ffe2f9fc3a90a442c3d1d5a12ae7bda3c68996c3b50f00186a2f961808c5ef504a771e9d6ab95ee38a383f0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "02b1f076652120813646a0cb34350f0c73a3299b221567e089f6aaadf8ab444a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e8f7057647c11564178e4569cf4f5682d3688b49d81acc60fd301f61053932ee9ac109c19cb639f7710d23afc76cb106ebde0f8143e2fe5fa08605201720a8b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.12?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.12?type=jar"
+    },
+    {
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6393363b47ddcbba82321110c3e07519"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42a25dc3219429f0e5d060061f71acb49bf010a0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/science.raketen.voodoo/VoodooDI@0.0.5-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.inject/javax.inject@1?type=jar",
+        "pkg:maven/junit/junit@4.12?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+        "pkg:maven/org.reflections/reflections@0.9.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.reflections/reflections@0.9.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/annotations@2.0.1?type=jar",
+        "pkg:maven/com.google.guava/guava@15.0?type=jar",
+        "pkg:maven/org.javassist/javassist@3.19.0-GA?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@15.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.javassist/javassist@3.19.0-GA?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/annotations@2.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.12?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

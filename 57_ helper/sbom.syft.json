@@ -1,0 +1,667 @@
+{
+ "artifacts": [
+  {
+   "id": "bfa7024af72e91f8",
+   "name": "org-netbeans-api-annotations-common",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-api-annotations-common:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-api-annotations-common:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_api_annotations_common:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_api_annotations_common:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-api-annotations:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-api-annotations:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_api_annotations:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_api_annotations:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-api:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-api:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_api:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_api:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-api-annotations-common:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_api_annotations_common:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-api-annotations-common@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-api-annotations-common",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "007cfe423261b781",
+   "name": "org-netbeans-libs-javacapi",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-libs-javacapi:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs-javacapi:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs_javacapi:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs_javacapi:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs-javacapi:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-libs-javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_libs_javacapi:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs_javacapi:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:api:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:api:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-libs-javacapi@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-libs-javacapi",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "ac415b0a809880a9",
+   "name": "org-netbeans-libs-javafx",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-libs-javafx:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs-javafx:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs_javafx:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs_javafx:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-libs:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_libs:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-libs-javafx:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_libs_javafx:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-libs-javafx@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-libs-javafx",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "36576035f8449294",
+   "name": "org-netbeans-modules-editor-lib",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-modules-editor-lib:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor-lib:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor_lib:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor_lib:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-modules-editor-lib:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_modules_editor_lib:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-modules-editor-lib@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-modules-editor-lib",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "bd63dc7c2ff5edfa",
+   "name": "org-netbeans-modules-editor-lib2",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-modules-editor-lib2:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor-lib2:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor_lib2:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor_lib2:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-modules-editor-lib2:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_modules_editor_lib2:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-modules-editor-lib2@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-modules-editor-lib2",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "79aafc7d0bd50af1",
+   "name": "org-netbeans-modules-editor-mimelookup",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-modules-editor-mimelookup:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor-mimelookup:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor_mimelookup:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor_mimelookup:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-editor:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_editor:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-modules-editor-mimelookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_modules_editor_mimelookup:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-modules-editor-mimelookup@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-modules-editor-mimelookup",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "1052c51b824f7b30",
+   "name": "org-netbeans-modules-java-source",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-netbeans-modules-java-source:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-java-source:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_java_source:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_java_source:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-java:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules-java:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_java:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules_java:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans-modules:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans_modules:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-netbeans:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_netbeans:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-netbeans-modules-java-source:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_netbeans_modules_java_source:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-netbeans-modules-java-source@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-netbeans-modules-java-source",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "271725999ad088c6",
+   "name": "org-openide-util",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-openide-util:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide-util:org_openide_util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide_util:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide_util:org_openide_util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide:org_openide_util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide:org_openide_util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_openide_util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_openide_util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-openide-util:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_openide_util:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-openide-util@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-openide-util",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "11307ed4748670a4",
+   "name": "org-openide-util-lookup",
+   "version": "RELEASE802",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:org-openide-util-lookup:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide-util-lookup:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide_util_lookup:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide_util_lookup:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide-util:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide-util:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide_util:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide_util:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org-openide:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org_openide:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netbeans:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:api:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org-openide-util-lookup:RELEASE802:*:*:*:*:*:*:*",
+    "cpe:2.3:a:org:org_openide_util_lookup:RELEASE802:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.netbeans.api/org-openide-util-lookup@RELEASE802",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.netbeans.api",
+     "artifactId": "org-openide-util-lookup",
+     "version": ""
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "007cfe423261b781",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "1052c51b824f7b30",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "11307ed4748670a4",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "271725999ad088c6",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "36576035f8449294",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "79aafc7d0bd50af1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "ac415b0a809880a9",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bd63dc7c2ff5edfa",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "bfa7024af72e91f8",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "007cfe423261b781",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "1052c51b824f7b30",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "11307ed4748670a4",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "271725999ad088c6",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "36576035f8449294",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "79aafc7d0bd50af1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "ac415b0a809880a9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bd63dc7c2ff5edfa",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "bfa7024af72e91f8",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,843 @@
+{
+ "artifacts": [
+  {
+   "id": "383cdf441f82d76d",
+   "name": "actions/checkout",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v4"
+  },
+  {
+   "id": "c644f04fe5c14e61",
+   "name": "actions/checkout",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\coveralls.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v4"
+  },
+  {
+   "id": "9aefb8b75267b39f",
+   "name": "actions/checkout",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\sonar.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v4"
+  },
+  {
+   "id": "8df37b5aebacbeb0",
+   "name": "actions/checkout",
+   "version": "v4",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\sonatype.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v4"
+  },
+  {
+   "id": "edb8d0b184996299",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "d7788c46f5993748",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\coveralls.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "e02f0733c143c918",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\sonar.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "670230817af05a8b",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\sonatype.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "43cf89d993340773",
+   "name": "jakarta.transaction-api",
+   "version": "2.0.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jakarta.transaction-api:jakarta.transaction-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.transaction-api:jakarta.transaction_api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.transaction_api:jakarta.transaction-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.transaction_api:jakarta.transaction_api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.transaction:jakarta.transaction-api:2.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jakarta.transaction:jakarta.transaction_api:2.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@2.0.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "jakarta.transaction",
+     "artifactId": "jakarta.transaction-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "fcc73931ad50e17e",
+   "name": "jedis",
+   "version": "5.0.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jedis:jedis:5.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/redis.clients/jedis@5.0.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "redis.clients",
+     "artifactId": "jedis",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  },
+  {
+   "id": "08e4fa4b23046c40",
+   "name": "junit-jupiter-engine",
+   "version": "5.10.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit-jupiter-engine:junit-jupiter-engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter-engine:junit_jupiter_engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter_engine:junit-jupiter-engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter_engine:junit_jupiter_engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit-jupiter-engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit-jupiter:junit_jupiter_engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit-jupiter-engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit_jupiter:junit_jupiter_engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit-jupiter-engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jupiter:junit_jupiter_engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit-jupiter-engine:5.10.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:junit:junit_jupiter_engine:5.10.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.junit.jupiter",
+     "artifactId": "junit-jupiter-engine",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "b51c9d23b104df3b",
+   "name": "kryo",
+   "version": "4.0.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:esotericsoftware:kryo:4.0.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kryo:kryo:4.0.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.esotericsoftware/kryo@4.0.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.esotericsoftware",
+     "artifactId": "kryo",
+     "version": "",
+     "scope": "compile"
+    }
+   }
+  },
+  {
+   "id": "010b9cdcb041be29",
+   "name": "mybatis",
+   "version": "3.5.14",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:mybatis:mybatis:3.5.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.mybatis/mybatis@3.5.14",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.mybatis",
+     "artifactId": "mybatis",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "88e4f998e243048d",
+   "name": "slf4j-simple",
+   "version": "2.0.9",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:slf4j-simple:slf4j-simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j-simple:slf4j_simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j-simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j_simple:slf4j_simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j-simple:2.0.9:*:*:*:*:*:*:*",
+    "cpe:2.3:a:slf4j:slf4j_simple:2.0.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.slf4j/slf4j-simple@2.0.9",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.slf4j",
+     "artifactId": "slf4j-simple",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "4646f94adfc5b4d9",
+   "name": "supercharge/redis-github-action",
+   "version": "1.7.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\ci.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/supercharge/redis-github-action@1.7.0"
+  },
+  {
+   "id": "e2d3d43343a80a8f",
+   "name": "supercharge/redis-github-action",
+   "version": "1.7.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\coveralls.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/supercharge/redis-github-action@1.7.0"
+  },
+  {
+   "id": "01a9c6b697892891",
+   "name": "supercharge/redis-github-action",
+   "version": "1.7.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\sonar.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/supercharge/redis-github-action@1.7.0"
+  },
+  {
+   "id": "7accc602e5abef0a",
+   "name": "supercharge/redis-github-action",
+   "version": "1.7.0",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\sonatype.yaml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github-action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github_action:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis-github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis_github:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis-github-action:1.7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:supercharge\\/redis:supercharge\\/redis_github_action:1.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/supercharge/redis-github-action@1.7.0"
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "010b9cdcb041be29",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "01a9c6b697892891",
+   "child": "0834dfc397200a69",
+   "type": "evident-by"
+  },
+  {
+   "parent": "08e4fa4b23046c40",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "383cdf441f82d76d",
+   "child": "fc172e7b0b35ea55",
+   "type": "evident-by"
+  },
+  {
+   "parent": "43cf89d993340773",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "4646f94adfc5b4d9",
+   "child": "fc172e7b0b35ea55",
+   "type": "evident-by"
+  },
+  {
+   "parent": "670230817af05a8b",
+   "child": "8d48fff834b1b8ff",
+   "type": "evident-by"
+  },
+  {
+   "parent": "7accc602e5abef0a",
+   "child": "8d48fff834b1b8ff",
+   "type": "evident-by"
+  },
+  {
+   "parent": "88e4f998e243048d",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8df37b5aebacbeb0",
+   "child": "8d48fff834b1b8ff",
+   "type": "evident-by"
+  },
+  {
+   "parent": "9aefb8b75267b39f",
+   "child": "0834dfc397200a69",
+   "type": "evident-by"
+  },
+  {
+   "parent": "b51c9d23b104df3b",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "c644f04fe5c14e61",
+   "child": "d6d3149510188361",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "010b9cdcb041be29",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "01a9c6b697892891",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "08e4fa4b23046c40",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "383cdf441f82d76d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "43cf89d993340773",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4646f94adfc5b4d9",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "670230817af05a8b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "7accc602e5abef0a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "88e4f998e243048d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8df37b5aebacbeb0",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "9aefb8b75267b39f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "b51c9d23b104df3b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "c644f04fe5c14e61",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "d7788c46f5993748",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e02f0733c143c918",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e2d3d43343a80a8f",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "edb8d0b184996299",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fcc73931ad50e17e",
+   "type": "contains"
+  },
+  {
+   "parent": "d7788c46f5993748",
+   "child": "d6d3149510188361",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e02f0733c143c918",
+   "child": "0834dfc397200a69",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e2d3d43343a80a8f",
+   "child": "d6d3149510188361",
+   "type": "evident-by"
+  },
+  {
+   "parent": "edb8d0b184996299",
+   "child": "fc172e7b0b35ea55",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fcc73931ad50e17e",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "fc172e7b0b35ea55",
+   "location": {
+    "path": "\\.github\\workflows\\ci.yaml"
+   }
+  },
+  {
+   "id": "d6d3149510188361",
+   "location": {
+    "path": "\\.github\\workflows\\coveralls.yaml"
+   }
+  },
+  {
+   "id": "0834dfc397200a69",
+   "location": {
+    "path": "\\.github\\workflows\\sonar.yaml"
+   }
+  },
+  {
+   "id": "8d48fff834b1b8ff",
+   "location": {
+    "path": "\\.github\\workflows\\sonatype.yaml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

@@ -1,0 +1,538 @@
+{
+ "artifacts": [
+  {
+   "id": "3d078457e36bf6f1",
+   "name": "JSplashScreen",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "\\res\\jars\\JSplashScreen.jar",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:JSplashScreen:JSplashScreen:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/JSplashScreen/JSplashScreen",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "\\res\\jars\\JSplashScreen.jar",
+    "manifest": {
+     "main": {
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "dd21fe1c43c426041f4d830206d5868c1013b556"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fe20c35b810d4e17",
+   "name": "JSplashScreen",
+   "version": "1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:thehowtotutorial:JSplashScreen:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:JSplashScreen:JSplashScreen:1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:splashscreen:JSplashScreen:1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.thehowtotutorial.splashscreen/JSplashScreen@1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.thehowtotutorial.splashscreen",
+     "artifactId": "JSplashScreen",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "8da9fc3d04269d5b",
+   "name": "actions/checkout",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/checkout@v3"
+  },
+  {
+   "id": "8838acf5f02e960e",
+   "name": "actions/setup-java",
+   "version": "v3",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/setup-java@v3"
+  },
+  {
+   "id": "253b983988508f5c",
+   "name": "actions/upload-artifact",
+   "version": "v3.1.2",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v3.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/actions/upload-artifact@v3.1.2"
+  },
+  {
+   "id": "3cf8ac3b0a8b9456",
+   "name": "advanced-security/maven-dependency-submission-action",
+   "version": "571e99aab1055c2e71a1e2309b9691de18d6b7d6",
+   "type": "github-action",
+   "foundBy": "github-actions-usage-cataloger",
+   "locations": [
+    {
+     "path": "\\.github\\workflows\\maven.yml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:advanced-security\\/maven-dependency-submission-action:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven-dependency-submission-action:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven_dependency_submission_action:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven_dependency_submission_action:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven-dependency-submission:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven-dependency-submission:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven_dependency_submission:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven_dependency_submission:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven-dependency:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven-dependency:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven_dependency:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven_dependency:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced-security\\/maven:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced_security\\/maven:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced:advanced-security\\/maven-dependency-submission-action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:advanced:advanced_security\\/maven_dependency_submission_action:571e99aab1055c2e71a1e2309b9691de18d6b7d6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:github/advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6"
+  },
+  {
+   "id": "cc96d4f41b8060e3",
+   "name": "annotations",
+   "version": "23.1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:annotations:annotations:23.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jetbrains:annotations:23.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.jetbrains/annotations@23.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.jetbrains",
+     "artifactId": "annotations",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "2e04572ed56ebb43",
+   "name": "commons-lang3",
+   "version": "3.12.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-lang3:3.12.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_lang3:3.12.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:3.12.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-lang3",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e754f0ecdd62fa25",
+   "name": "commons-text",
+   "version": "1.10.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:apache:commons-text:1.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons_text:1.10.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apache:commons:1.10.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.apache.commons/commons-text@1.10.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "org.apache.commons",
+     "artifactId": "commons-text",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "f2a870679a6cf79a",
+   "name": "junit",
+   "version": "4.13.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.13.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.13.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "253b983988508f5c",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "2e04572ed56ebb43",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3cf8ac3b0a8b9456",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "3d078457e36bf6f1",
+   "child": "0c96be3be00eb72d",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8838acf5f02e960e",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "8da9fc3d04269d5b",
+   "child": "d7adab924ed45cea",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cc96d4f41b8060e3",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "253b983988508f5c",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "2e04572ed56ebb43",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3cf8ac3b0a8b9456",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "3d078457e36bf6f1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8838acf5f02e960e",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "8da9fc3d04269d5b",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "cc96d4f41b8060e3",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e754f0ecdd62fa25",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f2a870679a6cf79a",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fe20c35b810d4e17",
+   "type": "contains"
+  },
+  {
+   "parent": "e754f0ecdd62fa25",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "f2a870679a6cf79a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fe20c35b810d4e17",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "d7adab924ed45cea",
+   "location": {
+    "path": "\\.github\\workflows\\maven.yml"
+   }
+  },
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  },
+  {
+   "id": "0c96be3be00eb72d",
+   "location": {
+    "path": "\\res\\jars\\JSplashScreen.jar"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

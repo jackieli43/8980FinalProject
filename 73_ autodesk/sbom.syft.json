@@ -1,0 +1,373 @@
+{
+ "artifacts": [
+  {
+   "id": "a6a186631bb84da1",
+   "name": "activeobjects-plugin",
+   "version": "0.19.16",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:activeobjects-plugin:activeobjects-plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activeobjects-plugin:activeobjects_plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activeobjects_plugin:activeobjects-plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activeobjects_plugin:activeobjects_plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activeobjects:activeobjects-plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:activeobjects:activeobjects_plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:activeobjects-plugin:0.19.16:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:activeobjects_plugin:0.19.16:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.atlassian.activeobjects/activeobjects-plugin@0.19.16",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.atlassian.activeobjects",
+     "artifactId": "activeobjects-plugin",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "4bf1a97bad4d4a96",
+   "name": "atlassian-plugins-osgi-testrunner",
+   "version": "1.2.3",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:atlassian-plugins-osgi-testrunner:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian-plugins-osgi-testrunner:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian_plugins_osgi_testrunner:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian_plugins_osgi_testrunner:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian-plugins-osgi:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian-plugins-osgi:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian_plugins_osgi:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian_plugins_osgi:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian-plugins:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian-plugins:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian_plugins:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian_plugins:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:atlassian-plugins-osgi-testrunner:1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:atlassian_plugins_osgi_testrunner:1.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.atlassian.plugins/atlassian-plugins-osgi-testrunner@1.2.3",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.atlassian.plugins",
+     "artifactId": "atlassian-plugins-osgi-testrunner",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  },
+  {
+   "id": "fc43dc6e6eb274de",
+   "name": "jira-api",
+   "version": "7.2.2",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:atlassian:jira-api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:jira_api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira-api:jira-api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira-api:jira_api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira_api:jira-api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira_api:jira_api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:jira:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira-api:jira:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira:jira-api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira:jira_api:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira_api:jira:7.2.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jira:jira:7.2.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.atlassian.jira/jira-api@7.2.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.atlassian.jira",
+     "artifactId": "jira-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "882b11e5d6b8019d",
+   "name": "jsr311-api",
+   "version": "1.1.1",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:jsr311-api:jsr311-api:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr311-api:jsr311_api:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr311_api:jsr311-api:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr311_api:jsr311_api:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr311:jsr311-api:1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jsr311:jsr311_api:1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "javax.ws.rs",
+     "artifactId": "jsr311-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  },
+  {
+   "id": "f2c5dba4a3c82508",
+   "name": "sal-api",
+   "version": "2.0.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:atlassian:sal-api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:sal_api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal-api:sal-api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal-api:sal_api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal_api:sal-api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal_api:sal_api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:atlassian:sal:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal-api:sal:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal:sal-api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal:sal_api:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal_api:sal:2.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sal:sal:2.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.atlassian.sal/sal-api@2.0.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.atlassian.sal",
+     "artifactId": "sal-api",
+     "version": "",
+     "scope": "provided"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "4bf1a97bad4d4a96",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "882b11e5d6b8019d",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "a6a186631bb84da1",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "4bf1a97bad4d4a96",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "882b11e5d6b8019d",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "a6a186631bb84da1",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "f2c5dba4a3c82508",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "fc43dc6e6eb274de",
+   "type": "contains"
+  },
+  {
+   "parent": "f2c5dba4a3c82508",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "fc43dc6e6eb274de",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

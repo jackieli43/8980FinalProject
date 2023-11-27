@@ -1,0 +1,317 @@
+{
+ "artifacts": [
+  {
+   "id": "0881a844af1c3623",
+   "name": "handy-uri-templates",
+   "version": "2.1.6",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:handy-uri-templates:handy-uri-templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy-uri-templates:handy_uri_templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy_uri_templates:handy-uri-templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy_uri_templates:handy_uri_templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:damnhandy:handy-uri-templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:damnhandy:handy_uri_templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy-uri:handy-uri-templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy-uri:handy_uri_templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy_uri:handy-uri-templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy_uri:handy_uri_templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy:handy-uri-templates:2.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:handy:handy_uri_templates:2.1.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.6",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "com.damnhandy",
+     "artifactId": "handy-uri-templates",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e5b9a1e8624812b7",
+   "name": "immutable-json-codec",
+   "version": "5.1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:immutable-json-codec:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable-json-codec:immutable_json_codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json_codec:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json_codec:immutable_json_codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable-json:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable-json:immutable_json_codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json:immutable_json_codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hamnaberg:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hamnaberg:immutable_json_codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable:immutable_json_codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:immutable-json-codec:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:immutable_json_codec:5.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.hamnaberg.json/immutable-json-codec@5.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "net.hamnaberg.json",
+     "artifactId": "immutable-json-codec",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "96d53ccd55856636",
+   "name": "immutable-json-jackson",
+   "version": "5.1.0",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:immutable-json-jackson:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable-json-jackson:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json_jackson:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json_jackson:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable-json:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable-json:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable_json:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hamnaberg:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hamnaberg:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:immutable:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:immutable-json-jackson:5.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:immutable_json_jackson:5.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.hamnaberg.json/immutable-json-jackson@5.1.0",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "net.hamnaberg.json",
+     "artifactId": "immutable-json-jackson",
+     "version": ""
+    }
+   }
+  },
+  {
+   "id": "e641780cb01b919a",
+   "name": "junit",
+   "version": "4.11",
+   "type": "java-archive",
+   "foundBy": "java-pom-cataloger",
+   "locations": [
+    {
+     "path": "\\pom.xml",
+     "annotations": {
+      "evidence": "primary"
+     }
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:junit:junit:4.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/junit/junit@4.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "",
+    "pomProperties": {
+     "path": "",
+     "name": "",
+     "groupId": "junit",
+     "artifactId": "junit",
+     "version": "",
+     "scope": "test"
+    }
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "0881a844af1c3623",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "96d53ccd55856636",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "0881a844af1c3623",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "96d53ccd55856636",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e5b9a1e8624812b7",
+   "type": "contains"
+  },
+  {
+   "parent": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+   "child": "e641780cb01b919a",
+   "type": "contains"
+  },
+  {
+   "parent": "e5b9a1e8624812b7",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  },
+  {
+   "parent": "e641780cb01b919a",
+   "child": "44ab95a548b6a651",
+   "type": "evident-by"
+  }
+ ],
+ "files": [
+  {
+   "id": "44ab95a548b6a651",
+   "location": {
+    "path": "\\pom.xml"
+   }
+  }
+ ],
+ "source": {
+  "id": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+  "name": ".",
+  "version": "",
+  "type": "directory",
+  "metadata": {
+   "path": "."
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.94.0",
+  "configuration": {
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "golang": {
+    "search-local-mod-cache-licenses": false,
+    "local-mod-cache-dir": "",
+    "search-remote-licenses": false,
+    "proxy": "",
+    "no-proxy": ""
+   },
+   "linux-kernel": {
+    "catalog-modules": true
+   },
+   "python": {
+    "guess-unpinned-requirements": false
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": null
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": null,
+    "exclude-pattern-names": null,
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": null,
+    "ca-cert": ""
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "source": {
+    "name": "",
+    "version": "",
+    "file": {
+     "digests": [
+      "sha256"
+     ]
+    }
+   },
+   "parallelism": 1,
+   "default-image-pull-source": "",
+   "base-path": "",
+   "exclude-binary-overlap-by-ownership": true
+  }
+ },
+ "schema": {
+  "version": "11.0.1",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-11.0.1.json"
+ }
+}

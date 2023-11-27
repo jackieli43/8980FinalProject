@@ -1,0 +1,303 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-11-17T00:25:48Z",
+        "creators": [
+            "Tool: GitHub.com-Dependency-Graph"
+        ],
+        "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
+    },
+    "name": "com.github.jenkinsci/osf-builder-suite-for-sfcc-run-job-plugin",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin"
+    ],
+    "documentNamespace": "https://github.com/jenkinsci/osf-builder-suite-for-sfcc-run-job-plugin/dependency_graph/sbom-f7ee7e11f06cfeb4",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "name": "com.github.jenkinsci/osf-builder-suite-for-sfcc-run-job-plugin",
+            "versionInfo": "",
+            "downloadLocation": "git+https://github.com/jenkinsci/osf-builder-suite-for-sfcc-run-job-plugin",
+            "licenseDeclared": "MIT",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/jenkinsci/osf-builder-suite-for-sfcc-run-job-plugin"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-com.github.spotbugs-spotbugs-maven-plugin",
+            "name": "maven:com.github.spotbugs:spotbugs-maven-plugin",
+            "versionInfo": "",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-maven-com.google.code.gson-gson-2.8.9",
+            "name": "maven:com.google.code.gson:gson",
+            "versionInfo": "2.8.9",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.8.9",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-commons-codec-commons-codec-1.12",
+            "name": "maven:commons-codec:commons-codec",
+            "versionInfo": "1.12",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/commons-codec/commons-codec@1.12",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.commons-commons-lang3-3.12.0",
+            "name": "maven:org.apache.commons:commons-lang3",
+            "versionInfo": "3.12.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.commons-commons-text-1.10.0",
+            "name": "maven:org.apache.commons:commons-text",
+            "versionInfo": "1.10.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.commons/commons-text@1.10.0",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.httpcomponents-httpclient-4.5.13",
+            "name": "maven:org.apache.httpcomponents:httpclient",
+            "versionInfo": "4.5.13",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin",
+            "name": "maven:org.apache.maven.plugins:maven-compiler-plugin",
+            "versionInfo": "",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk15on-1.60",
+            "name": "maven:org.bouncycastle:bcpkix-jdk15on",
+            "versionInfo": "1.60",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.60",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.bouncycastle-bcprov-jdk15on-1.67",
+            "name": "maven:org.bouncycastle:bcprov-jdk15on",
+            "versionInfo": "1.67",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.67",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.jenkins-ci.plugins-credentials-2.6.1.1",
+            "name": "maven:org.jenkins-ci.plugins:credentials",
+            "versionInfo": "2.6.1.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.jenkins-ci.plugins/credentials@2.6.1.1",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.jenkins-ci.plugins-osf-builder-suite-for-sfcc-credentials-1.0.4",
+            "name": "maven:org.jenkins-ci.plugins:osf-builder-suite-for-sfcc-credentials",
+            "versionInfo": "1.0.4",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.jenkins-ci.plugins/osf-builder-suite-for-sfcc-credentials@1.0.4",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.jenkins-ci.plugins-structs-1.23",
+            "name": "maven:org.jenkins-ci.plugins:structs",
+            "versionInfo": "1.23",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.jenkins-ci.plugins/structs@1.23",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.jenkins-ci.plugins-token-macro-2.6",
+            "name": "maven:org.jenkins-ci.plugins:token-macro",
+            "versionInfo": "2.6",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:maven/org.jenkins-ci.plugins/token-macro@2.6",
+                    "referenceType": "purl"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-maven-org.jenkins-ci.tools-maven-hpi-plugin",
+            "name": "maven:org.jenkins-ci.tools:maven-hpi-plugin",
+            "versionInfo": "",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-com.github.spotbugs-spotbugs-maven-plugin"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-com.google.code.gson-gson-2.8.9"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-commons-codec-commons-codec-1.12"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-lang3-3.12.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.commons-commons-text-1.10.0"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.httpcomponents-httpclient-4.5.13"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-compiler-plugin"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcpkix-jdk15on-1.60"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.bouncycastle-bcprov-jdk15on-1.67"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.jenkins-ci.plugins-credentials-2.6.1.1"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.jenkins-ci.plugins-osf-builder-suite-for-sfcc-credentials-1.0.4"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.jenkins-ci.plugins-structs-1.23"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.jenkins-ci.plugins-token-macro-2.6"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.jenkinsci-osf-builder-suite-for-sfcc-run-job-plugin",
+            "relatedSpdxElement": "SPDXRef-maven-org.jenkins-ci.tools-maven-hpi-plugin"
+        }
+    ]
+}

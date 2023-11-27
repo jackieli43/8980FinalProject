@@ -1,0 +1,1218 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0ab88014-a77d-4a08-aa70-06311bd8e07c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-15T17:29:28.603Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.1",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.1",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.1",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-ant-tasks",
+      "version": "1.2.4-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-ant-tasks@1.2.4-SNAPSHOT?type=jar",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://aws.amazon.com/sdkforjava/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-ant-tasks@1.2.4-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.8.1",
+      "description": "JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fb44723f35c2f1af5c51eb729b502f0d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f2975548f836416306ef1dee748d956f04733915"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "efd8cf93b57d01e8f5fbefbe1f17ae39e6e22553615926e00a6eefc307da21e6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c6bbb069fd60e60b3156bdc8efc012f2b04964114d71036f780b7e6c3177facff63610a7fd617bc5ba93a6fd912ffb06be380b0b9db51ca191b9fc058356801f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "097637a223312afe78d71512768fdd48746f155a3649b97d83d168e831295007017a970b653bf62d499ffb37bd551fe2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "826817db877217f37b1ca4ead2b8ff16b7da570300519d4cacdd1295ba95ca64099f19269379957012bae82c89a7b1a7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d2ecb1212b290245f198d4cda14d1645a451af23a38c475ca17c1514e298c869"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d093b73da6422a824391e3edc09363e907bcf07794d4e403ab70cdbf943582a704a8ed7d02d87bba41ccc48497ae8f3e610904598fb152914364f37b66f4ae3a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Common Public License Version 1.0",
+            "url": "http://www.opensource.org/licenses/cpl1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.8.1?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/junit/junit@4.8.1?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-core",
+      "version": "1.9.24",
+      "description": "The AWS SDK for Java - Core module holds the classes that is used by the individual service clients to interact with Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "26189a48f8446c19bea1d168ab98cb5f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cc0c738de5d880b6937c9048a0556795be9f788d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f6baffad965863f8d0fb2806625dd224dac5a0484b6d496e199ffe60881835ff"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bee72eba5ae64a344dddb5fc6d56026bbb8718eba63a06f94d4ae0a8caab05854d2ef941333e171abd413043044e057da4014c7481337b9c0774bdf87a894c5f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1bbdff1fcd1461e2f1dfac7e0b3403bf5b3480ea8cbdba2fb60bdaaa3fcd5c21a523fb01f714e229b8d32f071d307268"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "766e9f94ec6dae8bd22603cd926c84939178be4c89cfb514ea37660170aaba1296c7f2e737d2852963bd2608d6a8fbab"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "75ed031e663086b925dcce10af307245c1d87346c79c7a6b2e2ad17a71309018"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c60f442db021e4a97661d787d40537c74bbb0670aaf2ffaf2b3327c97d25c53274016489f7a33d0217993e2ad865db5993117a72610ff2f403794e7c4fb7e1da"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.1.3",
+      "description": "Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "92eb5aabc1b47287de53d45c086a435c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "70903f6fc82e9908c8da9f20443f61d90f0870a312642991fe8462a0b9391784"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e5d1fc8ec4544e1fa0f7c4aae8dbcca466c4987bc92fbbc430b054b10d646b745add4a754b1be9d50edd64330c798c53173a97289db57a966312e16f934e9d1f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "00dc41783f4081585e20adcfe83fd4dbb6b5a27236ee633d7e53dedcbca83ba5e5f0ca68d31f95e9c724b365e4c67499"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6915e597821aa2fed7f4b05f4de3476364074ab5cee7e13b4eb5b94a9d297b58cb391c6b730e6ea0d4e81e323a90d002"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c49c80e2576bf037fc871e70df8708f5e35c0977a907e966c0334e9fac17b297"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b74b6e6d771005014614774d059a4e1ceab929c0678839846d143e56e4724455242ffa3d5d411c6554a41e1f66fe1f94c51472d80c07d44c02a2f9a6715d8c7d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.1.3?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.3.4",
+      "description": "HttpComponents Client",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1120f36f85cb6310332674010390ff78"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a9a1fef2faefed639ee0d0fba5b3b8e4eb2ff2d8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a77f2bbc346af46028d63e8807eacac3fbe8478e3d2f039f9f6053248a743cf6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "130ea3bfe7d2e931021cbc14719bf618d36f4c04c1171fd5c4c0e40233a10fb3345855a839f0ee2c7473d8f93853bc4200adb8f77700e6a83a3e2dd8127a122c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ba30aec1c00a57cf65e7d5110be1e77a40d6b68fad0a32bf7d461eb92c6b2189e7d7ee27736d00c8f750e1515f3c7a65"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "149ba9fcd66849eb9774fac63aab7d1c03408b54757b06dd8be24ce391d7d5a7d1daa855f16d25c3b44e8b946e67eecf"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c8324a45c597615de551bec30e1cace9a4d835a9f490ec9aa43cb817ff5b5d82"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "892359c8310d2b218fe67bdcc50bf4d06157e36ea76750a75c51712d8dd5782ed1717510b19f6b72b7bd79461e6bbc593ce5079cf335c15e666f8ca05016ca52"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.4?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.3.2",
+      "description": "HttpComponents Core (blocking I/O)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ee3d34dce4a30c7d3002cadf8c9172c1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "abd02320e2356f89d054dae4cf02306bef20a9cf7865b3ac94ec7552b4f1528b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e2b26b256af812a6c142bf03c827adea145fb5f30084cd2acc7235b9ae8bee5f08afcdf975318f6ae8e1c2c1f6b7edf9426d61eb1812cc5debc24f7b1b92ee61"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "457e927af432ec6d2e53afa061441e0e7b4dc6cba2f6aa1a1c3ddc4ec3a9c29724af522fd638785fc45ff588fcb0f9be"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c1f49c0683fbd9fbb084b242fbdc32fb8369805c9be09ff64c08bda460564082da2ec7719808438c99d793fe10aba5b3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b9d76c5aa0bd345c20096e771a89349276722a3f4bcc36b2df08cfbf551c6103"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "000b7df039a55e814d6160fc35e218e7fb5abb84004b4da886d976f42966cc2c0f1c901f8e9ea735da57e7d16d103079179b86f712c9d7589be5873ad71096d1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.2?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.2?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.6",
+      "description": "The codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5970f54883b4831b24b97f1125ba27e6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b7f0fc8f61ecadeb3695f0b9464755eee44374d4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54b34e941b8e1414bd3e40d736efd3481772dc26db3296f6aa45cec9f6203d86"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "752fca09371e0e228432155533a9b84f0442cafd7f25ebf0c6c2024d541fbba80882e71aee047ec94cd22c0d8114942e967652913412f5cbcf9b816c0e1fc1ad"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "69530856e712c83ea92056ad23fa14424e83507ff4935ce74b7595ad71f53b56a6b049b4a6f1fc6408541da1095097b9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e1507b909334cc1abee64b539017ecefa9780c8c426d9ccb97b9efe84776eda980f415aacd7fa9a4c1bdd618b7733466"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ed370dd5c111fae7441e0f415c5c494951c2cc0c453dad41a709289510f5e668"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "25d370d8d933cc8af51070a11b730da721b3e5e9bd8f975e13a3f67d49a30cdde5b93e8565b6cb8d1dd52ce4c0b0f6f0bcd9f369a3f51c4330b7a4288c7322b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-codec/commons-codec@1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.6?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.3.2",
+      "description": "General data-binding functionality for Jackson: works on core streaming API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7a48f049788ad05b15a1db9e961154fc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c75edc740a6d8cb1cef6fa82fa594e0bce561916"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a476846e9052428d528d0c40d508ec1dbfd1c6257434d15645c17724e591f775"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c0640c7cf3e51b36ffaf38feb08af3b46ad01e98301a0d766b5d640f6115613eac47d069193629360ff671990d0be3625cf350a59c108900a4344d939f217cc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6e1d5c8f90fb97511cc2c078e31298e86f7d04e01a649b473b77a2e36cb2b57d6d5efa7f31b6bf4c6ac084c3958e5009"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bbad0235f9f7dde92628f27d2df37f270f2a7c56ed39a08b7508b948ba55171ea0b6d5ee9e4e7c517dadde4c976db4d5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0711af081f22751eca59e9d06c5c212ffd7af48bc13e7005046d0d9d1b7253d3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3279dc855f2c6682c708f9f192b907d8fbdd5cc519679a7e104245d2a007071ad92efc140146291bdb0d6c711e1dcdb254865474b781829c0e7bc687e28fa519"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.3.2?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.3.0",
+      "description": "Core annotations used for value types, used by Jackson data binding package.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c954fbca7d677f323d810d0fa8baead2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f5e853a20b60758922453d56f9ae1e64af5cb3da"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0c8c3811322cc84c09a93f34436fe784a1259dd5376a90aec5a73493456f757d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b084d2547b58b696532512dc2f4089c23fb79c4f05edf8e1e887fa67fafa3b7b60759fca5f9a88da6788daade1041fe1e9692716b5ae39fa6cbf0f8a5df5ca52"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "048ae0b200f26deb1bf6717820958c175cdd94efdcfb4f8758fdccecdcb0307661f5fb1be1850a84111ce5494cbcdc42"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "08e6f13ae840f572a42f7c8c93493d9f559d835f4f633c14f932ad76159b85e1cf42c5f1f2a618f0b5614df30e41dc18"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a17e83ed6e8096a24a0c6a2691346b88f05abcec3eec015f13de5a388918f438"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "892d0dcf0cecb67d6a72d1cfb95146b3ea977989900e68f7b91acbacb14ccc6018e8941fcc38326a2ae4e82312ce593d0ac84d1eb78ed1155d44f37385be9d27"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.3.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.3.0?type=jar"
+    },
+    {
+      "publisher": "FasterXML",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.3.2",
+      "description": "Core Jackson abstractions, basic JSON streaming API implementation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7ac408460ec5965dbc2668eb5bb13fa7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "559b70ac8a0d5cad611da4223137a920147201ba"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "682c9a41b25f557e1f2a18846c2c40e1a41daec19164ffdccfec5ad8312b73da"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9207785ce685c3b652d32d9a545236cb918dadcc29342c3e10ce706d9511d123925acb041f56eecec5726cf13f78784739257b90d7358866740ec475e1402660"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6b839ddcacc6be0ea7f3baecbc276500aa45237f4301cd91ec764d1fada278f1745cbf2ab96a5b72c1465e5a699dda7d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "edb411f66ba9133566a093359b21f671c984cf1df14d76b59f3693ccd69fb67df4019d4551f416264666f521db2e5f99"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e2a15ef8abc8bc93315659a350ac4542f8550dcc0a0624e829be8c26c7c9ce20"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cc6ed5e203e8adf14d2fe809f10e1543c9b5914c9e6341c31aa5f2d28e880599820627e15cbfb97c46e5114030493f766ba19084eac5c40518488829d2b28ff2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.3.2?type=jar"
+    },
+    {
+      "publisher": "Joda.org",
+      "group": "joda-time",
+      "name": "joda-time",
+      "version": "2.12.5",
+      "description": "Date and time library to replace JDK date handling",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a0f575850531c768542236ea245b7516"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "698ce67b5e58becfb4ef2cf0393422775e59dff4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "10628411ecb40c4634196c544f34681abdeef826f377096357433d1f9a135bc6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "300d1acaac8c49e3d6d74077392ecb9aba4115173f8734923413bfb049f01a668f4852099e9682146dd2f41faed244ca2a91c2d70b98930bffb811532f99efdf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "acd89d4bfe98d1388b8652995d288ef26441072898d25f68abead84e016d858af7b775cf0e830257c77873c4a7b22139"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8127810bff5cc6993d729e79fbf55e768e386003a7ce7a7a989453a19abee08374f2d9970c805467816626e7903895f6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "da3474a4794021ff9c5137a5fafb8267db03d6c00828387b498ac9808337a886"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6008121bc71023292475f898b9347dfabb34d1d16277e98343d16a5fdba68f8b07ff1ac10534644fe2685afe5fd22f80022d9f935c5817cf801f353ee688f5c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/joda-time/joda-time@2.12.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/joda-time/joda-time@2.12.5?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-s3",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for Amazon S3 module holds the client classes that are used for communicating with Amazon Simple Storage Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e5e66d6f640aed6caa48992cc328c0fe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "012b037ca81d7a4087e2f3f77e911e54fbcce5f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f066b65e12bbab199a079c3d5ca7a318f5dcbd4f18cf3bde8549745087bb9870"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d0353450372bf4555d7d4ffd3d812187d65ae56893b68e7afbd1ea91e15fb5b18987dbaed9bf86390b653da878352fbd2f8ef24c3d3eafa6723bbf74814f6338"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "09c5fcffd9002bf0d3f07d832db8279d021b4c6d86fb3074a837f13b2f25b05a42619c34451f19320dcaad6c7709eb4f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "471117641a9d78eb6a9c612c82e22c95fb4234cde6ec11e56db12a25399f4c194433b506c122c3410825316dbc866307"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "41aa2f723e9d6ed1312528787ffdc52d9663bf3313b80c7b40145f184ce79c3b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5a0c0ab0748aa51d28a95c7cec98221040209d65ab85e080efbc960bc5b634ebb74fedff6ed85672d6bba0f6f042672e03959c81f7fee758bc23b7db145d5e2f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-s3@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-s3@1.9.24?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-kms",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for AWS KMS module holds the client classes that are used for communicating with AWS Key Management Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6641980824d1458902e6e75539382ddb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "49e3398f93f60ac5b10026245253ca3470b9ad67"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "abffebf79f8db5827e9506403bff4ddac981490b783a86fa54d45fb8da2b30dd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "69ff26262fe3ff52104b7c67220fc6a7249236245a9b35e75a3949a58a1489e28f943016d182b31a1e7ebfd7193ec1ac3617049e58dba354f0dbd85c45c4e14d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2e91de9b53bc2a93e7a7f93283101f5f400692ab703e8125ec9ecf3d90b378cec5dffce1518059b411010a56efe3e068"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e5d3cf4aa248d019e4e2ed65a95fe0663ca2d0d36b7f16c2b7b74391f4d7a42386d0ca884a740374a0151121d6a2ff41"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "132993d3906e2d11d96c2cc8f8a57158e293ad82af5fff7bff7a8f6cd32309fa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2f534b06f67dab9033c923a180c4a072f72eaee4d696fe946eb8d6186497fd3befd3ec20ee1d7de8435578989fd77c39bf977f4ce599a4d8f2ef6eedcd2112e0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-kms@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-kms@1.9.24?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-cloudformation",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for AWS CloudFormation module holds the client classes that are used for communicating with AWS CloudFormation Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ab6b4c114056885c10b886788f5a2b1c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ce92d33db529019dbb6f9ca79bca144437d78ab2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f57325fed95bc9f6b6f41ffe7888bc345eab05fdcd1b7a00c74589a446d8de18"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "50697a6901fba2aef597c003eaf54844e5c99b37adfd97d79629ab1f6a8673217266738039afd0c4aa7137b9bb38bbbf329559a3346b3a88308a0596224da0e6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e35833cd56f3134f08bd0ef2640d1fd720f888f6172c2b8149c38e0fd504feb38c8764c5276d592368238675f6906c06"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "12d3b6a8ef66a78a55f56bb4f810bc3e8c98560c24e3d7fb2c4466c965e37f2ab7181f5db4baaf3dff70ae3b2b431e9c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bdbfc370c9bc9c9910f1ed4d604387b482a128dd6d93bc22a7f27f17a8790fc7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4a5c10c5809f607a6c7e1938c6362c18c3ddd7bc8a5ccb99a8621ac8845a2b413a23eff4dee359d782859d5404f9d92df289075a07020a88ada739507d9aeed4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-cloudformation@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-cloudformation@1.9.24?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-elasticbeanstalk",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for AWS Elastic Beanstalk module holds the client classes that are used for communicating with AWS Elastic Beanstalk Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d34b66ed3b19683ad5d1d2f9f1278335"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b0e003565f540e25789f47156457c40f0ed795ed"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d785ec9f1ab6b636197621db9ad0e73ffa06ba99277431519be2888b9c287b49"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fc3617f5b2abce5db77c7cc201df7be38a7d04ae35c2df08a69438b93e4d4e9a379ec2dd097f0beafc2a5c8d5fead454cf8068a0693353098b5883d82971b5dc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "162b4d67803dffcfa24aaffcf4f65879243ef3917e880fee6daac7c3bfbe1504c9e3b714fc53c99025ab38dcd5510151"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2efbfb985361a8ced065a475caff96577e06ae98587852fc22237e8ef02e7f812c09e1f017b560847734b911e144bfbc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5e6347d5f0e3dcec16cb75f8cfbeb63c186f110c38230e9d9835cb6393fc0b06"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4fcfd21919232b5bf57c204c6b586cd9a5d7a2f85ea689aaab22b6d54c0295438b721add463e60a7a1491f43ea08b49f61ec0aeb27d103717f4e4dadfa4d79df"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-elasticbeanstalk@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-elasticbeanstalk@1.9.24?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-opsworks",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for AWS OpsWorks module holds the client classes that are used for communicating with AWS OpsWorks Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "906f22f5d9cc8c1644e17f4e0f7ab25e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8d15343939b6cb5870257a93254c97d757c37aa1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "74d8d23b9fd48eda2140026f40ad6294ef30f27d54935ad155289271da3674bf"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1734ee5799cd61c6bec6c730ea0028c339578bc9523628884d499c5a88a498263cba506534f89d089b1284952841c7dfcd54f65e6b0ccf268497c73da47e9fa7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "10f01895507a657f434e50d3fd8e56932e5590f2e226adc02b19d047c565fafe9ff88b393f23ced10b8796499b856c33"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "98bf8d91b2e07fac9d0247d02ad73a9947868a43d576f2e66a13ee6e5bf47d5699fb69ee5d4f48376358e9b7e1c0a5ea"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "75f92525df02306cd86424b0f6a8e4d4122c61e7ec4d1cf0cc3a13d218a566bf"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "33e770ee956b46126bc1634ce5b5ded0dbe0329ed2ec317608519800e52d512a1508ba2b0ac904da05d242d22620eb6250ce0ab8ee25d867b95e80c04c829e74"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-opsworks@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-opsworks@1.9.24?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-iam",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for AWS IAM module holds the client classes that are used for communicating with AWS Identity and Access Management Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "42bcbed509027fae229feb888c23482b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b080f8bcb65dbc6bae1950a5ced2a7f5d8d56b24"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4704e44d1f1be7b9b95bd11be4b11bfe2af9d87b2eddcdfd73949b6a4a238e2a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2b97bd8242179d1eb0175ef3880f16d9d3c13116d617c4917da9082b7e7bc29ca20e7d9c40d7cc7598628341639b062705b52417e5283ce7703efc7d4f3c59ca"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f231c7c531a296807a0f038afba31bba11fc3984d7ea1a11984ab8a52c3e5bbed95ec7fd03c1f8ee689a035de042b4a6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9f9bddc4cd71e4e51b166909c501d410ca3c90e7c930b4b22a0b22a79a18b9f3b223eaf1206e3590ec253efdd1ccdfdd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dbf49820404e90d7609c402cb746516aba3df32d73921cae9d91d84fa9dfa5dd"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "dd8e0b0a3265b7aee869ff21e01db932babc992927afbd75e671043c35fc852d49872a731e524f873078802659021caf9e40abefff033ab21a77bde32c138e93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-iam@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-iam@1.9.24?type=jar"
+    },
+    {
+      "group": "com.amazonaws",
+      "name": "aws-java-sdk-ec2",
+      "version": "1.9.24",
+      "description": "The AWS Java SDK for Amazon EC2 module holds the client classes that are used for communicating with Amazon EC2 Service",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "47a000af57192316642e3e0293c2fa28"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5619eb86e03a205c13bdf2d73df5ec87461db1c5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "49697dd0a03104de0b314598a13cbd5f92d778a0e57477df49ded3be52542e04"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "22060a1facca901c0b425d9c7109f1553935899a83210430c98d9ef2ac5f3411154ae7d7930458192e2b533ea3dc122c5d477f5cfa80831811c3c4edc5ca3f5b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c4483dbe2675508f552d7fa13795c32ff0f5596b9511143457ec03e7903813049f26df21000a2294a60caae6ba9ee814"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "586165736d8e5781cd4f5a9f261eef1dbb8e939c12461ef2762beee1e394710fc717e19003d2295f2ad8ea4d7502c6c6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4b7262f115e471fce80266a2453c812085558a2353bc0372f0f22d08d7fba32b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "447f4a6c25203f0119a70d7521cdc2855952922e5bb99b08c2715ff6a3792d607396425ee2fff566336c7277bf6cbf32db9ce31c972e899d63153e3f3bc060a3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.9.24?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.9.24?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.ant",
+      "name": "ant",
+      "version": "1.9.4",
+      "description": "master POM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "53a32fc286a44982c829de096becfa3b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6d473e8653d952045f550f4ef225a9591b79094a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "649ae0730251de07b8913f49286d46bba7b92d47c5f332610aa426c4f02161d8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "586c306f87f7dc273c7c009ab09328c71f89f619ea49239cda90c4a1265e7ef8558610c988b1d51e1755bb2a5592e33c0cdda0c4a440dbca38c3ed7e5b9f14a4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "732c46bc7b73c48d477dd306da2df963793065db071a5ff7d6cdc728a9331f1e2ff211cc8a9dc70a53281e32269c245a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fd105edc462396043fd641a67b3aedf3a777c0f48349d69d229e6ce78f6b72c4296efb44d46f437e4b91b4cf91bce2b1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9fe2e8f49c7959306e1228ae4820cf070d6f4e8ea729dbb3dcc9da27d35b90cd"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9cfd9c7c355a6f078df8c5ede078e5a12fb731503f96d0375ac0c0e23589c829fb68299deb7cff6422444a24c217c5811d4e067f8149f8301d2c485f661f9d85"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.ant/ant@1.9.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.ant/ant@1.9.4?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.ant",
+      "name": "ant-launcher",
+      "version": "1.9.4",
+      "description": "master POM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "16d73969811366b9f9678af1d0f04d05"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "334b62cb4be0432769679e8b94e83f8fd5ed395c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7bccea20b41801ca17bcbc909a78c835d0f443f12d639c77bd6ae3d05861608d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ea8d2f9eee51ea1068bf795de332e4bd18d9fd299a46022a81d7a207f49cc166fb7b11c0136ced6ca69ae6119831d7ae7d87e72bbb212d69398c5b8f506e0193"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4711fe87e87c886fae8d0fa3e1e3f347986051ee58a5ed48151184270ae99e16a9b28132426bc846493d74c758b0bc5b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "944019f5c8281141db04aa0d7172c119dc1bba7a5a5bb95a2969f25af6432db4de736fb0a45c7812227528b874050f63"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "066f16a1c1fe179c3f4154a959abbc5a3bc28a70723444a32ffb47ab52dbb7b1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c66f6ee329ab53f90f0a4720b5fe5eb7e10d7d3aef96816f385fa50793cf520a4f2d1830b4d6a557f2480825a62240349f0d352cb647a995e458083e863a5aec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.ant/ant-launcher@1.9.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.ant/ant-launcher@1.9.4?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.4",
+      "description": "The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7f97854dc04c119d461fed14f5d8bb96"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "957a438894a196e534af9ae1e61fb21e16f273952b55a81abb8faf0b139fc031ea940cf477f81704db417d1ce6ff2d9ddd4a2cbf316903b0e2dc1aeaef24f292"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "af8a3e210cb1dd5475d497249acf1a86266077f5c7df0ded76d92467ab7f69e445f79dcfacfd7375085ad24f49625955"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "96ad8ffd01492835e0f0d0d19b0414950f487603caa7bbbed28bd3dc41721077c871eb534399aa178ed97aa01d743983"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "78a19109fbcc47fcdd9486c1906e244d1cfad3172d7497d4f0009cdf100ff97b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "171ce4f320389faf73f95242098be01116709a9eaa88e770ef4aa63e249076dc9133f4c228809bd6989d657dabd6100d34a61232232adf19bbeea82482f46b29"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.4?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-ant-tasks@1.2.4-SNAPSHOT?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-cloudformation@1.9.24?type=jar",
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar",
+        "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.9.24?type=jar",
+        "pkg:maven/com.amazonaws/aws-java-sdk-elasticbeanstalk@1.9.24?type=jar",
+        "pkg:maven/com.amazonaws/aws-java-sdk-iam@1.9.24?type=jar",
+        "pkg:maven/com.amazonaws/aws-java-sdk-opsworks@1.9.24?type=jar",
+        "pkg:maven/com.amazonaws/aws-java-sdk-s3@1.9.24?type=jar",
+        "pkg:maven/commons-io/commons-io@2.4?type=jar",
+        "pkg:maven/junit/junit@4.8.1?type=jar",
+        "pkg:maven/org.apache.ant/ant@1.9.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.8.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.3.2?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.1.3?type=jar",
+        "pkg:maven/joda-time/joda-time@2.12.5?type=jar",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.3.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.3.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-codec/commons-codec@1.6?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.1.3?type=jar",
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.3.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.3.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.3.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.3.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.3.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/joda-time/joda-time@2.12.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-s3@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-kms@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-kms@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-cloudformation@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-elasticbeanstalk@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-opsworks@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-iam@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.amazonaws/aws-java-sdk-ec2@1.9.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.9.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.ant/ant@1.9.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.ant/ant-launcher@1.9.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.ant/ant-launcher@1.9.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@2.4?type=jar",
+      "dependsOn": []
+    }
+  ]
+}
